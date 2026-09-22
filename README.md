@@ -22,7 +22,7 @@ La web va a consistir en un portal de videojuegos para la comunidad donde se mos
     * description --> String.
     * launch_age --> int con formato xxxx.
     * PEGI --> string.
-    * genre --> string/enum {Terror, Carreras, Accion, RPG, Puzles, Estrategia, Simulacion, Disparos, Aventura}.
+    * genre --> string/enum {Terror, Carreras, Accion, RPG, Puzles, Estrategia, Disparos, Aventura, Multijugador}.
     * developer --> string.
     * platform --> string/enum {PC,PS4,XBOX}.
 
