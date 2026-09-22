@@ -11,16 +11,33 @@
 
 ## Propósito de la web
 
-La web va a consistir en un portal de videojuegos para la comunidad y va a contar con varias funcionalidades:
-
-1. Listado de videojuegos. Se muestran varias imagenes, como su portada, escenas y una descripcion de este mismo
-2. Los videojuegos pertenecen a un estudio. Los estudios tienen varios videojuegos.
-3. Existe un apartado de reseñas donde se pueden valorar y aportar comentarios sobre los juegos
-4. Tendrá un apartado de links para poder acceder a las páginas donde se pueda comprar el videojuego
-5. Busqueda y filtrado para que el usuario pueda encontrar sus videojuegos de interes
+La web va a consistir en un portal de videojuegos para la comunidad donde se mostrarán los videojuegos más populares y se podrán realizar reseñas de los mismos.
 
 ## Funcionalidad
 
-* **Entidades**: La entidad principal será el  Videojuego que pertenece a un Estudio y tiene Reseñas. Se podría añadir una entidad de Usuario para poder gestionar las reseñas y los comentarios de los usuarios.
-* **Imagenes**: Todos los videojuegos y estudios tienen su foto de perfil/portada. Además los videojuegos tienen varias imagenes de escenas del juego.
-* **Buscador**: Será un buscador que filtre por nombre, estudio, género y plataforma y demás. En el caso de implementar la entidad de Usuario, se podría intentar personalizar por los gustos del usuario. Además se proporcionan filtros en el buscador.
+### Entidades
+
+1. Videojuego que contiene Reseñas. **Atributos**:
+
+* título
+* descripción
+* año de lanzamiento
+* PEGI
+* género
+* estudio desarrollador
+* plataforma
+
+2. Reseña que pertenece a un videojuego. **Atributos**:
+
+* Nombre de usuario
+* puntuación (de 1 a 5 en jugabilidad, gráficos, historia y precio)
+* comentario
+* fecha de publicación.
+
+### Imagenes
+
+Los videojuegos tendrán una imagen de portada y varias imágenes de escenas del juego.
+
+### Buscador
+
+Filtrado por género, PEGI, plataforma y año de lanzamiento.
