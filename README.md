@@ -18,23 +18,23 @@ La web va a consistir en un portal de videojuegos para la comunidad donde se mos
 ### Entidades
 
 1. Videojuego que contiene Reseñas. **Atributos**:
-    * título --> String.
-    * descripción --> String.
-    * año de lanzamiento --> int con formato xxxx.
+    * title --> String.
+    * description --> String.
+    * launch_age --> int con formato xxxx.
     * PEGI --> string.
-    * género --> string/enum {Terror,Carreras,Acción,RPG}.
-    * estudio desarrollador --> string.
-    * plataforma --> string/enum {PC,Play4,XBox}.
+    * genre --> string/enum {Terror,Carreras,Acción,RPG}.
+    * developer --> string.
+    * platform --> string/enum {PC,Play4,XBox}.
 
 2. Reseña que pertenece a un videojuego. **Atributos**:
-    * Nombre de usuario --> string.
-    * puntuación:
-      * jugabilidad --> int de 1 a 5.
-      * gráficos --> int de 1 a 5.
-      * historia --> int de 1 a 5.
-      * precio --> int de 1 a 5.
-    * comentario --> String.
-    * fecha de publicación --> date.
+    * username --> string.
+    * score:
+      * jugability--> int de 1 a 5.
+      * graphics --> int de 1 a 5.
+      * history --> int de 1 a 5.
+      * price --> int de 1 a 5.
+    * comment --> String.
+    * date_publication --> date.
 
 ### Imagenes
 
