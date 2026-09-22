@@ -3,7 +3,7 @@
 ## Desarrolladores
 
 | Nombre | Correo electronico | Usuario Github |
-| :------------------------: | -------: | ---------: |
+| :------------------------ | :-------: | :--------- |
 | Alejandro Izquierdo | <a.izquierdor.2025@alumnos.urjc.es> | @Alejandro18650 |
 | Alejandro Sánchez | <a.sanchezu.2024@alumnos.urjc.es> | @alejandrosanchezuzquiano-sudo |
 | Guillermo Hervás | <g.hervas.2025@alumnos.urjc.es> | @GHervas2025 |
