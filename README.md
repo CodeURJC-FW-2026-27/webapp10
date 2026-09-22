@@ -22,9 +22,9 @@ La web va a consistir en un portal de videojuegos para la comunidad donde se mos
     * description --> String.
     * launch_age --> int con formato xxxx.
     * PEGI --> string.
-    * genre --> string/enum {Terror,Carreras,Acción,RPG}.
+    * genre --> string/enum {Terror, Carreras, Accion, RPG, Puzles, Estrategia, Simulacion, Disparos, Aventura}.
     * developer --> string.
-    * platform --> string/enum {PC,Play4,XBox}.
+    * platform --> string/enum {PC,PS4,XBOX}.
 
 2. Reseña que pertenece a un videojuego. **Atributos**:
     * username --> string.
