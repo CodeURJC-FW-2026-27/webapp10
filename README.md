@@ -24,7 +24,7 @@ La web va a consistir en un portal de videojuegos para la comunidad donde se mos
     * PEGI --> string. (Si el juego no tiene calificacion el PEGI corresponde a "Sin calificar")
     * genre --> string/enum {Terror, Carreras, Accion, RPG, Puzles, Estrategia, Disparos, Aventura, Multijugador}.
     * developer --> string.
-    * platform --> string/enum {PC,PS4,PS5,XBOX}.
+    * platform --> string/enum {PC, PS4, PS5, XBOX, Switch, Phone}.
 
 2. Reseña que pertenece a un videojuego. **Atributos**:
     * username --> string.
