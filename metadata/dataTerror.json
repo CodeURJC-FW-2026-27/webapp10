@@ -12,7 +12,7 @@
         "platform": [
             "PC"
         ],
-        "cover": "./cover/cover_i_mNotAHuman.webp",
+        "cover": "./photos/cover/cover_i_mNotAHuman.webp",
         "scene": [
             "./photos/scene/scene_i_mNotAHuman1.webp",
             "./photos/scene/scene_i_mNotAHuman2.webp"
@@ -33,8 +33,13 @@
             "PS4",
             "Nintendo Switch"
         ],
-        "cover": "",
-        "scene": []
+        "cover": "./photos/cover/cover_outlast.webp",
+        "scene": [
+            "./photos/scene/scene_outlast1.webp",
+            "./photos/scene/scene_outlast2.webp",
+            "./photos/scene/scene_outlast3.webp",
+            "./photos/scene/scene_outlast4.webp"
+        ]
     },
     {
         "title": "Amnesia: The Dark Descent",
@@ -49,8 +54,12 @@
         "platform": [
             "PC"
         ],
-        "cover": "",
-        "scene": []
+        "cover": "./photos/cover/cover_amnesia.webp",
+        "scene": [
+            "./photos/scene/scene_amnesia1.webp",
+            "./photos/scene/scene_amnesia2.webp",
+            "./photos/scene/scene_amnesia3.webp"
+        ]
     },
     {
         "title": "Dead by Daylight",
@@ -69,8 +78,12 @@
             "XBOX",
             "Telefono movil"
         ],
-        "cover": "",
-        "scene": []
+        "cover": "./photos/cover/cover_dbd.webp",
+        "scene": [
+            "./photos/scene/scene_dbd1.webp",
+            "./photos/scene/scene_dbd2.webp",
+            "./photos/scene/scene_dbd3.webp"
+        ]
     },
     {
         "title": "Left 4 Dead 2",
@@ -88,8 +101,12 @@
             "PC",
             "XBOX"
         ],
-        "cover": "",
-        "scene": []
+        "cover": "./photos/cover/cover_L4D2.webp",
+        "scene": [
+            "./photos/scene/scene_L4D2_1.webp",
+            "./photos/scene/scene_L4D2_2.webp",
+            "./photos/scene/scene_L4D2_3.webp"
+        ]
     },
     {
         "title": "The Forest",
@@ -106,8 +123,11 @@
             "PC",
             "PS4"
         ],
-        "cover": "",
-        "scene": []
+        "cover": "./photos/cover/cover_theForest.webp",
+        "scene": [
+            "./photos/scene/scene_theForest1.webp",
+            "./photos/scene/scene_theForest2.webp"
+        ]
     },
     {
         "title": "Little Nightmares",
@@ -125,8 +145,12 @@
             "XBOX",
             "Telefono movil"
         ],
-        "cover": "",
-        "scene": []
+        "cover": "./photos/cover/cover_littleNightmares.webp",
+        "scene": [
+            "./photos/scene/scene_littleNightmares1.webp",
+            "./photos/scene/scene_littleNightmares2.webp",
+            "./photos/scene/scene_littleNightmares3.webp"
+        ]
     },
     {
         "title": "Escape the Backrooms",
@@ -145,8 +169,13 @@
             "PS5",
             "XBOX"
         ],
-        "cover": "",
-        "scene": []
+        "cover": "./photos/cover/cover_escapeTheBackrooms.webp",
+        "scene": [
+            "./photos/scene/scene_escapeTheBackrooms1.webp",
+            "./photos/scene/scene_escapeTheBackrooms2.webp",
+            "./photos/scene/scene_escapeTheBackrooms3.webp",
+            "./photos/scene/scene_escapeTheBackrooms4.webp"
+        ]
     },
     {
         "title": "Fears to Fathom - Scratch Creek",
@@ -161,8 +190,13 @@
         "platform": [
             "PC"
         ],
-        "cover": "",
-        "scene": []
+        "cover": "./photos/cover/cover_fearsToFathom.webp",
+        "scene": [
+            "./photos/scene/scene_fearsToFathom1.webp",
+            "./photos/scene/scene_fearsToFathom2.webp",
+            "./photos/scene/scene_fearsToFathom3.webp",
+            "./photos/scene/scene_fearsToFathom4.webp"
+        ]
     },
     {
         "title": "Halloween: The Game",
@@ -179,8 +213,12 @@
             "XBOX",
             "PC"
         ],
-        "cover": "",
-        "scene": []
+        "cover": "./photos/cover/cover_hallowenTheGame.webp",
+        "scene": [
+            "./photos/scene/scene_hallowenTheGame1.webp",
+            "./photos/scene/scene_hallowenTheGame2.webp",
+            "./photos/scene/scene_hallowenTheGame3.webp"
+        ]
     },
     {
         "title": "Horses",
@@ -195,8 +233,13 @@
         "platform": [
             "PC"
         ],
-        "cover": "",
-        "scene": []
+        "cover": "./photos/cover/cover_horses.webp",
+        "scene": [
+            "./photos/scene/scene_horses1.webp",
+            "./photos/scene/scene_horses2.webp",
+            "./photos/scene/scene_horses3.webp",
+            "./photos/scene/scene_horses4.webp"
+        ]
     },
     {
         "title": "I Have No Mouth, and I Must Scream",
@@ -215,8 +258,13 @@
             "XBOX",
             "Nintendo Switch"
         ],
-        "cover": "",
-        "scene": []
+        "cover": "./photos/cover/cover_iHaveNoMouthAndIMustScream.webp",
+        "scene": [
+            "./photos/scene/scene_iHaveNoMouthAndIMustScream1.webp",
+            "./photos/scene/scene_iHaveNoMouthAndIMustScream2.webp",
+            "./photos/scene/scene_iHaveNoMouthAndIMustScream3.webp",
+            "./photos/scene/scene_iHaveNoMouthAndIMustScream4.webp"
+        ]
     },
     {
         "title": "Five Nights at Freddy's",
@@ -235,8 +283,13 @@
             "XBOX",
             "Nintendo Switch"
         ],
-        "cover": "",
-        "scene": []
+        "cover": "./photos/cover/cover_FNAF.webp",
+        "scene": [
+            "./photos/scene/scene_FNAF1.webp",
+            "./photos/scene/scene_FNAF2.webp",
+            "./photos/scene/scene_FNAF3.webp",
+            "./photos/scene/scene_FNAF4.webp"
+        ]
     },
     {
         "title": "Mouthwashing",
@@ -253,8 +306,12 @@
             "PS5",
             "XBOX"
         ],
-        "cover": "",
-        "scene": []
+        "cover": "./photos/cover/cover_mouthwashing.webp",
+        "scene": [
+            "./photos/scene/scene_mouthwashing1.webp",
+            "./photos/scene/scene_mouthwashing2.webp",
+            "./photos/scene/scene_mouthwashing3.webp"
+        ]
     },
     {
         "title": "MiSide",
@@ -269,8 +326,11 @@
         "platform": [
             "PC"
         ],
-        "cover": "",
-        "scene": []
+        "cover": "./photos/cover/cover_miSide.webp",
+        "scene": [
+            "./photos/scene/scene_miSide1.webp",
+            "./photos/scene/scene_miSide2.webp"
+        ]
     },
     {
         "title": "Phasmophobia",
@@ -286,8 +346,13 @@
             "PS5",
             "XBOX"
         ],
-        "cover": "",
-        "scene": []
+        "cover": "./photos/cover/cover_phasmophobia.webp",
+        "scene": [
+            "./photos/scene/scene_phasmophobia1.webp",
+            "./photos/scene/scene_phasmophobia2.webp",
+            "./photos/scene/scene_phasmophobia3.webp",
+            "./photos/scene/scene_phasmophobia4.webp"
+        ]
     },
     {
         "title": "The Outlast Trials",
@@ -304,8 +369,13 @@
             "PS5",
             "XBOX"
         ],
-        "cover": "",
-        "scene": []
+        "cover": "./photos/cover/cover_theOutlastTrials.webp",
+        "scene": [
+            "./photos/scene/scene_theOutlastTrials1.webp",
+            "./photos/scene/scene_theOutlastTrials2.webp",
+            "./photos/scene/scene_theOutlastTrials3.webp",
+            "./photos/scene/scene_theOutlastTrials4.webp"
+        ]
     },
     {
         "title": "Until Dawn",
@@ -324,8 +394,13 @@
             "PS5",
             "Nintendo Switch"
         ],
-        "cover": "",
-        "scene": []
+        "cover": "./photos/cover/cover_untilDawn.webp",
+        "scene": [
+            "./photos/scene/scene_untilDawn1.webp",
+            "./photos/scene/scene_untilDawn2.webp",
+            "./photos/scene/scene_untilDawn3.webp",
+            "./photos/scene/scene_untilDawn4.webp"
+        ]
     },
     {
         "title": "The Sinking City Remastered",
@@ -341,8 +416,13 @@
         "platform": [
             "XBOX"
         ],
-        "cover": "",
-        "scene": []
+        "cover": "./photos/cover/cover_theSinkingCityRemastered.webp",
+        "scene": [
+            "./photos/scene/scene_theSinkingCityRemastered1.webp",
+            "./photos/scene/scene_theSinkingCityRemastered2.webp",
+            "./photos/scene/scene_theSinkingCityRemastered3.webp",
+            "./photos/scene/scene_theSinkingCityRemastered4.webp"
+        ]
     },
     {
         "title": "A Quiet Place: The Road Ahead",
@@ -358,6 +438,12 @@
             "PC",
             "XBOX",
             "PS5"
+        ],
+        "cover": "./photos/cover/cover_aQuietPlace_TheRoadAhead.webp",
+        "scene": [
+            "./photos/scene/scene_aQuietPlace_TheRoadAhead1.webp",
+            "./photos/scene/scene_aQuietPlace_TheRoadAhead2.webp",
+            "./photos/scene/scene_aQuietPlace_TheRoadAhead3.webp"
         ]
     }
 ]
