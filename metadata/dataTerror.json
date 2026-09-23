@@ -4,6 +4,7 @@
         "description": "La historia se desarrolla en una humanidad al borde del fin, azotada por la amenaza de los 'Visitantes' seres que imitan a los humanos, piden refugio y sólo revelan su verdadera naturaleza por pequeñas pistas físicas cada día. El jugador queda aislado en casa, obligado cada noche a decidir quién puede entrar y quién debe ser eliminado, usando la información dada en las noticias para interrogar, cuestionar y sobrevivir. El juego plantea dilemas morales profundos: debes dejar entrar a algunas personas (o Visitantes), conversar, ayudar y decidir quién vive, quién muere y cómo actuar en un clima de paranoia y desesperanza.",
         "launch_age": 2025,
         "PEGI": "16",
+<<<<<<< HEAD
         "genre": [
             "Terror",
             "Accion"
@@ -12,17 +13,28 @@
         "platform": [
             "PC"
         ],
+<<<<<<< Updated upstream
         "cover": "./photos/cover/cover_i_mNotAHuman.webp",
         "scene": [
             "./photos/scene/scene_i_mNotAHuman1.webp",
             "./photos/scene/scene_i_mNotAHuman2.webp"
         ]
+=======
+        "cover": "",
+        "scene": []
+=======
+        "genre": ["Terror","Accion"],
+        "developer": "Trioskaz",
+        "platform": ["PC"]
+>>>>>>> 0e30049 (Data Terror)
+>>>>>>> Stashed changes
     },
     {
         "title": "Outlast",
         "description": "El juego ofrece el clásico desarrollo de una aventura survival horror, con exploración y puzles, pero sin combates, ya que no podemos enfrentarnos a los enemigos directamente, y tenemos que evitarlos y escondernos en lugares como armarios y debajo de camas. El elemento más original de su gameplay es que utilizamos una cámara de video con visión nocturna, que sirve para movernos por las oscuras instalaciones del manicomio, y que consume baterías, un recurso limitado que debemos administrar cuidadosamente para no quedarnos vendidos.",
         "launch_age": 2014,
         "PEGI": "18",
+<<<<<<< HEAD
         "genre": [
             "Terror"
         ],
@@ -33,6 +45,7 @@
             "PS4",
             "Nintendo Switch"
         ],
+<<<<<<< Updated upstream
         "cover": "./photos/cover/cover_outlast.webp",
         "scene": [
             "./photos/scene/scene_outlast1.webp",
@@ -40,12 +53,22 @@
             "./photos/scene/scene_outlast3.webp",
             "./photos/scene/scene_outlast4.webp"
         ]
+=======
+        "cover": "",
+        "scene": []
+=======
+        "genre": ["Terror"],
+        "developer": "Red Barrels",
+        "platform": ["PC","XBOX","PS4"]
+>>>>>>> 0e30049 (Data Terror)
+>>>>>>> Stashed changes
     },
     {
         "title": "Amnesia: The Dark Descent",
         "description": "El juego se ambienta en un oscuro y lúgubre castillo en el siglo XIX, y sigue la historia de Daniel, el protagonista, que despierta en el castillo sin recuerdos sobre su pasado, salvo por su nombre y por el hecho de que algo lo persigue. A medida que Daniel explora el castillo, descubre notas y entradas de diario que poco a poco revelan su propia historia y la naturaleza de las horribles acciones que llevó a cabo bajo la influencia de un misterioso orbe.",
         "launch_age": 2010,
         "PEGI": "18",
+<<<<<<< HEAD
         "genre": [
             "Terror",
             "Puzles"
@@ -54,18 +77,29 @@
         "platform": [
             "PC"
         ],
+<<<<<<< Updated upstream
         "cover": "./photos/cover/cover_amnesia.webp",
         "scene": [
             "./photos/scene/scene_amnesia1.webp",
             "./photos/scene/scene_amnesia2.webp",
             "./photos/scene/scene_amnesia3.webp"
         ]
+=======
+        "cover": "",
+        "scene": []
+=======
+        "genre": ["Terror","Puzles"],
+        "developer": "Frictional Game",
+        "platform": ["PC"]
+>>>>>>> 0e30049 (Data Terror)
+>>>>>>> Stashed changes
     },
     {
         "title": "Dead by Daylight",
         "description": "Este original juego de terror propone un multijugador asimétrico que enfrenta a un jugador contra otros cuatro: encarnando a un asesino en serie que tiene que dar caza a otros cuatro jugadores, que tienen que huir y esconderse por el mapa. El asesino juega desde una perspectiva en primera persona, y los supervivientes en tercera persona, lo que les da una cierta ventaja al ver mejor el entorno y todo lo que les rodea, para poder evitar mejor así al agresor. Como si se tratara de una clásica película tipo slasher, los supervivientes pueden colaborar jugando en equipo, o ser egoístas y hacer la guerra por su cuenta, intentando salvar su pellejo sin que les importen los demás. Los mapas se generan aleatoriamente, por lo que nunca sabremos lo que nos espera, al no conocer de manera anticipada los escenarios, sin saber los mejores sitios para esconderse.",
         "launch_age": 2016,
         "PEGI": "18",
+<<<<<<< HEAD
         "genre": [
             "Terror",
             "Accion",
@@ -78,18 +112,29 @@
             "XBOX",
             "Telefono movil"
         ],
+<<<<<<< Updated upstream
         "cover": "./photos/cover/cover_dbd.webp",
         "scene": [
             "./photos/scene/scene_dbd1.webp",
             "./photos/scene/scene_dbd2.webp",
             "./photos/scene/scene_dbd3.webp"
         ]
+=======
+        "cover": "",
+        "scene": []
+=======
+        "genre": ["Terror","Accion","Multijugador"],
+        "developer": "Behaviour Interactive",
+        "platform": ["PC","PS4","XBOX","Movil"]
+>>>>>>> 0e30049 (Data Terror)
+>>>>>>> Stashed changes
     },
     {
         "title": "Left 4 Dead 2",
         "description": "El primer Left 4 Dead dio la sorpresa en 2008 siendo un divertidísimo juego de acción en primera persona cooperativa en el que un equipo de jugadores tenía que luchar contra peligrosas hordas de zombis, y fue tan exitoso que la secuela no se hizo esperar, y al año siguiente llegó Left 4 Dead 2. Una continuación de manual, con nuevos personajes, enemigos, escenarios y mecánicas de juego, ambientado en el sur de Estados Unidos, desde Savannah, Georgia hasta Nueva Orleans, Louisiana, siguiendo a cuatro nuevos supervivientes que tienen que luchar contra toneladas de zombis en un mundo devastado.",
         "launch_age": 2009,
         "PEGI": "18",
+<<<<<<< HEAD
         "genre": [
             "Terror",
             "Multijugador",
@@ -101,18 +146,29 @@
             "PC",
             "XBOX"
         ],
+<<<<<<< Updated upstream
         "cover": "./photos/cover/cover_L4D2.webp",
         "scene": [
             "./photos/scene/scene_L4D2_1.webp",
             "./photos/scene/scene_L4D2_2.webp",
             "./photos/scene/scene_L4D2_3.webp"
         ]
+=======
+        "cover": "",
+        "scene": []
+=======
+        "genre": ["Terror","Multijugador","Accion","Disparos"],
+        "developer": "Turtle Rock",
+        "platform": ["PC","XBOX"]
+>>>>>>> 0e30049 (Data Terror)
+>>>>>>> Stashed changes
     },
     {
         "title": "The Forest",
         "description": "The Forest para PC es un juego de acción y supervivencia en primera persona. En el juego asumiremos el papel del único superviviente de un accidente de avión, atrapado en una isla llena de mutantes caníbales. El título tendrá un mundo vivo, con tiempo cambiante y plantas que crecen y mueren, modificándose el escenario poco a poco. En el juego tendremos que sobrevivir explorando el escenario, buscando comida para mantenernos con vida, construyendo refugios y, por supuesto, defendiéndonos de los caníbales.",
         "launch_age": 2018,
         "PEGI": "Sin calificar",
+<<<<<<< HEAD
         "genre": [
             "Terror",
             "Accion",
@@ -123,17 +179,28 @@
             "PC",
             "PS4"
         ],
+<<<<<<< Updated upstream
         "cover": "./photos/cover/cover_theForest.webp",
         "scene": [
             "./photos/scene/scene_theForest1.webp",
             "./photos/scene/scene_theForest2.webp"
         ]
+=======
+        "cover": "",
+        "scene": []
+=======
+        "genre": ["Terror","Accion","Multijugador"],
+        "developer": "End Night Games",
+        "platform": ["PC","PS4"]
+>>>>>>> 0e30049 (Data Terror)
+>>>>>>> Stashed changes
     },
     {
         "title": "Little Nightmares",
         "description": "El gameplay combina exploración, resolución de rompecabezas y sigilo, mientras escapamos de las garras de unos aterradores seres de pesadilla, que nos persiguen incansablemente. Un juego sin sustos y que apuesta por la tensión y el miedo psicológico, en un desarrollo en el que se mezclan de manera orgánica las plataformas y los puzles, con escenas de sigilo en las que tenemos que intentar pasar desapercibidos para que no nos atrapen los monstruos que nos persiguen, y una narrativa contada de manera visual, sin textos ni voces, teniendo el jugador que descifrar su enigmática historia. Su atmósfera y apartado gráfico es uno de sus puntos fuertes, con una cuidada dirección artística que puede recordar al imaginario del director de cine Tim Burton y que utiliza la iluminación, sombras y una banda sonora inquietante para crear una experiencia envolvente y a menudo perturbadora, que no es terrorífica, en ningún caso gore o desagradable, pero sí inquietante",
         "launch_age": 2017,
         "PEGI": "16",
+<<<<<<< HEAD
         "genre": [
             "Puzles",
             "Terror"
@@ -145,18 +212,29 @@
             "XBOX",
             "Telefono movil"
         ],
+<<<<<<< Updated upstream
         "cover": "./photos/cover/cover_littleNightmares.webp",
         "scene": [
             "./photos/scene/scene_littleNightmares1.webp",
             "./photos/scene/scene_littleNightmares2.webp",
             "./photos/scene/scene_littleNightmares3.webp"
         ]
+=======
+        "cover": "",
+        "scene": []
+=======
+        "genre": ["Puzles","Terror"],
+        "developer": "Tarsier Studios",
+        "platform": ["PC","PS4","XBOX","Movil"]
+>>>>>>> 0e30049 (Data Terror)
+>>>>>>> Stashed changes
     },
     {
         "title": "Escape the Backrooms",
         "description": "La premisa de Escape the Backrooms parte del concepto clásico de los Backrooms: una dimensión imposible formada por espacios liminales, pasillos interminables, habitaciones vacías, oficinas amarillentas, zonas industriales, piscinas inquietantes y lugares aparentemente cotidianos convertidos en escenarios de pesadilla. El jugador queda atrapado en este universo anómalo y debe avanzar por distintos niveles buscando salidas, resolviendo puzles y evitando criaturas hostiles. A diferencia de muchos juegos de terror lineales, la sensación principal no procede de una historia tradicional con personajes muy desarrollados, sino del desconcierto de no saber dónde se está, cómo se ha llegado allí ni qué reglas gobiernan cada nuevo espacio.",
         "launch_age": 2025,
         "PEGI": "Sin calificar",
+<<<<<<< HEAD
         "genre": [
             "Terror",
             "Accion",
@@ -169,6 +247,7 @@
             "PS5",
             "XBOX"
         ],
+<<<<<<< Updated upstream
         "cover": "./photos/cover/cover_escapeTheBackrooms.webp",
         "scene": [
             "./photos/scene/scene_escapeTheBackrooms1.webp",
@@ -176,12 +255,22 @@
             "./photos/scene/scene_escapeTheBackrooms3.webp",
             "./photos/scene/scene_escapeTheBackrooms4.webp"
         ]
+=======
+        "cover": "",
+        "scene": []
+=======
+        "genre": ["Terror","Accion","Puzles","Multijugador"],
+        "developer": "Fancy Games",
+        "platform": ["PC","PS5","XBOX"]
+>>>>>>> 0e30049 (Data Terror)
+>>>>>>> Stashed changes
     },
     {
         "title": "Fears to Fathom - Scratch Creek",
         "description": "La historia está protagonizada por Tessa Langley y Marcus Reed, una joven pareja de Oregón que se prepara para trasladarse a otro estado. Antes de iniciar el viaje deben llenar un remolque con muebles y pertenencias, una tarea aparentemente cotidiana que sirve para presentar sus controles, su relación y la importancia de colaborar durante el resto del episodio. Unos acontecimientos imprevistos obligan a la pareja a cambiar su ruta y detenerse en Scratch Creek, un pequeño pueblo de carretera cuyo aspecto decadente esconde una situación mucho más peligrosa de lo que parece. La parada temporal se convierte así en una larga noche de encuentros inquietantes, comportamientos sospechosos y lugares en los que algo no termina de encajar.",
         "launch_age": 2026,
         "PEGI": "Sin calificar",
+<<<<<<< HEAD
         "genre": [
             "Terror",
             "Aventura"
@@ -190,6 +279,7 @@
         "platform": [
             "PC"
         ],
+<<<<<<< Updated upstream
         "cover": "./photos/cover/cover_fearsToFathom.webp",
         "scene": [
             "./photos/scene/scene_fearsToFathom1.webp",
@@ -197,12 +287,22 @@
             "./photos/scene/scene_fearsToFathom3.webp",
             "./photos/scene/scene_fearsToFathom4.webp"
         ]
+=======
+        "cover": "",
+        "scene": []
+=======
+        "genre": ["Terror","Aventura"],
+        "developer": "Rayll Studios",
+        "platform": ["PC"]
+>>>>>>> 0e30049 (Data Terror)
+>>>>>>> Stashed changes
     },
     {
         "title": "Halloween: The Game",
         "description": "La propuesta de Halloween sitúa a los jugadores en Haddonfield, la ciudad donde transcurre la película original, durante la noche de Halloween de 1978. Su estructura combina un modo historia para un jugador con partidas multijugador asimétricas, permitiendo vivir la experiencia desde dos perspectivas muy distintas: como superviviente que intenta escapar del asesino o como el propio Michael Myers, la figura silenciosa e imparable que acecha las calles, casas y jardines del vecindario.",
         "launch_age": 2026,
         "PEGI": "18",
+<<<<<<< HEAD
         "genre": [
             "Terror",
             "Multijugador"
@@ -213,18 +313,29 @@
             "XBOX",
             "PC"
         ],
+<<<<<<< Updated upstream
         "cover": "./photos/cover/cover_hallowenTheGame.webp",
         "scene": [
             "./photos/scene/scene_hallowenTheGame1.webp",
             "./photos/scene/scene_hallowenTheGame2.webp",
             "./photos/scene/scene_hallowenTheGame3.webp"
         ]
+=======
+        "cover": "",
+        "scene": []
+=======
+        "genre": ["Terror","Multijugador"],
+        "developer": "IIIFonic",
+        "platform": ["PS5","XBOX","PC"]
+>>>>>>> 0e30049 (Data Terror)
+>>>>>>> Stashed changes
     },
     {
         "title": "Horses",
         "description": "En HORSES, encarnas a Anselmo, un joven enviado a trabajar dos semanas en una granja aislada. Nada más llegar, descubre que los “caballos” del lugar son en realidad seres humanos desnudos, con máscaras de caballo, tratados como animales de carga, montados, alimentados con heno y agua y sometidos a castigos brutales por cualquier desobediencia. El granjero y su “perro” Fido —otro humano enmascarado— representan un poder totalitario absoluto sobre estas personas, y el juego utiliza esta premisa para hablar de esclavitud, deshumanización, abuso de poder y responsabilidad moral del testigo que decide mirar, colaborar o rebelarse.",
         "launch_age": 2025,
         "PEGI": "18",
+<<<<<<< HEAD
         "genre": [
             "Aventura",
             "Terror"
@@ -241,11 +352,18 @@
             "./photos/scene/scene_horses4.webp"
         ]
     },
+=======
+        "genre": ["Aventura","Terror"],
+        "developer": "Andrea Lucco Borlera",
+        "platform": ["PC"]
+    },    
+>>>>>>> 0e30049 (Data Terror)
     {
         "title": "I Have No Mouth, and I Must Scream",
         "description": "Una aventura gráfica de terror psicológico desarrollada por The Dreamers Guild y publicada por Cyberdreams en 1995 para PC. Basado en el célebre relato corto homónimo de Harlan Ellison, quien además participó en el guion y prestó su voz al villano principal, el juego se ha convertido en un título de culto dentro del género por su crudeza temática y su enfoque narrativo. En I Have No Mouth, and I Must Scream, la historia transcurre en un futuro postapocalíptico donde una supercomputadora llamada AM ha exterminado a la humanidad, salvo por cinco personas a las que mantiene con vida para torturarlas eternamente. El jugador controla a estos cinco personajes en campañas individuales, cada una centrada en sus traumas, culpas y dilemas morales.",
         "launch_age": 1995,
         "PEGI": "18",
+<<<<<<< HEAD
         "genre": [
             "Aventura",
             "Terror"
@@ -258,6 +376,7 @@
             "XBOX",
             "Nintendo Switch"
         ],
+<<<<<<< Updated upstream
         "cover": "./photos/cover/cover_iHaveNoMouthAndIMustScream.webp",
         "scene": [
             "./photos/scene/scene_iHaveNoMouthAndIMustScream1.webp",
@@ -265,12 +384,22 @@
             "./photos/scene/scene_iHaveNoMouthAndIMustScream3.webp",
             "./photos/scene/scene_iHaveNoMouthAndIMustScream4.webp"
         ]
+=======
+        "cover": "",
+        "scene": []
+=======
+        "genre": ["Aventura","Terror"],
+        "developer": "Nightdive Studios",
+        "platform": ["PC","PS5","PS4","XBOX"]
+>>>>>>> 0e30049 (Data Terror)
+>>>>>>> Stashed changes
     },
     {
         "title": "Five Nights at Freddy's",
         "description": "El juego se ambienta en Freddy Fazbear's Pizza, una pizzería ficticia similar a locales de entretenimiento familiar como Chuck E. Cheese, donde los animatrónicos entretienen a los niños durante el día. El jugador asume el rol de un guardia de seguridad nocturno, Mike Schmidt, quien debe sobrevivir cinco noches (de medianoche a 6 a.m.) en su puesto de trabajo. Los animatrónicos, que son amigables de día, se vuelven hostiles y peligrosos por la noche debido a un malfuncionamiento en sus sistemas.",
         "launch_age": 2013,
         "PEGI": "Sin calificar",
+<<<<<<< HEAD
         "genre": [
             "Terror",
             "Estrategia"
@@ -283,6 +412,7 @@
             "XBOX",
             "Nintendo Switch"
         ],
+<<<<<<< Updated upstream
         "cover": "./photos/cover/cover_FNAF.webp",
         "scene": [
             "./photos/scene/scene_FNAF1.webp",
@@ -290,12 +420,22 @@
             "./photos/scene/scene_FNAF3.webp",
             "./photos/scene/scene_FNAF4.webp"
         ]
+=======
+        "cover": "",
+        "scene": []
+=======
+        "genre": ["Terror","Estrategia"],
+        "developer": "Scott Cawthon",
+        "platform": ["PC","PS4","PS5","XBOX"]
+>>>>>>> 0e30049 (Data Terror)
+>>>>>>> Stashed changes
     },
     {
         "title": "Mouthwashing",
         "description": "Mouthwashing es un juego de terror psicológico en primera persona cuya historia sigue a la tripulación de la nave espacial Tulpar, que queda varada en una región remota del espacio tras un accidente provocado deliberadamente por el capitán. El juego se centra en la lenta degradación mental de los tripulantes mientras lidian con la falta de suministros, el aislamiento y la revelación de que el cargamento que arriesgaron sus vidas por transportar es simplemente una reserva de enjuague bucal.",
         "launch_age": 2024,
         "PEGI": "Sin calificar",
+<<<<<<< HEAD
         "genre": [
             "Terror",
             "Aventura"
@@ -306,18 +446,29 @@
             "PS5",
             "XBOX"
         ],
+<<<<<<< Updated upstream
         "cover": "./photos/cover/cover_mouthwashing.webp",
         "scene": [
             "./photos/scene/scene_mouthwashing1.webp",
             "./photos/scene/scene_mouthwashing2.webp",
             "./photos/scene/scene_mouthwashing3.webp"
         ]
+=======
+        "cover": "",
+        "scene": []
+=======
+        "genre": ["Terror","Aventura"],
+        "developer": "Wrong Organ",
+        "platform": ["PC","PS5","XBOX"]
+>>>>>>> 0e30049 (Data Terror)
+>>>>>>> Stashed changes
     },
     {
         "title": "MiSide",
         "description": "MiSide es una aventura desarrollada por AIHASTO y publicada por IndieArk y Shochiku para PC. Una original aventura de terror psicológico que ofrece una curiosa mezcla de gameplay de simulador de vida en 2D y exploración en primera persona en 3D, en el que estás atrapado en un juego de teléfono móvil junta a una inquietante chica virtual estilo anime, teniendo como objetivo escapar de esta pesadilla resolviendo puzles y participando en minijuegos. Una aventura de terror en la que estás atrapado en un videojuego con ciertas reminiscencias del exitoso Doki Doki Literature Club!, MiSide es una aventura de terror psicológico creada por el estudio independiente ruso AIHASTO, en la que controlas a un protagonista que, tras descargar una aplicación de simulación de vida en su teléfono móvil, es transportado al mundo virtual del juego, donde interactúa con Mita, una chica de estética anime. Lo que comienza como una experiencia inocente se transforma rápidamente en una pesadilla, ya que Mita revela una naturaleza oscura y obsesiva, atrapando al jugador en una realidad distorsionada de la que debe escapar.",
         "launch_age": 2024,
         "PEGI": "Sin calificar",
+<<<<<<< HEAD
         "genre": [
             "Terror",
             "Aventura"
@@ -326,17 +477,28 @@
         "platform": [
             "PC"
         ],
+<<<<<<< Updated upstream
         "cover": "./photos/cover/cover_miSide.webp",
         "scene": [
             "./photos/scene/scene_miSide1.webp",
             "./photos/scene/scene_miSide2.webp"
         ]
+=======
+        "cover": "",
+        "scene": []
+=======
+        "genre": ["Terror","Aventura"],
+        "developer": "AIHASTO",
+        "platform": ["PC"]
+>>>>>>> 0e30049 (Data Terror)
+>>>>>>> Stashed changes
     },
     {
         "title": "Phasmophobia",
         "description": "Esta aventura nos invita a que junto a unos amigos investiguemos terroríficos lugares en los que nos esperan todo tipo de fantasmas. Así tendremos que armarnos de mucho valor y unas pocas herramientas como linternas, termómetros o cámaras de visión nocturna para buscar pistas y descubrir todos los misterios que nos esperan en más de diez ubicaciones como casas encantadas y edificios repletos de actividad paranormal, habitados por más de 20 fantasmas diferentes, con distintos rasgos y habilidades que hacen que cada partida sea terroríficamente única.",
         "launch_age": 2024,
         "PEGI": "Sin calificar",
+<<<<<<< HEAD
         "genre": [
             "Terror"
         ],
@@ -354,11 +516,18 @@
             "./photos/scene/scene_phasmophobia4.webp"
         ]
     },
+=======
+        "genre": ["Terror"],
+        "developer": "Kinetic Games",
+        "platform": ["PC","PS5","XBOX"]
+    }, 
+>>>>>>> 0e30049 (Data Terror)
     {
         "title": "The Outlast Trials",
         "description": "Tras las dos primeras entregas de la saga que tuvieron mucho éxito, y que fueron aventuras de terror en primera persona para un jugador, ahora Red Barrels apuesta por algo muy distinto con un juego multijugador, en el que tenemos que sobrevivir a una serie de pruebas o experimentos macabros, que podemos superar tanto en solitario como en compañía de hasta cuatro jugadores, lo que es muy divertido. Solo podemos huir de los enemigos, ya que no tenemos armas, y para movernos en la oscuridad debemos gestionar con cabeza las baterías de las gafas de visión nocturna, para no caer en una de las múltiples trampas que nos esperan en los escenarios. Todo esto mientras resolvemos puzles e intentamos encontrar la salida, ofreciendo situaciones realmente tensas, que cobran un nuevo significado en compañía de otros jugadores, ya que podemos jugar en equipo para por ejemplo distraer a los enemigos o solucionar los rompecabezas.",
         "launch_age": 2024,
         "PEGI": "Sin calificar",
+<<<<<<< HEAD
         "genre": [
             "Terror"
         ],
@@ -369,6 +538,7 @@
             "PS5",
             "XBOX"
         ],
+<<<<<<< Updated upstream
         "cover": "./photos/cover/cover_theOutlastTrials.webp",
         "scene": [
             "./photos/scene/scene_theOutlastTrials1.webp",
@@ -376,12 +546,22 @@
             "./photos/scene/scene_theOutlastTrials3.webp",
             "./photos/scene/scene_theOutlastTrials4.webp"
         ]
+=======
+        "cover": "",
+        "scene": []
+=======
+        "genre": ["Terror"],
+        "developer": "Red Barrels",
+        "platform": ["PC","PS4","PS5","XBOX"]
+>>>>>>> 0e30049 (Data Terror)
+>>>>>>> Stashed changes
     },
     {
         "title": "Until Dawn",
         "description": "El género de los slasher es uno de los favoritos de los amantes del terror, con películas y sagas como Scream, La matanza de Texas, Halloween o Viernes 13, en las que un psicópata o asesino va acabando poco a poco con la vida de sus protagonistas, que casi siempre son unos temerarios adolescentes o jóvenes adultos. Until Dawn es una aventura narrativa que lleva el espíritu de este tipo de películas a los videojuegos, un juego de terror protagonizado por un grupo de jóvenes acosados por un asesino, en el que tenemos que explorar, tomar rápidas decisiones, resolver sencillos puzles y superar secuencias de vídeo interactivas QTE, pudiendo ir perdiendo a diferentes personajes a lo largo del juego, continuando igualmente la aventura que cuenta con diferentes finales y ramificaciones. Ambientado en una remota cabaña en las montañas nevadas, la historia sigue a un grupo de ocho amigos que se reúnen para conmemorar el aniversario de la desaparición de dos miembros de su grupo. A medida que la noche avanza, se encuentran atrapados y perseguidos por un asesino psicópata, además de otras amenazas, en una historia con muchos giros y sorpresas. El juego cuenta con el sistema 'efecto mariposa', en el que incluso las decisiones aparentemente más pequeñas pueden tener consecuencias importantes a medio y largo plazo, lo que nos obliga a pensar muy bien cada paso que damos. Until Dawn apuesta por un apartado gráfico muy realista, con unos personajes realizados con captura de movimiento y que han sido interpretados por actores conocidos como Hayden Panettiere y Rami Malek.",
         "launch_age": 2024,
         "PEGI": "18",
+<<<<<<< HEAD
         "genre": [
             "Terror",
             "Accion",
@@ -394,6 +574,7 @@
             "PS5",
             "Nintendo Switch"
         ],
+<<<<<<< Updated upstream
         "cover": "./photos/cover/cover_untilDawn.webp",
         "scene": [
             "./photos/scene/scene_untilDawn1.webp",
@@ -401,12 +582,22 @@
             "./photos/scene/scene_untilDawn3.webp",
             "./photos/scene/scene_untilDawn4.webp"
         ]
+=======
+        "cover": "",
+        "scene": []
+=======
+        "genre": ["Terror","Accion","Aventura"],
+        "developer": "Ballistic Moon",
+        "platform": ["PC","PS4","PS5"]
+>>>>>>> 0e30049 (Data Terror)
+>>>>>>> Stashed changes
     },
     {
         "title": "The Sinking City Remastered",
         "description": "La historia sigue a Charles W. Reed, un detective privado y veterano de guerra que investiga los misteriosos sucesos en la ciudad ficticia de Oakmont, Massachusetts, durante la década de 1920. La ciudad está afectada por inundaciones sobrenaturales y fenómenos inexplicables que llevan a sus habitantes a la locura. Inspirado en el universo de H.P. Lovecraft, el juego combina elementos de investigación, exploración y combate en un entorno abierto.",
         "launch_age": 2025,
         "PEGI": "18",
+<<<<<<< HEAD
         "genre": [
             "Terror",
             "Aventura",
@@ -416,6 +607,7 @@
         "platform": [
             "XBOX"
         ],
+<<<<<<< Updated upstream
         "cover": "./photos/cover/cover_theSinkingCityRemastered.webp",
         "scene": [
             "./photos/scene/scene_theSinkingCityRemastered1.webp",
@@ -423,12 +615,22 @@
             "./photos/scene/scene_theSinkingCityRemastered3.webp",
             "./photos/scene/scene_theSinkingCityRemastered4.webp"
         ]
+=======
+        "cover": "",
+        "scene": []
+=======
+        "genre": ["Terror","Aventura","Accion"],
+        "developer": "Frogwares",
+        "platform": ["XBOX"]
+>>>>>>> 0e30049 (Data Terror)
+>>>>>>> Stashed changes
     },
     {
         "title": "A Quiet Place: The Road Ahead",
         "description": "La saga de películas A Quiet Place dirigida por John Krasinski y protagonizada por Emily Blunt es uno de los mayores éxitos del cine de terror de los últimos años, y tras tres entregas, Un lugar tranquilo (2018) y Un lugar tranquilo 2 (2020) y Un lugar tranquilo: Día 1 (2024), llega A Quiet Place: The Road Ahead, un juego de terror en primera persona ambientado en este mismo universo, desarrollado por los italianos Stormind Games, creadores de Remothered: Broken Porcelain (2020). El juego cuenta una historia original ambientada en este universo cinematográfico, protagonizada por una joven superviviente que tiene que sobrevivir a las terroríficas criaturas depredadores que la acechan, y que como ocurre en las películas, tenemos que ir con mucho cuidado y no hacer ruido para no delatar tu posición y ser atrapado",
         "launch_age": 2024,
         "PEGI": "Sin calificar",
+<<<<<<< HEAD
         "genre": [
             "Terror",
             "Aventura"
@@ -447,3 +649,11 @@
         ]
     }
 ]
+=======
+        "genre": ["Terror","Aventura"],
+        "developer": "Stormind Games",
+        "platform": ["PC","XBOX","PS5"]
+    }
+]
+
+>>>>>>> 0e30049 (Data Terror)
