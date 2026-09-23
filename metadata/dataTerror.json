@@ -15,7 +15,7 @@
         "PEGI": "18",
         "genre": ["Terror"],
         "developer": "Red Barrels",
-        "platform": ["PC","XBOX","PS4"]
+        "platform": ["PC","XBOX","PS4","Nintendo Switch"]
     },
     {
         "title": "Amnesia: The Dark Descent",
@@ -33,7 +33,7 @@
         "PEGI": "18",
         "genre": ["Terror","Accion","Multijugador"],
         "developer": "Behaviour Interactive",
-        "platform": ["PC","PS4","XBOX","Movil"]
+        "platform": ["PC","PS4","XBOX","Telefono movil"]
     },
     {
         "title": "Left 4 Dead 2",
@@ -60,7 +60,7 @@
         "PEGI": "16",
         "genre": ["Puzles","Terror"],
         "developer": "Tarsier Studios",
-        "platform": ["PC","PS4","XBOX","Movil"]
+        "platform": ["PC","PS4","XBOX","Telefono movil"]
     },
     {
         "title": "Escape the Backrooms",
@@ -105,7 +105,7 @@
         "PEGI": "18",
         "genre": ["Aventura","Terror"],
         "developer": "Nightdive Studios",
-        "platform": ["PC","PS5","PS4","XBOX"]
+        "platform": ["PC","PS5","PS4","XBOX","Nintendo Switch"]
     },
     {
         "title": "Five Nights at Freddy's",
@@ -114,7 +114,7 @@
         "PEGI": "Sin calificar",
         "genre": ["Terror","Estrategia"],
         "developer": "Scott Cawthon",
-        "platform": ["PC","PS4","PS5","XBOX"]
+        "platform": ["PC","PS4","PS5","XBOX","Nintendo Switch"]
     },
     {
         "title": "Mouthwashing",
@@ -159,7 +159,7 @@
         "PEGI": "18",
         "genre": ["Terror","Accion","Aventura"],
         "developer": "Ballistic Moon",
-        "platform": ["PC","PS4","PS5"]
+        "platform": ["PC","PS4","PS5","Nintendo Switch"]
     },
     {
         "title": "The Sinking City Remastered",
