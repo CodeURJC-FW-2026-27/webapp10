@@ -12,8 +12,11 @@
         "platform": [
             "PC"
         ],
-        "cover": "",
-        "scene": []
+        "cover": "./cover/cover_i_mNotAHuman.webp",
+        "scene": [
+            "./photos/scene/scene_i_mNotAHuman1.webp",
+            "./photos/scene/scene_i_mNotAHuman2.webp"
+        ]
     },
     {
         "title": "Outlast",
