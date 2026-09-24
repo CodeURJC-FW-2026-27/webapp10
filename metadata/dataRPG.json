@@ -1,0 +1,233 @@
+[
+    {
+        "title": "Mario & Luigi: Brothership",
+        "description": "Mario & Luigi: Brothership se desarrolla en el Mar Concordia donde Mario y Luigi deben recolectar conéctar",
+        "launch_age": "2024",
+        "PEGI": 7,
+        "genre": "RPG",
+        "developer": "Acquire",
+        "platform": ["Switch"],
+        "cover": "/images/cover/cover_Brothership.webp",
+        "scene": []
+    },
+    {
+        "title": "Final Fantasy VII Remake",
+        "description": "Final Fantasy VII Remake is a role-playing video game developed and published by Square Enix. It is a reimagining of the original Final Fantasy VII, featuring updated graphics, real-time combat, and an expanded storyline.",
+        "launch_age": "2020",
+        "PEGI": 16,
+        "genre": "RPG",
+        "developer": "Square Enix",
+        "platform": ["PS4"],
+        "cover": "/images/cover/cover_FF7.webp",
+        "scene": []
+    },
+    {
+        "title": "The Witcher 3: Wild Hunt",
+        "description": "The Witcher 3: Wild Hunt is an action role-playing game developed by CD Projekt Red. It features an open world, a rich narrative, and complex characters, allowing players to make choices that affect the game's outcome.",
+        "launch_age": "2015",
+        "PEGI": 18,
+        "genre": "RPG",
+        "developer": "CD Projekt Red",
+        "platform": ["PC", "PS4", "XBOX"],
+        "cover": "/images/cover/cover_Witcher3.webp",
+        "scene": []
+    },  
+    {
+        "title": "Persona 5",
+        "description": "Persona 5 is a Japanese role-playing game developed by Atlus. It follows a group of high school students who lead double lives as Phantom Thieves, exploring dungeons and battling supernatural enemies.",
+        "launch_age": "2016",
+        "PEGI": 16,
+        "genre": "RPG",
+        "developer": "Atlus",
+        "platform": ["PS4"],
+        "cover": "/images/cover/cover_Persona5.webp",
+        "scene": []
+    }, 
+    {
+        "title": "Dragon Quest XI: Echoes of an Elusive Age",
+        "description": "Dragon Quest XI: Echoes of an Elusive Age is a role-playing game developed and published by Square Enix. It features turn-based combat, a vast world to explore, and a compelling story.",
+        "launch_age": "2017",
+        "PEGI": 12,
+        "genre": "RPG",
+        "developer": "Square Enix",
+        "platform": ["PC", "PS4", "Switch"],
+        "cover": "/images/cover/cover_DragonQuest11.webp",
+        "scene": []
+    },
+    {
+        "title": "Xenoblade Chronicles 2",
+        "description": "Xenoblade Chronicles 2 is an action role-playing game developed by Monolith Soft and published by Nintendo for the Nintendo Switch. It features a vast open world, real-time combat, and a deep narrative.",
+        "launch_age": "2017",
+        "PEGI": 12,
+        "genre": "RPG",
+        "developer": "Monolith Soft",
+        "platform": ["Switch"],
+        "cover": "/images/cover/cover_Xenoblade2.webp",
+        "scene": []
+    },  
+    {
+        "title": "Octopath Traveler",
+        "description": "Octopath Traveler is a role-playing game developed by Square Enix. It features eight unique characters, each with their own story and abilities, and utilizes a turn-based combat system.",
+        "launch_age": "2018",
+        "PEGI": 12,
+        "genre": "RPG",
+        "developer": "Square Enix",
+        "platform": ["Switch", "PC"],
+        "cover": "/images/cover/cover_OctopathTraveler.webp",
+        "scene": []
+    },
+    {
+        "title": "Tales of Arise",
+        "description": "Tales of Arise is an action role-playing game developed and published by Bandai Namco Entertainment. It features a dynamic combat system, a rich story, and beautifully designed environments.",
+        "launch_age": "2021",
+        "PEGI": 16,
+        "genre": "RPG",
+        "developer": "Bandai Namco Entertainment",
+        "platform": ["PC", "PS4", "PS5", "XBOX"],
+        "cover": "/images/cover/cover_TalesOfArise.webp",
+        "scene": []
+    },
+    {
+        "title": "Ni no Kuni II: Revenant Kingdom",
+        "description": "Ni no Kuni II: Revenant Kingdom is a role-playing game developed by Level-5. It features a charming story, real-time combat, and a vibrant world filled with unique characters and creatures.",
+        "launch_age": "2018",
+        "PEGI": 12,
+        "genre": "RPG",
+        "developer": "Level-5",
+        "platform": ["PC", "PS4"],
+        "cover": "/images/cover/cover_NiNoKuni2.webp",
+        "scene": []
+    },
+    {
+        "title": "Fire Emblem: Three Houses",
+        "description": "Fire Emblem: Three Houses is a tactical role-playing game developed by Intelligent Systems and Koei Tecmo. It features turn-based battles, character development, and a branching storyline based on player choices.",
+        "launch_age": "2019",
+        "PEGI": 12,
+        "genre": "RPG",
+        "developer": "Intelligent Systems, Koei Tecmo",
+        "platform": ["Switch"],
+        "cover": "/images/cover/cover_FireEmblem3Houses.webp",
+        "scene": []
+    },
+    {
+        "title": "The Legend of Heroes: Trails of Cold Steel IV",
+        "description": "The Legend of Heroes: Trails of Cold Steel IV is a role-playing game developed by Nihon Falcom. It continues the story of the Erebonian Empire, featuring turn-based combat and a deep narrative.",
+        "launch_age": "2018",
+        "PEGI": 12,
+        "genre": "RPG",
+        "developer": "Nihon Falcom",
+        "platform": ["PC", "PS4"],
+        "cover": "/images/cover/cover_TheLegendOfHeroes.webp",
+        "scene": []
+    },
+    {
+        "title": "Yakuza: Like a Dragon",
+        "description": "Yakuza: Like a Dragon is a role-playing game developed by Ryu Ga Gotoku Studio. It features turn-based combat, a new protagonist, and a story that explores the criminal underworld of Japan.",
+        "launch_age": "2020",
+        "PEGI": 18,
+        "genre": "RPG",
+        "developer": "Ryu Ga Gotoku Studio",
+        "platform": ["PC", "PS4", "PS5", "XBOX"],
+        "cover": "/images/cover/cover_YakuzaLikeADragon.webp",
+        "scene": []
+    },
+    {
+        "title": "Bravely Default II",
+        "description": "Bravely Default II is a role-playing game developed by Claytechworks and published by Square Enix. It features turn-based combat, a job system, and a story that follows four heroes on a quest to save their world.",
+        "launch_age": "2021",
+        "PEGI": 12,
+        "genre": "RPG",
+        "developer": "Claytechworks",
+        "platform": ["Switch"],
+        "cover": "/images/cover/cover_BravelyDefault2.webp",
+        "scene": []
+    },
+    {
+        "title": "Monster Hunter Stories 2: Wings of Ruin",
+        "description": "Monster Hunter Stories 2: Wings of Ruin is a role-playing game developed by Capcom. It features turn-based combat, monster collecting, and a story that follows a young Rider on a quest to save the world from an ancient threat.",
+        "launch_age": "2021",
+        "PEGI": 12,
+        "genre": "RPG",
+        "developer": "Capcom",
+        "platform": ["PC", "Switch"],
+        "cover": "/images/cover/cover_MonsterHunterStories2.webp",
+        "scene": []
+    },
+    {
+        "title": "Dragon Age: Inquisition",
+        "description": "Dragon Age: Inquisition is a role-playing game developed by BioWare. It features an open world, tactical combat, and a story that follows the Inquisitor as they seek to restore order to a world in turmoil.",
+        "launch_age": "2014",
+        "PEGI": 18,
+        "genre": "RPG",
+        "developer": "BioWare",
+        "platform": ["PC", "PS4", "XBOX"],
+        "cover": "/images/cover/cover_DragonAgeInquisition.webp",
+        "scene": []
+    },
+    {
+        "title": "Divinity: Original Sin 2",
+        "description": "Divinity: Original Sin 2 is a role-playing game developed by Larian Studios. It features turn-based combat, a rich narrative, and a world that reacts to player choices, allowing for multiple paths and endings.",
+        "launch_age": "2017",
+        "PEGI": 18,
+        "genre": "RPG",
+        "developer": "Larian Studios",
+        "platform": ["PC", "PS4", "XBOX"],
+        "cover": "/images/cover/cover_DivinityOriginalSin2.webp",
+        "scene": []
+    },
+    {
+        "title": "Dark Souls III",
+        "description": "Dark Souls III is an action role-playing game developed by FromSoftware. It features challenging combat, intricate level design, and a dark fantasy world filled with lore and secrets.",
+        "launch_age": "2016",
+        "PEGI": 16,
+        "genre": "RPG",
+        "developer": "FromSoftware",
+        "platform": ["PC", "PS4", "XBOX"],
+        "cover": "/images/cover/cover_DarkSouls3.webp",
+        "scene": []
+    },
+    {
+        "title": "The Elder Scrolls V: Skyrim",
+        "description": "The Elder Scrolls V: Skyrim is an open-world role-playing game developed by Bethesda Game Studios. It features a vast world to explore, a rich narrative, and a variety of quests and activities.",
+        "launch_age": "2011",
+        "PEGI": 18,
+        "genre": "RPG",
+        "developer": "Bethesda Game Studios",
+        "platform": ["PC", "PS4", "XBOX"],
+        "cover": "/images/cover/cover_TheElderScrollsV Skyrim.webp",
+        "scene": []
+    },
+    {
+        "title": "Mass Effect Legendary Edition",
+        "description": "Mass Effect Legendary Edition is a remastered collection of the Mass Effect trilogy developed by BioWare. It features updated graphics, improved gameplay mechanics, and a cohesive narrative experience.",
+        "launch_age": "2021",
+        "PEGI": 16,
+        "genre": "RPG",
+        "developer": "BioWare",
+        "platform": ["PC", "PS4", "XBOX"],
+        "cover": "/images/cover/cover_MassEffectLegendaryEdition.webp",
+        "scene": []
+    },
+    {
+        "title": "Horizon Zero Dawn",
+        "description": "Horizon Zero Dawn is an action role-playing game developed by Guerrilla Games. It features a post-apocalyptic world inhabited by robotic creatures, and players take on the role of Aloy, a skilled hunter and archer.",
+        "launch_age": "2017",
+        "PEGI": 16,
+        "genre": "RPG",
+        "developer": "Guerrilla Games",
+        "platform": ["PC", "PS4"],
+        "cover": "/images/cover/cover_HorizonZeroDawn.webp",
+        "scene": []
+    },
+    {
+        "title": "Cyberpunk 2077",
+        "description": "Cyberpunk 2077 is an open-world role-playing game developed by CD Projekt Red. It features a futuristic city, a branching narrative, and a variety of gameplay mechanics including combat, hacking, and dialogue choices.",
+        "launch_age": "2020",
+        "PEGI": 18,
+        "genre": "RPG",
+        "developer": "CD Projekt Red",
+        "platform": ["PC", "PS4", "PS5", "XBOX"],
+        "cover": "/images/cover/cover_Cyberpunk2077.webp",
+        "scene": []
+    }
+]
