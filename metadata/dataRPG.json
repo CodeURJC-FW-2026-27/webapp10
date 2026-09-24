@@ -1,0 +1,316 @@
+[
+    {
+        "title": "Mario & Luigi: Brothership",
+        "description": "Mario & Luigi: Brothership se desarrolla en torno al Conectarbol en el mundo de Concordia, donde Mario y Luigi deben reconectar las islas del archipiélago con la Isla Porcopolo.",
+        "launch_age": "2024",
+        "PEGI": 7,
+        "genre": ["RPG"],
+        "developer": "Acquire",
+        "platform": ["Nintendo Switch"],
+        "cover": "./images/cover/cover_Brothership.webp",
+        "scene": [
+            "./photos/scene/scene_Brothership1.webp",
+            "./photos/scene/scene_Brothership2.webp",
+            "./photos/scene/scene_Brothership3.webp"]
+    },
+    {
+        "title": "Final Fantasy VII Remake",
+        "description": "Revive la experiencia del Final Fantasy VII original, con gráficos actualizados. ",
+        "launch_age": "2020",
+        "PEGI": 16,
+        "genre": ["RPG"],
+        "developer": "Square Enix",
+        "platform": ["PC", "PS4", "PS5", "Nintendo Switch"],
+        "cover": "./images/cover/cover_FF7.webp",
+        "scene": [
+            "./photos/scene/scene_FF7_1.webp",
+            "./photos/scene/scene_FF7_2.webp",
+            "./photos/scene/scene_FF7_3.webp",
+            "./photos/scene/scene_FF7_4.webp"]
+    },
+    {
+        "title": "The Witcher 3: Wild Hunt",
+        "description": "Aventura de RPG de fantasía oscura protagonizada por Geralt de Rivia, un cazador de monstruos que recorre un enorme mundo abierto. Sus decisiones afectan a la historia y al destino de sus personajes.",
+        "launch_age": "2015",
+        "PEGI": 18,
+        "genre": ["RPG"],
+        "developer": "CD Projekt Red",
+        "platform": ["PC", "PS4", "XBOX"],
+        "cover": "./images/cover/cover_Witcher3.webp",
+        "scene": [
+            "./photos/scene/scene_Witcher3_1.webp",
+            "./photos/scene/scene_Witcher3_2.webp",
+            "./photos/scene/scene_Witcher3_3.webp",
+            "./photos/scene/scene_Witcher3_4.webp"]
+    },  
+    {
+        "title": "Persona 5",
+        "description": "RPG japonés que sigue a un grupo de estudiantes que llevan una doble vida como los Ladrones Fantasma. Combina combates por turnos, exploración de mazmorras y relaciones sociales.",
+        "launch_age": "2016",
+        "PEGI": 16,
+        "genre": ["RPG"],
+        "developer": "Atlus",
+        "platform": ["PS4", "PS5", "PC", "Nintendo Switch", "XBOX"],
+        "cover": "./images/cover/cover_Persona5.webp",
+        "scene": [
+            "./photos/scene/scene_Persona5_1.webp",
+            "./photos/scene/scene_Persona5_2.webp",
+            "./photos/scene/scene_Persona5_3.webp",
+            "./photos/scene/scene_Persona5_4.webp"]
+    }, 
+    {
+        "title": "Dragon Quest XI: Echoes of an Elusive Age",
+        "description": "RPG clásico de fantasía que sigue el viaje de un joven héroe destinado a salvar el mundo. Cuenta con combates por turnos, exploración y un amplio elenco de personajes.",
+        "launch_age": "2017",
+        "PEGI": 12,
+        "genre": ["RPG"],
+        "developer": "Square Enix",
+        "platform": ["PC", "PS4", "Nintendo Switch", "XBOX"],
+        "cover": "./images/cover/cover_DragonQuest11.webp",
+        "scene": [
+            "./photos/scene/scene_DragonQuest11_1.webp",
+            "./photos/scene/scene_DragonQuest11_2.webp",
+            "./photos/scene/scene_DragonQuest11_3.webp",
+            "./photos/scene/scene_DragonQuest11_4.webp"]
+    },
+    {
+        "title": "Xenoblade Chronicles 2",
+        "description": "RPG de acción ambientado en el mundo de Alrest, formado por enormes Titanes. Acompaña a Rex y Pyra en una aventura llena de exploración, combates en tiempo real y descubrimientos.",
+        "launch_age": "2017",
+        "PEGI": 12,
+        "genre": ["RPG"],
+        "developer": "Monolith Soft",
+        "platform": ["Nintendo Switch"],
+        "cover": "./images/cover/cover_Xenoblade2.webp",
+        "scene": [
+            "./photos/scene/scene_Xenoblade2_1.webp",
+            "./photos/scene/scene_Xenoblade2_2.webp",
+            "./photos/scene/scene_Xenoblade2_3.webp"]
+    },  
+    {
+        "title": "Octopath Traveler",
+        "description": "RPG de estilo clásico que cuenta las historias de ocho protagonistas diferentes. Destaca por sus combates por turnos, su sistema de habilidades y su característico estilo visual.",
+        "launch_age": "2018",
+        "PEGI": 12,
+        "genre": ["RPG"],
+        "developer": "Square Enix",
+        "platform": ["Switch", "PC", "PS4", "PS5"],
+        "cover": "./images/cover/cover_OctopathTraveler.webp",
+        "scene": [
+            "./photos/scene/scene_OctopathTraveler1.webp",
+            "./photos/scene/scene_OctopathTraveler2.webp",
+            "./photos/scene/scene_OctopathTraveler3.webp",
+            "./photos/scene/scene_OctopathTraveler4.webp"]
+    },
+    {
+        "title": "Tales of Arise",
+        "description": "RPG de acción que narra el viaje de Alphen y Shionne para liberar dos mundos enfrentados. Combina combates en tiempo real, exploración y una historia centrada en la libertad.",
+        "launch_age": "2021",
+        "PEGI": 16,
+        "genre": ["RPG"],
+        "developer": "Bandai Namco Entertainment",
+        "platform": ["PC", "PS4", "PS5", "XBOX"],
+        "cover": "./images/cover/cover_TalesOfArise.webp",
+        "scene": [
+            "./photos/scene/scene_TalesOfArise1.webp",
+            "./photos/scene/scene_TalesOfArise2.webp",
+            "./photos/scene/scene_TalesOfArise3.webp",
+            "./photos/scene/scene_TalesOfArise4.webp"]
+    },
+    {
+        "title": "Ni no Kuni II: Revenant Kingdom",
+        "description": "Aventura de fantasía protagonizada por Evan, un joven rey que busca construir un nuevo reino. Combina combates en tiempo real, exploración y gestión de un reino.",
+        "launch_age": "2018",
+        "PEGI": 12,
+        "genre": ["RPG"],
+        "developer": "Level-5",
+        "platform": ["PC", "PS4", "XBOX"],
+        "cover": "./images/cover/cover_NiNoKuni2.webp",
+        "scene": [
+            "./photos/scene/scene_NiNoKuni2_1.webp",
+            "./photos/scene/scene_NiNoKuni2_2.webp",
+            "./photos/scene/scene_NiNoKuni2_3.webp",
+            "./photos/scene/scene_NiNoKuni2_4.webp"]
+    },
+    {
+        "title": "Fire Emblem: Three Houses",
+        "description": "RPG táctico en el que diriges a un grupo de estudiantes en combates por turnos. Tus decisiones, relaciones y elecciones determinan el desarrollo de la historia.",
+        "launch_age": "2019",
+        "PEGI": 12,
+        "genre": ["RPG"],
+        "developer": "Intelligent Systems, Koei Tecmo",
+        "platform": ["Nintendo Switch"],
+        "cover": "./images/cover/cover_FireEmblem3Houses.webp",
+        "scene": [
+            "./photos/scene/scene_FireEmblem3Houses1.webp",
+            "./photos/scene/scene_FireEmblem3Houses2.webp",
+            "./photos/scene/scene_FireEmblem3Houses3.webp"]
+    },
+    {
+        "title": "The Legend of Heroes: Trails of Cold Steel IV",
+        "description": "RPG de la serie Trails que continúa la historia del Imperio Ereboniano, con combates por turnos y una narrativa profunda.",
+        "launch_age": "2018",
+        "PEGI": 12,
+        "genre": ["RPG"],
+        "developer": "Nihon Falcom",
+        "platform": ["PC", "PS4", "Nintendo Switch", "PS5"],
+        "cover": "./images/cover/cover_TheLegendOfHeroes.webp",
+        "scene": [
+            "./photos/scene/scene_TheLegendOfHeroes1.webp",
+            "./photos/scene/scene_TheLegendOfHeroes2.webp",
+            "./photos/scene/scene_TheLegendOfHeroes3.webp",
+            "./photos/scene/scene_TheLegendOfHeroes4.webp"]
+    },
+    {
+        "title": "Yakuza: Like a Dragon",
+        "description": "RPG protagonizado por Ichiban Kasuga, un antiguo miembro de la yakuza que busca descubrir la verdad sobre su pasado. Combina combates por turnos, crimen, humor y una gran variedad de actividades.",
+        "launch_age": "2020",
+        "PEGI": 18,
+        "genre": ["RPG",
+                "Accion",
+                "Aventura"],
+        "developer": "Ryu Ga Gotoku Studio",
+        "platform": ["PC", "PS4", "PS5", "XBOX"],
+        "cover": "./images/cover/cover_YakuzaLikeADragon.webp",
+        "scene": [
+            "./photos/scene/scene_YakuzaLikeADragon1.webp",
+            "./photos/scene/scene_YakuzaLikeADragon2.webp",
+            "./photos/scene/scene_YakuzaLikeADragon3.webp",
+            "./photos/scene/scene_YakuzaLikeADragon4.webp"]
+    },
+    {
+        "title": "Bravely Default II",
+        "description": "RPG clásico que sigue a cuatro héroes en una misión para recuperar los Cristales Elementales. Su sistema de trabajos y sus combates por turnos permiten personalizar ampliamente al equipo.",
+        "launch_age": "2021",
+        "PEGI": 12,
+        "genre": ["RPG", "Aventura"],
+        "developer": "Claytechworks",
+        "platform": ["Nintendo Switch", "PC"],
+        "cover": "./images/cover/cover_BravelyDefault2.webp",
+        "scene": [
+            "./photos/scene/scene_BravelyDefault2_1.webp",
+            "./photos/scene/scene_BravelyDefault2_2.webp",
+            "./photos/scene/scene_BravelyDefault2_3.webp",
+            "./photos/scene/scene_BravelyDefault2_4.webp"]
+    },
+    {
+        "title": "Monster Hunter Stories 2: Wings of Ruin",
+        "description": "RPG de caza de monstruos que sigue a un joven cazador en su misión para salvar el mundo de una antigua amenaza. Combina combates por turnos, recolección de monstruos y una historia rica en detalles.",
+        "launch_age": "2021",
+        "PEGI": 7,
+        "genre": ["RPG", "Aventura"],
+        "developer": "Capcom",
+        "platform": ["PC", "Nintendo Switch", "PS4", "XBOX"],
+        "cover": "./images/cover/cover_MonsterHunterStories2.webp",
+        "scene": [
+            "./photos/scene/scene_MonsterHunterStories2_1.webp",
+            "./photos/scene/scene_MonsterHunterStories2_2.webp",
+            "./photos/scene/scene_MonsterHunterStories2_3.webp",
+            "./photos/scene/scene_MonsterHunterStories2_4.webp"]
+    },
+    {
+        "title": "Dragon Age: Inquisition",
+        "description": "RPG de fantasía en el que asumes el papel del Inquisidor para detener una gran amenaza. Explora amplias regiones, forma un grupo de compañeros y toma decisiones que afectan a la historia.",
+        "launch_age": "2014",
+        "PEGI": 18,
+        "genre": ["RPG", "Accion"],
+        "developer": "BioWare",
+        "platform": ["PC", "PS4", "XBOX"],
+        "cover": "./images/cover/cover_DragonAgeInquisition.webp",
+        "scene": [
+            "./photos/scene/scene_DragonAgeInquisition1.webp",
+            "./photos/scene/scene_DragonAgeInquisition2.webp",
+            "./photos/scene/scene_DragonAgeInquisition3.webp",
+            "./photos/scene/scene_DragonAgeInquisition4.webp"]
+    },
+    {
+        "title": "Divinity: Original Sin 2",
+        "description": "RPG de fantasía con combates tácticos por turnos y una gran libertad de elección. Tus decisiones pueden cambiar la historia, los personajes y el mundo que te rodea.",
+        "launch_age": "2017",
+        "PEGI": 18,
+        "genre": ["RPG"],
+        "developer": "Larian Studios",
+        "platform": ["PC", "PS4", "XBOX"],
+        "cover": "./images/cover/cover_DivinityOriginalSin2.webp",
+        "scene": [
+            "./photos/scene/scene_DivinityOriginalSin2_1.webp",
+            "./photos/scene/scene_DivinityOriginalSin2_2.webp",
+            "./photos/scene/scene_DivinityOriginalSin2_3.webp",
+            "./photos/scene/scene_DivinityOriginalSin2_4.webp"]
+    },
+    {
+        "title": "Dark Souls III",
+        "description": "RPG de acción ambientado en un oscuro mundo de fantasía. Ofrece combates exigentes, poderosos enemigos, exploración y una historia llena de secretos.",
+        "launch_age": "2016",
+        "PEGI": 16,
+        "genre": ["RPG"],
+        "developer": "FromSoftware",
+        "platform": ["PC", "PS4", "XBOX"],
+        "cover": "./images/cover/cover_DarkSouls3.webp",
+        "scene": [
+            "./photos/scene/scene_DarkSouls3_1.webp",
+            "./photos/scene/scene_DarkSouls3_2.webp",
+            "./photos/scene/scene_DarkSouls3_3.webp",
+            "./photos/scene/scene_DarkSouls3_4.webp"]
+    },
+    {
+        "title": "The Elder Scrolls V: Skyrim",
+        "description": "RPG de mundo abierto que permite explorar libremente la región de Skyrim. Completa misiones, desarrolla tus habilidades y enfréntate a dragones mientras descubres los secretos del mundo.",
+        "launch_age": "2011",
+        "PEGI": 18,
+        "genre": ["RPG", "Aventura"],
+        "developer": "Bethesda Game Studios",
+        "platform": ["PC", "PS4", "XBOX", "Nintendo Switch"],
+        "cover": "./images/cover/cover_TheElderScrollsV.webp",
+        "scene": [
+            "./photos/scene/scene_TheElderScrollsV1.webp",
+            "./photos/scene/scene_TheElderScrollsV2.webp",
+            "./photos/scene/scene_TheElderScrollsV3.webp",
+            "./photos/scene/scene_TheElderScrollsV4.webp"]
+    },
+    {
+        "title": "Mass Effect Legendary Edition",
+        "description": "Colección remasterizada de la trilogía original de Mass Effect. Sigue al comandante Shepard mientras explora la galaxia, combate enemigos y toma decisiones que afectan a toda la historia.",
+        "launch_age": "2021",
+        "PEGI": 16,
+        "genre": ["RPG"],
+        "developer": "BioWare",
+        "platform": ["PC", "PS4", "XBOX"],
+        "cover": "./images/cover/cover_MassEffectLegendaryEdition.webp",
+        "scene": [
+            "./photos/scene/scene_MassEffectLegendaryEdition1.webp",
+            "./photos/scene/scene_MassEffectLegendaryEdition2.webp",
+            "./photos/scene/scene_MassEffectLegendaryEdition3.webp",
+            "./photos/scene/scene_MassEffectLegendaryEdition4.webp"]
+    },
+    {
+        "title": "Horizon Zero Dawn",
+        "description": "RPG de acción ambientado en un futuro donde la humanidad convive con enormes máquinas. Controla a Aloy mientras explora el mundo, caza criaturas mecánicas y descubre el pasado de la humanidad.",
+        "launch_age": "2017",
+        "PEGI": 16,
+        "genre": ["RPG"],
+        "developer": "Guerrilla Games",
+        "platform": ["PC", "PS4", "PS5"],
+        "cover": "./images/cover/cover_HorizonZeroDawn.webp",
+        "scene": [
+            "./photos/scene/scene_HorizonZeroDawn1.webp",
+            "./photos/scene/scene_HorizonZeroDawn2.webp",
+            "./photos/scene/scene_HorizonZeroDawn3.webp",
+            "./photos/scene/scene_HorizonZeroDawn4.webp"]
+    },
+    {
+        "title": "Cyberpunk 2077",
+        "description": "RPG de mundo abierto ambientado en la futurista Night City. Controla a V, un mercenario que se ve envuelto en una peligrosa historia de corporaciones, tecnología y crimen.",
+        "launch_age": "2020",
+        "PEGI": 18,
+        "genre": ["RPG"],
+        "developer": "CD Projekt Red",
+        "platform": ["PC", "PS4", "PS5", "XBOX", "Nintendo Switch"],
+        "cover": "./images/cover/cover_Cyberpunk2077.webp",
+        "scene": [
+            "./photos/scene/scene_Cyberpunk2077_1.webp",
+            "./photos/scene/scene_Cyberpunk2077_2.webp",
+            "./photos/scene/scene_Cyberpunk2077_3.webp",
+            "./photos/scene/scene_Cyberpunk2077_4.webp"]
+    }
+]
