@@ -1,0 +1,272 @@
+[
+    {
+        "title": "Asphalt Legends",
+        "description": "Libera tu alma competitiva con Asphalt Legends y siente el latido colectivo en la carretera. Une fuerzas con otros jugadores en intensas carreras arcade, realiza acrobacias sorprendentes y avanza hacia la victoria mientras conduces los mejores hipercoches.",
+        "launch_age": 2022,
+        "PEGI": "Sin clasificar",
+        "genre": [
+            "Carreras"
+        ],
+        "developer": "Gameloft",
+        "platform": ["PC", "PS4", "PS5", "XBOX","Nintendo Switch","Telefono movil"],
+        "cover": "./Images/Cover/cover_asphaltLegends.webp",
+        "scene": [
+            "./Images/Scene/scene_asphaltLegends1.webp","./Images/Scene/scene_asphaltLegends2.webp","./Images/Scene/scene_asphaltLegends3.webp"
+        ]
+    },
+    {
+        "title": "Forza Motorsport",
+        "description": "Supera a tus rivales en el modo Carrera. Compite por el mundo en el multijugador. Compite con más de 500 coches en 27 circuitos famosos. ¡Ahora, con el emocionante Nürburgring Nordschleife!",
+        "launch_age": 2023,
+        "PEGI": "3",
+        "genre": [
+            "Carreras"
+        ],
+        "developer": "Turn 10",
+        "platform": ["PC", "XBOX"],
+        "cover": "./Images/Cover/cover_forzaMotorsport.webp",
+        "scene": [
+            "./Images/Scene/scene_forzaMotorsport1.webp","./Images/Scene/scene_forzaMotorsport2.webp","./Images/Scene/scene_forzaMotorsport3.webp"
+        ]
+    },
+    {
+        "title": "Forza Horizon 5",
+        "description": "Forza Horizon 5 es un videojuego de carreras en mundo abierto ambientado en los paisajes y la cultura de México, incluye varios modos, como Festival Horizon donde eres una superestrella del volante que llega a México para participar y expandir el gigantesco festival de automovilismo, modo de exploración libre total, climás dinamicos, distintos terrenos como ciudades selvas ruinas y una amplia personalización.",
+        "launch_age": 2021,
+        "PEGI": "3",
+        "genre": [
+            "Carreras"
+        ],
+        "developer": "Playground Games",
+        "platform": [
+            "PC",
+            "PS5",
+            "XBOX"
+        ],
+        "cover": "./Images/Cover/cover_forzaHorizon5.webp",
+        "scene": [
+            "./Images/Scene/scene_forzaHorizon51.webp","./Images/Scene/scene_forzaHorizon52.webp","./Images/Scene/scene_forzaHorizon53.webp"
+        ]
+    },
+    {
+        "title": "Forza Horizon 6",
+        "description": "Forza Horizon 6 es un videojuego de carreras en mundo abierto ambientado en los paisajes y la cultura de México, incluye varios modos, como Festival Horizon donde eres una superestrella del volante que llega a México para participar y expandir el gigantesco festival de automovilismo, modo de exploración libre total, climás dinamicos, distintos terrenos como ciudades selvas ruinas y una amplia personalización.",
+        "launch_age": 2026,
+        "PEGI": "3",
+        "genre": ["Carreras"],
+        "developer": "Playground Games",
+        "platform": ["XBOX","PC"],
+        "cover": "./Images/Cover/cover_forzaHorizon6.webp",
+        "scene": [
+            "./Images/Scene/scene_forzaHorizon61.webp","./Images/Scene/scene_forzaHorizon62.webp","./Images/Scene/scene_forzaHorizon63.webp"
+        ]
+    },
+    {
+        "title": "Need for Speed Heat",
+        "description": "Need for Speed Heat, un juego de carreras callejeras dinámico donde los límites de la ley se desvanecen cuando empieza a anochecer.\nOfrece una experiencia de conducción al límite que te enfrenta a la fuerza policial corrupta de la ciudad mientras intentas llegar a la élite de las carreras callejeras.",
+        "launch_age": 2020,
+        "PEGI": "16",
+        "genre":["Carreras"],
+        "developer": "Ghost Games",
+        "platform": ["PC","PS4","PS5","XBOX"],
+        "cover": "./Images/Cover/cover_NFSHeart.webp",
+        "scene": [
+            "./Images/Scene/scene_NFSHeart1.webp","./Images/Scene/scene_NFSHeart2.webp","./Images/Scene/scene_NFSHeart3.webp"
+        ]
+    },
+    {
+        "title": "The Crew Motorfest",
+        "description": "The Crew Motorfest es un juego de conducción de mundo abierto ambientado en la isla de O'ahu, Hawái. Experimenta lo mejor que tiene que ofrecer la cultura automovilística mientras compites en intensas carreras, experimentas eventos temáticos y coleccionas cientos de coches emblemáticos.",
+        "launch_age": 2024,
+        "PEGI": "12",
+        "genre":["Carreras"],
+        "developer": "Ubisoft Ivory Tower",
+        "platform": ["PC","PS4","PS5","XBOX"],
+        "cover": "./Images/Cover/cover_theCrewMotorFest.webp",
+        "scene": [
+            "./Images/Scene/scene_theCrewMotorFest1.webp","./Images/Scene/scene_theCrewMotorFest2.webp","./Images/Scene/scene_theCrewMotorFest3.webp"
+        ]
+    },
+    {
+        "title": "Le Mans Ultimate",
+        "description": "Le Mans es una historia en constante evolución... impulsada por la emoción, el ritmo y la gloria. Le Mans Ultimate: el juego oficial del Campeonato Mundial de Resistencia de la FIA y las 24 Horas de Le Mans.",
+        "launch_age": 2025,
+        "PEGI": "Sin clasificar",
+        "genre":["Carreras"],
+        "developer": "Studio 397",
+        "platform": ["PC"],
+        "cover": "./Images/Cover/cover_LMUltimate.webp",
+        "scene": [
+            "./Images/Scene/scene_LMUltimate1.webp","./Images/Scene/scene_LMUltimate2.webp","./Images/Scene/scene_LMUltimate3.webp"
+        ]
+    },
+    {
+        "title": "iRacing",
+        "description": "El principal juego de carreras de automovilismo del mundo. Una suscripción a iRacing brinda acceso a la modalidad más reciente del automovilismo: las carreras por internet. Estas carreras constituyen una forma divertida, sencilla y económica para que tanto los aficionados al automovilismo como los *gamers* disfruten de la emoción de la pista desde la comodidad de su hogar.",
+        "launch_age": 2015,
+        "PEGI": "Sin clasificar",
+        "genre":["Carreras"],
+        "developer": "iRacing.com Motorsport Simulations, iRacing",
+        "platform": ["PC"],
+        "cover": "./Images/Cover/cover_iRacing.webp",
+        "scene": [
+            "./Images/Scene/scene_iRacing1.webp","./Images/Scene/scene_iRacing2.webp","./Images/Scene/scene_iRacing3.webp"
+        ]
+    },
+    {
+        "title": "F1 25",
+        "description": "Reescribe la parrilla de carreras con su evolución definitiva: EA SPORTS™ F1® 25: 2026 Season Edition. Consigue F1® 25 y el pack de temporada 2026 en un solo paquete para la experiencia Formula One® más completa.",
+        "launch_age": 2025,
+        "PEGI": "3",
+        "genre":["Carreras"],
+        "developer": "Codemasters",
+        "platform": ["PC","PS5","XBOX"],
+        "cover": "./Images/Cover/cover_F125.webp",
+        "scene": [
+            "./Images/Scene/scene_F1251.webp","./Images/Scene/scene_F1252.webp","./Images/Scene/scene_F1253.webp"
+        ]
+    },
+    {
+        "title": "BeamNG.drive",
+        "description": "Un simulador de vehículos con física dinámica de cuerpos blandos, capaz de hacer prácticamente cualquier cosa.",
+        "launch_age": 2015,
+        "PEGI": "Sin clasificar",
+        "genre":["Carreras"],
+        "developer": "BeamNG",
+        "platform": ["PC"],
+        "cover": "./Images/Cover/cover_beamNgDrive.webp",
+        "scene": [
+            "./Images/Scene/scene_beamNgDrive1.webp","./Images/Scene/scene_beamNgDrive2.webp","./Images/Scene/scene_beamNgDrive3.webp"
+        ]
+    },
+    {
+        "title": "Need for Speed Unbound",
+        "description": "Corre hasta lo más alto, sin llevarte chascos. Supera a la policía y participa en las eliminatorias semanales del Grand, la carrera callejera definitiva. Llena tu garaje de coches personalizados y tuneados con precisión e inunda las calles con tu estilo.",
+        "launch_age": 2022,
+        "PEGI": "12",
+        "genre":["Carreras"],
+        "developer": "Criterion Games",
+        "platform": ["PC","PS5","XBOX"],
+        "cover": "./Images/Cover/cover_NFSWunbound.webp",
+        "scene": [
+            "./Images/Scene/scene_NFSWunbound1.webp", "./Images/Scene/scene_NFSWunbound2.webp", "./Images/Scene/scene_NFSWunbound3.webp"
+        ]
+    },
+    {
+        "title": "Automobilista 2",
+        "description": "Automobilista 2 reúne en un solo título todo lo que siempre has buscado en un simulador de carreras. Una colección variada de coches y circuitos, con gráficos y sonido espectaculares, condiciones dinámicas de clima y pista, y realidad virtual, para una experiencia de conducción como ninguna otra.",
+        "launch_age": 2020,
+        "PEGI": "Sin clasificar",
+        "genre":["Carreras"],
+        "developer": "Reiza Studios",
+        "platform": ["PC"],
+        "cover": "./Images/Cover/cover_automobilista2.webp",
+        "scene": [
+            "./Images/Scene/scene_automobilista21.webp","./Images/Scene/scene_automobilista22.webp","./Images/Scene/scene_automobilista23.webp"
+        ]
+    },
+    {
+        "title": "Assetto Corsa Rally",
+        "description": "Assetto Corsa Rally es un simulador de rally realista centrado en la precisión y el desafío. Con tramos y vehículos escaneados con láser en 3D, asistencia profesional de copiloto y condiciones variables, ofrece una experiencia exigente e inmersiva en la que cada segundo al volante cuenta.",
+        "launch_age": 2025,
+        "PEGI": "Sin clasificar",
+        "genre":["Carreras"],
+        "developer": "Supernova Games Studios",
+        "platform": ["PC"],
+        "cover": "./Images/Cover/cover_assettoCorsaRally.webp",
+        "scene": [
+            "./Images/Scene/scene_assettoCorsaRally1.webp","./Images/Scene/scene_assettoCorsaRally2.webp","./Images/Scene/scene_assettoCorsaRally3.webp"
+        ]
+    },
+    {
+        "title": "DiRT Rally 2.0",
+        "description": "DiRT Rally 2.0 te empuja a abrirte paso por una selección de ubicaciones de rally icónicas de todo el mundo con los vehículos todoterreno más potentes hasta la fecha, sabiendo que un pequeño error podría acabar con la etapa.",
+        "launch_age": 2019,
+        "PEGI": "3",
+        "genre":["Carreras"],
+        "developer": "Codemasters",
+        "platform": ["PC","PS4","XBOX"],
+        "cover": "./Images/Cover/cover_dirtRally2.webp",
+        "scene": [
+            "./Images/Scene/scene_dirtRally21.webp","./Images/Scene/scene_dirtRally22.webp","./Images/Scene/scene_dirtRally23.webp"
+        ]
+    },
+    {
+        "title": "JDM: Japanese Drift Master",
+        "description": "¡Descubre la cultura automovilística de Japón! Enfréntate a desafiantes carreteras de montaña, visita lugares legendarios de drifting en coches JDM y sumérgete en la historia sobre segundas oportunidades. Explora un mundo abierto donde cada curva te invita a dominar el arte del drift.",
+        "launch_age": 2025,
+        "PEGI": "Sin clasificar",
+        "genre":["Carreras"],
+        "developer": "Gaming Factory",
+        "platform": ["PC"],
+        "cover": "./Images/Cover/cover_JDM.webp",
+        "scene": [
+            "./Images/Scene/scene_JDM1.webp","./Images/Scene/scene_JDM2.webp","./Images/Scene/scene_JDM3.webp"
+        ]
+    },
+    {
+        "title": "GRID Legends",
+        "description": "GRID Legends te ofrece una competición automovilística trepidante. Crea eventos de ensueño, participa en carreras en directo, vive una historia dramática de producción virtual y disfruta de la sensación de las carreras más espectaculares.",
+        "launch_age": 2022,
+        "PEGI": "3",
+        "genre":["Carreras"],
+        "developer": "Codemasters",
+        "platform": ["PC", "PS4", "PS5", "XBOX","Nintendo Switch","Telefono movil"],
+        "cover": "./Images/Cover/cover_gridLegends.webp",
+        "scene": [
+            "./Images/Scene/scene_gridLegends1.webp","./Images/Scene/scene_gridLegends2.webp","./Images/Scene/scene_gridLegends3.webp"
+        ]
+    },
+    {
+        "title": "Driving Rogue",
+        "description": "Conducción arcade con caos roguelike: rápida, intensa y ridículamente adictiva. En Driving Rogue, cada partida cuenta una historia diferente: la ciudad cambia constantemente. Lleva tu puntuación al límite y, tras cada carrera, pásate por la tienda para mejorar tu coche y conseguir la racha más larga.",
+        "launch_age": 2026,
+        "PEGI": "Sin clasificar",
+        "genre":["Carreras"],
+        "developer": "Gravity Works",
+        "platform": ["PC"],
+        "cover": "./Images/Cover/cover_drivingRogue.webp",
+        "scene": [
+            "./Images/Scene/scene_drivingRogue1.webp","./Images/Scene/scene_drivingRogue2.webp","./Images/Scene/scene_drivingRogue3.webp"
+        ]
+    },
+    {
+        "title": "CarX Street",
+        "description": "Domina carreteras de montaña, autopistas y calles urbanas. Construye el coche de tus sueños con una personalización detallada que libera todo el potencial de la física «CarX Technology»©. Participa en carreras emocionantes y disfruta de una jugabilidad realista y una conducción dinámica.",
+        "launch_age": 2024,
+        "PEGI": "Sin clasificar",
+        "genre":["Carreras"],
+        "developer": "CarX Technologies",
+        "platform": ["PC", "PS5", "XBOX","Telefono movil"],
+        "cover": "./Images/Cover/cover_carXStreet.webp",
+        "scene": [
+            "./Images/Scene/scene_carXStreet1.webp","./Images/Scene/scene_carXStreet2.webp","./Images/Scene/scene_carXStreet3.webp"
+        ]
+    },
+    {
+        "title": "Need for Speed Hot Pursuit",
+        "description": "Siente la emoción de la persecución y la adrenalina de escapar sobre ruedas con los coches de mayor rendimiento del mundo en Need for Speed™ Hot Pursuit Remastered, un juego de carreras trepidante y competitivo.",
+        "launch_age": 2020,
+        "PEGI": "7",
+        "genre":["Carreras"],
+        "developer": "Stellar Entertainment Limited",
+        "platform": ["PC", "PS5", "XBOX","Telefono movil"],
+        "cover": "./Images/Cover/cover_NFSHotPursuit.webp",
+        "scene": [
+            "./Images/Scene/scene_NFSHotPursuit1.webp","./Images/Scene/scene_NFSHotPursuit2.webp","./Images/Scene/scene_NFSHotPursuit3.webp"
+        ]
+    },
+    {
+        "title": "The Crew 2",
+        "description": "Adéntrate en la escena de los deportes de motor norteamericanos mientras exploras y dominas Estados Unidos por tierra, mar y aire. Novedad: ¡juega a The Crew 2 en línea o sin conexión con el nuevo modo Híbrido, ya disponible!",
+        "launch_age": 2018,
+        "PEGI": "12",
+        "genre":["Carreras"],
+        "developer": "Ivory Tower",
+        "platform": ["PC", "PS5","PS4","XBOX"],
+        "cover": "./Images/Cover/cover_theCrew2.webp",
+        "scene": [
+            "./Images/Scene/scene_theCrew21.webp","./Images/Scene/scene_theCrew22.webp","./Images/Scene/scene_theCrew23.webp"
+        ]
+    }
+]
