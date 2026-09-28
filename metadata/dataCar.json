@@ -9,9 +9,9 @@
         ],
         "developer": "Gameloft",
         "platform": ["PC", "PS4", "PS5", "XBOX","Nintendo Switch","Telefono movil"],
-        "cover": "./Images/Cover/cover_asphaltLegends.webp",
+        "cover": "./photos/cover/cover_asphaltLegends.webp",
         "scene": [
-            "./Images/Scene/scene_asphaltLegends1.webp","./Images/Scene/scene_asphaltLegends2.webp","./Images/Scene/scene_asphaltLegends3.webp"
+            "./photos/scene/scene_asphaltLegends1.webp","./photos/scene/scene_asphaltLegends2.webp","./photos/scene/scene_asphaltLegends3.webp"
         ]
     },
     {
@@ -24,9 +24,9 @@
         ],
         "developer": "Turn 10",
         "platform": ["PC", "XBOX"],
-        "cover": "./Images/Cover/cover_forzaMotorsport.webp",
+        "cover": "./photos/cover/cover_forzaMotorsport.webp",
         "scene": [
-            "./Images/Scene/scene_forzaMotorsport1.webp","./Images/Scene/scene_forzaMotorsport2.webp","./Images/Scene/scene_forzaMotorsport3.webp"
+            "./photos/scene/scene_forzaMotorsport1.webp","./photos/scene/scene_forzaMotorsport2.webp","./photos/scene/scene_forzaMotorsport3.webp"
         ]
     },
     {
@@ -43,9 +43,9 @@
             "PS5",
             "XBOX"
         ],
-        "cover": "./Images/Cover/cover_forzaHorizon5.webp",
+        "cover": "./photos/cover/cover_forzaHorizon5.webp",
         "scene": [
-            "./Images/Scene/scene_forzaHorizon51.webp","./Images/Scene/scene_forzaHorizon52.webp","./Images/Scene/scene_forzaHorizon53.webp"
+            "./photos/scene/scene_forzaHorizon51.webp","./photos/scene/scene_forzaHorizon52.webp","./photos/scene/scene_forzaHorizon53.webp"
         ]
     },
     {
@@ -56,9 +56,9 @@
         "genre": ["Carreras"],
         "developer": "Playground Games",
         "platform": ["XBOX","PC"],
-        "cover": "./Images/Cover/cover_forzaHorizon6.webp",
+        "cover": "./photos/cover/cover_forzaHorizon6.webp",
         "scene": [
-            "./Images/Scene/scene_forzaHorizon61.webp","./Images/Scene/scene_forzaHorizon62.webp","./Images/Scene/scene_forzaHorizon63.webp"
+            "./photos/scene/scene_forzaHorizon61.webp","./photos/scene/scene_forzaHorizon62.webp","./photos/scene/scene_forzaHorizon63.webp"
         ]
     },
     {
@@ -69,9 +69,9 @@
         "genre":["Carreras"],
         "developer": "Ghost Games",
         "platform": ["PC","PS4","PS5","XBOX"],
-        "cover": "./Images/Cover/cover_NFSHeart.webp",
+        "cover": "./photos/cover/cover_NFSHeart.webp",
         "scene": [
-            "./Images/Scene/scene_NFSHeart1.webp","./Images/Scene/scene_NFSHeart2.webp","./Images/Scene/scene_NFSHeart3.webp"
+            "./photos/scene/scene_NFSHeart1.webp","./photos/scene/scene_NFSHeart2.webp","./photos/scene/scene_NFSHeart3.webp"
         ]
     },
     {
@@ -82,9 +82,9 @@
         "genre":["Carreras"],
         "developer": "Ubisoft Ivory Tower",
         "platform": ["PC","PS4","PS5","XBOX"],
-        "cover": "./Images/Cover/cover_theCrewMotorFest.webp",
+        "cover": "./photos/cover/cover_theCrewMotorFest.webp",
         "scene": [
-            "./Images/Scene/scene_theCrewMotorFest1.webp","./Images/Scene/scene_theCrewMotorFest2.webp","./Images/Scene/scene_theCrewMotorFest3.webp"
+            "./photos/scene/scene_theCrewMotorFest1.webp","./photos/scene/scene_theCrewMotorFest2.webp","./photos/scene/scene_theCrewMotorFest3.webp"
         ]
     },
     {
@@ -95,9 +95,9 @@
         "genre":["Carreras"],
         "developer": "Studio 397",
         "platform": ["PC"],
-        "cover": "./Images/Cover/cover_LMUltimate.webp",
+        "cover": "./photos/cover/cover_LMUltimate.webp",
         "scene": [
-            "./Images/Scene/scene_LMUltimate1.webp","./Images/Scene/scene_LMUltimate2.webp","./Images/Scene/scene_LMUltimate3.webp"
+            "./photos/scene/scene_LMUltimate1.webp","./photos/scene/scene_LMUltimate2.webp","./photos/scene/scene_LMUltimate3.webp"
         ]
     },
     {
@@ -108,9 +108,9 @@
         "genre":["Carreras"],
         "developer": "iRacing.com Motorsport Simulations, iRacing",
         "platform": ["PC"],
-        "cover": "./Images/Cover/cover_iRacing.webp",
+        "cover": "./photos/cover/cover_iRacing.webp",
         "scene": [
-            "./Images/Scene/scene_iRacing1.webp","./Images/Scene/scene_iRacing2.webp","./Images/Scene/scene_iRacing3.webp"
+            "./photos/scene/scene_iRacing1.webp","./photos/scene/scene_iRacing2.webp","./photos/scene/scene_iRacing3.webp"
         ]
     },
     {
@@ -121,9 +121,9 @@
         "genre":["Carreras"],
         "developer": "Codemasters",
         "platform": ["PC","PS5","XBOX"],
-        "cover": "./Images/Cover/cover_F125.webp",
+        "cover": "./photos/cover/cover_F125.webp",
         "scene": [
-            "./Images/Scene/scene_F1251.webp","./Images/Scene/scene_F1252.webp","./Images/Scene/scene_F1253.webp"
+            "./photos/scene/scene_F1251.webp","./photos/scene/scene_F1252.webp","./photos/scene/scene_F1253.webp"
         ]
     },
     {
@@ -134,9 +134,9 @@
         "genre":["Carreras"],
         "developer": "BeamNG",
         "platform": ["PC"],
-        "cover": "./Images/Cover/cover_beamNgDrive.webp",
+        "cover": "./photos/cover/cover_beamNgDrive.webp",
         "scene": [
-            "./Images/Scene/scene_beamNgDrive1.webp","./Images/Scene/scene_beamNgDrive2.webp","./Images/Scene/scene_beamNgDrive3.webp"
+            "./photos/scene/scene_beamNgDrive1.webp","./photos/scene/scene_beamNgDrive2.webp","./photos/scene/scene_beamNgDrive3.webp"
         ]
     },
     {
@@ -147,9 +147,9 @@
         "genre":["Carreras"],
         "developer": "Criterion Games",
         "platform": ["PC","PS5","XBOX"],
-        "cover": "./Images/Cover/cover_NFSWunbound.webp",
+        "cover": "./photos/cover/cover_NFSWunbound.webp",
         "scene": [
-            "./Images/Scene/scene_NFSWunbound1.webp", "./Images/Scene/scene_NFSWunbound2.webp", "./Images/Scene/scene_NFSWunbound3.webp"
+            "./photos/scene/scene_NFSWunbound1.webp", "./photos/scene/scene_NFSWunbound2.webp", "./photos/scene/scene_NFSWunbound3.webp"
         ]
     },
     {
@@ -160,9 +160,9 @@
         "genre":["Carreras"],
         "developer": "Reiza Studios",
         "platform": ["PC"],
-        "cover": "./Images/Cover/cover_automobilista2.webp",
+        "cover": "./photos/cover/cover_automobilista2.webp",
         "scene": [
-            "./Images/Scene/scene_automobilista21.webp","./Images/Scene/scene_automobilista22.webp","./Images/Scene/scene_automobilista23.webp"
+            "./photos/scene/scene_automobilista21.webp","./photos/scene/scene_automobilista22.webp","./photos/scene/scene_automobilista23.webp"
         ]
     },
     {
@@ -173,9 +173,9 @@
         "genre":["Carreras"],
         "developer": "Supernova Games Studios",
         "platform": ["PC"],
-        "cover": "./Images/Cover/cover_assettoCorsaRally.webp",
+        "cover": "./photos/cover/cover_assettoCorsaRally.webp",
         "scene": [
-            "./Images/Scene/scene_assettoCorsaRally1.webp","./Images/Scene/scene_assettoCorsaRally2.webp","./Images/Scene/scene_assettoCorsaRally3.webp"
+            "./photos/scene/scene_assettoCorsaRally1.webp","./photos/scene/scene_assettoCorsaRally2.webp","./photos/scene/scene_assettoCorsaRally3.webp"
         ]
     },
     {
@@ -186,9 +186,9 @@
         "genre":["Carreras"],
         "developer": "Codemasters",
         "platform": ["PC","PS4","XBOX"],
-        "cover": "./Images/Cover/cover_dirtRally2.webp",
+        "cover": "./photos/cover/cover_dirtRally2.webp",
         "scene": [
-            "./Images/Scene/scene_dirtRally21.webp","./Images/Scene/scene_dirtRally22.webp","./Images/Scene/scene_dirtRally23.webp"
+            "./photos/scene/scene_dirtRally21.webp","./photos/scene/scene_dirtRally22.webp","./photos/scene/scene_dirtRally23.webp"
         ]
     },
     {
@@ -199,9 +199,9 @@
         "genre":["Carreras"],
         "developer": "Gaming Factory",
         "platform": ["PC"],
-        "cover": "./Images/Cover/cover_JDM.webp",
+        "cover": "./photos/cover/cover_JDM.webp",
         "scene": [
-            "./Images/Scene/scene_JDM1.webp","./Images/Scene/scene_JDM2.webp","./Images/Scene/scene_JDM3.webp"
+            "./photos/scene/scene_JDM1.webp","./photos/scene/scene_JDM2.webp","./photos/scene/scene_JDM3.webp"
         ]
     },
     {
@@ -212,9 +212,9 @@
         "genre":["Carreras"],
         "developer": "Codemasters",
         "platform": ["PC", "PS4", "PS5", "XBOX","Nintendo Switch","Telefono movil"],
-        "cover": "./Images/Cover/cover_gridLegends.webp",
+        "cover": "./photos/cover/cover_gridLegends.webp",
         "scene": [
-            "./Images/Scene/scene_gridLegends1.webp","./Images/Scene/scene_gridLegends2.webp","./Images/Scene/scene_gridLegends3.webp"
+            "./photos/scene/scene_gridLegends1.webp","./photos/scene/scene_gridLegends2.webp","./photos/scene/scene_gridLegends3.webp"
         ]
     },
     {
@@ -225,9 +225,9 @@
         "genre":["Carreras"],
         "developer": "Gravity Works",
         "platform": ["PC"],
-        "cover": "./Images/Cover/cover_drivingRogue.webp",
+        "cover": "./photos/cover/cover_drivingRogue.webp",
         "scene": [
-            "./Images/Scene/scene_drivingRogue1.webp","./Images/Scene/scene_drivingRogue2.webp","./Images/Scene/scene_drivingRogue3.webp"
+            "./photos/scene/scene_drivingRogue1.webp","./photos/scene/scene_drivingRogue2.webp","./photos/scene/scene_drivingRogue3.webp"
         ]
     },
     {
@@ -238,9 +238,9 @@
         "genre":["Carreras"],
         "developer": "CarX Technologies",
         "platform": ["PC", "PS5", "XBOX","Telefono movil"],
-        "cover": "./Images/Cover/cover_carXStreet.webp",
+        "cover": "./photos/cover/cover_carXStreet.webp",
         "scene": [
-            "./Images/Scene/scene_carXStreet1.webp","./Images/Scene/scene_carXStreet2.webp","./Images/Scene/scene_carXStreet3.webp"
+            "./photos/scene/scene_carXStreet1.webp","./photos/scene/scene_carXStreet2.webp","./photos/scene/scene_carXStreet3.webp"
         ]
     },
     {
@@ -251,9 +251,9 @@
         "genre":["Carreras"],
         "developer": "Stellar Entertainment Limited",
         "platform": ["PC", "PS5", "XBOX","Telefono movil"],
-        "cover": "./Images/Cover/cover_NFSHotPursuit.webp",
+        "cover": "./photos/cover/cover_NFSHotPursuit.webp",
         "scene": [
-            "./Images/Scene/scene_NFSHotPursuit1.webp","./Images/Scene/scene_NFSHotPursuit2.webp","./Images/Scene/scene_NFSHotPursuit3.webp"
+            "./photos/scene/scene_NFSHotPursuit1.webp","./photos/scene/scene_NFSHotPursuit2.webp","./photos/scene/scene_NFSHotPursuit3.webp"
         ]
     },
     {
@@ -264,9 +264,9 @@
         "genre":["Carreras"],
         "developer": "Ivory Tower",
         "platform": ["PC", "PS5","PS4","XBOX"],
-        "cover": "./Images/Cover/cover_theCrew2.webp",
+        "cover": "./photos/cover/cover_theCrew2.webp",
         "scene": [
-            "./Images/Scene/scene_theCrew21.webp","./Images/Scene/scene_theCrew22.webp","./Images/Scene/scene_theCrew23.webp"
+            "./photos/scene/scene_theCrew21.webp","./photos/scene/scene_theCrew22.webp","./photos/scene/scene_theCrew23.webp"
         ]
     }
 ]
