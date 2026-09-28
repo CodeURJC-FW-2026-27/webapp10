@@ -12,10 +12,10 @@
         "platform": [
             "PC"
         ],
-        "cover": "./photos/cover/cover_i_mNotAHuman.webp",
+        "cover": "./photos/cover/cover_imNotAHuman.webp",
         "scene": [
-            "./photos/scene/scene_i_mNotAHuman1.webp",
-            "./photos/scene/scene_i_mNotAHuman2.webp"
+            "./photos/scene/scene_imNotAHuman1.webp",
+            "./photos/scene/scene_imNotAHuman2.webp"
         ]
     },
     {
@@ -103,9 +103,9 @@
         ],
         "cover": "./photos/cover/cover_L4D2.webp",
         "scene": [
-            "./photos/scene/scene_L4D2_1.webp",
-            "./photos/scene/scene_L4D2_2.webp",
-            "./photos/scene/scene_L4D2_3.webp"
+            "./photos/scene/scene_L4D21.webp",
+            "./photos/scene/scene_L4D22.webp",
+            "./photos/scene/scene_L4D23.webp"
         ]
     },
     {
@@ -213,11 +213,11 @@
             "XBOX",
             "PC"
         ],
-        "cover": "./photos/cover/cover_hallowenTheGame.webp",
+        "cover": "./photos/cover/cover_halloweenTheGame.webp",
         "scene": [
-            "./photos/scene/scene_hallowenTheGame1.webp",
-            "./photos/scene/scene_hallowenTheGame2.webp",
-            "./photos/scene/scene_hallowenTheGame3.webp"
+            "./photos/scene/scene_halloweenTheGame1.webp",
+            "./photos/scene/scene_halloweenTheGame2.webp",
+            "./photos/scene/scene_halloweenTheGame3.webp"
         ]
     },
     {
@@ -439,11 +439,11 @@
             "XBOX",
             "PS5"
         ],
-        "cover": "./photos/cover/cover_aQuietPlace_TheRoadAhead.webp",
+        "cover": "./photos/cover/cover_aQuietPlaceTheRoadAhead.webp",
         "scene": [
-            "./photos/scene/scene_aQuietPlace_TheRoadAhead1.webp",
-            "./photos/scene/scene_aQuietPlace_TheRoadAhead2.webp",
-            "./photos/scene/scene_aQuietPlace_TheRoadAhead3.webp"
+            "./photos/scene/scene_aQuietPlaceTheRoadAhead1.webp",
+            "./photos/scene/scene_aQuietPlaceTheRoadAhead2.webp",
+            "./photos/scene/scene_aQuietPlaceTheRoadAhead3.webp"
         ]
     }
 ]
