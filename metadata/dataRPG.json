@@ -94,7 +94,7 @@
         "PEGI": "12",
         "genre": ["RPG"],
         "developer": "Square Enix",
-        "platform": ["Switch", "PC", "PS4", "PS5"],
+        "platform": ["Nintendo Switch", "PC", "PS4", "PS5"],
         "cover": "./photos/cover/cover_octopathTraveler.webp",
         "scene": [
             "./photos/scene/scene_octopathTraveler1.webp",
@@ -325,6 +325,6 @@
         "scene": [
             "./photos/scene/scene_guardianTales1.webp",
             "./photos/scene/scene_guardianTales2.webp",
-            "./photos/scene/scene_guardianTales3.webp",]
+            "./photos/scene/scene_guardianTales3.webp"]
     }
 ]
