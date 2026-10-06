@@ -1,0 +1,1949 @@
+[
+    {
+        "title": "Grand Theft Auto V",
+        "description": "Cuenta la historia de tres criminales que se juegan la vida en una serie de golpes y atracos audaces mientras compiten contra despiadados hombres de negocios y traficantes. Incluye acceso a Grand Theft Auto Online.",
+        "launch_age": 2015,
+        "PEGI": "18",
+        "genre": [
+            "Acción",
+            "Aventura"
+        ],
+        "developer": "Rockstar North",
+        "platform": [
+            "PC",
+            "PS4",
+            "PS5",
+            "XBOX"
+        ],
+        "link": "https://store.steampowered.com/app/3240220/Grand_Theft_Auto_V_Enhanced/",
+        "cover": "./photos/cover/cover_grandTheftAutoV.webp",
+        "scenes": [
+            "./photos/scene/scene_grandTheftAutoV1.webp",
+            "./photos/scene/scene_grandTheftAutoV2.webp"
+        ]
+    },
+    {
+        "title": "Devil May Cry 5",
+        "description": "El cazador de demonios definitivo regresa con estilo en esta nueva entrega de la legendaria saga de acción, combinando combate frenético con personajes de otro mundo y la última tecnología de Capcom.",
+        "launch_age": 2019,
+        "PEGI": "18",
+        "genre": [
+            "Acción"
+        ],
+        "developer": "CAPCOM Co., Ltd.",
+        "platform": [
+            "PC",
+            "PS4",
+            "PS5",
+            "XBOX"
+        ],
+        "link": "https://store.steampowered.com/app/601150/Devil_May_Cry_5/",
+        "cover": "./photos/cover/cover_devilMayCry5.webp",
+        "scenes": [
+            "./photos/scene/scene_devilMayCry51.webp",
+            "./photos/scene/scene_devilMayCry52.webp"
+        ]
+    },
+    {
+        "title": "DOOM Eternal",
+        "description": "El Doom Slayer regresa para enfrentarse a las fuerzas del infierno que han invadido la Tierra, en un shooter en primera persona brutal y veloz que lleva la acción de DOOM a un nuevo nivel.",
+        "launch_age": 2020,
+        "PEGI": "18",
+        "genre": [
+            "Acción"
+        ],
+        "developer": "id Software",
+        "platform": [
+            "PC",
+            "PS4",
+            "PS5",
+            "XBOX",
+            "Nintendo Switch"
+        ],
+        "link": "https://store.steampowered.com/app/782330/DOOM_Eternal/",
+        "cover": "./photos/cover/cover_doomEternal.webp",
+        "scenes": [
+            "./photos/scene/scene_doomEternal1.webp",
+            "./photos/scene/scene_doomEternal2.webp"
+        ]
+    },
+    {
+        "title": "God of War",
+        "description": "Kratos y su hijo Atreus emprenden un viaje por los reinos nórdicos, enfrentándose a dioses y monstruos en una historia íntima sobre la paternidad y la redención.",
+        "launch_age": 2022,
+        "PEGI": "18",
+        "genre": [
+            "Acción",
+            "Aventura",
+            "Rol"
+        ],
+        "developer": "Santa Monica Studio",
+        "platform": [
+            "PC",
+            "PS4",
+            "PS5"
+        ],
+        "link": "https://store.steampowered.com/app/1593500/God_of_War/",
+        "cover": "./photos/cover/cover_godOfWar.webp",
+        "scenes": [
+            "./photos/scene/scene_godOfWar1.webp",
+            "./photos/scene/scene_godOfWar2.webp"
+        ]
+    },
+    {
+        "title": "Sekiro: Shadows Die Twice",
+        "description": "Encarna al 'lobo manco', un shinobi desfigurado que debe rescatar a su joven señor y vengarse de su archienemigo en el Japón feudal, en un juego de acción y sigilo de FromSoftware.",
+        "launch_age": 2019,
+        "PEGI": "18",
+        "genre": [
+            "Acción",
+            "Aventura"
+        ],
+        "developer": "FromSoftware, Inc.",
+        "platform": [
+            "PC",
+            "PS4",
+            "XBOX"
+        ],
+        "link": "https://store.steampowered.com/app/814380/Sekiro_Shadows_Die_Twice__GOTY_Edition/",
+        "cover": "./photos/cover/cover_sekiroShadowsDieTwice.webp",
+        "scenes": [
+            "./photos/scene/scene_sekiroShadowsDieTwice1.webp",
+            "./photos/scene/scene_sekiroShadowsDieTwice2.webp"
+        ]
+    },
+    {
+        "title": "Dark Souls III",
+        "description": "Dark Souls continúa redefiniendo los límites de la exigencia y la oscuridad con un nuevo y ambicioso capítulo de esta aclamada saga de acción y rol.",
+        "launch_age": 2016,
+        "PEGI": "16",
+        "genre": [
+            "Acción",
+            "Rol"
+        ],
+        "developer": "FromSoftware, Inc.",
+        "platform": [
+            "PC",
+            "PS4",
+            "XBOX"
+        ],
+        "link": "https://store.steampowered.com/app/374320/DARK_SOULS_III/",
+        "cover": "./photos/cover/cover_darkSoulsIII.webp",
+        "scenes": [
+            "./photos/scene/scene_darkSoulsIII1.webp",
+            "./photos/scene/scene_darkSoulsIII2.webp"
+        ]
+    },
+    {
+        "title": "Hades",
+        "description": "Desafía al dios de los muertos y protagoniza una salvaje fuga del Inframundo en este roguelike de mazmorras de los creadores de Bastion, Transistor y Pyre.",
+        "launch_age": 2020,
+        "PEGI": "12",
+        "genre": [
+            "Acción",
+            "Indie",
+            "Rol"
+        ],
+        "developer": "Supergiant Games",
+        "platform": [
+            "PC",
+            "PS4",
+            "PS5",
+            "XBOX",
+            "Nintendo Switch"
+        ],
+        "link": "https://store.steampowered.com/app/1145360/Hades/",
+        "cover": "./photos/cover/cover_hades.webp",
+        "scenes": [
+            "./photos/scene/scene_hades1.webp",
+            "./photos/scene/scene_hades2.webp"
+        ]
+    },
+    {
+        "title": "Resident Evil 4",
+        "description": "Leon S. Kennedy es enviado a rescatar a la hija del presidente de una remota aldea europea infestada de una misteriosa amenaza, en este remake del clásico survival horror de Capcom.",
+        "launch_age": 2023,
+        "PEGI": "18",
+        "genre": [
+            "Acción",
+            "Aventura"
+        ],
+        "developer": "CAPCOM Co., Ltd.",
+        "platform": [
+            "PC",
+            "PS4",
+            "PS5",
+            "XBOX",
+            "Nintendo Switch"
+        ],
+        "link": "https://store.steampowered.com/app/2050650/Resident_Evil_4/",
+        "cover": "./photos/cover/cover_residentEvil4.webp",
+        "scenes": [
+            "./photos/scene/scene_residentEvil41.webp",
+            "./photos/scene/scene_residentEvil42.webp"
+        ]
+    },
+    {
+        "title": "Metal Gear Solid V: The Phantom Pain",
+        "description": "Big Boss regresa en una épica historia de venganza ambientada en un mundo abierto, con total libertad táctica para planificar y ejecutar cada misión.",
+        "launch_age": 2015,
+        "PEGI": "18",
+        "genre": [
+            "Acción",
+            "Aventura"
+        ],
+        "developer": "KONAMI",
+        "platform": [
+            "PC",
+            "PS4",
+            "XBOX"
+        ],
+        "link": "https://store.steampowered.com/app/287700/METAL_GEAR_SOLID_V_THE_PHANTOM_PAIN/",
+        "cover": "./photos/cover/cover_metalGearSolidVThePhantomPain.webp",
+        "scenes": [
+            "./photos/scene/scene_metalGearSolidVThePhantomPain1.webp",
+            "./photos/scene/scene_metalGearSolidVThePhantomPain2.webp"
+        ]
+    },
+    {
+        "title": "Bayonetta",
+        "description": "La última superviviente de un antiguo clan de brujas despliega una acción estilizada y espectacular contra ángeles y demonios en este aclamado hack and slash de PlatinumGames.",
+        "launch_age": 2017,
+        "PEGI": "18",
+        "genre": [
+            "Acción",
+            "Aventura"
+        ],
+        "developer": "PlatinumGames",
+        "platform": [
+            "PC",
+            "Nintendo Switch"
+        ],
+        "link": "https://store.steampowered.com/app/460790/Bayonetta/",
+        "cover": "./photos/cover/cover_bayonetta.webp",
+        "scenes": [
+            "./photos/scene/scene_bayonetta1.webp",
+            "./photos/scene/scene_bayonetta2.webp"
+        ]
+    },
+    {
+        "title": "Max Payne 3",
+        "description": "Max Payne, un expolicía atormentado y adicto a los calmantes, se ve envuelto en una conspiración en Sao Paulo mientras trabaja como guardaespaldas privado, en este shooter de acción cinematográfico.",
+        "launch_age": 2012,
+        "PEGI": "18",
+        "genre": [
+            "Acción"
+        ],
+        "developer": "Rockstar Studios",
+        "platform": [
+            "PC"
+        ],
+        "link": "https://store.steampowered.com/app/204100/Max_Payne_3/",
+        "cover": "./photos/cover/cover_maxPayne3.webp",
+        "scenes": [
+            "./photos/scene/scene_maxPayne31.webp",
+            "./photos/scene/scene_maxPayne32.webp"
+        ]
+    },
+    {
+        "title": "Just Cause 3",
+        "description": "Rico Rodríguez regresa a su isla natal mediterránea para liberarla de un dictador opresor, con un mundo abierto explosivo repleto de acción desenfrenada, paracaídas y gancho de agarre.",
+        "launch_age": 2015,
+        "PEGI": "18",
+        "genre": [
+            "Acción",
+            "Aventura"
+        ],
+        "developer": "Avalanche Studios",
+        "platform": [
+            "PC",
+            "PS4",
+            "XBOX"
+        ],
+        "link": "https://store.steampowered.com/app/225540/Just_Cause_3/",
+        "cover": "./photos/cover/cover_justCause3.webp",
+        "scenes": [
+            "./photos/scene/scene_justCause31.webp",
+            "./photos/scene/scene_justCause32.webp"
+        ]
+    },
+    {
+        "title": "Batman: Arkham Knight",
+        "description": "Batman se enfrenta a su enemigo definitivo, el Espantapájaros, aliado con el nuevo y misterioso Caballero de Arkham, en una Gotham City abierta que puede recorrerse con el Batimóvil.",
+        "launch_age": 2015,
+        "PEGI": "18",
+        "genre": [
+            "Acción",
+            "Aventura"
+        ],
+        "developer": "Rocksteady Studios",
+        "platform": [
+            "PC",
+            "PS4",
+            "XBOX"
+        ],
+        "link": "https://store.steampowered.com/app/208650/Batman_Arkham_Knight/",
+        "cover": "./photos/cover/cover_batmanArkhamKnight.webp",
+        "scenes": [
+            "./photos/scene/scene_batmanArkhamKnight1.webp",
+            "./photos/scene/scene_batmanArkhamKnight2.webp"
+        ]
+    },
+    {
+        "title": "Middle-earth: Shadow of Mordor",
+        "description": "Ambientado entre El Hobbit y El Señor de los Anillos, sigue a Talion, un guardabosques que obtiene poderes sobrenaturales para vengarse de Sauron mediante el innovador sistema Némesis.",
+        "launch_age": 2014,
+        "PEGI": "18",
+        "genre": [
+            "Acción",
+            "Aventura"
+        ],
+        "developer": "Monolith Productions",
+        "platform": [
+            "PC",
+            "PS4",
+            "XBOX"
+        ],
+        "link": "https://store.steampowered.com/app/241930/Middleearth_Shadow_of_Mordor/",
+        "cover": "./photos/cover/cover_shadowOfMordor.webp",
+        "scenes": [
+            "./photos/scene/scene_shadowOfMordor1.webp",
+            "./photos/scene/scene_shadowOfMordor2.webp"
+        ]
+    },
+    {
+        "title": "Mad Max",
+        "description": "En un páramo post-apocalíptico, Max Rockatansky lucha por sobrevivir y construir el vehículo de combate definitivo, la Magnum Opus, para escapar hacia el legendario Plains of Silence.",
+        "launch_age": 2015,
+        "PEGI": "18",
+        "genre": [
+            "Acción",
+            "Aventura"
+        ],
+        "developer": "Avalanche Studios",
+        "platform": [
+            "PC",
+            "PS4",
+            "XBOX"
+        ],
+        "link": "https://store.steampowered.com/app/234140/Mad_Max/",
+        "cover": "./photos/cover/cover_madMax.webp",
+        "scenes": [
+            "./photos/scene/scene_madMax1.webp",
+            "./photos/scene/scene_madMax2.webp"
+        ]
+    },
+    {
+        "title": "Cuphead",
+        "description": "Un juego de acción y disparos con dificultad clásica inspirado en las caricaturas de los años 30, donde Cuphead y Mugman deben saldar una deuda enfrentándose a jefes extravagantes.",
+        "launch_age": 2017,
+        "PEGI": "7",
+        "genre": [
+            "Acción",
+            "Indie"
+        ],
+        "developer": "Studio MDHR Entertainment Inc.",
+        "platform": [
+            "PC",
+            "PS4",
+            "XBOX",
+            "Nintendo Switch",
+            "Telefono movil"
+        ],
+        "link": "https://store.steampowered.com/app/268910/Cuphead/",
+        "cover": "./photos/cover/cover_cuphead.webp",
+        "scenes": [
+            "./photos/scene/scene_cuphead1.webp",
+            "./photos/scene/scene_cuphead2.webp"
+        ]
+    },
+    {
+        "title": "NieR:Automata",
+        "description": "En un futuro postapocalíptico, los androides 2B, 9S y A2 luchan contra máquinas invasoras alienígenas para recuperar la Tierra para la humanidad, en una historia sobre la existencia y el propósito.",
+        "launch_age": 2017,
+        "PEGI": "18",
+        "genre": [
+            "Acción",
+            "Rol"
+        ],
+        "developer": "PlatinumGames Inc.",
+        "platform": [
+            "PC",
+            "PS4",
+            "XBOX"
+        ],
+        "link": "https://store.steampowered.com/app/524220/NieRAutomata/",
+        "cover": "./photos/cover/cover_nierAutomata.webp",
+        "scenes": [
+            "./photos/scene/scene_nierAutomata1.webp",
+            "./photos/scene/scene_nierAutomata2.webp"
+        ]
+    },
+    {
+        "title": "Ghostrunner",
+        "description": "Trepa por los restos de una torre megaestructura como el último cyberninja, combinando parkour vertiginoso y combate letal de un solo golpe en un mundo cyberpunk distópico.",
+        "launch_age": 2020,
+        "PEGI": "16",
+        "genre": [
+            "Acción"
+        ],
+        "developer": "One More Level",
+        "platform": [
+            "PC",
+            "PS4",
+            "PS5",
+            "XBOX",
+            "Nintendo Switch"
+        ],
+        "link": "https://store.steampowered.com/app/1139900/Ghostrunner/",
+        "cover": "./photos/cover/cover_ghostrunner.webp",
+        "scenes": [
+            "./photos/scene/scene_ghostrunner1.webp",
+            "./photos/scene/scene_ghostrunner2.webp"
+        ]
+    },
+    {
+        "title": "Control",
+        "description": "Jesse Faden se convierte en la nueva directora de la Oficina Federal de Control tras un evento sobrenatural, explorando un edificio cambiante y usando poderes psíquicos y armas transformables.",
+        "launch_age": 2020,
+        "PEGI": "16",
+        "genre": [
+            "Acción",
+            "Aventura"
+        ],
+        "developer": "Remedy Entertainment",
+        "platform": [
+            "PC",
+            "PS4",
+            "PS5",
+            "XBOX",
+            "Nintendo Switch"
+        ],
+        "link": "https://store.steampowered.com/app/870780/CONTROL_Ultimate_Edition/",
+        "cover": "./photos/cover/cover_control.webp",
+        "scenes": [
+            "./photos/scene/scene_control1.webp",
+            "./photos/scene/scene_control2.webp"
+        ]
+    },
+    {
+        "title": "Titanfall 2",
+        "description": "Combina un frenético combate en primera persona con parkour y mechs Titan pilotables, en una campaña centrada en el vínculo entre un piloto novato y su Titan.",
+        "launch_age": 2016,
+        "PEGI": "16",
+        "genre": [
+            "Acción"
+        ],
+        "developer": "Respawn Entertainment",
+        "platform": [
+            "PC",
+            "PS4",
+            "XBOX"
+        ],
+        "link": "https://store.steampowered.com/app/1237970/Titanfall_2/",
+        "cover": "./photos/cover/cover_titanfall2.webp",
+        "scenes": [
+            "./photos/scene/scene_titanfall21.webp",
+            "./photos/scene/scene_titanfall22.webp"
+        ]
+    },
+    {
+        "title": "DOOM",
+        "description": "El Doom Slayer despierta en Marte para hacer frente a una invasión demoníaca desatada por la Unión Aeroespacial de la Ciudad Argenta, en un shooter brutal y rápido que revive la esencia de la saga.",
+        "launch_age": 2016,
+        "PEGI": "18",
+        "genre": [
+            "Acción"
+        ],
+        "developer": "id Software",
+        "platform": [
+            "PC",
+            "PS4",
+            "XBOX",
+            "Nintendo Switch"
+        ],
+        "link": "https://store.steampowered.com/app/379720/DOOM/",
+        "cover": "./photos/cover/cover_doom.webp",
+        "scenes": [
+            "./photos/scene/scene_doom1.webp",
+            "./photos/scene/scene_doom2.webp"
+        ]
+    },
+    {
+        "title": "Wolfenstein: The New Order",
+        "description": "En una historia alternativa donde los nazis ganaron la Segunda Guerra Mundial, B.J. Blazkowicz lidera la resistencia contra el régimen opresor en un shooter narrativo intenso.",
+        "launch_age": 2014,
+        "PEGI": "18",
+        "genre": [
+            "Acción"
+        ],
+        "developer": "MachineGames",
+        "platform": [
+            "PC",
+            "PS4",
+            "XBOX"
+        ],
+        "link": "https://store.steampowered.com/app/201810/Wolfenstein_The_New_Order/",
+        "cover": "./photos/cover/cover_wolfensteinTheNewOrder.webp",
+        "scenes": [
+            "./photos/scene/scene_wolfensteinTheNewOrder1.webp",
+            "./photos/scene/scene_wolfensteinTheNewOrder2.webp"
+        ]
+    },
+    {
+        "title": "Elden Ring",
+        "description": "Un juego de rol de acción en un vasto mundo abierto creado por FromSoftware y George R. R. Martin, donde los jugadores exploran las Tierras Intermedias para convertirse en el Señor de la Elden Ring.",
+        "launch_age": 2022,
+        "PEGI": "16",
+        "genre": [
+            "Acción",
+            "Rol"
+        ],
+        "developer": "FromSoftware, Inc.",
+        "platform": [
+            "PC",
+            "PS4",
+            "PS5",
+            "XBOX"
+        ],
+        "link": "https://store.steampowered.com/app/1245620/ELDEN_RING/",
+        "cover": "./photos/cover/cover_eldenRing.webp",
+        "scenes": [
+            "./photos/scene/scene_eldenRing1.webp",
+            "./photos/scene/scene_eldenRing2.webp"
+        ]
+    },
+    {
+        "title": "Metal Gear Rising: Revengeance",
+        "description": "Raiden, ahora un ciborg ninja, se enfrenta a una organización de mercenarios privados en un frenético hack and slash centrado en el corte preciso con la katana.",
+        "launch_age": 2014,
+        "PEGI": "18",
+        "genre": [
+            "Acción"
+        ],
+        "developer": "PlatinumGames",
+        "platform": [
+            "PC"
+        ],
+        "link": "https://store.steampowered.com/app/235460/METAL_GEAR_RISING_REVENGEANCE/",
+        "cover": "./photos/cover/cover_metalGearRisingRevengeance.webp",
+        "scenes": [
+            "./photos/scene/scene_metalGearRisingRevengeance1.webp",
+            "./photos/scene/scene_metalGearRisingRevengeance2.webp"
+        ]
+    },
+    {
+        "title": "Asphalt Legends",
+        "description": "Libera tu alma competitiva con Asphalt Legends y siente el latido colectivo en la carretera. Une fuerzas con otros jugadores en intensas carreras arcade, realiza acrobacias sorprendentes y avanza hacia la victoria mientras conduces los mejores hipercoches.",
+        "launch_age": 2022,
+        "PEGI": "Sin clasificar",
+        "genre": [
+            "Carreras"
+        ],
+        "developer": "Gameloft",
+        "platform": [
+            "PC",
+            "PS4",
+            "PS5",
+            "XBOX",
+            "Nintendo Switch",
+            "Telefono movil"
+        ],
+        "link": "https://store.steampowered.com/app/1815780/Asphalt_Legends/",
+        "cover": "./photos/cover/cover_asphaltLegends.webp",
+        "scene": [
+            "./photos/scene/scene_asphaltLegends1.webp",
+            "./photos/scene/scene_asphaltLegends2.webp",
+            "./photos/scene/scene_asphaltLegends3.webp"
+        ]
+    },
+    {
+        "title": "Forza Motorsport",
+        "description": "Supera a tus rivales en el modo Carrera. Compite por el mundo en el multijugador. Compite con más de 500 coches en 27 circuitos famosos. ¡Ahora, con el emocionante Nürburgring Nordschleife!",
+        "launch_age": 2023,
+        "PEGI": "3",
+        "genre": [
+            "Carreras"
+        ],
+        "developer": "Turn 10",
+        "platform": [
+            "PC",
+            "XBOX"
+        ],
+        "link": "https://store.steampowered.com/app/2440510/Forza_Motorsport/",
+        "cover": "./photos/cover/cover_forzaMotorsport.webp",
+        "scene": [
+            "./photos/scene/scene_forzaMotorsport1.webp",
+            "./photos/scene/scene_forzaMotorsport2.webp",
+            "./photos/scene/scene_forzaMotorsport3.webp"
+        ]
+    },
+    {
+        "title": "Forza Horizon 5",
+        "description": "Forza Horizon 5 es un videojuego de carreras en mundo abierto ambientado en los paisajes y la cultura de México, incluye varios modos, como Festival Horizon donde eres una superestrella del volante que llega a México para participar y expandir el gigantesco festival de automovilismo, modo de exploración libre total, climás dinamicos, distintos terrenos como ciudades selvas ruinas y una amplia personalización.",
+        "launch_age": 2021,
+        "PEGI": "3",
+        "genre": [
+            "Carreras"
+        ],
+        "developer": "Playground Games",
+        "platform": [
+            "PC",
+            "PS5",
+            "XBOX"
+        ],
+        "link": "https://store.steampowered.com/app/1551360/Forza_Horizon_5/",
+        "cover": "./photos/cover/cover_forzaHorizon5.webp",
+        "scene": [
+            "./photos/scene/scene_forzaHorizon51.webp",
+            "./photos/scene/scene_forzaHorizon52.webp",
+            "./photos/scene/scene_forzaHorizon53.webp"
+        ]
+    },
+    {
+        "title": "Forza Horizon 6",
+        "description": "Forza Horizon 6 es un videojuego de carreras en mundo abierto ambientado en los paisajes y la cultura de México, incluye varios modos, como Festival Horizon donde eres una superestrella del volante que llega a México para participar y expandir el gigantesco festival de automovilismo, modo de exploración libre total, climás dinamicos, distintos terrenos como ciudades selvas ruinas y una amplia personalización.",
+        "launch_age": 2026,
+        "PEGI": "3",
+        "genre": [
+            "Carreras"
+        ],
+        "developer": "Playground Games",
+        "platform": [
+            "XBOX",
+            "PC"
+        ],
+        "link": "https://store.steampowered.com/app/2483190/Forza_Horizon_6/",
+        "cover": "./photos/cover/cover_forzaHorizon6.webp",
+        "scene": [
+            "./photos/scene/scene_forzaHorizon61.webp",
+            "./photos/scene/scene_forzaHorizon62.webp",
+            "./photos/scene/scene_forzaHorizon63.webp"
+        ]
+    },
+    {
+        "title": "Need for Speed Heat",
+        "description": "Need for Speed Heat, un juego de carreras callejeras dinámico donde los límites de la ley se desvanecen cuando empieza a anochecer.\nOfrece una experiencia de conducción al límite que te enfrenta a la fuerza policial corrupta de la ciudad mientras intentas llegar a la élite de las carreras callejeras.",
+        "launch_age": 2020,
+        "PEGI": "16",
+        "genre": [
+            "Carreras"
+        ],
+        "developer": "Ghost Games",
+        "platform": [
+            "PC",
+            "PS4",
+            "PS5",
+            "XBOX"
+        ],
+        "link": "https://store.steampowered.com/app/1222680/Need_for_Speed_Heat/",
+        "cover": "./photos/cover/cover_NFSHeart.webp",
+        "scene": [
+            "./photos/scene/scene_NFSHeart1.webp",
+            "./photos/scene/scene_NFSHeart2.webp",
+            "./photos/scene/scene_NFSHeart3.webp"
+        ]
+    },
+    {
+        "title": "The Crew Motorfest",
+        "description": "The Crew Motorfest es un juego de conducción de mundo abierto ambientado en la isla de O'ahu, Hawái. Experimenta lo mejor que tiene que ofrecer la cultura automovilística mientras compites en intensas carreras, experimentas eventos temáticos y coleccionas cientos de coches emblemáticos.",
+        "launch_age": 2024,
+        "PEGI": "12",
+        "genre": [
+            "Carreras"
+        ],
+        "developer": "Ubisoft Ivory Tower",
+        "platform": [
+            "PC",
+            "PS4",
+            "PS5",
+            "XBOX"
+        ],
+        "link": "https://store.steampowered.com/app/2698940/The_Crew_Motorfest/",
+        "cover": "./photos/cover/cover_theCrewMotorFest.webp",
+        "scene": [
+            "./photos/scene/scene_theCrewMotorFest1.webp",
+            "./photos/scene/scene_theCrewMotorFest2.webp",
+            "./photos/scene/scene_theCrewMotorFest3.webp"
+        ]
+    },
+    {
+        "title": "Le Mans Ultimate",
+        "description": "Le Mans es una historia en constante evolución... impulsada por la emoción, el ritmo y la gloria. Le Mans Ultimate: el juego oficial del Campeonato Mundial de Resistencia de la FIA y las 24 Horas de Le Mans.",
+        "launch_age": 2025,
+        "PEGI": "Sin clasificar",
+        "genre": [
+            "Carreras"
+        ],
+        "developer": "Studio 397",
+        "platform": [
+            "PC"
+        ],
+        "link": "https://store.steampowered.com/app/2399420/Le_Mans_Ultimate/",
+        "cover": "./photos/cover/cover_LMUltimate.webp",
+        "scene": [
+            "./photos/scene/scene_LMUltimate1.webp",
+            "./photos/scene/scene_LMUltimate2.webp",
+            "./photos/scene/scene_LMUltimate3.webp"
+        ]
+    },
+    {
+        "title": "iRacing",
+        "description": "El principal juego de carreras de automovilismo del mundo. Una suscripción a iRacing brinda acceso a la modalidad más reciente del automovilismo: las carreras por internet. Estas carreras constituyen una forma divertida, sencilla y económica para que tanto los aficionados al automovilismo como los *gamers* disfruten de la emoción de la pista desde la comodidad de su hogar.",
+        "launch_age": 2015,
+        "PEGI": "Sin clasificar",
+        "genre": [
+            "Carreras"
+        ],
+        "developer": "iRacing.com Motorsport Simulations, iRacing",
+        "platform": [
+            "PC"
+        ],
+        "link": "https://store.steampowered.com/app/266410/iRacing/",
+        "cover": "./photos/cover/cover_iRacing.webp",
+        "scene": [
+            "./photos/scene/scene_iRacing1.webp",
+            "./photos/scene/scene_iRacing2.webp",
+            "./photos/scene/scene_iRacing3.webp"
+        ]
+    },
+    {
+        "title": "F1 25",
+        "description": "Reescribe la parrilla de carreras con su evolución definitiva: EA SPORTS™ F1® 25: 2026 Season Edition. Consigue F1® 25 y el pack de temporada 2026 en un solo paquete para la experiencia Formula One® más completa.",
+        "launch_age": 2025,
+        "PEGI": "3",
+        "genre": [
+            "Carreras"
+        ],
+        "developer": "Codemasters",
+        "platform": [
+            "PC",
+            "PS5",
+            "XBOX"
+        ],
+        "link": "https://store.steampowered.com/app/3059520/F1_25/",
+        "cover": "./photos/cover/cover_F125.webp",
+        "scene": [
+            "./photos/scene/scene_F1251.webp",
+            "./photos/scene/scene_F1252.webp",
+            "./photos/scene/scene_F1253.webp"
+        ]
+    },
+    {
+        "title": "BeamNG.drive",
+        "description": "Un simulador de vehículos con física dinámica de cuerpos blandos, capaz de hacer prácticamente cualquier cosa.",
+        "launch_age": 2015,
+        "PEGI": "Sin clasificar",
+        "genre": [
+            "Carreras"
+        ],
+        "developer": "BeamNG",
+        "platform": [
+            "PC"
+        ],
+        "link": "https://store.steampowered.com/app/284160/BeamNGdrive/",
+        "cover": "./photos/cover/cover_beamNgDrive.webp",
+        "scene": [
+            "./photos/scene/scene_beamNgDrive1.webp",
+            "./photos/scene/scene_beamNgDrive2.webp",
+            "./photos/scene/scene_beamNgDrive3.webp"
+        ]
+    },
+    {
+        "title": "Need for Speed Unbound",
+        "description": "Corre hasta lo más alto, sin llevarte chascos. Supera a la policía y participa en las eliminatorias semanales del Grand, la carrera callejera definitiva. Llena tu garaje de coches personalizados y tuneados con precisión e inunda las calles con tu estilo.",
+        "launch_age": 2022,
+        "PEGI": "12",
+        "genre": [
+            "Carreras"
+        ],
+        "developer": "Criterion Games",
+        "platform": [
+            "PC",
+            "PS5",
+            "XBOX"
+        ],
+        "link": "https://store.steampowered.com/app/1846380/Need_for_Speed_Unbound/",
+        "cover": "./photos/cover/cover_NFSWunbound.webp",
+        "scene": [
+            "./photos/scene/scene_NFSWunbound1.webp",
+            "./photos/scene/scene_NFSWunbound2.webp",
+            "./photos/scene/scene_NFSWunbound3.webp"
+        ]
+    },
+    {
+        "title": "Automobilista 2",
+        "description": "Automobilista 2 reúne en un solo título todo lo que siempre has buscado en un simulador de carreras. Una colección variada de coches y circuitos, con gráficos y sonido espectaculares, condiciones dinámicas de clima y pista, y realidad virtual, para una experiencia de conducción como ninguna otra.",
+        "launch_age": 2020,
+        "PEGI": "Sin clasificar",
+        "genre": [
+            "Carreras"
+        ],
+        "developer": "Reiza Studios",
+        "platform": [
+            "PC"
+        ],
+        "link": "https://store.steampowered.com/app/1066890/Automobilista_2/",
+        "cover": "./photos/cover/cover_automobilista2.webp",
+        "scene": [
+            "./photos/scene/scene_automobilista21.webp",
+            "./photos/scene/scene_automobilista22.webp",
+            "./photos/scene/scene_automobilista23.webp"
+        ]
+    },
+    {
+        "title": "Assetto Corsa Rally",
+        "description": "Assetto Corsa Rally es un simulador de rally realista centrado en la precisión y el desafío. Con tramos y vehículos escaneados con láser en 3D, asistencia profesional de copiloto y condiciones variables, ofrece una experiencia exigente e inmersiva en la que cada segundo al volante cuenta.",
+        "launch_age": 2025,
+        "PEGI": "Sin clasificar",
+        "genre": [
+            "Carreras"
+        ],
+        "developer": "Supernova Games Studios",
+        "platform": [
+            "PC"
+        ],
+        "link": "https://store.steampowered.com/app/3917090/Assetto_Corsa_Rally/",
+        "cover": "./photos/cover/cover_assettoCorsaRally.webp",
+        "scene": [
+            "./photos/scene/scene_assettoCorsaRally1.webp",
+            "./photos/scene/scene_assettoCorsaRally2.webp",
+            "./photos/scene/scene_assettoCorsaRally3.webp"
+        ]
+    },
+    {
+        "title": "DiRT Rally 2.0",
+        "description": "DiRT Rally 2.0 te empuja a abrirte paso por una selección de ubicaciones de rally icónicas de todo el mundo con los vehículos todoterreno más potentes hasta la fecha, sabiendo que un pequeño error podría acabar con la etapa.",
+        "launch_age": 2019,
+        "PEGI": "3",
+        "genre": [
+            "Carreras"
+        ],
+        "developer": "Codemasters",
+        "platform": [
+            "PC",
+            "PS4",
+            "XBOX"
+        ],
+        "link": "https://store.steampowered.com/app/690790/DiRT_Rally_20/",
+        "cover": "./photos/cover/cover_dirtRally2.webp",
+        "scene": [
+            "./photos/scene/scene_dirtRally21.webp",
+            "./photos/scene/scene_dirtRally22.webp",
+            "./photos/scene/scene_dirtRally23.webp"
+        ]
+    },
+    {
+        "title": "JDM: Japanese Drift Master",
+        "description": "¡Descubre la cultura automovilística de Japón! Enfréntate a desafiantes carreteras de montaña, visita lugares legendarios de drifting en coches JDM y sumérgete en la historia sobre segundas oportunidades. Explora un mundo abierto donde cada curva te invita a dominar el arte del drift.",
+        "launch_age": 2025,
+        "PEGI": "Sin clasificar",
+        "genre": [
+            "Carreras"
+        ],
+        "developer": "Gaming Factory",
+        "platform": [
+            "PC"
+        ],
+        "link": "https://store.steampowered.com/app/1153410/JDM_Japanese_Drift_Master/",
+        "cover": "./photos/cover/cover_JDM.webp",
+        "scene": [
+            "./photos/scene/scene_JDM1.webp",
+            "./photos/scene/scene_JDM2.webp",
+            "./photos/scene/scene_JDM3.webp"
+        ]
+    },
+    {
+        "title": "GRID Legends",
+        "description": "GRID Legends te ofrece una competición automovilística trepidante. Crea eventos de ensueño, participa en carreras en directo, vive una historia dramática de producción virtual y disfruta de la sensación de las carreras más espectaculares.",
+        "launch_age": 2022,
+        "PEGI": "3",
+        "genre": [
+            "Carreras"
+        ],
+        "developer": "Codemasters",
+        "platform": [
+            "PC",
+            "PS4",
+            "PS5",
+            "XBOX",
+            "Nintendo Switch",
+            "Telefono movil"
+        ],
+        "link": "https://store.steampowered.com/app/1307710/GRID_Legends/",
+        "cover": "./photos/cover/cover_gridLegends.webp",
+        "scene": [
+            "./photos/scene/scene_gridLegends1.webp",
+            "./photos/scene/scene_gridLegends2.webp",
+            "./photos/scene/scene_gridLegends3.webp"
+        ]
+    },
+    {
+        "title": "Driving Rogue",
+        "description": "Conducción arcade con caos roguelike: rápida, intensa y ridículamente adictiva. En Driving Rogue, cada partida cuenta una historia diferente: la ciudad cambia constantemente. Lleva tu puntuación al límite y, tras cada carrera, pásate por la tienda para mejorar tu coche y conseguir la racha más larga.",
+        "launch_age": 2026,
+        "PEGI": "Sin clasificar",
+        "genre": [
+            "Carreras"
+        ],
+        "developer": "Gravity Works",
+        "platform": [
+            "PC"
+        ],
+        "link": "https://store.steampowered.com/app/3088700/Driving_Rogue/",
+        "cover": "./photos/cover/cover_drivingRogue.webp",
+        "scene": [
+            "./photos/scene/scene_drivingRogue1.webp",
+            "./photos/scene/scene_drivingRogue2.webp",
+            "./photos/scene/scene_drivingRogue3.webp"
+        ]
+    },
+    {
+        "title": "CarX Street",
+        "description": "Domina carreteras de montaña, autopistas y calles urbanas. Construye el coche de tus sueños con una personalización detallada que libera todo el potencial de la física «CarX Technology»©. Participa en carreras emocionantes y disfruta de una jugabilidad realista y una conducción dinámica.",
+        "launch_age": 2024,
+        "PEGI": "Sin clasificar",
+        "genre": [
+            "Carreras"
+        ],
+        "developer": "CarX Technologies",
+        "platform": [
+            "PC",
+            "PS5",
+            "XBOX",
+            "Telefono movil"
+        ],
+        "link": "https://store.steampowered.com/app/1114150/CarX_Street/",
+        "cover": "./photos/cover/cover_carXStreet.webp",
+        "scene": [
+            "./photos/scene/scene_carXStreet1.webp",
+            "./photos/scene/scene_carXStreet2.webp",
+            "./photos/scene/scene_carXStreet3.webp"
+        ]
+    },
+    {
+        "title": "Need for Speed Hot Pursuit",
+        "description": "Siente la emoción de la persecución y la adrenalina de escapar sobre ruedas con los coches de mayor rendimiento del mundo en Need for Speed™ Hot Pursuit Remastered, un juego de carreras trepidante y competitivo.",
+        "launch_age": 2020,
+        "PEGI": "7",
+        "genre": [
+            "Carreras"
+        ],
+        "developer": "Stellar Entertainment Limited",
+        "platform": [
+            "PC",
+            "PS5",
+            "XBOX",
+            "Telefono movil"
+        ],
+        "link": "https://store.steampowered.com/app/1328660/Need_for_Speed_Hot_Pursuit_Remastered/",
+        "cover": "./photos/cover/cover_NFSHotPursuit.webp",
+        "scene": [
+            "./photos/scene/scene_NFSHotPursuit1.webp",
+            "./photos/scene/scene_NFSHotPursuit2.webp",
+            "./photos/scene/scene_NFSHotPursuit3.webp"
+        ]
+    },
+    {
+        "title": "The Crew 2",
+        "description": "Adéntrate en la escena de los deportes de motor norteamericanos mientras exploras y dominas Estados Unidos por tierra, mar y aire. Novedad: ¡juega a The Crew 2 en línea o sin conexión con el nuevo modo Híbrido, ya disponible!",
+        "launch_age": 2018,
+        "PEGI": "12",
+        "genre": [
+            "Carreras"
+        ],
+        "developer": "Ivory Tower",
+        "platform": [
+            "PC",
+            "PS5",
+            "PS4",
+            "XBOX"
+        ],
+        "link": "https://store.steampowered.com/app/646910/The_Crew_2/",
+        "cover": "./photos/cover/cover_theCrew2.webp",
+        "scene": [
+            "./photos/scene/scene_theCrew21.webp",
+            "./photos/scene/scene_theCrew22.webp",
+            "./photos/scene/scene_theCrew23.webp"
+        ]
+    },
+    {
+        "title": "Mario & Luigi: Brothership",
+        "description": "Mario & Luigi: Brothership se desarrolla en torno al Conectarbol en el mundo de Concordia, donde Mario y Luigi deben reconectar las islas del archipiélago con la Isla Porcopolo.",
+        "launch_age": 2024,
+        "PEGI": "7",
+        "genre": [
+            "RPG"
+        ],
+        "developer": "Acquire",
+        "platform": [
+            "Nintendo Switch"
+        ],
+        "link": "",
+        "cover": "./photos/cover/cover_brothership.webp",
+        "scene": [
+            "./photos/scene/scene_brothership1.webp",
+            "./photos/scene/scene_brothership2.webp",
+            "./photos/scene/scene_brothership3.webp"
+        ]
+    },
+    {
+        "title": "Final Fantasy VII Remake",
+        "description": "Revive la experiencia del Final Fantasy VII original, con gráficos actualizados. ",
+        "launch_age": 2020,
+        "PEGI": "16",
+        "genre": [
+            "RPG"
+        ],
+        "developer": "Square Enix",
+        "platform": [
+            "PC",
+            "PS4",
+            "PS5",
+            "Nintendo Switch"
+        ],
+        "link": "https://store.steampowered.com/app/1462040/FINAL_FANTASY_VII_REMAKE_INTERGRADE/",
+        "cover": "./photos/cover/cover_fF7.webp",
+        "scene": [
+            "./photos/scene/scene_fF71.webp",
+            "./photos/scene/scene_fF72.webp",
+            "./photos/scene/scene_fF73.webp",
+            "./photos/scene/scene_fF74.webp"
+        ]
+    },
+    {
+        "title": "The Witcher 3: Wild Hunt",
+        "description": "Aventura de RPG de fantasía oscura protagonizada por Geralt de Rivia, un cazador de monstruos que recorre un enorme mundo abierto. Sus decisiones afectan a la historia y al destino de sus personajes.",
+        "launch_age": 2015,
+        "PEGI": "18",
+        "genre": [
+            "RPG"
+        ],
+        "developer": "CD Projekt Red",
+        "platform": [
+            "PC",
+            "PS4",
+            "XBOX"
+        ],
+        "link": "https://store.steampowered.com/app/292030/The_Witcher_3_Wild_Hunt__Remastered/",
+        "cover": "./photos/cover/cover_witcher3.webp",
+        "scene": [
+            "./photos/scene/scene_witcher31.webp",
+            "./photos/scene/scene_witcher32.webp",
+            "./photos/scene/scene_witcher33.webp",
+            "./photos/scene/scene_witcher34.webp"
+        ]
+    },
+    {
+        "title": "Persona 5",
+        "description": "RPG japonés que sigue a un grupo de estudiantes que llevan una doble vida como los Ladrones Fantasma. Combina combates por turnos, exploración de mazmorras y relaciones sociales.",
+        "launch_age": 2016,
+        "PEGI": "16",
+        "genre": [
+            "RPG"
+        ],
+        "developer": "Atlus",
+        "platform": [
+            "PS4",
+            "PS5",
+            "PC",
+            "Nintendo Switch",
+            "XBOX"
+        ],
+        "link": "https://store.steampowered.com/app/1687950/Persona_5_Royal/",
+        "cover": "./photos/cover/cover_persona5.webp",
+        "scene": [
+            "./photos/scene/scene_persona51.webp",
+            "./photos/scene/scene_persona52.webp",
+            "./photos/scene/scene_persona53.webp",
+            "./photos/scene/scene_persona54.webp"
+        ]
+    },
+    {
+        "title": "Dragon Quest XI: Echoes of an Elusive Age",
+        "description": "RPG clásico de fantasía que sigue el viaje de un joven héroe destinado a salvar el mundo. Cuenta con combates por turnos, exploración y un amplio elenco de personajes.",
+        "launch_age": 2017,
+        "PEGI": "12",
+        "genre": [
+            "RPG"
+        ],
+        "developer": "Square Enix",
+        "platform": [
+            "PC",
+            "PS4",
+            "Nintendo Switch",
+            "XBOX"
+        ],
+        "link": "https://store.steampowered.com/app/1295510/DRAGON_QUEST_XI_S_Ecos_de_un_pasado_perdido__Edicion_definitiva/",
+        "cover": "./photos/cover/cover_dragonQuest11.webp",
+        "scene": [
+            "./photos/scene/scene_dragonQuest111.webp",
+            "./photos/scene/scene_dragonQuest112.webp",
+            "./photos/scene/scene_dragonQuest113.webp",
+            "./photos/scene/scene_dragonQuest114.webp"
+        ]
+    },
+    {
+        "title": "Xenoblade Chronicles 2",
+        "description": "RPG de acción ambientado en el mundo de Alrest, formado por enormes Titanes. Acompaña a Rex y Pyra en una aventura llena de exploración, combates en tiempo real y descubrimientos.",
+        "launch_age": 2017,
+        "PEGI": "12",
+        "genre": [
+            "RPG"
+        ],
+        "developer": "Monolith Soft",
+        "platform": [
+            "Nintendo Switch"
+        ],
+        "link": "",
+        "cover": "./photos/cover/cover_xenoblade2.webp",
+        "scene": [
+            "./photos/scene/scene_xenoblade21.webp",
+            "./photos/scene/scene_xenoblade22.webp",
+            "./photos/scene/scene_xenoblade23.webp"
+        ]
+    },
+    {
+        "title": "Octopath Traveler",
+        "description": "RPG de estilo clásico que cuenta las historias de ocho protagonistas diferentes. Destaca por sus combates por turnos, su sistema de habilidades y su característico estilo visual.",
+        "launch_age": 2018,
+        "PEGI": "12",
+        "genre": [
+            "RPG"
+        ],
+        "developer": "Square Enix",
+        "platform": [
+            "Nintendo Switch",
+            "PC",
+            "PS4",
+            "PS5"
+        ],
+        "link": "https://store.steampowered.com/app/921570/OCTOPATH_TRAVELER/",
+        "cover": "./photos/cover/cover_octopathTraveler.webp",
+        "scene": [
+            "./photos/scene/scene_octopathTraveler1.webp",
+            "./photos/scene/scene_octopathTraveler2.webp",
+            "./photos/scene/scene_octopathTraveler3.webp",
+            "./photos/scene/scene_octopathTraveler4.webp"
+        ]
+    },
+    {
+        "title": "Tales of Arise",
+        "description": "RPG de acción que narra el viaje de Alphen y Shionne para liberar dos mundos enfrentados. Combina combates en tiempo real, exploración y una historia centrada en la libertad.",
+        "launch_age": 2021,
+        "PEGI": "16",
+        "genre": [
+            "RPG"
+        ],
+        "developer": "Bandai Namco Entertainment",
+        "platform": [
+            "PC",
+            "PS4",
+            "PS5",
+            "XBOX"
+        ],
+        "link": "https://store.steampowered.com/app/740130/Tales_of_ARISE/",
+        "cover": "./photos/cover/cover_talesOfArise.webp",
+        "scene": [
+            "./photos/scene/scene_talesOfArise1.webp",
+            "./photos/scene/scene_talesOfArise2.webp",
+            "./photos/scene/scene_talesOfArise3.webp",
+            "./photos/scene/scene_talesOfArise4.webp"
+        ]
+    },
+    {
+        "title": "Ni no Kuni II: Revenant Kingdom",
+        "description": "Aventura de fantasía protagonizada por Evan, un joven rey que busca construir un nuevo reino. Combina combates en tiempo real, exploración y gestión de un reino.",
+        "launch_age": 2018,
+        "PEGI": "12",
+        "genre": [
+            "RPG"
+        ],
+        "developer": "Level-5",
+        "platform": [
+            "PC",
+            "PS4",
+            "XBOX"
+        ],
+        "link": "https://store.steampowered.com/app/589360/Ni_no_Kuni_II_Revenant_Kingdom/",
+        "cover": "./photos/cover/cover_niNoKuni2.webp",
+        "scene": [
+            "./photos/scene/scene_niNoKuni21.webp",
+            "./photos/scene/scene_niNoKuni22.webp",
+            "./photos/scene/scene_niNoKuni23.webp",
+            "./photos/scene/scene_niNoKuni24.webp"
+        ]
+    },
+    {
+        "title": "Fire Emblem: Three Houses",
+        "description": "RPG táctico en el que diriges a un grupo de estudiantes en combates por turnos. Tus decisiones, relaciones y elecciones determinan el desarrollo de la historia.",
+        "launch_age": 2019,
+        "PEGI": "12",
+        "genre": [
+            "RPG"
+        ],
+        "developer": "Intelligent Systems, Koei Tecmo",
+        "platform": [
+            "Nintendo Switch"
+        ],
+        "link": "",
+        "cover": "./photos/cover/cover_fireEmblem3Houses.webp",
+        "scene": [
+            "./photos/scene/scene_fireEmblem3Houses1.webp",
+            "./photos/scene/scene_fireEmblem3Houses2.webp",
+            "./photos/scene/scene_fireEmblem3Houses3.webp"
+        ]
+    },
+    {
+        "title": "The Legend of Heroes: Trails of Cold Steel IV",
+        "description": "RPG de la serie Trails que continúa la historia del Imperio Ereboniano, con combates por turnos y una narrativa profunda.",
+        "launch_age": 2018,
+        "PEGI": "12",
+        "genre": [
+            "RPG"
+        ],
+        "developer": "Nihon Falcom",
+        "platform": [
+            "PC",
+            "PS4",
+            "Nintendo Switch",
+            "PS5"
+        ],
+        "link": "https://store.steampowered.com/app/1198090/The_Legend_of_Heroes_Trails_of_Cold_Steel_IV/",
+        "cover": "./photos/cover/cover_theLegendOfHeroes.webp",
+        "scene": [
+            "./photos/scene/scene_theLegendOfHeroes1.webp",
+            "./photos/scene/scene_theLegendOfHeroes2.webp",
+            "./photos/scene/scene_theLegendOfHeroes3.webp",
+            "./photos/scene/scene_theLegendOfHeroes4.webp"
+        ]
+    },
+    {
+        "title": "Yakuza: Like a Dragon",
+        "description": "RPG protagonizado por Ichiban Kasuga, un antiguo miembro de la yakuza que busca descubrir la verdad sobre su pasado. Combina combates por turnos, crimen, humor y una gran variedad de actividades.",
+        "launch_age": 2020,
+        "PEGI": "18",
+        "genre": [
+            "RPG",
+            "Accion",
+            "Aventura"
+        ],
+        "developer": "Ryu Ga Gotoku Studio",
+        "platform": [
+            "PC",
+            "PS4",
+            "PS5",
+            "XBOX"
+        ],
+        "link": "https://store.steampowered.com/app/1235140/Yakuza_Like_a_Dragon/",
+        "cover": "./photos/cover/cover_yakuzaLikeADragon.webp",
+        "scene": [
+            "./photos/scene/scene_yakuzaLikeADragon1.webp",
+            "./photos/scene/scene_yakuzaLikeADragon2.webp",
+            "./photos/scene/scene_yakuzaLikeADragon3.webp",
+            "./photos/scene/scene_yakuzaLikeADragon4.webp"
+        ]
+    },
+    {
+        "title": "Bravely Default II",
+        "description": "RPG clásico que sigue a cuatro héroes en una misión para recuperar los Cristales Elementales. Su sistema de trabajos y sus combates por turnos permiten personalizar ampliamente al equipo.",
+        "launch_age": 2021,
+        "PEGI": "12",
+        "genre": [
+            "RPG",
+            "Aventura"
+        ],
+        "developer": "Claytechworks",
+        "platform": [
+            "Nintendo Switch",
+            "PC"
+        ],
+        "link": "https://store.steampowered.com/app/1446650/BRAVELY_DEFAULT_II/",
+        "cover": "./photos/cover/cover_bravelyDefault2.webp",
+        "scene": [
+            "./photos/scene/scene_bravelyDefault21.webp",
+            "./photos/scene/scene_bravelyDefault22.webp",
+            "./photos/scene/scene_bravelyDefault23.webp",
+            "./photos/scene/scene_bravelyDefault24.webp"
+        ]
+    },
+    {
+        "title": "Monster Hunter Stories 2: Wings of Ruin",
+        "description": "RPG de caza de monstruos que sigue a un joven cazador en su misión para salvar el mundo de una antigua amenaza. Combina combates por turnos, recolección de monstruos y una historia rica en detalles.",
+        "launch_age": 2021,
+        "PEGI": "7",
+        "genre": [
+            "RPG",
+            "Aventura"
+        ],
+        "developer": "Capcom",
+        "platform": [
+            "PC",
+            "Nintendo Switch",
+            "PS4",
+            "XBOX"
+        ],
+        "link": "https://store.steampowered.com/app/1277400/Monster_Hunter_Stories_2_Wings_of_Ruin/",
+        "cover": "./photos/cover/cover_monsterHunterStories2.webp",
+        "scene": [
+            "./photos/scene/scene_monsterHunterStories21.webp",
+            "./photos/scene/scene_monsterHunterStories22.webp",
+            "./photos/scene/scene_monsterHunterStories23.webp",
+            "./photos/scene/scene_monsterHunterStories24.webp"
+        ]
+    },
+    {
+        "title": "Dragon Age: Inquisition",
+        "description": "RPG de fantasía en el que asumes el papel del Inquisidor para detener una gran amenaza. Explora amplias regiones, forma un grupo de compañeros y toma decisiones que afectan a la historia.",
+        "launch_age": 2014,
+        "PEGI": "18",
+        "genre": [
+            "RPG",
+            "Accion"
+        ],
+        "developer": "BioWare",
+        "platform": [
+            "PC",
+            "PS4",
+            "XBOX"
+        ],
+        "link": "https://store.steampowered.com/app/1222690/Dragon_Age_Inquisition/",
+        "cover": "./photos/cover/cover_dragonAgeInquisition.webp",
+        "scene": [
+            "./photos/scene/scene_dragonAgeInquisition1.webp",
+            "./photos/scene/scene_dragonAgeInquisition2.webp",
+            "./photos/scene/scene_dragonAgeInquisition3.webp",
+            "./photos/scene/scene_dragonAgeInquisition4.webp"
+        ]
+    },
+    {
+        "title": "Divinity: Original Sin 2",
+        "description": "RPG de fantasía con combates tácticos por turnos y una gran libertad de elección. Tus decisiones pueden cambiar la historia, los personajes y el mundo que te rodea.",
+        "launch_age": 2017,
+        "PEGI": "18",
+        "genre": [
+            "RPG"
+        ],
+        "developer": "Larian Studios",
+        "platform": [
+            "PC",
+            "PS4",
+            "XBOX"
+        ],
+        "link": "https://store.steampowered.com/app/435150/Divinity_Original_Sin_2__Definitive_Edition/",
+        "cover": "./photos/cover/cover_divinityOriginalSin2.webp",
+        "scene": [
+            "./photos/scene/scene_divinityOriginalSin21.webp",
+            "./photos/scene/scene_divinityOriginalSin22.webp",
+            "./photos/scene/scene_divinityOriginalSin23.webp",
+            "./photos/scene/scene_divinityOriginalSin24.webp"
+        ]
+    },
+    {
+        "title": "Dark Souls III",
+        "description": "RPG de acción ambientado en un oscuro mundo de fantasía. Ofrece combates exigentes, poderosos enemigos, exploración y una historia llena de secretos.",
+        "launch_age": 2016,
+        "PEGI": "16",
+        "genre": [
+            "RPG"
+        ],
+        "developer": "FromSoftware",
+        "platform": [
+            "PC",
+            "PS4",
+            "XBOX"
+        ],
+        "link": "https://store.steampowered.com/app/374320/DARK_SOULS_III/",
+        "cover": "./photos/cover/cover_darkSouls3.webp",
+        "scene": [
+            "./photos/scene/scene_darkSouls31.webp",
+            "./photos/scene/scene_darkSouls32.webp",
+            "./photos/scene/scene_darkSouls33.webp",
+            "./photos/scene/scene_darkSouls34.webp"
+        ]
+    },
+    {
+        "title": "The Elder Scrolls V: Skyrim",
+        "description": "RPG de mundo abierto que permite explorar libremente la región de Skyrim. Completa misiones, desarrolla tus habilidades y enfréntate a dragones mientras descubres los secretos del mundo.",
+        "launch_age": 2011,
+        "PEGI": "18",
+        "genre": [
+            "RPG",
+            "Aventura"
+        ],
+        "developer": "Bethesda Game Studios",
+        "platform": [
+            "PC",
+            "PS4",
+            "XBOX",
+            "Nintendo Switch"
+        ],
+        "link": "https://store.steampowered.com/app/489830/The_Elder_Scrolls_V_Skyrim_Special_Edition/",
+        "cover": "./photos/cover/cover_theElderScrollsV.webp",
+        "scene": [
+            "./photos/scene/scene_theElderScrollsV1.webp",
+            "./photos/scene/scene_theElderScrollsV2.webp",
+            "./photos/scene/scene_theElderScrollsV3.webp",
+            "./photos/scene/scene_theElderScrollsV4.webp"
+        ]
+    },
+    {
+        "title": "Mass Effect Legendary Edition",
+        "description": "Colección remasterizada de la trilogía original de Mass Effect. Sigue al comandante Shepard mientras explora la galaxia, combate enemigos y toma decisiones que afectan a toda la historia.",
+        "launch_age": 2021,
+        "PEGI": "16",
+        "genre": [
+            "RPG"
+        ],
+        "developer": "BioWare",
+        "platform": [
+            "PC",
+            "PS4",
+            "XBOX"
+        ],
+        "link": "https://store.steampowered.com/app/1328670/Mass_Effect_Legendary_Edition/",
+        "cover": "./photos/cover/cover_massEffectLegendaryEdition.webp",
+        "scene": [
+            "./photos/scene/scene_massEffectLegendaryEdition1.webp",
+            "./photos/scene/scene_massEffectLegendaryEdition2.webp",
+            "./photos/scene/scene_massEffectLegendaryEdition3.webp",
+            "./photos/scene/scene_massEffectLegendaryEdition4.webp"
+        ]
+    },
+    {
+        "title": "Horizon Zero Dawn",
+        "description": "RPG de acción ambientado en un futuro donde la humanidad convive con enormes máquinas. Controla a Aloy mientras explora el mundo, caza criaturas mecánicas y descubre el pasado de la humanidad.",
+        "launch_age": 2017,
+        "PEGI": "16",
+        "genre": [
+            "RPG"
+        ],
+        "developer": "Guerrilla Games",
+        "platform": [
+            "PC",
+            "PS4",
+            "PS5"
+        ],
+        "link": "https://store.steampowered.com/app/2561580/Horizon_Zero_Dawn_remasterizado/",
+        "cover": "./photos/cover/cover_horizonZeroDawn.webp",
+        "scene": [
+            "./photos/scene/scene_horizonZeroDawn1.webp",
+            "./photos/scene/scene_horizonZeroDawn2.webp",
+            "./photos/scene/scene_horizonZeroDawn3.webp",
+            "./photos/scene/scene_horizonZeroDawn4.webp"
+        ]
+    },
+    {
+        "title": "Cyberpunk 2077",
+        "description": "RPG de mundo abierto ambientado en la futurista Night City. Controla a V, un mercenario que se ve envuelto en una peligrosa historia de corporaciones, tecnología y crimen.",
+        "launch_age": 2020,
+        "PEGI": "18",
+        "genre": [
+            "RPG"
+        ],
+        "developer": "CD Projekt Red",
+        "platform": [
+            "PC",
+            "PS4",
+            "PS5",
+            "XBOX",
+            "Nintendo Switch"
+        ],
+        "link": "https://store.steampowered.com/app/1091500/Cyberpunk_2077/",
+        "cover": "./photos/cover/cover_cyberpunk2077.webp",
+        "scene": [
+            "./photos/scene/scene_cyberpunk20771.webp",
+            "./photos/scene/scene_cyberpunk20772.webp",
+            "./photos/scene/scene_cyberpunk20773.webp",
+            "./photos/scene/scene_cyberpunk20774.webp"
+        ]
+    },
+    {
+        "title": "Guardian Tales",
+        "description": "RPG de acción y aventuras con un estilo retro y gacha. Explora el reino de Kanterbury y protegélo de la invasión alienígena.",
+        "launch_age": 2020,
+        "PEGI": "12",
+        "genre": [
+            "RPG"
+        ],
+        "developer": "Kakao Games",
+        "platform": [
+            "Telefono movil",
+            "Nintendo Switch"
+        ],
+        "link": "",
+        "cover": "./photos/cover/cover_guardianTales.webp",
+        "scene": [
+            "./photos/scene/scene_guardianTales1.webp",
+            "./photos/scene/scene_guardianTales2.webp",
+            "./photos/scene/scene_guardianTales3.webp"
+        ]
+    },
+    {
+        "title": "No, I'm Not a Human",
+        "description": "La historia se desarrolla en una humanidad al borde del fin, azotada por la amenaza de los 'Visitantes' seres que imitan a los humanos, piden refugio y sólo revelan su verdadera naturaleza por pequeñas pistas físicas cada día. El jugador queda aislado en casa, obligado cada noche a decidir quién puede entrar y quién debe ser eliminado, usando la información dada en las noticias para interrogar, cuestionar y sobrevivir. El juego plantea dilemas morales profundos: debes dejar entrar a algunas personas (o Visitantes), conversar, ayudar y decidir quién vive, quién muere y cómo actuar en un clima de paranoia y desesperanza.",
+        "launch_age": 2025,
+        "PEGI": "16",
+        "genre": [
+            "Terror",
+            "Accion"
+        ],
+        "developer": "Trioskaz",
+        "platform": [
+            "PC"
+        ],
+        "link": "https://store.steampowered.com/app/3180070/No_Im_not_a_Human/",
+        "cover": "./photos/cover/cover_imNotAHuman.webp",
+        "scene": [
+            "./photos/scene/scene_imNotAHuman1.webp",
+            "./photos/scene/scene_imNotAHuman2.webp"
+        ]
+    },
+    {
+        "title": "Outlast",
+        "description": "El juego ofrece el clásico desarrollo de una aventura survival horror, con exploración y puzles, pero sin combates, ya que no podemos enfrentarnos a los enemigos directamente, y tenemos que evitarlos y escondernos en lugares como armarios y debajo de camas. El elemento más original de su gameplay es que utilizamos una cámara de video con visión nocturna, que sirve para movernos por las oscuras instalaciones del manicomio, y que consume baterías, un recurso limitado que debemos administrar cuidadosamente para no quedarnos vendidos.",
+        "launch_age": 2014,
+        "PEGI": "18",
+        "genre": [
+            "Terror"
+        ],
+        "developer": "Red Barrels",
+        "platform": [
+            "PC",
+            "XBOX",
+            "PS4",
+            "Nintendo Switch"
+        ],
+        "link": "https://store.steampowered.com/app/238320/Outlast/",
+        "cover": "./photos/cover/cover_outlast.webp",
+        "scene": [
+            "./photos/scene/scene_outlast1.webp",
+            "./photos/scene/scene_outlast2.webp",
+            "./photos/scene/scene_outlast3.webp",
+            "./photos/scene/scene_outlast4.webp"
+        ]
+    },
+    {
+        "title": "Amnesia: The Dark Descent",
+        "description": "El juego se ambienta en un oscuro y lúgubre castillo en el siglo XIX, y sigue la historia de Daniel, el protagonista, que despierta en el castillo sin recuerdos sobre su pasado, salvo por su nombre y por el hecho de que algo lo persigue. A medida que Daniel explora el castillo, descubre notas y entradas de diario que poco a poco revelan su propia historia y la naturaleza de las horribles acciones que llevó a cabo bajo la influencia de un misterioso orbe.",
+        "launch_age": 2010,
+        "PEGI": "18",
+        "genre": [
+            "Terror",
+            "Puzles"
+        ],
+        "developer": "Frictional Game",
+        "platform": [
+            "PC"
+        ],
+        "link": "https://store.steampowered.com/app/57300/Amnesia_The_Dark_Descent/",
+        "cover": "./photos/cover/cover_amnesia.webp",
+        "scene": [
+            "./photos/scene/scene_amnesia1.webp",
+            "./photos/scene/scene_amnesia2.webp",
+            "./photos/scene/scene_amnesia3.webp"
+        ]
+    },
+    {
+        "title": "Dead by Daylight",
+        "description": "Este original juego de terror propone un multijugador asimétrico que enfrenta a un jugador contra otros cuatro: encarnando a un asesino en serie que tiene que dar caza a otros cuatro jugadores, que tienen que huir y esconderse por el mapa. El asesino juega desde una perspectiva en primera persona, y los supervivientes en tercera persona, lo que les da una cierta ventaja al ver mejor el entorno y todo lo que les rodea, para poder evitar mejor así al agresor. Como si se tratara de una clásica película tipo slasher, los supervivientes pueden colaborar jugando en equipo, o ser egoístas y hacer la guerra por su cuenta, intentando salvar su pellejo sin que les importen los demás. Los mapas se generan aleatoriamente, por lo que nunca sabremos lo que nos espera, al no conocer de manera anticipada los escenarios, sin saber los mejores sitios para esconderse.",
+        "launch_age": 2016,
+        "PEGI": "18",
+        "genre": [
+            "Terror",
+            "Accion",
+            "Multijugador"
+        ],
+        "developer": "Behaviour Interactive",
+        "platform": [
+            "PC",
+            "PS4",
+            "XBOX",
+            "Telefono movil"
+        ],
+        "link": "https://store.steampowered.com/app/381210/Dead_by_Daylight/",
+        "cover": "./photos/cover/cover_dbd.webp",
+        "scene": [
+            "./photos/scene/scene_dbd1.webp",
+            "./photos/scene/scene_dbd2.webp",
+            "./photos/scene/scene_dbd3.webp"
+        ]
+    },
+    {
+        "title": "Left 4 Dead 2",
+        "description": "El primer Left 4 Dead dio la sorpresa en 2008 siendo un divertidísimo juego de acción en primera persona cooperativa en el que un equipo de jugadores tenía que luchar contra peligrosas hordas de zombis, y fue tan exitoso que la secuela no se hizo esperar, y al año siguiente llegó Left 4 Dead 2. Una continuación de manual, con nuevos personajes, enemigos, escenarios y mecánicas de juego, ambientado en el sur de Estados Unidos, desde Savannah, Georgia hasta Nueva Orleans, Louisiana, siguiendo a cuatro nuevos supervivientes que tienen que luchar contra toneladas de zombis en un mundo devastado.",
+        "launch_age": 2009,
+        "PEGI": "18",
+        "genre": [
+            "Terror",
+            "Multijugador",
+            "Accion",
+            "Disparos"
+        ],
+        "developer": "Turtle Rock",
+        "platform": [
+            "PC",
+            "XBOX"
+        ],
+        "link": "https://store.steampowered.com/app/550/Left_4_Dead_2/",
+        "cover": "./photos/cover/cover_L4D2.webp",
+        "scene": [
+            "./photos/scene/scene_L4D21.webp",
+            "./photos/scene/scene_L4D22.webp",
+            "./photos/scene/scene_L4D23.webp"
+        ]
+    },
+    {
+        "title": "The Forest",
+        "description": "The Forest para PC es un juego de acción y supervivencia en primera persona. En el juego asumiremos el papel del único superviviente de un accidente de avión, atrapado en una isla llena de mutantes caníbales. El título tendrá un mundo vivo, con tiempo cambiante y plantas que crecen y mueren, modificándose el escenario poco a poco. En el juego tendremos que sobrevivir explorando el escenario, buscando comida para mantenernos con vida, construyendo refugios y, por supuesto, defendiéndonos de los caníbales.",
+        "launch_age": 2018,
+        "PEGI": "Sin calificar",
+        "genre": [
+            "Terror",
+            "Accion",
+            "Multijugador"
+        ],
+        "developer": "End Night Games",
+        "platform": [
+            "PC",
+            "PS4"
+        ],
+        "link": "https://store.steampowered.com/app/242760/The_Forest/",
+        "cover": "./photos/cover/cover_theForest.webp",
+        "scene": [
+            "./photos/scene/scene_theForest1.webp",
+            "./photos/scene/scene_theForest2.webp"
+        ]
+    },
+    {
+        "title": "Little Nightmares",
+        "description": "El gameplay combina exploración, resolución de rompecabezas y sigilo, mientras escapamos de las garras de unos aterradores seres de pesadilla, que nos persiguen incansablemente. Un juego sin sustos y que apuesta por la tensión y el miedo psicológico, en un desarrollo en el que se mezclan de manera orgánica las plataformas y los puzles, con escenas de sigilo en las que tenemos que intentar pasar desapercibidos para que no nos atrapen los monstruos que nos persiguen, y una narrativa contada de manera visual, sin textos ni voces, teniendo el jugador que descifrar su enigmática historia. Su atmósfera y apartado gráfico es uno de sus puntos fuertes, con una cuidada dirección artística que puede recordar al imaginario del director de cine Tim Burton y que utiliza la iluminación, sombras y una banda sonora inquietante para crear una experiencia envolvente y a menudo perturbadora, que no es terrorífica, en ningún caso gore o desagradable, pero sí inquietante",
+        "launch_age": 2017,
+        "PEGI": "16",
+        "genre": [
+            "Puzles",
+            "Terror"
+        ],
+        "developer": "Tarsier Studios",
+        "platform": [
+            "PC",
+            "PS4",
+            "XBOX",
+            "Telefono movil"
+        ],
+        "link": "https://store.steampowered.com/app/424840/Little_Nightmares/",
+        "cover": "./photos/cover/cover_littleNightmares.webp",
+        "scene": [
+            "./photos/scene/scene_littleNightmares1.webp",
+            "./photos/scene/scene_littleNightmares2.webp",
+            "./photos/scene/scene_littleNightmares3.webp"
+        ]
+    },
+    {
+        "title": "Escape the Backrooms",
+        "description": "La premisa de Escape the Backrooms parte del concepto clásico de los Backrooms: una dimensión imposible formada por espacios liminales, pasillos interminables, habitaciones vacías, oficinas amarillentas, zonas industriales, piscinas inquietantes y lugares aparentemente cotidianos convertidos en escenarios de pesadilla. El jugador queda atrapado en este universo anómalo y debe avanzar por distintos niveles buscando salidas, resolviendo puzles y evitando criaturas hostiles. A diferencia de muchos juegos de terror lineales, la sensación principal no procede de una historia tradicional con personajes muy desarrollados, sino del desconcierto de no saber dónde se está, cómo se ha llegado allí ni qué reglas gobiernan cada nuevo espacio.",
+        "launch_age": 2025,
+        "PEGI": "Sin calificar",
+        "genre": [
+            "Terror",
+            "Accion",
+            "Puzles",
+            "Multijugador"
+        ],
+        "developer": "Fancy Games",
+        "platform": [
+            "PC",
+            "PS5",
+            "XBOX"
+        ],
+        "link": "https://store.steampowered.com/app/1943950/Escape_the_Backrooms/",
+        "cover": "./photos/cover/cover_escapeTheBackrooms.webp",
+        "scene": [
+            "./photos/scene/scene_escapeTheBackrooms1.webp",
+            "./photos/scene/scene_escapeTheBackrooms2.webp",
+            "./photos/scene/scene_escapeTheBackrooms3.webp",
+            "./photos/scene/scene_escapeTheBackrooms4.webp"
+        ]
+    },
+    {
+        "title": "Fears to Fathom - Scratch Creek",
+        "description": "La historia está protagonizada por Tessa Langley y Marcus Reed, una joven pareja de Oregón que se prepara para trasladarse a otro estado. Antes de iniciar el viaje deben llenar un remolque con muebles y pertenencias, una tarea aparentemente cotidiana que sirve para presentar sus controles, su relación y la importancia de colaborar durante el resto del episodio. Unos acontecimientos imprevistos obligan a la pareja a cambiar su ruta y detenerse en Scratch Creek, un pequeño pueblo de carretera cuyo aspecto decadente esconde una situación mucho más peligrosa de lo que parece. La parada temporal se convierte así en una larga noche de encuentros inquietantes, comportamientos sospechosos y lugares en los que algo no termina de encajar.",
+        "launch_age": 2026,
+        "PEGI": "Sin calificar",
+        "genre": [
+            "Terror",
+            "Aventura"
+        ],
+        "developer": "Rayll Studios",
+        "platform": [
+            "PC"
+        ],
+        "link": "https://store.steampowered.com/app/4121170/Fears_to_Fathom__Scratch_Creek/",
+        "cover": "./photos/cover/cover_fearsToFathom.webp",
+        "scene": [
+            "./photos/scene/scene_fearsToFathom1.webp",
+            "./photos/scene/scene_fearsToFathom2.webp",
+            "./photos/scene/scene_fearsToFathom3.webp",
+            "./photos/scene/scene_fearsToFathom4.webp"
+        ]
+    },
+    {
+        "title": "Halloween: The Game",
+        "description": "La propuesta de Halloween sitúa a los jugadores en Haddonfield, la ciudad donde transcurre la película original, durante la noche de Halloween de 1978. Su estructura combina un modo historia para un jugador con partidas multijugador asimétricas, permitiendo vivir la experiencia desde dos perspectivas muy distintas: como superviviente que intenta escapar del asesino o como el propio Michael Myers, la figura silenciosa e imparable que acecha las calles, casas y jardines del vecindario.",
+        "launch_age": 2026,
+        "PEGI": "18",
+        "genre": [
+            "Terror",
+            "Multijugador"
+        ],
+        "developer": "IIIFonic",
+        "platform": [
+            "PS5",
+            "XBOX",
+            "PC"
+        ],
+        "link": "https://store.steampowered.com/app/3219630/Halloween_The_Game/",
+        "cover": "./photos/cover/cover_halloweenTheGame.webp",
+        "scene": [
+            "./photos/scene/scene_halloweenTheGame1.webp",
+            "./photos/scene/scene_halloweenTheGame2.webp",
+            "./photos/scene/scene_halloweenTheGame3.webp"
+        ]
+    },
+    {
+        "title": "Horses",
+        "description": "En HORSES, encarnas a Anselmo, un joven enviado a trabajar dos semanas en una granja aislada. Nada más llegar, descubre que los “caballos” del lugar son en realidad seres humanos desnudos, con máscaras de caballo, tratados como animales de carga, montados, alimentados con heno y agua y sometidos a castigos brutales por cualquier desobediencia. El granjero y su “perro” Fido —otro humano enmascarado— representan un poder totalitario absoluto sobre estas personas, y el juego utiliza esta premisa para hablar de esclavitud, deshumanización, abuso de poder y responsabilidad moral del testigo que decide mirar, colaborar o rebelarse.",
+        "launch_age": 2025,
+        "PEGI": "18",
+        "genre": [
+            "Aventura",
+            "Terror"
+        ],
+        "developer": "Andrea Lucco Borlera",
+        "platform": [
+            "PC"
+        ],
+        "link": "https://store.steampowered.com/app/977160/HORSE/?l=latam&curator_clanid=30897970",
+        "cover": "./photos/cover/cover_horses.webp",
+        "scene": [
+            "./photos/scene/scene_horses1.webp",
+            "./photos/scene/scene_horses2.webp",
+            "./photos/scene/scene_horses3.webp",
+            "./photos/scene/scene_horses4.webp"
+        ]
+    },
+    {
+        "title": "I Have No Mouth, and I Must Scream",
+        "description": "Una aventura gráfica de terror psicológico desarrollada por The Dreamers Guild y publicada por Cyberdreams en 1995 para PC. Basado en el célebre relato corto homónimo de Harlan Ellison, quien además participó en el guion y prestó su voz al villano principal, el juego se ha convertido en un título de culto dentro del género por su crudeza temática y su enfoque narrativo. En I Have No Mouth, and I Must Scream, la historia transcurre en un futuro postapocalíptico donde una supercomputadora llamada AM ha exterminado a la humanidad, salvo por cinco personas a las que mantiene con vida para torturarlas eternamente. El jugador controla a estos cinco personajes en campañas individuales, cada una centrada en sus traumas, culpas y dilemas morales.",
+        "launch_age": 1995,
+        "PEGI": "18",
+        "genre": [
+            "Aventura",
+            "Terror"
+        ],
+        "developer": "Nightdive Studios",
+        "platform": [
+            "PC",
+            "PS5",
+            "PS4",
+            "XBOX",
+            "Nintendo Switch"
+        ],
+        "link": "https://store.steampowered.com/app/245390/I_Have_No_Mouth_and_I_Must_Scream/",
+        "cover": "./photos/cover/cover_iHaveNoMouthAndIMustScream.webp",
+        "scene": [
+            "./photos/scene/scene_iHaveNoMouthAndIMustScream1.webp",
+            "./photos/scene/scene_iHaveNoMouthAndIMustScream2.webp",
+            "./photos/scene/scene_iHaveNoMouthAndIMustScream3.webp",
+            "./photos/scene/scene_iHaveNoMouthAndIMustScream4.webp"
+        ]
+    },
+    {
+        "title": "Five Nights at Freddy's",
+        "description": "El juego se ambienta en Freddy Fazbear's Pizza, una pizzería ficticia similar a locales de entretenimiento familiar como Chuck E. Cheese, donde los animatrónicos entretienen a los niños durante el día. El jugador asume el rol de un guardia de seguridad nocturno, Mike Schmidt, quien debe sobrevivir cinco noches (de medianoche a 6 a.m.) en su puesto de trabajo. Los animatrónicos, que son amigables de día, se vuelven hostiles y peligrosos por la noche debido a un malfuncionamiento en sus sistemas.",
+        "launch_age": 2013,
+        "PEGI": "Sin calificar",
+        "genre": [
+            "Terror",
+            "Estrategia"
+        ],
+        "developer": "Scott Cawthon",
+        "platform": [
+            "PC",
+            "PS4",
+            "PS5",
+            "XBOX",
+            "Nintendo Switch"
+        ],
+        "link": "https://store.steampowered.com/app/319510/Five_Nights_at_Freddys/",
+        "cover": "./photos/cover/cover_FNAF.webp",
+        "scene": [
+            "./photos/scene/scene_FNAF1.webp",
+            "./photos/scene/scene_FNAF2.webp",
+            "./photos/scene/scene_FNAF3.webp",
+            "./photos/scene/scene_FNAF4.webp"
+        ]
+    },
+    {
+        "title": "Mouthwashing",
+        "description": "Mouthwashing es un juego de terror psicológico en primera persona cuya historia sigue a la tripulación de la nave espacial Tulpar, que queda varada en una región remota del espacio tras un accidente provocado deliberadamente por el capitán. El juego se centra en la lenta degradación mental de los tripulantes mientras lidian con la falta de suministros, el aislamiento y la revelación de que el cargamento que arriesgaron sus vidas por transportar es simplemente una reserva de enjuague bucal.",
+        "launch_age": 2024,
+        "PEGI": "Sin calificar",
+        "genre": [
+            "Terror",
+            "Aventura"
+        ],
+        "developer": "Wrong Organ",
+        "platform": [
+            "PC",
+            "PS5",
+            "XBOX"
+        ],
+        "link": "https://store.steampowered.com/app/2475490/Mouthwashing/",
+        "cover": "./photos/cover/cover_mouthwashing.webp",
+        "scene": [
+            "./photos/scene/scene_mouthwashing1.webp",
+            "./photos/scene/scene_mouthwashing2.webp",
+            "./photos/scene/scene_mouthwashing3.webp"
+        ]
+    },
+    {
+        "title": "MiSide",
+        "description": "MiSide es una aventura desarrollada por AIHASTO y publicada por IndieArk y Shochiku para PC. Una original aventura de terror psicológico que ofrece una curiosa mezcla de gameplay de simulador de vida en 2D y exploración en primera persona en 3D, en el que estás atrapado en un juego de teléfono móvil junta a una inquietante chica virtual estilo anime, teniendo como objetivo escapar de esta pesadilla resolviendo puzles y participando en minijuegos. Una aventura de terror en la que estás atrapado en un videojuego con ciertas reminiscencias del exitoso Doki Doki Literature Club!, MiSide es una aventura de terror psicológico creada por el estudio independiente ruso AIHASTO, en la que controlas a un protagonista que, tras descargar una aplicación de simulación de vida en su teléfono móvil, es transportado al mundo virtual del juego, donde interactúa con Mita, una chica de estética anime. Lo que comienza como una experiencia inocente se transforma rápidamente en una pesadilla, ya que Mita revela una naturaleza oscura y obsesiva, atrapando al jugador en una realidad distorsionada de la que debe escapar.",
+        "launch_age": 2024,
+        "PEGI": "Sin calificar",
+        "genre": [
+            "Terror",
+            "Aventura"
+        ],
+        "developer": "AIHASTO",
+        "platform": [
+            "PC"
+        ],
+        "link": "https://store.steampowered.com/app/2527500/MiSide/",
+        "cover": "./photos/cover/cover_miSide.webp",
+        "scene": [
+            "./photos/scene/scene_miSide1.webp",
+            "./photos/scene/scene_miSide2.webp"
+        ]
+    },
+    {
+        "title": "Phasmophobia",
+        "description": "Esta aventura nos invita a que junto a unos amigos investiguemos terroríficos lugares en los que nos esperan todo tipo de fantasmas. Así tendremos que armarnos de mucho valor y unas pocas herramientas como linternas, termómetros o cámaras de visión nocturna para buscar pistas y descubrir todos los misterios que nos esperan en más de diez ubicaciones como casas encantadas y edificios repletos de actividad paranormal, habitados por más de 20 fantasmas diferentes, con distintos rasgos y habilidades que hacen que cada partida sea terroríficamente única.",
+        "launch_age": 2024,
+        "PEGI": "Sin calificar",
+        "genre": [
+            "Terror"
+        ],
+        "developer": "Kinetic Games",
+        "platform": [
+            "PC",
+            "PS5",
+            "XBOX"
+        ],
+        "link": "https://store.steampowered.com/app/739630/Phasmophobia/",
+        "cover": "./photos/cover/cover_phasmophobia.webp",
+        "scene": [
+            "./photos/scene/scene_phasmophobia1.webp",
+            "./photos/scene/scene_phasmophobia2.webp",
+            "./photos/scene/scene_phasmophobia3.webp",
+            "./photos/scene/scene_phasmophobia4.webp"
+        ]
+    },
+    {
+        "title": "The Outlast Trials",
+        "description": "Tras las dos primeras entregas de la saga que tuvieron mucho éxito, y que fueron aventuras de terror en primera persona para un jugador, ahora Red Barrels apuesta por algo muy distinto con un juego multijugador, en el que tenemos que sobrevivir a una serie de pruebas o experimentos macabros, que podemos superar tanto en solitario como en compañía de hasta cuatro jugadores, lo que es muy divertido. Solo podemos huir de los enemigos, ya que no tenemos armas, y para movernos en la oscuridad debemos gestionar con cabeza las baterías de las gafas de visión nocturna, para no caer en una de las múltiples trampas que nos esperan en los escenarios. Todo esto mientras resolvemos puzles e intentamos encontrar la salida, ofreciendo situaciones realmente tensas, que cobran un nuevo significado en compañía de otros jugadores, ya que podemos jugar en equipo para por ejemplo distraer a los enemigos o solucionar los rompecabezas.",
+        "launch_age": 2024,
+        "PEGI": "Sin calificar",
+        "genre": [
+            "Terror"
+        ],
+        "developer": "Red Barrels",
+        "platform": [
+            "PC",
+            "PS4",
+            "PS5",
+            "XBOX"
+        ],
+        "link": "https://store.steampowered.com/app/1304930/The_Outlast_Trials/",
+        "cover": "./photos/cover/cover_theOutlastTrials.webp",
+        "scene": [
+            "./photos/scene/scene_theOutlastTrials1.webp",
+            "./photos/scene/scene_theOutlastTrials2.webp",
+            "./photos/scene/scene_theOutlastTrials3.webp",
+            "./photos/scene/scene_theOutlastTrials4.webp"
+        ]
+    },
+    {
+        "title": "Until Dawn",
+        "description": "El género de los slasher es uno de los favoritos de los amantes del terror, con películas y sagas como Scream, La matanza de Texas, Halloween o Viernes 13, en las que un psicópata o asesino va acabando poco a poco con la vida de sus protagonistas, que casi siempre son unos temerarios adolescentes o jóvenes adultos. Until Dawn es una aventura narrativa que lleva el espíritu de este tipo de películas a los videojuegos, un juego de terror protagonizado por un grupo de jóvenes acosados por un asesino, en el que tenemos que explorar, tomar rápidas decisiones, resolver sencillos puzles y superar secuencias de vídeo interactivas QTE, pudiendo ir perdiendo a diferentes personajes a lo largo del juego, continuando igualmente la aventura que cuenta con diferentes finales y ramificaciones. Ambientado en una remota cabaña en las montañas nevadas, la historia sigue a un grupo de ocho amigos que se reúnen para conmemorar el aniversario de la desaparición de dos miembros de su grupo. A medida que la noche avanza, se encuentran atrapados y perseguidos por un asesino psicópata, además de otras amenazas, en una historia con muchos giros y sorpresas. El juego cuenta con el sistema 'efecto mariposa', en el que incluso las decisiones aparentemente más pequeñas pueden tener consecuencias importantes a medio y largo plazo, lo que nos obliga a pensar muy bien cada paso que damos. Until Dawn apuesta por un apartado gráfico muy realista, con unos personajes realizados con captura de movimiento y que han sido interpretados por actores conocidos como Hayden Panettiere y Rami Malek.",
+        "launch_age": 2024,
+        "PEGI": "18",
+        "genre": [
+            "Terror",
+            "Accion",
+            "Aventura"
+        ],
+        "developer": "Ballistic Moon",
+        "platform": [
+            "PC",
+            "PS4",
+            "PS5",
+            "Nintendo Switch"
+        ],
+        "link": "https://store.steampowered.com/app/2172010/Until_Dawn/",
+        "cover": "./photos/cover/cover_untilDawn.webp",
+        "scene": [
+            "./photos/scene/scene_untilDawn1.webp",
+            "./photos/scene/scene_untilDawn2.webp",
+            "./photos/scene/scene_untilDawn3.webp",
+            "./photos/scene/scene_untilDawn4.webp"
+        ]
+    },
+    {
+        "title": "The Sinking City Remastered",
+        "description": "La historia sigue a Charles W. Reed, un detective privado y veterano de guerra que investiga los misteriosos sucesos en la ciudad ficticia de Oakmont, Massachusetts, durante la década de 1920. La ciudad está afectada por inundaciones sobrenaturales y fenómenos inexplicables que llevan a sus habitantes a la locura. Inspirado en el universo de H.P. Lovecraft, el juego combina elementos de investigación, exploración y combate en un entorno abierto.",
+        "launch_age": 2025,
+        "PEGI": "18",
+        "genre": [
+            "Terror",
+            "Aventura",
+            "Accion"
+        ],
+        "developer": "Frogwares",
+        "platform": [
+            "XBOX"
+        ],
+        "link": "https://store.steampowered.com/app/750130/The_Sinking_City_Remastered/",
+        "cover": "./photos/cover/cover_theSinkingCityRemastered.webp",
+        "scene": [
+            "./photos/scene/scene_theSinkingCityRemastered1.webp",
+            "./photos/scene/scene_theSinkingCityRemastered2.webp",
+            "./photos/scene/scene_theSinkingCityRemastered3.webp",
+            "./photos/scene/scene_theSinkingCityRemastered4.webp"
+        ]
+    },
+    {
+        "title": "A Quiet Place: The Road Ahead",
+        "description": "La saga de películas A Quiet Place dirigida por John Krasinski y protagonizada por Emily Blunt es uno de los mayores éxitos del cine de terror de los últimos años, y tras tres entregas, Un lugar tranquilo (2018) y Un lugar tranquilo 2 (2020) y Un lugar tranquilo: Día 1 (2024), llega A Quiet Place: The Road Ahead, un juego de terror en primera persona ambientado en este mismo universo, desarrollado por los italianos Stormind Games, creadores de Remothered: Broken Porcelain (2020). El juego cuenta una historia original ambientada en este universo cinematográfico, protagonizada por una joven superviviente que tiene que sobrevivir a las terroríficas criaturas depredadores que la acechan, y que como ocurre en las películas, tenemos que ir con mucho cuidado y no hacer ruido para no delatar tu posición y ser atrapado",
+        "launch_age": 2024,
+        "PEGI": "Sin calificar",
+        "genre": [
+            "Terror",
+            "Aventura"
+        ],
+        "developer": "Stormind Games",
+        "platform": [
+            "PC",
+            "XBOX",
+            "PS5"
+        ],
+        "link": "https://store.steampowered.com/app/2233120/A_Quiet_Place_The_Road_Ahead/",
+        "cover": "./photos/cover/cover_aQuietPlaceTheRoadAhead.webp",
+        "scene": [
+            "./photos/scene/scene_aQuietPlaceTheRoadAhead1.webp",
+            "./photos/scene/scene_aQuietPlaceTheRoadAhead2.webp",
+            "./photos/scene/scene_aQuietPlaceTheRoadAhead3.webp"
+        ]
+    }
+]
