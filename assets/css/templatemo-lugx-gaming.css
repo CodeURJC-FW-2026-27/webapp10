@@ -1344,10 +1344,12 @@ Single Page Style
 
 .single-product .left-image {
   margin-right: 80px;
+  margin-bottom: 25px;
 }
 
 .single-product .left-image img {
   border-radius: 25px;
+  align-self: right;
 }
 
 .single-product h4 {
@@ -1371,8 +1373,8 @@ Single Page Style
 }
 
 .single-product p {
-  margin-top: 50px;
-  margin-bottom: 60px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .single-product form input {
@@ -1414,7 +1416,8 @@ Single Page Style
 }
 
 .single-product ul {
-  margin-top: 60px;
+  margin-top: 25px;
+  margin-bottom: 50px;
 }
 
 .single-product ul li {
@@ -1437,7 +1440,7 @@ Single Page Style
 .tabs-content {
   background-color: #f7f7f7;
   border-radius: 25px;
-  padding: 60px;
+  padding: 20px;
   transition: all 0.3s;
 }
 
