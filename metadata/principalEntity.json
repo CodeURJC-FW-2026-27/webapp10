@@ -17,7 +17,7 @@
         ],
         "link": "https://store.steampowered.com/app/3240220/Grand_Theft_Auto_V_Enhanced/",
         "cover": "./photos/cover/cover_grandTheftAutoV.webp",
-        "scenes": [
+        "scene": [
             "./photos/scene/scene_grandTheftAutoV1.webp",
             "./photos/scene/scene_grandTheftAutoV2.webp"
         ]
@@ -39,7 +39,7 @@
         ],
         "link": "https://store.steampowered.com/app/601150/Devil_May_Cry_5/",
         "cover": "./photos/cover/cover_devilMayCry5.webp",
-        "scenes": [
+        "scene": [
             "./photos/scene/scene_devilMayCry51.webp",
             "./photos/scene/scene_devilMayCry52.webp"
         ]
@@ -62,7 +62,7 @@
         ],
         "link": "https://store.steampowered.com/app/782330/DOOM_Eternal/",
         "cover": "./photos/cover/cover_doomEternal.webp",
-        "scenes": [
+        "scene": [
             "./photos/scene/scene_doomEternal1.webp",
             "./photos/scene/scene_doomEternal2.webp"
         ]
@@ -85,7 +85,7 @@
         ],
         "link": "https://store.steampowered.com/app/1593500/God_of_War/",
         "cover": "./photos/cover/cover_godOfWar.webp",
-        "scenes": [
+        "scene": [
             "./photos/scene/scene_godOfWar1.webp",
             "./photos/scene/scene_godOfWar2.webp"
         ]
@@ -107,7 +107,7 @@
         ],
         "link": "https://store.steampowered.com/app/814380/Sekiro_Shadows_Die_Twice__GOTY_Edition/",
         "cover": "./photos/cover/cover_sekiroShadowsDieTwice.webp",
-        "scenes": [
+        "scene": [
             "./photos/scene/scene_sekiroShadowsDieTwice1.webp",
             "./photos/scene/scene_sekiroShadowsDieTwice2.webp"
         ]
@@ -129,7 +129,7 @@
         ],
         "link": "https://store.steampowered.com/app/374320/DARK_SOULS_III/",
         "cover": "./photos/cover/cover_darkSoulsIII.webp",
-        "scenes": [
+        "scene": [
             "./photos/scene/scene_darkSoulsIII1.webp",
             "./photos/scene/scene_darkSoulsIII2.webp"
         ]
@@ -154,7 +154,7 @@
         ],
         "link": "https://store.steampowered.com/app/1145360/Hades/",
         "cover": "./photos/cover/cover_hades.webp",
-        "scenes": [
+        "scene": [
             "./photos/scene/scene_hades1.webp",
             "./photos/scene/scene_hades2.webp"
         ]
@@ -178,7 +178,7 @@
         ],
         "link": "https://store.steampowered.com/app/2050650/Resident_Evil_4/",
         "cover": "./photos/cover/cover_residentEvil4.webp",
-        "scenes": [
+        "scene": [
             "./photos/scene/scene_residentEvil41.webp",
             "./photos/scene/scene_residentEvil42.webp"
         ]
@@ -200,7 +200,7 @@
         ],
         "link": "https://store.steampowered.com/app/287700/METAL_GEAR_SOLID_V_THE_PHANTOM_PAIN/",
         "cover": "./photos/cover/cover_metalGearSolidVThePhantomPain.webp",
-        "scenes": [
+        "scene": [
             "./photos/scene/scene_metalGearSolidVThePhantomPain1.webp",
             "./photos/scene/scene_metalGearSolidVThePhantomPain2.webp"
         ]
@@ -221,7 +221,7 @@
         ],
         "link": "https://store.steampowered.com/app/460790/Bayonetta/",
         "cover": "./photos/cover/cover_bayonetta.webp",
-        "scenes": [
+        "scene": [
             "./photos/scene/scene_bayonetta1.webp",
             "./photos/scene/scene_bayonetta2.webp"
         ]
@@ -240,7 +240,7 @@
         ],
         "link": "https://store.steampowered.com/app/204100/Max_Payne_3/",
         "cover": "./photos/cover/cover_maxPayne3.webp",
-        "scenes": [
+        "scene": [
             "./photos/scene/scene_maxPayne31.webp",
             "./photos/scene/scene_maxPayne32.webp"
         ]
@@ -262,7 +262,7 @@
         ],
         "link": "https://store.steampowered.com/app/225540/Just_Cause_3/",
         "cover": "./photos/cover/cover_justCause3.webp",
-        "scenes": [
+        "scene": [
             "./photos/scene/scene_justCause31.webp",
             "./photos/scene/scene_justCause32.webp"
         ]
@@ -284,7 +284,7 @@
         ],
         "link": "https://store.steampowered.com/app/208650/Batman_Arkham_Knight/",
         "cover": "./photos/cover/cover_batmanArkhamKnight.webp",
-        "scenes": [
+        "scene": [
             "./photos/scene/scene_batmanArkhamKnight1.webp",
             "./photos/scene/scene_batmanArkhamKnight2.webp"
         ]
@@ -306,7 +306,7 @@
         ],
         "link": "https://store.steampowered.com/app/241930/Middleearth_Shadow_of_Mordor/",
         "cover": "./photos/cover/cover_shadowOfMordor.webp",
-        "scenes": [
+        "scene": [
             "./photos/scene/scene_shadowOfMordor1.webp",
             "./photos/scene/scene_shadowOfMordor2.webp"
         ]
@@ -328,7 +328,7 @@
         ],
         "link": "https://store.steampowered.com/app/234140/Mad_Max/",
         "cover": "./photos/cover/cover_madMax.webp",
-        "scenes": [
+        "scene": [
             "./photos/scene/scene_madMax1.webp",
             "./photos/scene/scene_madMax2.webp"
         ]
@@ -352,7 +352,7 @@
         ],
         "link": "https://store.steampowered.com/app/268910/Cuphead/",
         "cover": "./photos/cover/cover_cuphead.webp",
-        "scenes": [
+        "scene": [
             "./photos/scene/scene_cuphead1.webp",
             "./photos/scene/scene_cuphead2.webp"
         ]
@@ -374,7 +374,7 @@
         ],
         "link": "https://store.steampowered.com/app/524220/NieRAutomata/",
         "cover": "./photos/cover/cover_nierAutomata.webp",
-        "scenes": [
+        "scene": [
             "./photos/scene/scene_nierAutomata1.webp",
             "./photos/scene/scene_nierAutomata2.webp"
         ]
@@ -397,7 +397,7 @@
         ],
         "link": "https://store.steampowered.com/app/1139900/Ghostrunner/",
         "cover": "./photos/cover/cover_ghostrunner.webp",
-        "scenes": [
+        "scene": [
             "./photos/scene/scene_ghostrunner1.webp",
             "./photos/scene/scene_ghostrunner2.webp"
         ]
@@ -421,7 +421,7 @@
         ],
         "link": "https://store.steampowered.com/app/870780/CONTROL_Ultimate_Edition/",
         "cover": "./photos/cover/cover_control.webp",
-        "scenes": [
+        "scene": [
             "./photos/scene/scene_control1.webp",
             "./photos/scene/scene_control2.webp"
         ]
@@ -442,7 +442,7 @@
         ],
         "link": "https://store.steampowered.com/app/1237970/Titanfall_2/",
         "cover": "./photos/cover/cover_titanfall2.webp",
-        "scenes": [
+        "scene": [
             "./photos/scene/scene_titanfall21.webp",
             "./photos/scene/scene_titanfall22.webp"
         ]
@@ -464,7 +464,7 @@
         ],
         "link": "https://store.steampowered.com/app/379720/DOOM/",
         "cover": "./photos/cover/cover_doom.webp",
-        "scenes": [
+        "scene": [
             "./photos/scene/scene_doom1.webp",
             "./photos/scene/scene_doom2.webp"
         ]
@@ -485,7 +485,7 @@
         ],
         "link": "https://store.steampowered.com/app/201810/Wolfenstein_The_New_Order/",
         "cover": "./photos/cover/cover_wolfensteinTheNewOrder.webp",
-        "scenes": [
+        "scene": [
             "./photos/scene/scene_wolfensteinTheNewOrder1.webp",
             "./photos/scene/scene_wolfensteinTheNewOrder2.webp"
         ]
@@ -508,7 +508,7 @@
         ],
         "link": "https://store.steampowered.com/app/1245620/ELDEN_RING/",
         "cover": "./photos/cover/cover_eldenRing.webp",
-        "scenes": [
+        "scene": [
             "./photos/scene/scene_eldenRing1.webp",
             "./photos/scene/scene_eldenRing2.webp"
         ]
@@ -527,7 +527,7 @@
         ],
         "link": "https://store.steampowered.com/app/235460/METAL_GEAR_RISING_REVENGEANCE/",
         "cover": "./photos/cover/cover_metalGearRisingRevengeance.webp",
-        "scenes": [
+        "scene": [
             "./photos/scene/scene_metalGearRisingRevengeance1.webp",
             "./photos/scene/scene_metalGearRisingRevengeance2.webp"
         ]
@@ -623,7 +623,7 @@
     },
     {
         "title": "Need for Speed Heat",
-        "description": "Need for Speed Heat, un juego de carreras callejeras dinámico donde los límites de la ley se desvanecen cuando empieza a anochecer.\nOfrece una experiencia de conducción al límite que te enfrenta a la fuerza policial corrupta de la ciudad mientras intentas llegar a la élite de las carreras callejeras.",
+        "description": "Need for Speed Heat, un juego de carreras callejeras dinámico donde los límites de la ley se desvanecen cuando empieza a anochecer.Ofrece una experiencia de conducción al límite que te enfrenta a la fuerza policial corrupta de la ciudad mientras intentas llegar a la élite de las carreras callejeras.",
         "launch_age": 2020,
         "PEGI": "16",
         "genre": [
@@ -637,11 +637,11 @@
             "XBOX"
         ],
         "link": "https://store.steampowered.com/app/1222680/Need_for_Speed_Heat/",
-        "cover": "./photos/cover/cover_NFSHeart.webp",
+        "cover": "./photos/cover/cover_NFSHeat.webp",
         "scene": [
-            "./photos/scene/scene_NFSHeart1.webp",
-            "./photos/scene/scene_NFSHeart2.webp",
-            "./photos/scene/scene_NFSHeart3.webp"
+            "./photos/scene/scene_NFSHeat1.webp",
+            "./photos/scene/scene_NFSHeat2.webp",
+            "./photos/scene/scene_NFSHeat3.webp"
         ]
     },
     {
