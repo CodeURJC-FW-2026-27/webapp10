@@ -5,7 +5,7 @@
         "launch_age": 2015,
         "PEGI": "18",
         "genre": [
-            "Acción",
+            "Accion",
             "Aventura"
         ],
         "developer": "Rockstar North",
@@ -28,7 +28,7 @@
         "launch_age": 2019,
         "PEGI": "18",
         "genre": [
-            "Acción"
+            "Accion"
         ],
         "developer": "CAPCOM Co., Ltd.",
         "platform": [
@@ -50,7 +50,7 @@
         "launch_age": 2020,
         "PEGI": "18",
         "genre": [
-            "Acción"
+            "Accion"
         ],
         "developer": "id Software",
         "platform": [
@@ -73,7 +73,7 @@
         "launch_age": 2022,
         "PEGI": "18",
         "genre": [
-            "Acción",
+            "Accion",
             "Aventura",
             "Rol"
         ],
@@ -96,7 +96,7 @@
         "launch_age": 2019,
         "PEGI": "18",
         "genre": [
-            "Acción",
+            "Accion",
             "Aventura"
         ],
         "developer": "FromSoftware, Inc.",
@@ -118,7 +118,7 @@
         "launch_age": 2016,
         "PEGI": "16",
         "genre": [
-            "Acción",
+            "Accion",
             "Rol"
         ],
         "developer": "FromSoftware, Inc.",
@@ -140,7 +140,7 @@
         "launch_age": 2020,
         "PEGI": "12",
         "genre": [
-            "Acción",
+            "Accion",
             "Indie",
             "Rol"
         ],
@@ -165,7 +165,7 @@
         "launch_age": 2023,
         "PEGI": "18",
         "genre": [
-            "Acción",
+            "Accion",
             "Aventura"
         ],
         "developer": "CAPCOM Co., Ltd.",
@@ -189,7 +189,7 @@
         "launch_age": 2015,
         "PEGI": "18",
         "genre": [
-            "Acción",
+            "Accion",
             "Aventura"
         ],
         "developer": "KONAMI",
@@ -211,7 +211,7 @@
         "launch_age": 2017,
         "PEGI": "18",
         "genre": [
-            "Acción",
+            "Accion",
             "Aventura"
         ],
         "developer": "PlatinumGames",
@@ -232,7 +232,7 @@
         "launch_age": 2012,
         "PEGI": "18",
         "genre": [
-            "Acción"
+            "Accion"
         ],
         "developer": "Rockstar Studios",
         "platform": [
@@ -251,7 +251,7 @@
         "launch_age": 2015,
         "PEGI": "18",
         "genre": [
-            "Acción",
+            "Accion",
             "Aventura"
         ],
         "developer": "Avalanche Studios",
@@ -273,7 +273,7 @@
         "launch_age": 2015,
         "PEGI": "18",
         "genre": [
-            "Acción",
+            "Accion",
             "Aventura"
         ],
         "developer": "Rocksteady Studios",
@@ -295,7 +295,7 @@
         "launch_age": 2014,
         "PEGI": "18",
         "genre": [
-            "Acción",
+            "Accion",
             "Aventura"
         ],
         "developer": "Monolith Productions",
@@ -317,7 +317,7 @@
         "launch_age": 2015,
         "PEGI": "18",
         "genre": [
-            "Acción",
+            "Accion",
             "Aventura"
         ],
         "developer": "Avalanche Studios",
@@ -339,7 +339,7 @@
         "launch_age": 2017,
         "PEGI": "7",
         "genre": [
-            "Acción",
+            "Accion",
             "Indie"
         ],
         "developer": "Studio MDHR Entertainment Inc.",
@@ -363,7 +363,7 @@
         "launch_age": 2017,
         "PEGI": "18",
         "genre": [
-            "Acción",
+            "Accion",
             "Rol"
         ],
         "developer": "PlatinumGames Inc.",
@@ -385,7 +385,7 @@
         "launch_age": 2020,
         "PEGI": "16",
         "genre": [
-            "Acción"
+            "Accion"
         ],
         "developer": "One More Level",
         "platform": [
@@ -408,7 +408,7 @@
         "launch_age": 2020,
         "PEGI": "16",
         "genre": [
-            "Acción",
+            "Accion",
             "Aventura"
         ],
         "developer": "Remedy Entertainment",
@@ -432,7 +432,7 @@
         "launch_age": 2016,
         "PEGI": "16",
         "genre": [
-            "Acción"
+            "Accion"
         ],
         "developer": "Respawn Entertainment",
         "platform": [
@@ -453,7 +453,7 @@
         "launch_age": 2016,
         "PEGI": "18",
         "genre": [
-            "Acción"
+            "Accion"
         ],
         "developer": "id Software",
         "platform": [
@@ -475,7 +475,7 @@
         "launch_age": 2014,
         "PEGI": "18",
         "genre": [
-            "Acción"
+            "Accion"
         ],
         "developer": "MachineGames",
         "platform": [
@@ -496,7 +496,7 @@
         "launch_age": 2022,
         "PEGI": "16",
         "genre": [
-            "Acción",
+            "Accion",
             "Rol"
         ],
         "developer": "FromSoftware, Inc.",
@@ -519,7 +519,7 @@
         "launch_age": 2014,
         "PEGI": "18",
         "genre": [
-            "Acción"
+            "Accion"
         ],
         "developer": "PlatinumGames",
         "platform": [
@@ -536,7 +536,7 @@
         "title": "Asphalt Legends",
         "description": "Libera tu alma competitiva con Asphalt Legends y siente el latido colectivo en la carretera. Une fuerzas con otros jugadores en intensas carreras arcade, realiza acrobacias sorprendentes y avanza hacia la victoria mientras conduces los mejores hipercoches.",
         "launch_age": 2022,
-        "PEGI": "Sin clasificar",
+        "PEGI": "Sin calificar",
         "genre": [
             "Carreras"
         ],
@@ -671,7 +671,7 @@
         "title": "Le Mans Ultimate",
         "description": "Le Mans es una historia en constante evolución... impulsada por la emoción, el ritmo y la gloria. Le Mans Ultimate: el juego oficial del Campeonato Mundial de Resistencia de la FIA y las 24 Horas de Le Mans.",
         "launch_age": 2025,
-        "PEGI": "Sin clasificar",
+        "PEGI": "Sin calificar",
         "genre": [
             "Carreras"
         ],
@@ -691,7 +691,7 @@
         "title": "iRacing",
         "description": "El principal juego de carreras de automovilismo del mundo. Una suscripción a iRacing brinda acceso a la modalidad más reciente del automovilismo: las carreras por internet. Estas carreras constituyen una forma divertida, sencilla y económica para que tanto los aficionados al automovilismo como los *gamers* disfruten de la emoción de la pista desde la comodidad de su hogar.",
         "launch_age": 2015,
-        "PEGI": "Sin clasificar",
+        "PEGI": "Sin calificar",
         "genre": [
             "Carreras"
         ],
@@ -733,7 +733,7 @@
         "title": "BeamNG.drive",
         "description": "Un simulador de vehículos con física dinámica de cuerpos blandos, capaz de hacer prácticamente cualquier cosa.",
         "launch_age": 2015,
-        "PEGI": "Sin clasificar",
+        "PEGI": "Sin calificar",
         "genre": [
             "Carreras"
         ],
@@ -775,7 +775,7 @@
         "title": "Automobilista 2",
         "description": "Automobilista 2 reúne en un solo título todo lo que siempre has buscado en un simulador de carreras. Una colección variada de coches y circuitos, con gráficos y sonido espectaculares, condiciones dinámicas de clima y pista, y realidad virtual, para una experiencia de conducción como ninguna otra.",
         "launch_age": 2020,
-        "PEGI": "Sin clasificar",
+        "PEGI": "Sin calificar",
         "genre": [
             "Carreras"
         ],
@@ -795,7 +795,7 @@
         "title": "Assetto Corsa Rally",
         "description": "Assetto Corsa Rally es un simulador de rally realista centrado en la precisión y el desafío. Con tramos y vehículos escaneados con láser en 3D, asistencia profesional de copiloto y condiciones variables, ofrece una experiencia exigente e inmersiva en la que cada segundo al volante cuenta.",
         "launch_age": 2025,
-        "PEGI": "Sin clasificar",
+        "PEGI": "Sin calificar",
         "genre": [
             "Carreras"
         ],
@@ -837,7 +837,7 @@
         "title": "JDM: Japanese Drift Master",
         "description": "¡Descubre la cultura automovilística de Japón! Enfréntate a desafiantes carreteras de montaña, visita lugares legendarios de drifting en coches JDM y sumérgete en la historia sobre segundas oportunidades. Explora un mundo abierto donde cada curva te invita a dominar el arte del drift.",
         "launch_age": 2025,
-        "PEGI": "Sin clasificar",
+        "PEGI": "Sin calificar",
         "genre": [
             "Carreras"
         ],
@@ -882,7 +882,7 @@
         "title": "Driving Rogue",
         "description": "Conducción arcade con caos roguelike: rápida, intensa y ridículamente adictiva. En Driving Rogue, cada partida cuenta una historia diferente: la ciudad cambia constantemente. Lleva tu puntuación al límite y, tras cada carrera, pásate por la tienda para mejorar tu coche y conseguir la racha más larga.",
         "launch_age": 2026,
-        "PEGI": "Sin clasificar",
+        "PEGI": "Sin calificar",
         "genre": [
             "Carreras"
         ],
@@ -902,7 +902,7 @@
         "title": "CarX Street",
         "description": "Domina carreteras de montaña, autopistas y calles urbanas. Construye el coche de tus sueños con una personalización detallada que libera todo el potencial de la física «CarX Technology»©. Participa en carreras emocionantes y disfruta de una jugabilidad realista y una conducción dinámica.",
         "launch_age": 2024,
-        "PEGI": "Sin clasificar",
+        "PEGI": "Sin calificar",
         "genre": [
             "Carreras"
         ],
