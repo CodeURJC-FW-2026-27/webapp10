@@ -1867,3 +1867,74 @@ body {
 .chg-tre .item:hover .down-content a {
   background-color: #0071f8;
 }
+
+.chg-tre .chg-item  {
+  background-color: #0071f8;
+  border-radius: 25px;
+  padding: 7px;
+}
+
+.main-nav .nav li.isolate-dropdown .dropdown-menu li {
+    display: block !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+    background: transparent !important;
+}
+
+.main-nav .nav li.isolate-dropdown .dropdown-menu li a.dropdown-item {
+    display: block !important;
+    width: 100% !important;
+    padding: 0.25rem 1rem !important;
+    clear: both !important;
+    font-weight: 400 !important;
+    color: #212529 !important;
+    text-align: inherit !important;
+    text-decoration: none !important;
+    white-space: nowrap !important;
+    background-color: transparent !important;
+    border: 0 !important;
+    height: auto !important;
+    line-height: 1.5 !important;
+    text-transform: none !important;
+}
+
+.main-nav .nav li.isolate-dropdown .dropdown-menu li a.dropdown-item:hover,
+.main-nav .nav li.isolate-dropdown .dropdown-menu li a.dropdown-item:focus {
+    color: #1e2125 !important;
+    background-color: #e9ecef !important;
+}
+
+/* Forzar que el desplegable se integre perfectamente en el flujo del menú móvil */
+@media (max-width: 991px) {
+  .header-area .main-nav .nav .isolate-dropdown,
+  .header-area .main-nav .nav .dropdown {
+    position: static !important;
+  }
+  
+  .header-area .main-nav .nav .dropdown-menu.show {
+    display: block !important;
+    position: static !important;
+    float: none !important;
+    width: 100% !important;
+    max-height: none !important;
+    margin-top: 5px !important;
+    margin-bottom: 10px !important;
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    transform: none !important;
+    inset: auto !important; /* Anula los valores de posicionamiento absoluto de Popper */
+  }
+
+  /* Aseguramos que los elementos internos tengan buen aspecto en móvil */
+  .header-area .main-nav .nav li.isolate-dropdown .dropdown-menu li a.dropdown-item {
+    color: #333 !important; /* Color oscuro legible sobre la caja blanca del menú móvil */
+    padding: 8px 15px !important;
+    text-align: center !important;
+  }
+  
+  .header-area .main-nav .nav li.isolate-dropdown .dropdown-menu li a.dropdown-item:hover {
+    background-color: #f1f1f1 !important;
+  }
+}
