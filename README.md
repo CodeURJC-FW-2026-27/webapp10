@@ -72,8 +72,9 @@ Commits:
   
 Ficheros:
 
-- principalEntity.json
-- formPrincipalEntity.html
+- [formPrincipalEntity.html](https://github.com/CodeURJC-FW-2026-27/webapp10/blob/main/formPrincipalEntity.html)
+- [principalEntity.json](https://github.com/CodeURJC-FW-2026-27/webapp10/blob/main/metadata/principalEntity.json#L3)
+
 
 
 
