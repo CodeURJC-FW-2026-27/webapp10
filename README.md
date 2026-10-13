@@ -125,8 +125,6 @@ Commits:
 Ficheros:
 
 - [productdetails.html](https://github.com/CodeURJC-FW-2026-27/webapp10/blob/main/product-details.html)
-- [index.html](https://github.com/CodeURJC-FW-2026-27/webapp10/blob/main/index.html)
-- [formPrincipalEntity.html](https://github.com/CodeURJC-FW-2026-27/webapp10/blob/main/formPrincipalEntity.html)
 
 
 
