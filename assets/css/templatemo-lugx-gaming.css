@@ -1868,12 +1868,6 @@ body {
   background-color: #0071f8;
 }
 
-.chg-tre .chg-item  {
-  background-color: #0071f8;
-  border-radius: 25px;
-  padding: 7px;
-}
-
 .main-nav .nav li.isolate-dropdown .dropdown-menu li {
     display: block !important;
     margin: 0 !important;
