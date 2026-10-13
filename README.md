@@ -112,6 +112,23 @@ Ficheros:
 - [productdetails.html](https://github.com/CodeURJC-FW-2026-27/webapp10/blob/main/product-details.html)
 
 
+#### Alejandro Izquierdo
+
+He diseñado toda la sección de reseñas de product-details.html incluyendo el formulario de creación de una nueva reseña. Además he revisado el trabajo de mis compañeros haciendo pequeños cambios en sus ficheros.
+
+Commits:
+
+- [8226410b0b6ef5811dc3d67c5eacfc511126b998](https://github.com/CodeURJC-FW-2026-27/webapp10/pull/20/changes/8226410b0b6ef5811dc3d67c5eacfc511126b998)
+- [28c761ba69802e12c5c025ab0a8873b237fab8df](https://github.com/CodeURJC-FW-2026-27/webapp10/pull/20/changes/28c761ba69802e12c5c025ab0a8873b237fab8df)
+- [e066132f1dc240976822c4f64060dd94956ff4c9](https://github.com/CodeURJC-FW-2026-27/webapp10/pull/20/changes/e066132f1dc240976822c4f64060dd94956ff4c9)
+
+Ficheros:
+
+- [productdetails.html](https://github.com/CodeURJC-FW-2026-27/webapp10/blob/main/product-details.html)
+- [index.html](https://github.com/CodeURJC-FW-2026-27/webapp10/blob/main/index.html)
+- [formPrincipalEntity.html](https://github.com/CodeURJC-FW-2026-27/webapp10/blob/main/formPrincipalEntity.html)
+
+
 
 
 
