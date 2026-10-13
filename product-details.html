@@ -185,7 +185,7 @@ https://templatemo.com/tm-589-lugx-gaming
 
   <!-- Reviews part -->
 
-  <div class="section chg-tre" id="games">
+  <div class="section chg-tre" id="Comments">
     <div class="container">
       <div class="row chg-tre-box g-4">
         <div class="d-flex justify-content-between">
@@ -325,6 +325,150 @@ https://templatemo.com/tm-589-lugx-gaming
   </div>
 
 
+  <div class="section chg-tre" id="newComment">
+    <div class="container">
+      <div class="row chg-tre-box g-4 col-md-8 mx-auto">
+        <div>
+          <h2>Nueva Reseña</h2>
+        </div>
+        <form action="product-details.html" method="POST">
+          <div class="tab-content">
+            <div class="card content">
+              <div class="row justify-content-center">
+                <div class="col-md-12">
+                  <div class="card-body p-10">
+                    <h3 class="h5 mb-3">
+                      Datos principales
+                    </h3>
+
+                    <!-- User -->
+                    <div class="mb-3">
+
+                      <label class="form-label" for="username">
+                        Nombre de usuario
+                      </label>
+
+                      <input type="text" class="form-control" name="username" id="username" required
+                        placeholder="Nombre de usuario">
+
+                    </div>
+                    <!-- Comment -->
+                    <div class="mb-3">
+                      <label class="form-label" for="comment">
+                        Comentario
+                      </label>
+
+                      <textarea class="form-control" rows="5" name="comment" required id="comment"
+                        placeholder="Comentario"></textarea>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- Step 2 -->
+
+          <div class="tab-content mt-4">
+            <div class="card content">
+              <div class="row justify-content-center">
+                <div class="col-md-12">
+                  <!-- Step 2 -->
+                  <div class="card-body p-10">
+
+                    <h3 class="h5 mb-3">
+                      Puntuación
+                    </h3>
+
+                    <div class="row">
+                      <!-- Jugability -->
+                      <div class="col-md-6 mb-3">
+
+                        <label class="form-label" for="jugability">
+                          Jugabilidad
+                        </label>
+
+                        <select id="jugability" name="jugability" class="form-select" required>
+                          <option value="" disabled selected>Selecciona una opción</option>
+                          <option value="1">Mala</option>
+                          <option value="2">Regular</option>
+                          <option value="3">Buena</option>
+                          <option value="4">Muy buena</option>
+                          <option value="5">Excelente</option>
+                        </select>
+
+                      </div>
+                      <!-- Graphics -->
+                      <div class="col-md-6 mb-3">
+
+                        <label class="form-label" for="graphics">
+                          Gráficos
+                        </label>
+
+                        <select id="graphics" name="graphics" class="form-select" required>
+                          <option value="" disabled selected>Selecciona una opción</option>
+                          <option value="1">Mala</option>
+                          <option value="2">Regular</option>
+                          <option value="3">Buena</option>
+                          <option value="4">Muy buena</option>
+                          <option value="5">Excelente</option>
+                        </select>
+
+                      </div>
+                      <!-- History -->
+                      <div class="col-md-6 mb-3">
+
+                        <label class="form-label" for="history">
+                          Historia
+                        </label>
+
+                        <select id="history" name="history" class="form-select" required>
+                          <option value="" disabled selected>Selecciona una opción</option>
+                          <option value="1">Mala</option>
+                          <option value="2">Regular</option>
+                          <option value="3">Buena</option>
+                          <option value="4">Muy buena</option>
+                          <option value="5">Excelente</option>
+                        </select>
+                      </div>
+                      <!-- Precio -->
+                      <div class="col-md-6 mb-3">
+
+                        <label class="form-label" for="price">
+                          Precio
+                        </label>
+
+                        <select id="price" name="price" class="form-select" required>
+                          <option value="" disabled selected>Selecciona una opción</option>
+                          <option value="1">Muy Caro</option>
+                          <option value="2">Caro</option>
+                          <option value="3">Calidad-Precio</option>
+                          <option value="4">Un buen precio</option>
+                          <option value="5">Muy barato</option>
+                        </select>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="d-flex justify-content-end mt-4">
+            <button type="reset" class="btn btn-secondary me-2">
+              Cancelar
+            </button>
+            <button type="submit" class="btn btn-primary">
+              Enviar Reseña
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
   <footer>
     <div class="container">
       <div class="col-lg-12">
@@ -332,173 +476,6 @@ https://templatemo.com/tm-589-lugx-gaming
       </div>
     </div>
   </footer>
-
-  <!-- Modal -->
-  <div class="modal fade" id="newCommentModal" tabindex="-1" aria-labelledby="newCommentModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h2 class="modal-title fs-5" id="newCommentModalLabel">Nueva Reseña</h2>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          <form action="index.html" method="post" id="newCommentForm">
-            <div class="row justify-content-center">
-              <div class="px-4">
-                <div>
-                  <h3 class="h5 mb-3">
-                    Datos principales
-                  </h3>
-
-                  <!-- User -->
-                  <div class="mb-3">
-
-                    <label class="form-label" for="username">
-                      Nombre de usuario
-                    </label>
-
-                    <input type="text" class="form-control" name="username" id="username" required
-                      placeholder="Nombre de usuario">
-
-                  </div>
-                  <div class="row">
-                    <!-- game -->
-                    <div class="col-md-6 mb-3">
-
-                      <label class="form-label" for="game">
-                        Juego
-                      </label>
-
-                      <select id="game" name="game" class="form-select" required>
-
-                        <option value="" disabled selected>
-                          Selecciona un juego
-                        </option>
-
-                        <option value="amnesia">Amnesia: The Dark Descent</option>
-                        <option value="miside">MiSide</option>
-                        <option value="imnotahuman">I'm Not a Human</option>
-                        <option value="cuphead">Cuphead</option>
-                        <option value="eldenring">Elden Ring</option>
-                        <option value="doom">Doom</option>
-                        <option value="outlast">Outlast</option>
-                        <option value="titanfall2">Titanfall 2</option>
-                        <option value="dbd">Dead by Daylight</option>
-                        <option value="wolfenstein">Wolfenstein: The New Order</option>
-                        <option value="madmax">Mad Max</option>
-                        <option value="control">Control</option>
-
-                      </select>
-
-                    </div>
-                    <!-- publication_date -->
-                    <div class="col-md-6 mb-3">
-
-                      <label class="form-label" for="publication_date">
-                        Fecha de publicación
-                      </label>
-
-                      <input type="date" class="form-control" name="publication_date" required id="publication_date"
-                        placeholder="Fecha de publicación del juego">
-
-                    </div>
-                  </div>
-                  <!-- Comment -->
-                  <div class="mb-3">
-                    <label class="form-label" for="comment">
-                      Comentario
-                    </label>
-
-                    <textarea class="form-control" rows="5" name="comment" required id="comment"
-                      placeholder="Comentario"></textarea>
-                  </div>
-                </div>
-
-                <!-- Step 2 -->
-                <div>
-
-                  <h3 class="h5 mb-3">
-                    Puntuación
-                  </h3>
-
-                  <div class="row">
-                    <!-- Jugability -->
-                    <div class="col-md-6 mb-3">
-
-                      <label class="form-label" for="jugability">
-                        Jugabilidad
-                      </label>
-
-                      <select id="jugability" name="jugability" class="form-select" required>
-                        <option value="1">Mala</option>
-                        <option value="2">Regular</option>
-                        <option value="3">Buena</option>
-                        <option value="4">Muy buena</option>
-                        <option value="5">Excelente</option>
-                      </select>
-
-                    </div>
-                    <!-- Graphics -->
-                    <div class="col-md-6 mb-3">
-
-                      <label class="form-label" for="graphics">
-                        Gráficos
-                      </label>
-
-                      <select id="graphics" name="graphics" class="form-select" required>
-                        <option value="1">Mala</option>
-                        <option value="2">Regular</option>
-                        <option value="3">Buena</option>
-                        <option value="4">Muy buena</option>
-                        <option value="5">Excelente</option>
-                      </select>
-
-                    </div>
-                    <!-- History -->
-                    <div class="col-md-6 mb-3">
-
-                      <label class="form-label" for="history">
-                        Historia
-                      </label>
-
-                      <select id="history" name="history" class="form-select" required>
-                        <option value="1">Mala</option>
-                        <option value="2">Regular</option>
-                        <option value="3">Buena</option>
-                        <option value="4">Muy buena</option>
-                        <option value="5">Excelente</option>
-                      </select>
-                    </div>
-                    <!-- Precio -->
-                    <div class="col-md-6 mb-3">
-
-                      <label class="form-label" for="price">
-                        Precio
-                      </label>
-
-                      <select id="price" name="price" class="form-select" required>
-                        <option value="1">Muy Caro</option>
-                        <option value="2">Caro</option>
-                        <option value="3">Calidad-Precio</option>
-                        <option value="4">Un buen precio</option>
-                        <option value="5">Muy barato</option>
-                      </select>
-
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </form>
-        </div>
-        <div class="modal-footer border-0">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-          <button type="submit" class="btn btn-primary" form="newCommentForm">Comentar</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
 
   <!-- Scripts -->
   <!-- Bootstrap core JavaScript -->
