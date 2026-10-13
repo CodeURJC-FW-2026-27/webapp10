@@ -55,6 +55,13 @@ Se realizará la búsqueda en función del titulo del videojuego y el filtrado e
 
 ### Detalles
 
+<img width="1241" height="894" alt="imagen" src="https://github.com/user-attachments/assets/66754b19-4b68-41a5-a052-068932f4d0c0" />
+<img width="1185" height="878" alt="imagen" src="https://github.com/user-attachments/assets/4a85f9ec-a799-46af-b46c-a9c02976138b" />
+<img width="1162" height="511" alt="imagen" src="https://github.com/user-attachments/assets/947035db-6647-41db-8384-204c675ac5df" />
+<img width="1161" height="809" alt="imagen" src="https://github.com/user-attachments/assets/6324d643-a7ba-401c-b028-c9b6c8168aa5" />
+
+
+
 ### Nuevo elemento
 
 <img width="1460" height="726" alt="image" src="https://github.com/user-attachments/assets/ea7c43f2-e5b2-493d-9e82-58ed09687b13" />
