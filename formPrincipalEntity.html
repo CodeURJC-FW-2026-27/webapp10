@@ -9,7 +9,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
     rel="stylesheet">
 
-  <title>Lugx Gaming - Añadir juego</title>
+  <title>GamePortal - Añadir juego</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -60,6 +60,25 @@
             <!-- ***** Menu Start ***** -->
             <ul class="nav">
               <li><a href="index.html#games">Juegos</a></li>
+              <li class="isolate-dropdown">
+                <div class="dropdown">
+                  <a href="#" class="dropdown-toggle" id="dropdownMenuButton" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Filtros
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <li><a class="dropdown-item" href="index.html#games">Acción</a></li>
+                    <li><a class="dropdown-item" href="index.html#games">Terror</a></li>
+                    <li><a class="dropdown-item" href="index.html#games">RPG</a></li>
+                    <li><a class="dropdown-item" href="index.html#games">Carreras</a></li>
+                    <li><a class="dropdown-item" href="index.html#games">Puzles</a></li>
+                    <li><a class="dropdown-item" href="index.html#games">Estrategia</a></li>
+                    <li><a class="dropdown-item" href="index.html#games">Disparos</a></li>
+                    <li><a class="dropdown-item" href="index.html#games">Aventura</a></li>
+                    <li><a class="dropdown-item" href="index.html#games">Multijugador</a></li>
+                  </ul>
+                </div>
+              </li>
               <li>
                 <div class="chg">
                   <div class="search-input caption">
@@ -140,11 +159,11 @@
                         <!-- Title -->
                         <div class="mb-3">
 
-                          <label class="form-label">
+                          <label class="form-label" for="title">
                             Título
                           </label>
 
-                          <input type="text" class="form-control" name="title" required placeholder="Título del juego">
+                          <input type="text" class="form-control" name="title" id="title" required placeholder="Título del juego">
 
                         </div>
 
@@ -152,11 +171,11 @@
                         <!-- Developer -->
                         <div class="mb-3">
 
-                          <label class="form-label">
+                          <label class="form-label" for="developer">
                             Desarrollador
                           </label>
 
-                          <input type="text" class="form-control" name="developer" required
+                          <input type="text" class="form-control" name="developer" id="developer" required
                             placeholder="Desarrollador del juego">
 
                         </div>
@@ -165,11 +184,11 @@
                         <!-- Description -->
                         <div class="mb-3">
 
-                          <label class="form-label">
+                          <label class="form-label" for="description">
                             Descripción
                           </label>
 
-                          <textarea class="form-control" rows="5" name="description"
+                          <textarea class="form-control" rows="5" name="description" id="description"
                             placeholder="Descripción del juego"></textarea>
 
                         </div>
@@ -197,7 +216,7 @@
                           <!-- Year -->
                           <div class="col-md-6 mb-3">
 
-                            <label class="form-label">
+                            <label class="form-label" for="year">
                               Año de lanzamiento
                             </label>
 
@@ -293,7 +312,7 @@
                           <!-- PEGI -->
                           <div class="col-md-6 mb-3">
 
-                            <label class="form-label">
+                            <label class="form-label" for="pegi">
                               PEGI
                             </label>
 
@@ -598,7 +617,7 @@
                                   <input class="form-check-input" type="checkbox" id="nintendoSwitch"
                                     name="Nintendo Switch" value="Nintendo Switch">
 
-                                  <label class="form-check-label" for="Nintendo Switch">
+                                  <label class="form-check-label" for="nintendoSwitch">
 
                                     Nintendo Switch
 
@@ -618,7 +637,7 @@
 
                                   <label class="form-check-label" for="mobilePhone">
 
-                                    Télefono movil
+                                    Teléfono movil
 
                                   </label>
 
@@ -636,11 +655,11 @@
                         <!-- Link -->
                         <div class="mb-3">
 
-                          <label class="form-label">
+                          <label class="form-label" for="link">
                             Enlace de compra
                           </label>
 
-                          <input type="text" class="form-control" name="link" required
+                          <input type="url" class="form-control" name="link" required id="link"
                             placeholder="Enlace de compra del juego">
 
                         </div>
@@ -666,21 +685,21 @@
 
                         <div class="mb-3">
 
-                          <label class="form-label">
-                            Caratula del juego
+                          <label class="form-label" for="image">
+                            Carátula del juego
                           </label>
 
-                          <input type="file" class="form-control" name="imagen" accept="image/*">
+                          <input type="file" class="form-control"  id="image" name="image" accept="image/*">
 
                         </div>
 
                         <div class="mb-3">
 
-                          <label class="form-label">
+                          <label class="form-label" for="images">
                             Escenas del juego
                           </label>
 
-                          <input type="file" class="form-control" name="imagenes[]" accept="image/*" multiple>
+                          <input type="file" class="form-control" id="images" name="images[]" accept="image/*" multiple>
 
                         </div>
                       </div>
@@ -744,23 +763,13 @@
 
 
             </div>
-            <!-- Fin tab-content -->
-
-
           </div>
-          <!-- Fin card-body -->
-
         </div>
-        <!-- Fin col-md-8 -->
-
+      </form>
     </div>
-    <!-- Fin row -->
-    </form>
 
   </div>
-  <!-- Fin container -->
 
-  </div>
   <!-- ***** Contact Page End ***** -->
 
 
@@ -780,12 +789,11 @@
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-
   <script src="assets/js/isotope.min.js"></script>
   <script src="assets/js/owl-carousel.js"></script>
   <script src="assets/js/counter.js"></script>
   <script src="assets/js/custom.js"></script>
-
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

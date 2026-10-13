@@ -1167,6 +1167,7 @@ Page Header Style
   color: #fff;
 }
 
+.page-heading h1,
 .page-heading h3 {
   font-size: 48px;
   text-transform: uppercase;
@@ -1344,12 +1345,15 @@ Single Page Style
 
 .single-product .left-image {
   margin-right: 80px;
+  margin-bottom: 25px;
 }
 
 .single-product .left-image img {
   border-radius: 25px;
+  align-self: right;
 }
 
+.single-product h2,
 .single-product h4 {
   font-size: 27px;
   margin-bottom: 20px;
@@ -1371,8 +1375,8 @@ Single Page Style
 }
 
 .single-product p {
-  margin-top: 50px;
-  margin-bottom: 60px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .single-product form input {
@@ -1414,7 +1418,8 @@ Single Page Style
 }
 
 .single-product ul {
-  margin-top: 60px;
+  margin-top: 25px;
+  margin-bottom: 50px;
 }
 
 .single-product ul li {
@@ -1437,7 +1442,7 @@ Single Page Style
 .tabs-content {
   background-color: #f7f7f7;
   border-radius: 25px;
-  padding: 60px;
+  padding: 20px;
   transition: all 0.3s;
 }
 
@@ -1970,5 +1975,17 @@ body {
   .dropdown-menu li a.dropdown-item:hover {
     background: #f1f1f1 !important;
     color: #0071f8 !important;
+  }
+
+
+  /* Custom Css */
+  .comment-card {
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.06) !important;
+    transition: box-shadow .2s ease;
+  }
+
+  .comment-card:hover {
+    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .08) !important;
   }
 }
