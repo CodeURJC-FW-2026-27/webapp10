@@ -75,7 +75,34 @@ Ficheros:
 - [formPrincipalEntity.html](https://github.com/CodeURJC-FW-2026-27/webapp10/blob/main/formPrincipalEntity.html)
 - [principalEntity.json](https://github.com/CodeURJC-FW-2026-27/webapp10/blob/main/metadata/principalEntity.json#L3)
 
+#### Alejandro Sánchez Uzquiano 
 
+He realizado los cambios y adaptación de la pagina principal a nuestras necesidades, añadiendo desde cero el desplegable de categorías en el header, el grid con mínimo 9 elementos, el botón que redirige a la pagina añadir juego. Entre otras cosas he cambiado y adaptado el logo de la pagina y he modificado el footer para que este acorde a la practica.
+
+Commits:
+
+- [1ba9ed09b86c33da91df0be12376969229e961ba](https://github.com/CodeURJC-FW-2026-27/webapp10/commit/1ba9ed09b86c33da91df0be12376969229e961ba)
+- [6a1dc33df4e14dab67dc55e0822f69fa7797ed12](https://github.com/CodeURJC-FW-2026-27/webapp10/commit/6a1dc33df4e14dab67dc55e0822f69fa7797ed12)
+
+Ficheros:
+ - [index.html](https://github.com/CodeURJC-FW-2026-27/webapp10/blob/main/index.html)
+ - [templatemo-lugx-gaming.css](https://github.com/CodeURJC-FW-2026-27/webapp10/blob/main/assets/css/templatemo-lugx-gaming.css)
+
+#### Guillermo Hervás García
+
+He modificado el estilo de productdetails.html para adaptarlo a las necesidades de la página con la presentación en un estilo similar al de Steam. He añadido desde cero el carrusel de imágenes con Bootstrap para mostrar las escenas de los juegos.
+
+Commits:
+
+- [7bf492ca6648fbd547216a1cbe1717db4cf31477](https://github.com/CodeURJC-FW-2026-27/webapp10/pull/10/changes/7bf492ca6648fbd547216a1cbe1717db4cf31477)
+- [bc1a9299f3cf18ad99422443f88381557920f61c](https://github.com/CodeURJC-FW-2026-27/webapp10/pull/20/changes/bc1a9299f3cf18ad99422443f88381557920f61c)
+- [f2a0e21ea2823cafdbab9bbf248d13b9750ad573](https://github.com/CodeURJC-FW-2026-27/webapp10/pull/20/changes/f2a0e21ea2823cafdbab9bbf248d13b9750ad573)
+- [caff27a99245c6c691ab007caa90b14c3be0b4b4](https://github.com/CodeURJC-FW-2026-27/webapp10/pull/20/changes/caff27a99245c6c691ab007caa90b14c3be0b4b4)
+
+
+Ficheros:
+
+- [productdetails.html](https://github.com/CodeURJC-FW-2026-27/webapp10/blob/main/product-details.html)
 
 
 
