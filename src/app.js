@@ -6,10 +6,10 @@ import router from './router.js';
 
 const app = express();
 
-app.use(express.static('./public'));
+app.use(express.static('public'));
 
 app.set('view engine', 'html');
-app.engine('html', mustacheExpress(), ".html");
+app.engine('html', mustacheExpress());
 app.set('views', './views');
 
 app.use(bodyParser.urlencoded({ extended: true }));
