@@ -185,5 +185,9 @@ router.get('/product-details', (req, res) => {
     res.render('product-details.html');
 })
 
+router.get('/formPrincipalEntity',(req,res) => {
+    res.render('formPrincipalEntity.html');
+})
+
 
 export default router;

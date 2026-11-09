@@ -44,62 +44,7 @@
   <!-- ***** Preloader End ***** -->
 
 
-  <!-- ***** Header Area Start ***** -->
-  <header class="header-area header-sticky">
-
-    <div class="container">
-
-      <div class="row">
-        <div class="col-12">
-          <nav class="main-nav">
-            <!-- ***** Logo Start ***** -->
-            <a href="index.html" class="logo"> <!--class="chr-logo"-->
-              <img src="/images/logo.png" alt="" style="width: 180px;">
-            </a>
-            <!-- ***** Logo End ***** -->
-            <!-- ***** Menu Start ***** -->
-            <ul class="nav">
-              <li><a href="index.html#games">Juegos</a></li>
-              <li class="isolate-dropdown">
-                <div class="dropdown">
-                  <a href="#" class="dropdown-toggle" id="dropdownMenuButton" role="button" data-bs-toggle="dropdown"
-                    aria-expanded="false">
-                    Filtros
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <li><a class="dropdown-item" href="index.html#games">Acción</a></li>
-                    <li><a class="dropdown-item" href="index.html#games">Terror</a></li>
-                    <li><a class="dropdown-item" href="index.html#games">RPG</a></li>
-                    <li><a class="dropdown-item" href="index.html#games">Carreras</a></li>
-                    <li><a class="dropdown-item" href="index.html#games">Puzles</a></li>
-                    <li><a class="dropdown-item" href="index.html#games">Estrategia</a></li>
-                    <li><a class="dropdown-item" href="index.html#games">Disparos</a></li>
-                    <li><a class="dropdown-item" href="index.html#games">Aventura</a></li>
-                    <li><a class="dropdown-item" href="index.html#games">Multijugador</a></li>
-                  </ul>
-                </div>
-              </li>
-              <li>
-                <div class="chg">
-                  <div class="search-input caption">
-                    <form id="search" action="index.html#games">
-                      <input type="text" placeholder="Nombre del juego" id='searchText' name="searchKeyword"
-                        onkeypress="handle" />
-                      <button role="button">Buscar</button>
-                    </form>
-                  </div>
-                </div>
-              </li>
-            </ul>
-            <a class='menu-trigger'>
-              <span>Menu</span>
-            </a>
-            <!-- ***** Menu End ***** -->
-          </nav>
-        </div>
-      </div>
-    </div>
-  </header>
+  {{>header}}
   <!-- ***** Header Area End ***** -->
 
 
