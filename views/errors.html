@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+  <title>GamePortal - Añadir juego</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Additional CSS Files -->
+  <link rel="stylesheet" href="/css/fontawesome.css">
+  <link rel="stylesheet" href="/css/templatemo-lugx-gaming.css">
+  <link rel="stylesheet" href="/css/owl.css">
+  <link rel="stylesheet" href="/css/animate.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
+
+</head>
+
+<body>
+
+  <!-- ***** Preloader Start ***** -->
+  <div id="js-preloader" class="js-preloader">
+
+    <div class="preloader-inner">
+
+      <span class="dot"></span>
+
+      <div class="dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+    </div>
+
+  </div>
+  <!-- ***** Preloader End ***** -->
+
+
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky">
+
+    <div class="container">
+
+      <div class="row">
+        <div class="col-12">
+          <nav class="main-nav">
+            <!-- ***** Logo Start ***** -->
+            <a href="index.html" class="logo"> <!--class="chr-logo"-->
+              <img src="/images/logo.png" alt="" style="width: 180px;">
+            </a>
+            <!-- ***** Logo End ***** -->
+            <!-- ***** Menu Start ***** -->
+            <ul class="nav">
+              <li><a href="index.html#games">Juegos</a></li>
+              <li class="isolate-dropdown">
+                <div class="dropdown">
+                  <a href="#" class="dropdown-toggle" id="dropdownMenuButton" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Filtros
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <li><a class="dropdown-item" href="index.html#games">Acción</a></li>
+                    <li><a class="dropdown-item" href="index.html#games">Terror</a></li>
+                    <li><a class="dropdown-item" href="index.html#games">RPG</a></li>
+                    <li><a class="dropdown-item" href="index.html#games">Carreras</a></li>
+                    <li><a class="dropdown-item" href="index.html#games">Puzles</a></li>
+                    <li><a class="dropdown-item" href="index.html#games">Estrategia</a></li>
+                    <li><a class="dropdown-item" href="index.html#games">Disparos</a></li>
+                    <li><a class="dropdown-item" href="index.html#games">Aventura</a></li>
+                    <li><a class="dropdown-item" href="index.html#games">Multijugador</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <div class="chg">
+                  <div class="search-input caption">
+                    <form id="search" action="index.html#games">
+                      <input type="text" placeholder="Nombre del juego" id='searchText' name="searchKeyword"
+                        onkeypress="handle" />
+                      <button role="button">Buscar</button>
+                    </form>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <a class='menu-trigger'>
+              <span>Menu</span>
+            </a>
+            <!-- ***** Menu End ***** -->
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+
+
+  <!-- ***** Page Heading Start ***** -->
+  <div class="page-heading header-text">
+
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-lg-12">
+
+          <h3>Error</h3>
+
+          <span class="breadcrumb">
+            <a href="index.html">Inicio</a> > Añadir juego
+          </span>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+  <!-- ***** Page Heading End ***** -->
+
+    <!-- Contenido principal -->
+    <div class="container">
+
+        <div class="row justify-content-center">
+
+            <div class="col-lg-8">
+
+                <div class="container row justify-content-center">
+                        <div class="col-6 col-sm-6 col-lg-3">
+                            <div class="item">
+                                <div class="thumb">
+                                    <img src="/images/warning.png" alt="" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                <div class="text-center mb-4">
+
+                    <h1 class="mt-4">¡Vaya! Hay algunos errores</h1>
+
+                    <p class="mt-3">
+                        No hemos podido registrar tu videojuego.
+                        Parece que algunos datos del formulario
+                        no se han rellenado correctamente.
+                    </p>
+
+                </div>
+
+                <!-- Lista de errores -->
+                <div class="card p-4 mt-4">
+
+                    <h4>
+                        Comprueba los siguientes campos:
+                    </h4>
+
+                    <ul class="mt-3">
+
+                        {{#errors}}
+                        <li class="mb-3">
+                            <p class="mb-0">{{message}}</p>
+                        </li>
+                        {{/errors}}
+
+                    </ul>
+
+                </div>
+
+                <!-- Botones -->
+                <div class="text-center mt-4">
+
+                    <a href="/formPrincipalEntity.html" class="btn btn-primary me-2">
+                        Volver al formulario
+                    </a>
+
+                    <a href="/" class="btn btn-secondary">
+                        Volver al inicio
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="col-lg-12">
+                <p>Copyright © 2026 GamePortal. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/vendor/jquery/jquery.min.js"></script>
+    <script src="/js/custom.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

@@ -87,24 +87,23 @@ router.post('/newElement', upload.fields([
     let errors = [];
 
     if (!req.body.title || req.body.title.trim() === "") {
-        console.log("MAAAAL");
         errors.push({
-            field: "Título",
-            message: "Debes introducir el nombre del videojuego."
+            field: "title",
+            message: "Debes introducir el titulo del videojuego."
         });
     }
 
     if (!req.body.description || req.body.description.trim() === "") {
         errors.push({
-            field: "Descripción",
+            field: "description",
             message: "Debes introducir una descripción."
         });
     }
 
     if (!req.body.year || isNaN(req.body.year)) {
         errors.push({
-            field: "Año de lanzamiento",
-            message: "Debes introducir un año válido."
+            field: "year",
+            message: "Debes introducir un año de lanzamiento válido."
         });
     }
 
@@ -117,15 +116,36 @@ router.post('/newElement', upload.fields([
 
     if (genre.length === 0) {
         errors.push({
-            field: "Género",
+            field: "genre",
             message: "Debes seleccionar al menos un género."
         });
     }
 
     if (!req.body.developer || req.body.developer.trim() === "") {
         errors.push({
-            field: "Desarrolladora",
-            message: "Debes introducir la desarrolladora."
+            field: "developer",
+            message: "Debes introducir el desarrollador."
+        });
+    }
+
+    if (!req.body.link || req.body.link.trim() === "") {
+        errors.push({
+            field: "link",
+            message: "Debes introducir el link de compra."
+        });
+    }
+
+    if(cover = null){
+        errors.push({
+            field: "cover",
+            message: "Debes introducir la foto de portada."
+        });
+    }
+
+    if(scenes.length === 0){
+        errors.push({
+            field: "scene",
+            message: "Debes introducir al menos una foto de escena."
         });
     }
 
@@ -138,7 +158,7 @@ router.post('/newElement', upload.fields([
 
     console.log(errors.length);
     if (errors.length > 0) {
-        return res.render('missingFiles.html', {
+        return res.render('errors.html', {
             errors: errors
         });
     } else {
@@ -156,10 +176,6 @@ router.post('/newElement', upload.fields([
         };
 
         board.addGame(game);
-
-        console.log(game);
-
-
         res.render('index.html');
     }
 
