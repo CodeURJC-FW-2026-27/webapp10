@@ -75,7 +75,7 @@ router.post('/newElement', upload.fields([
     let scenes = [];
 
     if (req.files['cover'] && req.files['cover'].length > 0) {
-        cover =req.files['cover'][0].filename;
+        cover = req.files['cover'][0].filename;
     }
 
     if (req.files['scene'] && req.files['scene'].length > 0) {
@@ -84,25 +84,85 @@ router.post('/newElement', upload.fields([
         }
     }
 
-    let game = {
-        title: req.body.title,
-        description: req.body.description,
-        launch_age: req.body.year,
-        PEGI: req.body.pegi,
-        genre: genre,
-        developer: req.body.developer,
-        platform: platform,
-        link: req.body.link,
-        cover: cover,
-        scene: scenes
-    };
+    let errors = [];
 
-    board.addGame(game);
+    if (!req.body.title || req.body.title.trim() === "") {
+        console.log("MAAAAL");
+        errors.push({
+            field: "Título",
+            message: "Debes introducir el nombre del videojuego."
+        });
+    }
 
-    console.log(game);
+    if (!req.body.description || req.body.description.trim() === "") {
+        errors.push({
+            field: "Descripción",
+            message: "Debes introducir una descripción."
+        });
+    }
+
+    if (!req.body.year || isNaN(req.body.year)) {
+        errors.push({
+            field: "Año de lanzamiento",
+            message: "Debes introducir un año válido."
+        });
+    }
+
+    if (!req.body.pegi) {
+        errors.push({
+            field: "PEGI",
+            message: "Debes seleccionar una clasificación PEGI."
+        });
+    }
+
+    if (genre.length === 0) {
+        errors.push({
+            field: "Género",
+            message: "Debes seleccionar al menos un género."
+        });
+    }
+
+    if (!req.body.developer || req.body.developer.trim() === "") {
+        errors.push({
+            field: "Desarrolladora",
+            message: "Debes introducir la desarrolladora."
+        });
+    }
+
+    if (platform.length === 0) {
+        errors.push({
+            field: "Plataforma",
+            message: "Debes seleccionar al menos una plataforma."
+        });
+    }
+
+    console.log(errors.length);
+    if (errors.length > 0) {
+        return res.render('missingFiles.html', {
+            errors: errors
+        });
+    } else {
+        let game = {
+            title: req.body.title,
+            description: req.body.description,
+            launch_age: req.body.year,
+            PEGI: req.body.pegi,
+            genre: genre,
+            developer: req.body.developer,
+            platform: platform,
+            link: req.body.link,
+            cover: cover,
+            scene: scenes
+        };
+
+        board.addGame(game);
+
+        console.log(game);
 
 
-    res.render('index.html');
+        res.render('index.html');
+    }
+
 })
 
 router.get('/product-details', (req, res) => {
