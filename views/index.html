@@ -123,9 +123,11 @@
         <div class="d-flex justify-content-center gap-3 mt-4">
           {{#hasPrev}}
           <a href="/?idPage={{prevPage}}" class="btn btn-primary">Anterior</a>
+          <h4>{{prevPage}}</h4>
           {{/hasPrev}}
-          <h1>{{numPage}}</h1>
+          <h2>{{numPage}}</h2>
           {{#hasNext}}
+          <h4>{{nextPage}}</h4>
           <a href="/?idPage={{nextPage}}" class="btn btn-primary">Siguiente</a>
           {{/hasNext}}
         </div>
