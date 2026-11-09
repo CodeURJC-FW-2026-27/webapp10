@@ -128,12 +128,12 @@
   <!-- ***** Page Heading End ***** -->
 
 
-  <!-- ***** Contact Page Start ***** -->
+  <!-- ***** Form Page Start ***** -->
   <div class="contact-page section">
 
     <div class="container">
 
-      <form action="index.html" method="post">
+      <form action="/newElement" method="post" enctype="multipart/form-data">
 
         <div class="row justify-content-center">
 
@@ -615,7 +615,7 @@
                                 <div class="form-check">
 
                                   <input class="form-check-input" type="checkbox" id="nintendoSwitch"
-                                    name="Nintendo Switch" value="Nintendo Switch">
+                                    name="nintendoSwitch" value="Nintendo Switch">
 
                                   <label class="form-check-label" for="nintendoSwitch">
 
@@ -632,7 +632,7 @@
 
                                 <div class="form-check">
 
-                                  <input class="form-check-input" type="checkbox" id="mobilePhone" name="Telefono movil"
+                                  <input class="form-check-input" type="checkbox" id="mobilePhone" name="mobilePhone"
                                     value="Telefono movil">
 
                                   <label class="form-check-label" for="mobilePhone">
@@ -685,21 +685,21 @@
 
                         <div class="mb-3">
 
-                          <label class="form-label" for="image">
+                          <label class="form-label" for="cover">
                             Carátula del juego
                           </label>
 
-                          <input type="file" class="form-control"  id="image" name="image" accept="image/*">
+                          <input type="file" class="form-control"  id="cover" name="cover" accept="image/*">
 
                         </div>
 
                         <div class="mb-3">
 
-                          <label class="form-label" for="images">
+                          <label class="form-label" for="scene">
                             Escenas del juego
                           </label>
 
-                          <input type="file" class="form-control" id="images" name="images[]" accept="image/*" multiple>
+                          <input type="file" class="form-control" id="scene" name="scene" accept="image/*" multiple>
 
                         </div>
                       </div>
