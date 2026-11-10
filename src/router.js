@@ -8,7 +8,8 @@ const router = express.Router();
 const client = new MongoClient('mongodb://localhost:27017');
 
 const db = client.db('games');
-const games = db.collection('games')
+const games = db.collection('games');
+
 
 router.get('/', async (req, res) => {
     let numPage = parseInt(req.query.idPage) || 1;
@@ -26,7 +27,25 @@ router.get('/', async (req, res) => {
         }
 
         let sk = (numPage - 1) * lm;
-        let pageGames = await games.find().skip(sk).limit(lm).toArray();
+        let pageGames = await games.find()
+            .project({
+                title: 1,
+                cover: 1,
+                genre: 1
+            })
+            .skip(sk)
+            .limit(lm)
+            .toArray();
+
+        let iterable = Array.from({ length: totalPages }, (_, index) => {
+            return { number: index + 1, isPage: false};
+        });
+
+        for (let i of iterable) {
+            if (i.number === numPage) {
+                i.isPage = true;
+            }
+        }
 
         res.render('index.html', {
             pageGames: pageGames,
@@ -34,6 +53,7 @@ router.get('/', async (req, res) => {
             hasNext: numPage < totalPages,
             prevPage: numPage - 1,
             nextPage: numPage + 1,
+            iterable: iterable,
             numPage: numPage
         });
 
@@ -42,11 +62,14 @@ router.get('/', async (req, res) => {
     }
 })
 
+router.get('/category', async (req, res) => {
+    let numPage = parseInt(req.query.idPage) || 1;
+
+})
+
 router.get('/product-details', (req, res) => {
     res.render('product-details.html');
 })
-
-
 
 
 export default router;
