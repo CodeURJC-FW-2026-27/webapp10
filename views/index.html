@@ -66,7 +66,7 @@
           <div class="item">
             <h4>Terror</h4>
             <div class="thumb">
-              <a href="#"><img src="/images/categories-terror.jpg" alt="" class="img-fluid"></a>
+              <a href="/category?genre=Terror"><img src="/images/categories-terror.jpg" alt="" class="img-fluid"></a>
             </div>
           </div>
         </div>
@@ -74,7 +74,7 @@
           <div class="item">
             <h4>Carreras</h4>
             <div class="thumb">
-              <a href="#"><img src="/images/categories-cars.jpg" alt="" class="img-fluid"></a>
+              <a href="/category?genre=Carreras"><img src="/images/categories-cars.jpg" alt="" class="img-fluid"></a>
             </div>
           </div>
         </div>
@@ -82,7 +82,7 @@
           <div class="item">
             <h4>Acción</h4>
             <div class="thumb">
-              <a href="#"><img src="/images/categories-action.jpg" alt="" class="img-fluid"></a>
+              <a href="/category?genre=Accion"><img src="/images/categories-action.jpg" alt="" class="img-fluid"></a>
             </div>
           </div>
         </div>
@@ -90,7 +90,7 @@
           <div class="item">
             <h4>RPG</h4>
             <div class="thumb">
-              <a href="#"><img src="/images/categories-RPG.jpg" alt="" class="img-fluid"></a>
+              <a href="/category?genre=RPG"><img src="/images/categories-RPG.jpg" alt="" class="img-fluid"></a>
             </div>
           </div>
         </div>
@@ -122,7 +122,7 @@
         {{/pageGames}}
         <div class="d-flex justify-content-center gap-3 mt-4">
           {{#hasPrev}}
-          <a href="/?idPage={{prevPage}}" class="btn btn-primary">Anterior</a>
+          <a href="?idPage={{prevPage}}&searched={{searched}}&genre={{genre}}" class="btn btn-primary">Anterior</a>
           {{/hasPrev}}
 
 
@@ -133,14 +133,14 @@
           {{/isPage}}
 
           {{^isPage}}
-          <a href="/?idPage={{number}}" class="btn">{{number}}</a>
+          <a href="?idPage={{number}}&searched={{searched}}&genre={{genre}}" class="btn">{{number}}</a>
           {{/isPage}}
 
           {{/iterable}}
 
 
           {{#hasNext}}
-          <a href="/?idPage={{nextPage}}" class="btn btn-primary">Siguiente</a>
+          <a href="?idPage={{nextPage}}&searched={{searched}}&genre={{genre}}" class="btn btn-primary">Siguiente</a>
           {{/hasNext}}
         </div>
       </div>

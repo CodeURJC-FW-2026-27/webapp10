@@ -10,16 +10,18 @@ const client = new MongoClient('mongodb://localhost:27017');
 const db = client.db('games');
 const games = db.collection('games');
 
-
-router.get('/', async (req, res) => {
+async function renderPages(req, res, filter) {
     let numPage = parseInt(req.query.idPage) || 1;
+    let searched = req.query.searched || '';
+    let genre = req.query.genre || '';
 
     let lm = 6;
 
     try {
-        let totalGames = await games.countDocuments();
+        let totalGames = await games.countDocuments(filter) || 1;
         let totalPages = Math.ceil(totalGames / lm);
 
+        
         if (numPage > totalPages) {
             numPage = totalPages;
         } else if (numPage < 1) {
@@ -27,7 +29,7 @@ router.get('/', async (req, res) => {
         }
 
         let sk = (numPage - 1) * lm;
-        let pageGames = await games.find()
+        let pageGames = await games.find(filter)
             .project({
                 title: 1,
                 cover: 1,
@@ -54,26 +56,30 @@ router.get('/', async (req, res) => {
             prevPage: numPage - 1,
             nextPage: numPage + 1,
             iterable: iterable,
-            numPage: numPage
+            numPage: numPage,
+            searched: searched,
+            genre: genre
         });
 
     } catch (error) {
         console.log(error);
     }
+}
+
+router.get('/', async (req, res) => {
+    let emptyObject = {};
+    await renderPages(req, res, emptyObject);
 })
 
-router.post('/header.html', async (req, res) => {
-    let searched = req.body.searched;
-    let searchedArray = await games.find({ $text: { $search: searched } }).toArray();
-
-    res.render('index.html', {
-        
-    });
+router.get('/search', async (req, res) => {
+    let searched = { $text: { $search: (req.query.searched || '') } };
+    await renderPages(req, res, searched);
 
 })
 
 router.get('/category', async (req, res) => {
-    let numPage = parseInt(req.query.idPage) || 1;
+    let searched = { genre: req.query.genre };
+    await renderPages(req, res, searched);
 
 })
 
