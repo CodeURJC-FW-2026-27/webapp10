@@ -1,7 +1,7 @@
 import express from 'express';
 import multer from 'multer';
 import { MongoClient } from 'mongodb';
-import * as board from './board.js';
+import * as games from './games.js';
 
 const router = express.Router();
 
@@ -15,11 +15,7 @@ router.get('/', (req, res) => {
 
 const upload = multer({ dest: 'uploads/' });
 
-router.post('/newElement', upload.fields([
-    { name: 'cover', maxCount: 1 },
-    { name: 'scene', maxCount: 10 }
-]), (req, res) => {
-
+const getGenre = function(req){
     let genre = [];
 
     if (req.body.action) {
@@ -50,6 +46,10 @@ router.post('/newElement', upload.fields([
         genre.push("Terror");
     }
 
+    return genre;
+}
+
+const getPlatform = function(req){
     let platform = [];
 
     if (req.body.pc) {
@@ -71,25 +71,22 @@ router.post('/newElement', upload.fields([
         platform.push("Teléfono movil");
     }
 
-    let cover = null;
-    let scenes = [];
+    return platform;
+}
 
-    if (req.files['cover'] && req.files['cover'].length > 0) {
-        cover = req.files['cover'][0].filename;
-    }
-
-    if (req.files['scene'] && req.files['scene'].length > 0) {
-        for (let file of req.files['scene']) {
-            scenes.push(file.filename);
-        }
-    }
-
+const getErrors = function(req,genre,platform,cover,scenes){
     let errors = [];
-
     if (!req.body.title || req.body.title.trim() === "") {
         errors.push({
             field: "title",
             message: "Debes introducir el titulo del videojuego."
+        });
+    }
+
+    if(/^[A-Z]/.test(req.body.title)){
+        errors.push({
+            field: "format",
+            message: "El titulo del juego debe empezar por mayuscula."
         });
     }
 
@@ -135,14 +132,14 @@ router.post('/newElement', upload.fields([
         });
     }
 
-    if(cover = null){
+    if (cover = null) {
         errors.push({
             field: "cover",
             message: "Debes introducir la foto de portada."
         });
     }
 
-    if(scenes.length === 0){
+    if (scenes.length === 0) {
         errors.push({
             field: "scene",
             message: "Debes introducir al menos una foto de escena."
@@ -156,10 +153,52 @@ router.post('/newElement', upload.fields([
         });
     }
 
-    console.log(errors.length);
-    if (errors.length > 0) {
-        return res.render('errors.html', {
-            errors: errors
+    if (!req.body.acept) {
+        errors.push({
+            field: "terms",
+            message: "Es necesario aceptar los términos y condiciones."
+        });
+    }
+
+    return errors;
+}
+
+router.post('/newElement', upload.fields([
+    { name: 'cover', maxCount: 1 },
+    { name: 'scene', maxCount: 10 }
+]), (req, res) => {
+
+    let genre = getGenre(req);
+    let platform = getPlatform(req);
+
+    let cover = null;
+    let scenes = [];
+
+    if (req.files['cover'] && req.files['cover'].length > 0) {
+        cover = req.files['cover'][0].filename;
+    }
+
+    if (req.files['scene'] && req.files['scene'].length > 0) {
+        for (let file of req.files['scene']) {
+            scenes.push(file.filename);
+        }
+    }
+
+    let gErrors = getErrors(req,genre,platform,cover,scenes);
+
+    
+    if (gErrors.length > 0) {
+        let window = {
+            isError : true,
+            header: "Error",
+            title : "¡Vaya! Hay algunos errores",
+            message : "No hemos podido registrar tu videojuego. Parece que algunos datos del formulario no se han rellenado correctamente.",
+            errors : gErrors,
+            redirect: "/formPrincipalEntity",
+            buttonText: "Volver al formulario"
+        }
+        return res.render('window.html', {
+            window: window
         });
     } else {
         let game = {
@@ -175,8 +214,21 @@ router.post('/newElement', upload.fields([
             scene: scenes
         };
 
-        board.addGame(game);
-        res.render('index.html');
+        games.addGame(game);
+
+
+        let window = {
+            isError : false,
+            header: "Nuevo juego",
+            title: "Juego guardado",
+            message : "Se ha guardado correctamente el juego en el sistema",
+            errors : null,
+            redirect: "/product-details/${game._id}",
+            buttonText: "Ver detalles del producto"
+        }
+        res.render('window.html', {
+            window: window
+        })
     }
 
 })
@@ -185,7 +237,7 @@ router.get('/product-details', (req, res) => {
     res.render('product-details.html');
 })
 
-router.get('/formPrincipalEntity',(req,res) => {
+router.get('/formPrincipalEntity', (req, res) => {
     res.render('formPrincipalEntity.html');
 })
 
