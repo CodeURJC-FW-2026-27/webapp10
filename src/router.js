@@ -168,10 +168,10 @@ const getErrors = function(req,genre,platform,cover,scenes){
     return errors;
 }
 
-router.post('/newElement', upload.fields([
+ router.post('/newElement', upload.fields([
     { name: 'cover', maxCount: 1 },
     { name: 'scene', maxCount: 10 }
-]), (req, res) => {
+]), async (req, res) => {
 
     let genre = getGenre(req);
     let platform = getPlatform(req);
@@ -219,7 +219,7 @@ router.post('/newElement', upload.fields([
             scene: scenes
         };
 
-        games.addGame(game);
+        await games.addGame(game);
 
 
         let window = {
