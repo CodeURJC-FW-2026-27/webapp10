@@ -62,6 +62,16 @@ router.get('/', async (req, res) => {
     }
 })
 
+router.post('/header.html', async (req, res) => {
+    let searched = req.body.searched;
+    let searchedArray = await games.find({ $text: { $search: searched } }).toArray();
+
+    res.render('index.html', {
+        
+    });
+
+})
+
 router.get('/category', async (req, res) => {
     let numPage = parseInt(req.query.idPage) || 1;
 

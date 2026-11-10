@@ -36,10 +36,9 @@
                         <li>
                             <div class="chg">
                                 <div class="search-input caption">
-                                    <form id="search" action="#games">
-                                        <input type="text" placeholder="Nombre del juego" id='searchText'
-                                            name="searchKeyword" onkeypress="handle" />
-                                        <button role="button">Buscar</button>
+                                    <form id="search" method="post" action="#games">
+                                        <input type="text" name="searched" placeholder="Nombre del juego" id='searchText' onkeypress="handle" />
+                                        <button type="submit" action="url_router" role="button">Buscar</button>
                                     </form>
                                 </div>
                             </div>
