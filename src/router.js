@@ -81,9 +81,7 @@ const getErrors = function(req,genre,platform,cover,scenes){
             field: "title",
             message: "Debes introducir el titulo del videojuego."
         });
-    }
-
-    if(/^[A-Z]/.test(req.body.title)){
+    }else if(!/^[A-Z]/.test(req.body.title)){
         errors.push({
             field: "format",
             message: "El titulo del juego debe empezar por mayuscula."
@@ -94,6 +92,13 @@ const getErrors = function(req,genre,platform,cover,scenes){
         errors.push({
             field: "description",
             message: "Debes introducir una descripción."
+        });
+    }
+
+    if(req.body.description.length > 500){
+        errors.push({
+            field: "description",
+            message: "La descripcion no puede contener mas de 500 caracteres."
         });
     }
 
