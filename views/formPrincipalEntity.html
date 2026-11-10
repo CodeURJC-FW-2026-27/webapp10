@@ -44,62 +44,7 @@
   <!-- ***** Preloader End ***** -->
 
 
-  <!-- ***** Header Area Start ***** -->
-  <header class="header-area header-sticky">
-
-    <div class="container">
-
-      <div class="row">
-        <div class="col-12">
-          <nav class="main-nav">
-            <!-- ***** Logo Start ***** -->
-            <a href="index.html" class="logo"> <!--class="chr-logo"-->
-              <img src="/images/logo.png" alt="" style="width: 180px;">
-            </a>
-            <!-- ***** Logo End ***** -->
-            <!-- ***** Menu Start ***** -->
-            <ul class="nav">
-              <li><a href="index.html#games">Juegos</a></li>
-              <li class="isolate-dropdown">
-                <div class="dropdown">
-                  <a href="#" class="dropdown-toggle" id="dropdownMenuButton" role="button" data-bs-toggle="dropdown"
-                    aria-expanded="false">
-                    Filtros
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <li><a class="dropdown-item" href="index.html#games">Acción</a></li>
-                    <li><a class="dropdown-item" href="index.html#games">Terror</a></li>
-                    <li><a class="dropdown-item" href="index.html#games">RPG</a></li>
-                    <li><a class="dropdown-item" href="index.html#games">Carreras</a></li>
-                    <li><a class="dropdown-item" href="index.html#games">Puzles</a></li>
-                    <li><a class="dropdown-item" href="index.html#games">Estrategia</a></li>
-                    <li><a class="dropdown-item" href="index.html#games">Disparos</a></li>
-                    <li><a class="dropdown-item" href="index.html#games">Aventura</a></li>
-                    <li><a class="dropdown-item" href="index.html#games">Multijugador</a></li>
-                  </ul>
-                </div>
-              </li>
-              <li>
-                <div class="chg">
-                  <div class="search-input caption">
-                    <form id="search" action="index.html#games">
-                      <input type="text" placeholder="Nombre del juego" id='searchText' name="searchKeyword"
-                        onkeypress="handle" />
-                      <button role="button">Buscar</button>
-                    </form>
-                  </div>
-                </div>
-              </li>
-            </ul>
-            <a class='menu-trigger'>
-              <span>Menu</span>
-            </a>
-            <!-- ***** Menu End ***** -->
-          </nav>
-        </div>
-      </div>
-    </div>
-  </header>
+  {{>header}}
   <!-- ***** Header Area End ***** -->
 
 
@@ -128,12 +73,12 @@
   <!-- ***** Page Heading End ***** -->
 
 
-  <!-- ***** Contact Page Start ***** -->
+  <!-- ***** Form Page Start ***** -->
   <div class="contact-page section">
 
     <div class="container">
 
-      <form action="index.html" method="post">
+      <form action="/newElement" method="post" enctype="multipart/form-data">
 
         <div class="row justify-content-center">
 
@@ -175,8 +120,8 @@
                             Desarrollador
                           </label>
 
-                          <input type="text" class="form-control" name="developer" id="developer" required
-                            placeholder="Desarrollador del juego">
+                          <input type="text" class="form-control" name="developer" id="developer" 
+                            placeholder="Desarrollador del juego" required>
 
                         </div>
 
@@ -189,7 +134,7 @@
                           </label>
 
                           <textarea class="form-control" rows="5" name="description" id="description"
-                            placeholder="Descripción del juego"></textarea>
+                            placeholder="Descripción del juego" required></textarea>
 
                         </div>
                       </div>
@@ -220,7 +165,7 @@
                               Año de lanzamiento
                             </label>
 
-                            <select id="year" name="year" class="form-select" required>
+                            <select id="year" name="year" class="form-select" required >
 
                               <option value="" disabled selected>
                                 Selecciona un año
@@ -316,7 +261,7 @@
                               PEGI
                             </label>
 
-                            <select id="pegi" name="pegi" class="form-select" required>
+                            <select id="pegi" name="pegi" class="form-select" required >
 
                               <option value="" disabled selected>
                                 Selecciona un PEGI
@@ -615,7 +560,7 @@
                                 <div class="form-check">
 
                                   <input class="form-check-input" type="checkbox" id="nintendoSwitch"
-                                    name="Nintendo Switch" value="Nintendo Switch">
+                                    name="nintendoSwitch" value="Nintendo Switch">
 
                                   <label class="form-check-label" for="nintendoSwitch">
 
@@ -632,7 +577,7 @@
 
                                 <div class="form-check">
 
-                                  <input class="form-check-input" type="checkbox" id="mobilePhone" name="Telefono movil"
+                                  <input class="form-check-input" type="checkbox" id="mobilePhone" name="mobilePhone"
                                     value="Telefono movil">
 
                                   <label class="form-check-label" for="mobilePhone">
@@ -659,8 +604,8 @@
                             Enlace de compra
                           </label>
 
-                          <input type="url" class="form-control" name="link" required id="link"
-                            placeholder="Enlace de compra del juego">
+                          <input type="url" class="form-control" name="link"  id="link"
+                            placeholder="Enlace de compra del juego" required>
 
                         </div>
                       </div>
@@ -685,21 +630,21 @@
 
                         <div class="mb-3">
 
-                          <label class="form-label" for="image">
+                          <label class="form-label" for="cover">
                             Carátula del juego
                           </label>
 
-                          <input type="file" class="form-control"  id="image" name="image" accept="image/*">
+                          <input type="file" class="form-control" required id="cover" name="cover" accept="image/*">
 
                         </div>
 
                         <div class="mb-3">
 
-                          <label class="form-label" for="images">
+                          <label class="form-label" for="scene">
                             Escenas del juego
                           </label>
 
-                          <input type="file" class="form-control" id="images" name="images[]" accept="image/*" multiple>
+                          <input type="file" class="form-control" required id="scene" name="scene" accept="image/*" multiple>
 
                         </div>
                       </div>
@@ -731,9 +676,9 @@
 
                         <div class="form-check mb-4 ">
 
-                          <input class="form-check-input" type="checkbox" id="aceptar" name="aceptar" required>
+                          <input class="form-check-input" required type="checkbox" id="acept" name="acept" >
 
-                          <label class="form-check-label" for="aceptar">
+                          <label class="form-check-label" for="acept">
 
                             Acepto los términos y condiciones
 
@@ -741,7 +686,7 @@
 
                           <div class="d-flex justify-content-between mt-4">
 
-                            <a href="index.html" class="btn btn-secondary">
+                            <a href="/" class="btn btn-secondary">
                               Cancelar
                             </a>
 
@@ -774,13 +719,7 @@
 
 
   <!-- ***** Footer Start ***** -->
-  <footer>
-    <div class="container">
-      <div class="col-lg-12">
-        <p>Copyright © 2026 GamePortal. Todos los derechos reservados.</p>
-      </div>
-    </div>
-  </footer>
+  {{> footer}}
   <!-- ***** Footer End ***** -->
 
 
