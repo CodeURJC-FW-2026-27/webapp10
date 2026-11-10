@@ -21,7 +21,7 @@ async function renderPages(req, res, filter) {
         let totalGames = await games.countDocuments(filter) || 1;
         let totalPages = Math.ceil(totalGames / lm);
 
-        
+
         if (numPage > totalPages) {
             numPage = totalPages;
         } else if (numPage < 1) {
@@ -40,7 +40,7 @@ async function renderPages(req, res, filter) {
             .toArray();
 
         let iterable = Array.from({ length: totalPages }, (_, index) => {
-            return { number: index + 1, isPage: false};
+            return { number: index + 1, isPage: false };
         });
 
         for (let i of iterable) {
