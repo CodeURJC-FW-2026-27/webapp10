@@ -35,3 +35,23 @@ export async function getGame(id){
 
     return await games.findOne({ _id: new ObjectId(id) });
 }
+
+export async function countWithFilter(filter) {
+    
+    return await games.countDocuments(filter) || 1;
+
+}
+
+export async function getPageWithFilter(sk,lm,filter) {
+
+    return await games.find(filter)
+            .project({
+                title: 1,
+                cover: 1,
+                genre: 1
+            })
+            .skip(sk)
+            .limit(lm)
+            .toArray();
+
+}
