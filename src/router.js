@@ -1,21 +1,106 @@
 import express from 'express';
 import multer from 'multer';
-import { MongoClient } from 'mongodb';
 import * as games from './games.js';
 
 const router = express.Router();
 
-const client = new MongoClient('mongodb://localhost:27017');
+games.initDatabase();
 
+async function renderPages(req, res, filter) {
+    let numPage = parseInt(req.query.idPage) || 1;
+    let searched = req.query.searched || '';
+    let genre = req.query.genre || '';
 
+    let lm = 6;
 
-router.get('/', (req, res) => {
-    res.render('index.html');
+    try {
+
+        let totalGames = (await games.countWithFilter(filter)) || 1;
+        let totalPages = Math.ceil(totalGames / lm);
+
+        if (numPage > totalPages) {
+            numPage = totalPages;
+        } else if (numPage < 1) {
+            numPage = 1;
+        }
+
+        let sk = (numPage - 1) * lm;
+        let pageGames = await games.getPageWithFilter(sk, lm, filter);
+
+        let iterable = Array.from({ length: totalPages }, (_, index) => {
+            return { number: index + 1, isPage: false };
+        });
+
+        for (let i of iterable) {
+            if (i.number === numPage) {
+                i.isPage = true;
+            }
+        }
+
+        res.render('index.html', {
+            pageGames: pageGames,
+            hasPrev: numPage > 1,
+            hasNext: numPage < totalPages,
+            prevPage: numPage - 1,
+            nextPage: numPage + 1,
+            iterable: iterable,
+            numPage: numPage,
+            searched: searched,
+            genre: genre
+        });
+
+    } catch (error) {
+        console.log(error);
+        let window = {
+            isError: true,
+            header: "Error",
+            title: "¡Vaya! Hay algunos errores",
+            message: "No hemos podido cargar tus videojuegos.",
+            errors: [{ field: "dataBase", message: "La base de datos no ha podido cargar los datos" }],
+            redirect: "/",
+            buttonText: "Volver a la pagina principal"
+        }
+        return res.render('window.html', {
+            window: window
+        });
+    }
+}
+
+router.get('/', async (req, res) => {
+
+    let emptyObject = {};
+    await renderPages(req, res, emptyObject);
+
 })
+
+router.get('/search', async (req, res) => {
+
+    let searched = { title: { $regex: req.query.searched, $options: 'i' }};
+    await renderPages(req, res, searched);
+
+})
+
+router.get('/category', async (req, res) => {
+    let searched = { genre: { $regex: req.query.genre, $options: 'i' } };
+    await renderPages(req, res, searched);
+
+})
+
+router.get('/image', (req, res) => {
+
+    let filename = req.query.filename;
+
+    if (/[\\/]/.test(filename)) {
+        return res.status(400);
+    }
+    res.download('uploads/' + filename);
+
+});
+
 
 const upload = multer({ dest: 'uploads/' });
 
-const getGenre = function(req){
+const getGenre = function (req) {
     let genre = [];
 
     if (req.body.action) {
@@ -49,7 +134,7 @@ const getGenre = function(req){
     return genre;
 }
 
-const getPlatform = function(req){
+const getPlatform = function (req) {
     let platform = [];
 
     if (req.body.pc) {
@@ -74,14 +159,14 @@ const getPlatform = function(req){
     return platform;
 }
 
-const getErrors = function(req,genre,platform,cover,scenes){
+const getErrors = function (req, genre, platform, cover, scenes) {
     let errors = [];
     if (!req.body.title || req.body.title.trim() === "") {
         errors.push({
             field: "title",
             message: "Debes introducir el titulo del videojuego."
         });
-    }else if(!/^[A-Z]/.test(req.body.title)){
+    } else if (!/^[A-Z]/.test(req.body.title)) {
         errors.push({
             field: "format",
             message: "El titulo del juego debe empezar por mayuscula."
@@ -95,7 +180,7 @@ const getErrors = function(req,genre,platform,cover,scenes){
         });
     }
 
-    if(req.body.description.length > 500){
+    if (req.body.description.length > 500) {
         errors.push({
             field: "description",
             message: "La descripcion no puede contener mas de 500 caracteres."
@@ -168,7 +253,7 @@ const getErrors = function(req,genre,platform,cover,scenes){
     return errors;
 }
 
- router.post('/newElement', upload.fields([
+router.post('/newElement', upload.fields([
     { name: 'cover', maxCount: 1 },
     { name: 'scene', maxCount: 10 }
 ]), async (req, res) => {
@@ -189,16 +274,16 @@ const getErrors = function(req,genre,platform,cover,scenes){
         }
     }
 
-    let gErrors = getErrors(req,genre,platform,cover,scenes);
+    let gErrors = getErrors(req, genre, platform, cover, scenes);
 
-    
+
     if (gErrors.length > 0) {
         let window = {
-            isError : true,
+            isError: true,
             header: "Error",
-            title : "¡Vaya! Hay algunos errores",
-            message : "No hemos podido registrar tu videojuego. Parece que algunos datos del formulario no se han rellenado correctamente.",
-            errors : gErrors,
+            title: "¡Vaya! Hay algunos errores",
+            message: "No hemos podido registrar tu videojuego. Parece que algunos datos del formulario no se han rellenado correctamente.",
+            errors: gErrors,
             redirect: "/formPrincipalEntity",
             buttonText: "Volver al formulario"
         }
@@ -223,11 +308,11 @@ const getErrors = function(req,genre,platform,cover,scenes){
 
 
         let window = {
-            isError : false,
+            isError: false,
             header: "Nuevo juego",
             title: "Juego guardado",
-            message : "Se ha guardado correctamente el juego en el sistema",
-            errors : null,
+            message: "Se ha guardado correctamente el juego en el sistema",
+            errors: null,
             redirect: "/product-details/${game._id}",
             buttonText: "Ver detalles del producto"
         }

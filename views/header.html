@@ -13,7 +13,7 @@
                     <!-- ***** Logo End ***** -->
                     <!-- ***** Menu Start ***** -->
                     <ul class="nav">
-                        <li><a href="#games">Juegos</a></li>
+                        <li><a href="/">Juegos</a></li>
                         <li class="isolate-dropdown">
                             <div class="dropdown">
                                 <a href="#" class="dropdown-toggle" id="dropdownMenuButton" role="button"
@@ -21,25 +21,26 @@
                                     Filtros
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                    <li><a class="dropdown-item" href="#games">Acción</a></li>
-                                    <li><a class="dropdown-item" href="#games">Terror</a></li>
-                                    <li><a class="dropdown-item" href="#games">RPG</a></li>
-                                    <li><a class="dropdown-item" href="#games">Carreras</a></li>
-                                    <li><a class="dropdown-item" href="#games">Puzles</a></li>
-                                    <li><a class="dropdown-item" href="#games">Estrategia</a></li>
-                                    <li><a class="dropdown-item" href="#games">Disparos</a></li>
-                                    <li><a class="dropdown-item" href="#games">Aventura</a></li>
-                                    <li><a class="dropdown-item" href="#games">Multijugador</a></li>
+                                    <li><a class="dropdown-item" href="/category?genre=Accion">Acción</a></li>
+                                    <li><a class="dropdown-item" href="/category?genre=Terror">Terror</a></li>
+                                    <li><a class="dropdown-item" href="/category?genre=RPG">RPG</a></li>
+                                    <li><a class="dropdown-item" href="/category?genre=Carreras">Carreras</a></li>
+                                    <li><a class="dropdown-item" href="/category?genre=Puzles">Puzles</a></li>
+                                    <li><a class="dropdown-item" href="/category?genre=Estrategia">Estrategia</a></li>
+                                    <li><a class="dropdown-item" href="/category?genre=Disparos">Disparos</a></li>
+                                    <li><a class="dropdown-item" href="/category?genre=Aventura">Aventura</a></li>
+                                    <li><a class="dropdown-item" href="/category?genre=Multijugador">Multijugador</a>
+                                    </li>
                                 </ul>
                             </div>
                         </li>
                         <li>
                             <div class="chg">
                                 <div class="search-input caption">
-                                    <form id="search" action="#games">
-                                        <input type="text" placeholder="Nombre del juego" id='searchText'
-                                            name="searchKeyword" onkeypress="handle" />
-                                        <button role="button">Buscar</button>
+                                    <form id="search" action="/search">
+                                        <input type="text" name="searched" placeholder="Nombre del juego"
+                                            id='searchText' onkeypress="handle" />
+                                        <button type="submit" role="button">Buscar</button>
                                     </form>
                                 </div>
                             </div>

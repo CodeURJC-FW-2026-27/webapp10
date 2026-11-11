@@ -36,320 +36,127 @@
     </div>
   </div>
   <!-- ***** Preloader End ***** -->
-
   <!-- ***** Header Area Start ***** -->
-  <header class="header-area header-sticky">
+  {{> header}}
+  <!-- ***** Header Area End ***** -->
+
+  <div class="main-banner">
     <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <nav class="main-nav">
-            <!-- ***** Logo Start ***** -->
-            <a href="/" class="logo"> <!--class="chr-logo"-->
-              <img src="/images/logo.png" alt="" style="width: 180px;">
-            </a>
-            <!-- ***** Logo End ***** -->
-            <!-- ***** Menu Start ***** -->
-            <ul class="nav">
-              <li><a href="#games">Juegos</a></li>
-              <li class="isolate-dropdown">
-                <div class="dropdown">
-                  <a href="#" class="dropdown-toggle" id="dropdownMenuButton" role="button" data-bs-toggle="dropdown"
-                    aria-expanded="false">
-                    Filtros
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <li><a class="dropdown-item" href="#games">Acción</a></li>
-                    <li><a class="dropdown-item" href="#games">Terror</a></li>
-                    <li><a class="dropdown-item" href="#games">RPG</a></li>
-                    <li><a class="dropdown-item" href="#games">Carreras</a></li>
-                    <li><a class="dropdown-item" href="#games">Puzles</a></li>
-                    <li><a class="dropdown-item" href="#games">Estrategia</a></li>
-                    <li><a class="dropdown-item" href="#games">Disparos</a></li>
-                    <li><a class="dropdown-item" href="#games">Aventura</a></li>
-                    <li><a class="dropdown-item" href="#games">Multijugador</a></li>
-                  </ul>
-                </div>
-              </li>
-              <li>
-                <div class="chg">
-                  <div class="search-input caption">
-                    <form id="search" action="#games">
-                      <input type="text" placeholder="Nombre del juego" id='searchText' name="searchKeyword"
-                        onkeypress="handle" />
-                      <button role="button">Buscar</button>
-                    </form>
-                  </div>
-                </div>
-              </li>
-            </ul>
-            <a class='menu-trigger'>
-              <span>Menu</span>
-            </a>
-            <!-- ***** Menu End ***** -->
-          </nav>
+      <div class="row inline">
+        <div class="chg">
+          <div class="caption header-text">
+            <p>Explora, descubre y opina. En GamePortal tienes acceso a un catálogo completo de videojuegos con toda
+              la
+              información que necesitas antes de jugar. Encuentra tu próxima aventura, lee las valoraciones y deja tu
+              propia reseña para ayudar a otros jugadores.</p>
+          </div>
         </div>
       </div>
     </div>
-  </header>
-    <!-- ***** Header Area End ***** -->
+  </div>
 
-    <div class="main-banner">
-      <div class="container">
-        <div class="row inline">
-          <div class="chg">
-            <div class="caption header-text">
-              <p>Explora, descubre y opina. En GamePortal tienes acceso a un catálogo completo de videojuegos con toda
-                la
-                información que necesitas antes de jugar. Encuentra tu próxima aventura, lee las valoraciones y deja tu
-                propia reseña para ayudar a otros jugadores.</p>
+  <div class="chg-sec chg-cat">
+    <div class="container">
+      <div class="row g-3">
+        <div class="col-lg-12 text-center">
+          <div class="section-heading">
+          </div>
+        </div>
+        <div class="col-6 col-sm-6 col-lg-3">
+          <div class="item">
+            <h4>Terror</h4>
+            <div class="thumb">
+              <a href="/category?genre=Terror"><img src="/images/categories-terror.jpg" alt="" class="img-fluid"></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-sm-6 col-lg-3">
+          <div class="item">
+            <h4>Carreras</h4>
+            <div class="thumb">
+              <a href="/category?genre=Carreras"><img src="/images/categories-cars.jpg" alt="" class="img-fluid"></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-sm-6 col-lg-3">
+          <div class="item">
+            <h4>Acción</h4>
+            <div class="thumb">
+              <a href="/category?genre=Accion"><img src="/images/categories-action.jpg" alt="" class="img-fluid"></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-sm-6 col-lg-3">
+          <div class="item">
+            <h4>RPG</h4>
+            <div class="thumb">
+              <a href="/category?genre=RPG"><img src="/images/categories-RPG.jpg" alt="" class="img-fluid"></a>
             </div>
           </div>
         </div>
       </div>
     </div>
+  </div>
 
-    <div class="chg-sec chg-cat">
-      <div class="container">
-        <div class="row g-3">
-          <div class="col-lg-12 text-center">
-            <div class="section-heading">
+  <div class="section chg-tre" id="games">
+    <div class="container">
+      <div class="row chg-tre-box g-4">
+        <div class="d-flex justify-content-between">
+          <h2>Juegos</h2>
+          <a href="/formPrincipalEntity" class="btn btn-primary">Añadir juego</a>
+        </div>
+        {{#pageGames}}
+        <div class="col-12 col-md-6 col-lg-4 align-self-center mb-30 trending-items adv">
+          <div class="item">
+            <div class="thumb">
+              <a href="/product-details"><img src="/image?filename={{cover}}" alt="" class="img-fluid"></a>
+            </div>
+            <div class="down-content">
+              <span class="category">{{genre}}</span>
+              <a href="/product-details">
+                <h4>{{title}}</h4>
+              </a>
             </div>
           </div>
-          <div class="col-6 col-sm-6 col-lg-3">
-            <div class="item">
-              <h4>Terror</h4>
-              <div class="thumb">
-                <a href="#"><img src="/images/categories-terror.jpg" alt="" class="img-fluid"></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-6 col-sm-6 col-lg-3">
-            <div class="item">
-              <h4>Carreras</h4>
-              <div class="thumb">
-                <a href="#"><img src="/images/categories-cars.jpg" alt="" class="img-fluid"></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-6 col-sm-6 col-lg-3">
-            <div class="item">
-              <h4>Acción</h4>
-              <div class="thumb">
-                <a href="#"><img src="/images/categories-action.jpg" alt="" class="img-fluid"></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-6 col-sm-6 col-lg-3">
-            <div class="item">
-              <h4>RPG</h4>
-              <div class="thumb">
-                <a href="#"><img src="/images/categories-RPG.jpg" alt="" class="img-fluid"></a>
-              </div>
-            </div>
-          </div>
+        </div>
+        {{/pageGames}}
+        <div class="d-flex justify-content-center gap-3 mt-4">
+          {{#hasPrev}}
+          <a href="?idPage={{prevPage}}&searched={{searched}}&genre={{genre}}" class="btn btn-primary">Anterior</a>
+          {{/hasPrev}}
+
+
+          {{#iterable}}
+
+          {{#isPage}}
+          <a class="btn btn-primary">{{numPage}}</a>
+          {{/isPage}}
+
+          {{^isPage}}
+          <a href="?idPage={{number}}&searched={{searched}}&genre={{genre}}" class="btn">{{number}}</a>
+          {{/isPage}}
+
+          {{/iterable}}
+
+
+          {{#hasNext}}
+          <a href="?idPage={{nextPage}}&searched={{searched}}&genre={{genre}}" class="btn btn-primary">Siguiente</a>
+          {{/hasNext}}
         </div>
       </div>
     </div>
+  </div>
 
-    <div class="section chg-tre" id="games">
-      <div class="container">
-        <div class="row chg-tre-box g-4">
-          <div class="d-flex justify-content-between">
-            <h2>Juegos</h2>
-            <a href="formPrincipalEntity.html" class="btn btn-primary">Añadir juego</a>
-          </div>
-          <div class="col-12 col-md-6 col-lg-4 align-self-center mb-30 trending-items adv">
-            <div class="item">
-              <div class="thumb">
-                <a href="/product-details"><img src="photos/cover/cover_amnesia.webp" alt="" class="img-fluid"></a>
-              </div>
-              <div class="down-content">
-                <span class="category">Terror</span>
-                <a href="/product-details">
-                  <h4>Amnesia: The Dark Descent</h4>
-                </a>
-              </div>
-            </div>
-          </div>
+  {{> footer}}
 
-          <div class="col-12 col-md-6 col-lg-4 align-self-center mb-30 trending-items str">
-            <div class="item">
-              <div class="thumb">
-                <a href="/product-details"><img src="photos/cover/cover_miSide.webp" alt="" class="img-fluid"></a>
-              </div>
-              <div class="down-content">
-                <span class="category">Terror</span>
-                <a href="/product-details">
-                  <h4>MiSide</h4>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 col-md-6 col-lg-4 align-self-center mb-30 trending-items adv rac">
-            <div class="item">
-              <div class="thumb">
-                <a href="/product-details"><img src="photos/cover/cover_imNotAHuman.webp" alt=""
-                    class="img-fluid"></a>
-              </div>
-              <div class="down-content">
-                <span class="category">Acción</span>
-                <a href="/product-details">
-                  <h4>I'm Not a Human</h4>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 col-md-6 col-lg-4 align-self-center mb-30 trending-items str">
-            <div class="item">
-              <div class="thumb">
-                <a href="/product-details"><img src="photos/cover/cover_cuphead.webp" alt="" class="img-fluid"></a>
-              </div>
-              <div class="down-content">
-                <span class="category">Acción</span>
-                <a href="/product-details">
-                  <h4>Cuphead</h4>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 col-md-6 col-lg-4 align-self-center mb-30 trending-items rac str">
-            <div class="item">
-              <div class="thumb">
-                <a href="/product-details"><img src="photos/cover/cover_eldenRing.webp" alt=""
-                    class="img-fluid"></a>
-              </div>
-              <div class="down-content">
-                <span class="category">Acción</span>
-                <a href="/product-details">
-                  <h4>Elden Ring</h4>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 col-md-6 col-lg-4 align-self-center mb-30 trending-items rac adv">
-            <div class="item">
-              <div class="thumb">
-                <a href="/product-details"><img src="photos/cover/cover_doom.webp" alt="" class="img-fluid"></a>
-              </div>
-              <div class="down-content">
-                <span class="category">Acción</span>
-                <a href="/product-details">
-                  <h4>Doom</h4>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 col-md-6 col-lg-4 align-self-center mb-30 trending-items rac str">
-            <div class="item">
-              <div class="thumb">
-                <a href="/product-details"><img src="photos/cover/cover_outlast.webp" alt="" class="img-fluid"></a>
-              </div>
-              <div class="down-content">
-                <span class="category">Acción</span>
-                <a href="/product-details">
-                  <h4>Outlast</h4>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 col-md-6 col-lg-4 align-self-center mb-30 trending-items rac adv">
-            <div class="item">
-              <div class="thumb">
-                <a href="/product-details"><img src="photos/cover/cover_titanfall2.webp" alt=""
-                    class="img-fluid"></a>
-              </div>
-              <div class="down-content">
-                <span class="category">Acción</span>
-                <a href="/product-details">
-                  <h4>Titanfall 2</h4>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 col-md-6 col-lg-4 align-self-center mb-30 trending-items adv rac">
-            <div class="item">
-              <div class="thumb">
-                <a href="/product-details"><img src="photos/cover/cover_dbd.webp" alt="" class="img-fluid"></a>
-              </div>
-              <div class="down-content">
-                <span class="category">Acción</span>
-                <a href="/product-details">
-                  <h4>Dead by Daylight</h4>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 col-md-6 col-lg-4 align-self-center mb-30 trending-items str">
-            <div class="item">
-              <div class="thumb">
-                <a href="/product-details"><img src="photos/cover/cover_wolfensteinTheNewOrder.webp" alt=""
-                    class="img-fluid"></a>
-              </div>
-              <div class="down-content">
-                <span class="category">Acción</span>
-                <a href="/product-details">
-                  <h4>Wolfenstein: The New Order</h4>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 col-md-6 col-lg-4 align-self-center mb-30 trending-items adv">
-            <div class="item">
-              <div class="thumb">
-                <a href="/product-details"><img src="photos/cover/cover_madMax.webp" alt="" class="img-fluid"></a>
-              </div>
-              <div class="down-content">
-                <span class="category">Acción</span>
-                <a href="/product-details">
-                  <h4>Mad Max</h4>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 col-md-6 col-lg-4 align-self-center mb-30 trending-items str">
-            <div class="item">
-              <div class="thumb">
-                <a href="/product-details"><img src="photos/cover/cover_control.webp" alt="" class="img-fluid"></a>
-              </div>
-              <div class="down-content">
-                <span class="category">Acción</span>
-                <a href="/product-details">
-                  <h4>Control</h4>
-                </a>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </div>
-
-    <footer>
-      <div class="container">
-        <div class="col-lg-12">
-          <p>Copyright © 2026 GamePortal. Todos los derechos reservados.</p>
-        </div>
-      </div>
-    </footer>
-
-    <!-- Scripts -->
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="/js/isotope.min.js"></script>
-    <script src="/js/owl-carousel.js"></script>
-    <script src="/js/counter.js"></script>
-    <script src="/js/custom.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Scripts -->
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="/js/isotope.min.js"></script>
+  <script src="/js/owl-carousel.js"></script>
+  <script src="/js/counter.js"></script>
+  <script src="/js/custom.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 
