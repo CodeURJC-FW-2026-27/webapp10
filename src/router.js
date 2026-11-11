@@ -4,6 +4,8 @@ import * as games from './games.js';
 
 const router = express.Router();
 
+games.initDatabase();
+
 async function renderPages(req, res, filter) {
     let numPage = parseInt(req.query.idPage) || 1;
     let searched = req.query.searched || '';
@@ -12,9 +14,9 @@ async function renderPages(req, res, filter) {
     let lm = 6;
 
     try {
+
         let totalGames = (await games.countWithFilter(filter)) || 1;
         let totalPages = Math.ceil(totalGames / lm);
-
 
         if (numPage > totalPages) {
             numPage = totalPages;
@@ -54,7 +56,7 @@ async function renderPages(req, res, filter) {
             header: "Error",
             title: "¡Vaya! Hay algunos errores",
             message: "No hemos podido cargar tus videojuegos.",
-            errors: [{field: "dataBase", message: "La base de datos no ha podido cargar los datos"}],
+            errors: [{ field: "dataBase", message: "La base de datos no ha podido cargar los datos" }],
             redirect: "/",
             buttonText: "Volver a la pagina principal"
         }
@@ -65,12 +67,15 @@ async function renderPages(req, res, filter) {
 }
 
 router.get('/', async (req, res) => {
+
     let emptyObject = {};
     await renderPages(req, res, emptyObject);
+
 })
 
 router.get('/search', async (req, res) => {
-    let searched = { $text: { $search: (req.query.searched || '') } };
+
+    let searched = { $text: { $search: (req.query.searched || '')} };
     await renderPages(req, res, searched);
 
 })
@@ -82,12 +87,14 @@ router.get('/category', async (req, res) => {
 })
 
 router.get('/image', (req, res) => {
+
     let filename = req.query.filename;
 
     if (/[\\/]/.test(filename)) {
         return res.status(400);
     }
     res.download('uploads/' + filename);
+
 });
 
 
