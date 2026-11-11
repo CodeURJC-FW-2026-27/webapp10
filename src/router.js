@@ -75,13 +75,17 @@ router.get('/', async (req, res) => {
 
 router.get('/search', async (req, res) => {
 
-    let searched = { $text: { $search: (req.query.searched || '')} };
+    let searched = { $or: [
+            { title: { $regex: req.query.searched, $options: 'i' } },
+            { genre: { $regex: req.query.searched, $options: 'i' } }
+        ]
+    };
     await renderPages(req, res, searched);
 
 })
 
 router.get('/category', async (req, res) => {
-    let searched = { genre: req.query.genre };
+    let searched = { genre: { $regex: req.query.genre, $options: 'i' } };
     await renderPages(req, res, searched);
 
 })

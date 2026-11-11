@@ -10,6 +10,8 @@ const client = new MongoClient('mongodb://localhost:27017');
 const db = client.db('board');
 const games = db.collection('games');
 
+export const UPLOADS_FOLDER = './uploads';
+
 export async function uploadDocuments() {
     let dataFileName = 'principalEntity.json';
     let currentSourceFilePath = import.meta.url;
@@ -19,6 +21,7 @@ export async function uploadDocuments() {
     await games.insertMany(gamesAsObjects);
 }
 
+
 export async function initDatabase() {
     try {
         const count = await games.countDocuments();
@@ -27,18 +30,11 @@ export async function initDatabase() {
             await uploadDocuments();
         }
 
-        await games.createIndexes([
-            { key: { title: 'text', genre: 'text' } },
-            { key: { genre: 1 } }
-        ]);
-
     } catch (error) {
         console.error('Error durante la inicialización de la base de datos:', error);
     }
 }
 
-
-export const UPLOADS_FOLDER = './uploads';
 
 export async function addGame(game) {
 
