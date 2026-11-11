@@ -49,7 +49,18 @@ async function renderPages(req, res, filter) {
 
     } catch (error) {
         console.log(error);
-        res.status(500).send("Error interno del servidor");
+        let window = {
+            isError: true,
+            header: "Error",
+            title: "¡Vaya! Hay algunos errores",
+            message: "No hemos podido cargar tus videojuegos.",
+            errors: [{field: "dataBase", message: "La base de datos no ha podido cargar los datos"}],
+            redirect: "/",
+            buttonText: "Volver a la pagina principal"
+        }
+        return res.render('window.html', {
+            window: window
+        });
     }
 }
 
@@ -303,6 +314,10 @@ router.post('/newElement', upload.fields([
         })
     }
 
+})
+
+router.get('/product-details', (req, res) => {
+    res.render('product-details.html');
 })
 
 router.get('/formPrincipalEntity', (req, res) => {
