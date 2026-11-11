@@ -75,11 +75,7 @@ router.get('/', async (req, res) => {
 
 router.get('/search', async (req, res) => {
 
-    let searched = { $or: [
-            { title: { $regex: req.query.searched, $options: 'i' } },
-            { genre: { $regex: req.query.searched, $options: 'i' } }
-        ]
-    };
+    let searched = { title: { $regex: req.query.searched, $options: 'i' }};
     await renderPages(req, res, searched);
 
 })
