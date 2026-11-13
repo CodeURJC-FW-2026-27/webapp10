@@ -186,7 +186,7 @@ router.post('/newElement', upload.fields([
 
     let gErrors = getErrors(req,genre,platform,cover,scenes);
 
-    
+
     if (gErrors.length > 0) {
         let window = {
             isError : true,
@@ -233,12 +233,58 @@ router.post('/newElement', upload.fields([
 
 })
 
-router.get('/product-details', (req, res) => {
-    res.render('product-details.html');
+router.get('/product-details/:id', async (req, res) => {
+
+    let juego = await games.getGame(req.params.id);
+
+    if (juego === null){
+        res.redirect('/');
+        return
+    }
+
+    // juego.numeros = [];
+
+    // for (let i = 0; i < juego.scene.length; i++) {
+    //     juego.numeros.push(i);
+    // }
+
+    juego.firstEscene = juego.scene[0];
+    juego.scene.splice(0, 1)
+
+    res.render('product-details.html', juego);
 })
 
 router.get('/formPrincipalEntity', (req, res) => {
     res.render('formPrincipalEntity.html');
+})
+
+router.get('/product-details/:id/cover', async (req, res) => {
+    let juego = await games.getGame(req.params.id);
+
+    res.download('./uploads/cover/' + juego.cover);
+});
+
+// router.get('/product-details/:id/scene/:imagenumber', async (req, res) => {
+
+//     let juego = await games.getGame(req.params.id);
+
+//     res.download('./uploads/scene/' + juego.scene[req.params.imagenumber])
+// }
+
+
+router.get('/scene/:imagenumber', async (req, res) => {
+
+    if(/[\\/]/.test(req.params.imagenumber)){ 
+        return res.status(400);
+    }
+    res.download('./uploads/scene/' + req.params.imagenumber)
+})
+
+router.post('/product-details/:id/delete', async (req, res) =>{
+
+    let juego = await games.deleteGame(req.params.id);
+
+    res.redirect('/')
 })
 
 

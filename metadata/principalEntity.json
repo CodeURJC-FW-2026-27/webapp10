@@ -16,10 +16,10 @@
             "XBOX"
         ],
         "link": "https://store.steampowered.com/app/3240220/Grand_Theft_Auto_V_Enhanced/",
-        "cover": "./photos/cover/cover_grandTheftAutoV.webp",
+        "cover": "cover_grandTheftAutoV.webp",
         "scene": [
-            "./photos/scene/scene_grandTheftAutoV1.webp",
-            "./photos/scene/scene_grandTheftAutoV2.webp"
+            "scene_grandTheftAutoV1.webp",
+            "scene_grandTheftAutoV2.webp"
         ]
     },
     {
@@ -38,10 +38,10 @@
             "XBOX"
         ],
         "link": "https://store.steampowered.com/app/601150/Devil_May_Cry_5/",
-        "cover": "./photos/cover/cover_devilMayCry5.webp",
+        "cover": "cover_devilMayCry5.webp",
         "scene": [
-            "./photos/scene/scene_devilMayCry51.webp",
-            "./photos/scene/scene_devilMayCry52.webp"
+            "scene_devilMayCry51.webp",
+            "scene_devilMayCry52.webp"
         ]
     },
     {
@@ -61,10 +61,10 @@
             "Nintendo Switch"
         ],
         "link": "https://store.steampowered.com/app/782330/DOOM_Eternal/",
-        "cover": "./photos/cover/cover_doomEternal.webp",
+        "cover": "cover_doomEternal.webp",
         "scene": [
-            "./photos/scene/scene_doomEternal1.webp",
-            "./photos/scene/scene_doomEternal2.webp"
+            "scene_doomEternal1.webp",
+            "scene_doomEternal2.webp"
         ]
     },
     {
@@ -84,10 +84,10 @@
             "PS5"
         ],
         "link": "https://store.steampowered.com/app/1593500/God_of_War/",
-        "cover": "./photos/cover/cover_godOfWar.webp",
+        "cover": "cover_godOfWar.webp",
         "scene": [
-            "./photos/scene/scene_godOfWar1.webp",
-            "./photos/scene/scene_godOfWar2.webp"
+            "scene_godOfWar1.webp",
+            "scene_godOfWar2.webp"
         ]
     },
     {
@@ -106,10 +106,10 @@
             "XBOX"
         ],
         "link": "https://store.steampowered.com/app/814380/Sekiro_Shadows_Die_Twice__GOTY_Edition/",
-        "cover": "./photos/cover/cover_sekiroShadowsDieTwice.webp",
+        "cover": "cover_sekiroShadowsDieTwice.webp",
         "scene": [
-            "./photos/scene/scene_sekiroShadowsDieTwice1.webp",
-            "./photos/scene/scene_sekiroShadowsDieTwice2.webp"
+            "scene_sekiroShadowsDieTwice1.webp",
+            "scene_sekiroShadowsDieTwice2.webp"
         ]
     },
     {
@@ -128,10 +128,10 @@
             "XBOX"
         ],
         "link": "https://store.steampowered.com/app/374320/DARK_SOULS_III/",
-        "cover": "./photos/cover/cover_darkSoulsIII.webp",
+        "cover": "cover_darkSoulsIII.webp",
         "scene": [
-            "./photos/scene/scene_darkSoulsIII1.webp",
-            "./photos/scene/scene_darkSoulsIII2.webp"
+            "scene_darkSoulsIII1.webp",
+            "scene_darkSoulsIII2.webp"
         ]
     },
     {
@@ -153,10 +153,10 @@
             "Nintendo Switch"
         ],
         "link": "https://store.steampowered.com/app/1145360/Hades/",
-        "cover": "./photos/cover/cover_hades.webp",
+        "cover": "cover_hades.webp",
         "scene": [
-            "./photos/scene/scene_hades1.webp",
-            "./photos/scene/scene_hades2.webp"
+            "scene_hades1.webp",
+            "scene_hades2.webp"
         ]
     },
     {
@@ -177,10 +177,10 @@
             "Nintendo Switch"
         ],
         "link": "https://store.steampowered.com/app/2050650/Resident_Evil_4/",
-        "cover": "./photos/cover/cover_residentEvil4.webp",
+        "cover": "cover_residentEvil4.webp",
         "scene": [
-            "./photos/scene/scene_residentEvil41.webp",
-            "./photos/scene/scene_residentEvil42.webp"
+            "scene_residentEvil41.webp",
+            "scene_residentEvil42.webp"
         ]
     },
     {
@@ -199,10 +199,10 @@
             "XBOX"
         ],
         "link": "https://store.steampowered.com/app/287700/METAL_GEAR_SOLID_V_THE_PHANTOM_PAIN/",
-        "cover": "./photos/cover/cover_metalGearSolidVThePhantomPain.webp",
+        "cover": "cover_metalGearSolidVThePhantomPain.webp",
         "scene": [
-            "./photos/scene/scene_metalGearSolidVThePhantomPain1.webp",
-            "./photos/scene/scene_metalGearSolidVThePhantomPain2.webp"
+            "scene_metalGearSolidVThePhantomPain1.webp",
+            "scene_metalGearSolidVThePhantomPain2.webp"
         ]
     },
     {
@@ -220,10 +220,10 @@
             "Nintendo Switch"
         ],
         "link": "https://store.steampowered.com/app/460790/Bayonetta/",
-        "cover": "./photos/cover/cover_bayonetta.webp",
+        "cover": "cover_bayonetta.webp",
         "scene": [
-            "./photos/scene/scene_bayonetta1.webp",
-            "./photos/scene/scene_bayonetta2.webp"
+            "scene_bayonetta1.webp",
+            "scene_bayonetta2.webp"
         ]
     },
     {
@@ -239,10 +239,10 @@
             "PC"
         ],
         "link": "https://store.steampowered.com/app/204100/Max_Payne_3/",
-        "cover": "./photos/cover/cover_maxPayne3.webp",
+        "cover": "cover_maxPayne3.webp",
         "scene": [
-            "./photos/scene/scene_maxPayne31.webp",
-            "./photos/scene/scene_maxPayne32.webp"
+            "scene_maxPayne31.webp",
+            "scene_maxPayne32.webp"
         ]
     },
     {
@@ -261,10 +261,10 @@
             "XBOX"
         ],
         "link": "https://store.steampowered.com/app/225540/Just_Cause_3/",
-        "cover": "./photos/cover/cover_justCause3.webp",
+        "cover": "cover_justCause3.webp",
         "scene": [
-            "./photos/scene/scene_justCause31.webp",
-            "./photos/scene/scene_justCause32.webp"
+            "scene_justCause31.webp",
+            "scene_justCause32.webp"
         ]
     },
     {
@@ -283,10 +283,10 @@
             "XBOX"
         ],
         "link": "https://store.steampowered.com/app/208650/Batman_Arkham_Knight/",
-        "cover": "./photos/cover/cover_batmanArkhamKnight.webp",
+        "cover": "cover_batmanArkhamKnight.webp",
         "scene": [
-            "./photos/scene/scene_batmanArkhamKnight1.webp",
-            "./photos/scene/scene_batmanArkhamKnight2.webp"
+            "scene_batmanArkhamKnight1.webp",
+            "scene_batmanArkhamKnight2.webp"
         ]
     },
     {
@@ -305,10 +305,10 @@
             "XBOX"
         ],
         "link": "https://store.steampowered.com/app/241930/Middleearth_Shadow_of_Mordor/",
-        "cover": "./photos/cover/cover_shadowOfMordor.webp",
+        "cover": "cover_shadowOfMordor.webp",
         "scene": [
-            "./photos/scene/scene_shadowOfMordor1.webp",
-            "./photos/scene/scene_shadowOfMordor2.webp"
+            "scene_shadowOfMordor1.webp",
+            "scene_shadowOfMordor2.webp"
         ]
     },
     {
@@ -327,10 +327,10 @@
             "XBOX"
         ],
         "link": "https://store.steampowered.com/app/234140/Mad_Max/",
-        "cover": "./photos/cover/cover_madMax.webp",
+        "cover": "cover_madMax.webp",
         "scene": [
-            "./photos/scene/scene_madMax1.webp",
-            "./photos/scene/scene_madMax2.webp"
+            "scene_madMax1.webp",
+            "scene_madMax2.webp"
         ]
     },
     {
@@ -351,10 +351,10 @@
             "Telefono movil"
         ],
         "link": "https://store.steampowered.com/app/268910/Cuphead/",
-        "cover": "./photos/cover/cover_cuphead.webp",
+        "cover": "cover_cuphead.webp",
         "scene": [
-            "./photos/scene/scene_cuphead1.webp",
-            "./photos/scene/scene_cuphead2.webp"
+            "scene_cuphead1.webp",
+            "scene_cuphead2.webp"
         ]
     },
     {
@@ -373,10 +373,10 @@
             "XBOX"
         ],
         "link": "https://store.steampowered.com/app/524220/NieRAutomata/",
-        "cover": "./photos/cover/cover_nierAutomata.webp",
+        "cover": "cover_nierAutomata.webp",
         "scene": [
-            "./photos/scene/scene_nierAutomata1.webp",
-            "./photos/scene/scene_nierAutomata2.webp"
+            "scene_nierAutomata1.webp",
+            "scene_nierAutomata2.webp"
         ]
     },
     {
@@ -396,10 +396,10 @@
             "Nintendo Switch"
         ],
         "link": "https://store.steampowered.com/app/1139900/Ghostrunner/",
-        "cover": "./photos/cover/cover_ghostrunner.webp",
+        "cover": "cover_ghostrunner.webp",
         "scene": [
-            "./photos/scene/scene_ghostrunner1.webp",
-            "./photos/scene/scene_ghostrunner2.webp"
+            "scene_ghostrunner1.webp",
+            "scene_ghostrunner2.webp"
         ]
     },
     {
@@ -420,10 +420,10 @@
             "Nintendo Switch"
         ],
         "link": "https://store.steampowered.com/app/870780/CONTROL_Ultimate_Edition/",
-        "cover": "./photos/cover/cover_control.webp",
+        "cover": "cover_control.webp",
         "scene": [
-            "./photos/scene/scene_control1.webp",
-            "./photos/scene/scene_control2.webp"
+            "scene_control1.webp",
+            "scene_control2.webp"
         ]
     },
     {
@@ -441,10 +441,10 @@
             "XBOX"
         ],
         "link": "https://store.steampowered.com/app/1237970/Titanfall_2/",
-        "cover": "./photos/cover/cover_titanfall2.webp",
+        "cover": "cover_titanfall2.webp",
         "scene": [
-            "./photos/scene/scene_titanfall21.webp",
-            "./photos/scene/scene_titanfall22.webp"
+            "scene_titanfall21.webp",
+            "scene_titanfall22.webp"
         ]
     },
     {
@@ -463,10 +463,10 @@
             "Nintendo Switch"
         ],
         "link": "https://store.steampowered.com/app/379720/DOOM/",
-        "cover": "./photos/cover/cover_doom.webp",
+        "cover": "cover_doom.webp",
         "scene": [
-            "./photos/scene/scene_doom1.webp",
-            "./photos/scene/scene_doom2.webp"
+            "scene_doom1.webp",
+            "scene_doom2.webp"
         ]
     },
     {
@@ -484,10 +484,10 @@
             "XBOX"
         ],
         "link": "https://store.steampowered.com/app/201810/Wolfenstein_The_New_Order/",
-        "cover": "./photos/cover/cover_wolfensteinTheNewOrder.webp",
+        "cover": "cover_wolfensteinTheNewOrder.webp",
         "scene": [
-            "./photos/scene/scene_wolfensteinTheNewOrder1.webp",
-            "./photos/scene/scene_wolfensteinTheNewOrder2.webp"
+            "scene_wolfensteinTheNewOrder1.webp",
+            "scene_wolfensteinTheNewOrder2.webp"
         ]
     },
     {
@@ -507,10 +507,10 @@
             "XBOX"
         ],
         "link": "https://store.steampowered.com/app/1245620/ELDEN_RING/",
-        "cover": "./photos/cover/cover_eldenRing.webp",
+        "cover": "cover_eldenRing.webp",
         "scene": [
-            "./photos/scene/scene_eldenRing1.webp",
-            "./photos/scene/scene_eldenRing2.webp"
+            "scene_eldenRing1.webp",
+            "scene_eldenRing2.webp"
         ]
     },
     {
@@ -526,10 +526,10 @@
             "PC"
         ],
         "link": "https://store.steampowered.com/app/235460/METAL_GEAR_RISING_REVENGEANCE/",
-        "cover": "./photos/cover/cover_metalGearRisingRevengeance.webp",
+        "cover": "cover_metalGearRisingRevengeance.webp",
         "scene": [
-            "./photos/scene/scene_metalGearRisingRevengeance1.webp",
-            "./photos/scene/scene_metalGearRisingRevengeance2.webp"
+            "scene_metalGearRisingRevengeance1.webp",
+            "scene_metalGearRisingRevengeance2.webp"
         ]
     },
     {
@@ -550,11 +550,11 @@
             "Telefono movil"
         ],
         "link": "https://store.steampowered.com/app/1815780/Asphalt_Legends/",
-        "cover": "./photos/cover/cover_asphaltLegends.webp",
+        "cover": "cover_asphaltLegends.webp",
         "scene": [
-            "./photos/scene/scene_asphaltLegends1.webp",
-            "./photos/scene/scene_asphaltLegends2.webp",
-            "./photos/scene/scene_asphaltLegends3.webp"
+            "scene_asphaltLegends1.webp",
+            "scene_asphaltLegends2.webp",
+            "scene_asphaltLegends3.webp"
         ]
     },
     {
@@ -571,11 +571,11 @@
             "XBOX"
         ],
         "link": "https://store.steampowered.com/app/2440510/Forza_Motorsport/",
-        "cover": "./photos/cover/cover_forzaMotorsport.webp",
+        "cover": "cover_forzaMotorsport.webp",
         "scene": [
-            "./photos/scene/scene_forzaMotorsport1.webp",
-            "./photos/scene/scene_forzaMotorsport2.webp",
-            "./photos/scene/scene_forzaMotorsport3.webp"
+            "scene_forzaMotorsport1.webp",
+            "scene_forzaMotorsport2.webp",
+            "scene_forzaMotorsport3.webp"
         ]
     },
     {
@@ -593,11 +593,11 @@
             "XBOX"
         ],
         "link": "https://store.steampowered.com/app/1551360/Forza_Horizon_5/",
-        "cover": "./photos/cover/cover_forzaHorizon5.webp",
+        "cover": "cover_forzaHorizon5.webp",
         "scene": [
-            "./photos/scene/scene_forzaHorizon51.webp",
-            "./photos/scene/scene_forzaHorizon52.webp",
-            "./photos/scene/scene_forzaHorizon53.webp"
+            "scene_forzaHorizon51.webp",
+            "scene_forzaHorizon52.webp",
+            "scene_forzaHorizon53.webp"
         ]
     },
     {
@@ -614,11 +614,11 @@
             "PC"
         ],
         "link": "https://store.steampowered.com/app/2483190/Forza_Horizon_6/",
-        "cover": "./photos/cover/cover_forzaHorizon6.webp",
+        "cover": "cover_forzaHorizon6.webp",
         "scene": [
-            "./photos/scene/scene_forzaHorizon61.webp",
-            "./photos/scene/scene_forzaHorizon62.webp",
-            "./photos/scene/scene_forzaHorizon63.webp"
+            "scene_forzaHorizon61.webp",
+            "scene_forzaHorizon62.webp",
+            "scene_forzaHorizon63.webp"
         ]
     },
     {
@@ -637,11 +637,11 @@
             "XBOX"
         ],
         "link": "https://store.steampowered.com/app/1222680/Need_for_Speed_Heat/",
-        "cover": "./photos/cover/cover_NFSHeat.webp",
+        "cover": "cover_NFSHeat.webp",
         "scene": [
-            "./photos/scene/scene_NFSHeat1.webp",
-            "./photos/scene/scene_NFSHeat2.webp",
-            "./photos/scene/scene_NFSHeat3.webp"
+            "scene_NFSHeat1.webp",
+            "scene_NFSHeat2.webp",
+            "scene_NFSHeat3.webp"
         ]
     },
     {
@@ -660,11 +660,11 @@
             "XBOX"
         ],
         "link": "https://store.steampowered.com/app/2698940/The_Crew_Motorfest/",
-        "cover": "./photos/cover/cover_theCrewMotorFest.webp",
+        "cover": "cover_theCrewMotorFest.webp",
         "scene": [
-            "./photos/scene/scene_theCrewMotorFest1.webp",
-            "./photos/scene/scene_theCrewMotorFest2.webp",
-            "./photos/scene/scene_theCrewMotorFest3.webp"
+            "scene_theCrewMotorFest1.webp",
+            "scene_theCrewMotorFest2.webp",
+            "scene_theCrewMotorFest3.webp"
         ]
     },
     {
@@ -680,11 +680,11 @@
             "PC"
         ],
         "link": "https://store.steampowered.com/app/2399420/Le_Mans_Ultimate/",
-        "cover": "./photos/cover/cover_LMUltimate.webp",
+        "cover": "cover_LMUltimate.webp",
         "scene": [
-            "./photos/scene/scene_LMUltimate1.webp",
-            "./photos/scene/scene_LMUltimate2.webp",
-            "./photos/scene/scene_LMUltimate3.webp"
+            "scene_LMUltimate1.webp",
+            "scene_LMUltimate2.webp",
+            "scene_LMUltimate3.webp"
         ]
     },
     {
@@ -700,11 +700,11 @@
             "PC"
         ],
         "link": "https://store.steampowered.com/app/266410/iRacing/",
-        "cover": "./photos/cover/cover_iRacing.webp",
+        "cover": "cover_iRacing.webp",
         "scene": [
-            "./photos/scene/scene_iRacing1.webp",
-            "./photos/scene/scene_iRacing2.webp",
-            "./photos/scene/scene_iRacing3.webp"
+            "scene_iRacing1.webp",
+            "scene_iRacing2.webp",
+            "scene_iRacing3.webp"
         ]
     },
     {
@@ -722,11 +722,11 @@
             "XBOX"
         ],
         "link": "https://store.steampowered.com/app/3059520/F1_25/",
-        "cover": "./photos/cover/cover_F125.webp",
+        "cover": "cover_F125.webp",
         "scene": [
-            "./photos/scene/scene_F1251.webp",
-            "./photos/scene/scene_F1252.webp",
-            "./photos/scene/scene_F1253.webp"
+            "scene_F1251.webp",
+            "scene_F1252.webp",
+            "scene_F1253.webp"
         ]
     },
     {
@@ -742,11 +742,11 @@
             "PC"
         ],
         "link": "https://store.steampowered.com/app/284160/BeamNGdrive/",
-        "cover": "./photos/cover/cover_beamNgDrive.webp",
+        "cover": "cover_beamNgDrive.webp",
         "scene": [
-            "./photos/scene/scene_beamNgDrive1.webp",
-            "./photos/scene/scene_beamNgDrive2.webp",
-            "./photos/scene/scene_beamNgDrive3.webp"
+            "scene_beamNgDrive1.webp",
+            "scene_beamNgDrive2.webp",
+            "scene_beamNgDrive3.webp"
         ]
     },
     {
@@ -764,11 +764,11 @@
             "XBOX"
         ],
         "link": "https://store.steampowered.com/app/1846380/Need_for_Speed_Unbound/",
-        "cover": "./photos/cover/cover_NFSWunbound.webp",
+        "cover": "cover_NFSWunbound.webp",
         "scene": [
-            "./photos/scene/scene_NFSWunbound1.webp",
-            "./photos/scene/scene_NFSWunbound2.webp",
-            "./photos/scene/scene_NFSWunbound3.webp"
+            "scene_NFSWunbound1.webp",
+            "scene_NFSWunbound2.webp",
+            "scene_NFSWunbound3.webp"
         ]
     },
     {
@@ -784,11 +784,11 @@
             "PC"
         ],
         "link": "https://store.steampowered.com/app/1066890/Automobilista_2/",
-        "cover": "./photos/cover/cover_automobilista2.webp",
+        "cover": "cover_automobilista2.webp",
         "scene": [
-            "./photos/scene/scene_automobilista21.webp",
-            "./photos/scene/scene_automobilista22.webp",
-            "./photos/scene/scene_automobilista23.webp"
+            "scene_automobilista21.webp",
+            "scene_automobilista22.webp",
+            "scene_automobilista23.webp"
         ]
     },
     {
@@ -804,11 +804,11 @@
             "PC"
         ],
         "link": "https://store.steampowered.com/app/3917090/Assetto_Corsa_Rally/",
-        "cover": "./photos/cover/cover_assettoCorsaRally.webp",
+        "cover": "cover_assettoCorsaRally.webp",
         "scene": [
-            "./photos/scene/scene_assettoCorsaRally1.webp",
-            "./photos/scene/scene_assettoCorsaRally2.webp",
-            "./photos/scene/scene_assettoCorsaRally3.webp"
+            "scene_assettoCorsaRally1.webp",
+            "scene_assettoCorsaRally2.webp",
+            "scene_assettoCorsaRally3.webp"
         ]
     },
     {
@@ -826,11 +826,11 @@
             "XBOX"
         ],
         "link": "https://store.steampowered.com/app/690790/DiRT_Rally_20/",
-        "cover": "./photos/cover/cover_dirtRally2.webp",
+        "cover": "cover_dirtRally2.webp",
         "scene": [
-            "./photos/scene/scene_dirtRally21.webp",
-            "./photos/scene/scene_dirtRally22.webp",
-            "./photos/scene/scene_dirtRally23.webp"
+            "scene_dirtRally21.webp",
+            "scene_dirtRally22.webp",
+            "scene_dirtRally23.webp"
         ]
     },
     {
@@ -846,11 +846,11 @@
             "PC"
         ],
         "link": "https://store.steampowered.com/app/1153410/JDM_Japanese_Drift_Master/",
-        "cover": "./photos/cover/cover_JDM.webp",
+        "cover": "cover_JDM.webp",
         "scene": [
-            "./photos/scene/scene_JDM1.webp",
-            "./photos/scene/scene_JDM2.webp",
-            "./photos/scene/scene_JDM3.webp"
+            "scene_JDM1.webp",
+            "scene_JDM2.webp",
+            "scene_JDM3.webp"
         ]
     },
     {
@@ -871,11 +871,11 @@
             "Telefono movil"
         ],
         "link": "https://store.steampowered.com/app/1307710/GRID_Legends/",
-        "cover": "./photos/cover/cover_gridLegends.webp",
+        "cover": "cover_gridLegends.webp",
         "scene": [
-            "./photos/scene/scene_gridLegends1.webp",
-            "./photos/scene/scene_gridLegends2.webp",
-            "./photos/scene/scene_gridLegends3.webp"
+            "scene_gridLegends1.webp",
+            "scene_gridLegends2.webp",
+            "scene_gridLegends3.webp"
         ]
     },
     {
@@ -891,11 +891,11 @@
             "PC"
         ],
         "link": "https://store.steampowered.com/app/3088700/Driving_Rogue/",
-        "cover": "./photos/cover/cover_drivingRogue.webp",
+        "cover": "cover_drivingRogue.webp",
         "scene": [
-            "./photos/scene/scene_drivingRogue1.webp",
-            "./photos/scene/scene_drivingRogue2.webp",
-            "./photos/scene/scene_drivingRogue3.webp"
+            "scene_drivingRogue1.webp",
+            "scene_drivingRogue2.webp",
+            "scene_drivingRogue3.webp"
         ]
     },
     {
@@ -914,11 +914,11 @@
             "Telefono movil"
         ],
         "link": "https://store.steampowered.com/app/1114150/CarX_Street/",
-        "cover": "./photos/cover/cover_carXStreet.webp",
+        "cover": "cover_carXStreet.webp",
         "scene": [
-            "./photos/scene/scene_carXStreet1.webp",
-            "./photos/scene/scene_carXStreet2.webp",
-            "./photos/scene/scene_carXStreet3.webp"
+            "scene_carXStreet1.webp",
+            "scene_carXStreet2.webp",
+            "scene_carXStreet3.webp"
         ]
     },
     {
@@ -937,11 +937,11 @@
             "Telefono movil"
         ],
         "link": "https://store.steampowered.com/app/1328660/Need_for_Speed_Hot_Pursuit_Remastered/",
-        "cover": "./photos/cover/cover_NFSHotPursuit.webp",
+        "cover": "cover_NFSHotPursuit.webp",
         "scene": [
-            "./photos/scene/scene_NFSHotPursuit1.webp",
-            "./photos/scene/scene_NFSHotPursuit2.webp",
-            "./photos/scene/scene_NFSHotPursuit3.webp"
+            "scene_NFSHotPursuit1.webp",
+            "scene_NFSHotPursuit2.webp",
+            "scene_NFSHotPursuit3.webp"
         ]
     },
     {
@@ -960,11 +960,11 @@
             "XBOX"
         ],
         "link": "https://store.steampowered.com/app/646910/The_Crew_2/",
-        "cover": "./photos/cover/cover_theCrew2.webp",
+        "cover": "cover_theCrew2.webp",
         "scene": [
-            "./photos/scene/scene_theCrew21.webp",
-            "./photos/scene/scene_theCrew22.webp",
-            "./photos/scene/scene_theCrew23.webp"
+            "scene_theCrew21.webp",
+            "scene_theCrew22.webp",
+            "scene_theCrew23.webp"
         ]
     },
     {
@@ -980,11 +980,11 @@
             "Nintendo Switch"
         ],
         "link": "",
-        "cover": "./photos/cover/cover_brothership.webp",
+        "cover": "cover_brothership.webp",
         "scene": [
-            "./photos/scene/scene_brothership1.webp",
-            "./photos/scene/scene_brothership2.webp",
-            "./photos/scene/scene_brothership3.webp"
+            "scene_brothership1.webp",
+            "scene_brothership2.webp",
+            "scene_brothership3.webp"
         ]
     },
     {
@@ -1003,12 +1003,12 @@
             "Nintendo Switch"
         ],
         "link": "https://store.steampowered.com/app/1462040/FINAL_FANTASY_VII_REMAKE_INTERGRADE/",
-        "cover": "./photos/cover/cover_fF7.webp",
+        "cover": "cover_fF7.webp",
         "scene": [
-            "./photos/scene/scene_fF71.webp",
-            "./photos/scene/scene_fF72.webp",
-            "./photos/scene/scene_fF73.webp",
-            "./photos/scene/scene_fF74.webp"
+            "scene_fF71.webp",
+            "scene_fF72.webp",
+            "scene_fF73.webp",
+            "scene_fF74.webp"
         ]
     },
     {
@@ -1026,12 +1026,12 @@
             "XBOX"
         ],
         "link": "https://store.steampowered.com/app/292030/The_Witcher_3_Wild_Hunt__Remastered/",
-        "cover": "./photos/cover/cover_witcher3.webp",
+        "cover": "cover_witcher3.webp",
         "scene": [
-            "./photos/scene/scene_witcher31.webp",
-            "./photos/scene/scene_witcher32.webp",
-            "./photos/scene/scene_witcher33.webp",
-            "./photos/scene/scene_witcher34.webp"
+            "scene_witcher31.webp",
+            "scene_witcher32.webp",
+            "scene_witcher33.webp",
+            "scene_witcher34.webp"
         ]
     },
     {
@@ -1051,12 +1051,12 @@
             "XBOX"
         ],
         "link": "https://store.steampowered.com/app/1687950/Persona_5_Royal/",
-        "cover": "./photos/cover/cover_persona5.webp",
+        "cover": "cover_persona5.webp",
         "scene": [
-            "./photos/scene/scene_persona51.webp",
-            "./photos/scene/scene_persona52.webp",
-            "./photos/scene/scene_persona53.webp",
-            "./photos/scene/scene_persona54.webp"
+            "scene_persona51.webp",
+            "scene_persona52.webp",
+            "scene_persona53.webp",
+            "scene_persona54.webp"
         ]
     },
     {
@@ -1075,12 +1075,12 @@
             "XBOX"
         ],
         "link": "https://store.steampowered.com/app/1295510/DRAGON_QUEST_XI_S_Ecos_de_un_pasado_perdido__Edicion_definitiva/",
-        "cover": "./photos/cover/cover_dragonQuest11.webp",
+        "cover": "cover_dragonQuest11.webp",
         "scene": [
-            "./photos/scene/scene_dragonQuest111.webp",
-            "./photos/scene/scene_dragonQuest112.webp",
-            "./photos/scene/scene_dragonQuest113.webp",
-            "./photos/scene/scene_dragonQuest114.webp"
+            "scene_dragonQuest111.webp",
+            "scene_dragonQuest112.webp",
+            "scene_dragonQuest113.webp",
+            "scene_dragonQuest114.webp"
         ]
     },
     {
@@ -1096,11 +1096,11 @@
             "Nintendo Switch"
         ],
         "link": "",
-        "cover": "./photos/cover/cover_xenoblade2.webp",
+        "cover": "cover_xenoblade2.webp",
         "scene": [
-            "./photos/scene/scene_xenoblade21.webp",
-            "./photos/scene/scene_xenoblade22.webp",
-            "./photos/scene/scene_xenoblade23.webp"
+            "scene_xenoblade21.webp",
+            "scene_xenoblade22.webp",
+            "scene_xenoblade23.webp"
         ]
     },
     {
@@ -1119,12 +1119,12 @@
             "PS5"
         ],
         "link": "https://store.steampowered.com/app/921570/OCTOPATH_TRAVELER/",
-        "cover": "./photos/cover/cover_octopathTraveler.webp",
+        "cover": "cover_octopathTraveler.webp",
         "scene": [
-            "./photos/scene/scene_octopathTraveler1.webp",
-            "./photos/scene/scene_octopathTraveler2.webp",
-            "./photos/scene/scene_octopathTraveler3.webp",
-            "./photos/scene/scene_octopathTraveler4.webp"
+            "scene_octopathTraveler1.webp",
+            "scene_octopathTraveler2.webp",
+            "scene_octopathTraveler3.webp",
+            "scene_octopathTraveler4.webp"
         ]
     },
     {
@@ -1143,12 +1143,12 @@
             "XBOX"
         ],
         "link": "https://store.steampowered.com/app/740130/Tales_of_ARISE/",
-        "cover": "./photos/cover/cover_talesOfArise.webp",
+        "cover": "cover_talesOfArise.webp",
         "scene": [
-            "./photos/scene/scene_talesOfArise1.webp",
-            "./photos/scene/scene_talesOfArise2.webp",
-            "./photos/scene/scene_talesOfArise3.webp",
-            "./photos/scene/scene_talesOfArise4.webp"
+            "scene_talesOfArise1.webp",
+            "scene_talesOfArise2.webp",
+            "scene_talesOfArise3.webp",
+            "scene_talesOfArise4.webp"
         ]
     },
     {
@@ -1166,12 +1166,12 @@
             "XBOX"
         ],
         "link": "https://store.steampowered.com/app/589360/Ni_no_Kuni_II_Revenant_Kingdom/",
-        "cover": "./photos/cover/cover_niNoKuni2.webp",
+        "cover": "cover_niNoKuni2.webp",
         "scene": [
-            "./photos/scene/scene_niNoKuni21.webp",
-            "./photos/scene/scene_niNoKuni22.webp",
-            "./photos/scene/scene_niNoKuni23.webp",
-            "./photos/scene/scene_niNoKuni24.webp"
+            "scene_niNoKuni21.webp",
+            "scene_niNoKuni22.webp",
+            "scene_niNoKuni23.webp",
+            "scene_niNoKuni24.webp"
         ]
     },
     {
@@ -1187,11 +1187,11 @@
             "Nintendo Switch"
         ],
         "link": "",
-        "cover": "./photos/cover/cover_fireEmblem3Houses.webp",
+        "cover": "cover_fireEmblem3Houses.webp",
         "scene": [
-            "./photos/scene/scene_fireEmblem3Houses1.webp",
-            "./photos/scene/scene_fireEmblem3Houses2.webp",
-            "./photos/scene/scene_fireEmblem3Houses3.webp"
+            "scene_fireEmblem3Houses1.webp",
+            "scene_fireEmblem3Houses2.webp",
+            "scene_fireEmblem3Houses3.webp"
         ]
     },
     {
@@ -1210,12 +1210,12 @@
             "PS5"
         ],
         "link": "https://store.steampowered.com/app/1198090/The_Legend_of_Heroes_Trails_of_Cold_Steel_IV/",
-        "cover": "./photos/cover/cover_theLegendOfHeroes.webp",
+        "cover": "cover_theLegendOfHeroes.webp",
         "scene": [
-            "./photos/scene/scene_theLegendOfHeroes1.webp",
-            "./photos/scene/scene_theLegendOfHeroes2.webp",
-            "./photos/scene/scene_theLegendOfHeroes3.webp",
-            "./photos/scene/scene_theLegendOfHeroes4.webp"
+            "scene_theLegendOfHeroes1.webp",
+            "scene_theLegendOfHeroes2.webp",
+            "scene_theLegendOfHeroes3.webp",
+            "scene_theLegendOfHeroes4.webp"
         ]
     },
     {
@@ -1236,12 +1236,12 @@
             "XBOX"
         ],
         "link": "https://store.steampowered.com/app/1235140/Yakuza_Like_a_Dragon/",
-        "cover": "./photos/cover/cover_yakuzaLikeADragon.webp",
+        "cover": "cover_yakuzaLikeADragon.webp",
         "scene": [
-            "./photos/scene/scene_yakuzaLikeADragon1.webp",
-            "./photos/scene/scene_yakuzaLikeADragon2.webp",
-            "./photos/scene/scene_yakuzaLikeADragon3.webp",
-            "./photos/scene/scene_yakuzaLikeADragon4.webp"
+            "scene_yakuzaLikeADragon1.webp",
+            "scene_yakuzaLikeADragon2.webp",
+            "scene_yakuzaLikeADragon3.webp",
+            "scene_yakuzaLikeADragon4.webp"
         ]
     },
     {
@@ -1259,12 +1259,12 @@
             "PC"
         ],
         "link": "https://store.steampowered.com/app/1446650/BRAVELY_DEFAULT_II/",
-        "cover": "./photos/cover/cover_bravelyDefault2.webp",
+        "cover": "cover_bravelyDefault2.webp",
         "scene": [
-            "./photos/scene/scene_bravelyDefault21.webp",
-            "./photos/scene/scene_bravelyDefault22.webp",
-            "./photos/scene/scene_bravelyDefault23.webp",
-            "./photos/scene/scene_bravelyDefault24.webp"
+            "scene_bravelyDefault21.webp",
+            "scene_bravelyDefault22.webp",
+            "scene_bravelyDefault23.webp",
+            "scene_bravelyDefault24.webp"
         ]
     },
     {
@@ -1284,12 +1284,12 @@
             "XBOX"
         ],
         "link": "https://store.steampowered.com/app/1277400/Monster_Hunter_Stories_2_Wings_of_Ruin/",
-        "cover": "./photos/cover/cover_monsterHunterStories2.webp",
+        "cover": "cover_monsterHunterStories2.webp",
         "scene": [
-            "./photos/scene/scene_monsterHunterStories21.webp",
-            "./photos/scene/scene_monsterHunterStories22.webp",
-            "./photos/scene/scene_monsterHunterStories23.webp",
-            "./photos/scene/scene_monsterHunterStories24.webp"
+            "scene_monsterHunterStories21.webp",
+            "scene_monsterHunterStories22.webp",
+            "scene_monsterHunterStories23.webp",
+            "scene_monsterHunterStories24.webp"
         ]
     },
     {
@@ -1308,12 +1308,12 @@
             "XBOX"
         ],
         "link": "https://store.steampowered.com/app/1222690/Dragon_Age_Inquisition/",
-        "cover": "./photos/cover/cover_dragonAgeInquisition.webp",
+        "cover": "cover_dragonAgeInquisition.webp",
         "scene": [
-            "./photos/scene/scene_dragonAgeInquisition1.webp",
-            "./photos/scene/scene_dragonAgeInquisition2.webp",
-            "./photos/scene/scene_dragonAgeInquisition3.webp",
-            "./photos/scene/scene_dragonAgeInquisition4.webp"
+            "scene_dragonAgeInquisition1.webp",
+            "scene_dragonAgeInquisition2.webp",
+            "scene_dragonAgeInquisition3.webp",
+            "scene_dragonAgeInquisition4.webp"
         ]
     },
     {
@@ -1331,12 +1331,12 @@
             "XBOX"
         ],
         "link": "https://store.steampowered.com/app/435150/Divinity_Original_Sin_2__Definitive_Edition/",
-        "cover": "./photos/cover/cover_divinityOriginalSin2.webp",
+        "cover": "cover_divinityOriginalSin2.webp",
         "scene": [
-            "./photos/scene/scene_divinityOriginalSin21.webp",
-            "./photos/scene/scene_divinityOriginalSin22.webp",
-            "./photos/scene/scene_divinityOriginalSin23.webp",
-            "./photos/scene/scene_divinityOriginalSin24.webp"
+            "scene_divinityOriginalSin21.webp",
+            "scene_divinityOriginalSin22.webp",
+            "scene_divinityOriginalSin23.webp",
+            "scene_divinityOriginalSin24.webp"
         ]
     },
     {
@@ -1354,12 +1354,12 @@
             "XBOX"
         ],
         "link": "https://store.steampowered.com/app/374320/DARK_SOULS_III/",
-        "cover": "./photos/cover/cover_darkSouls3.webp",
+        "cover": "cover_darkSouls3.webp",
         "scene": [
-            "./photos/scene/scene_darkSouls31.webp",
-            "./photos/scene/scene_darkSouls32.webp",
-            "./photos/scene/scene_darkSouls33.webp",
-            "./photos/scene/scene_darkSouls34.webp"
+            "scene_darkSouls31.webp",
+            "scene_darkSouls32.webp",
+            "scene_darkSouls33.webp",
+            "scene_darkSouls34.webp"
         ]
     },
     {
@@ -1379,12 +1379,12 @@
             "Nintendo Switch"
         ],
         "link": "https://store.steampowered.com/app/489830/The_Elder_Scrolls_V_Skyrim_Special_Edition/",
-        "cover": "./photos/cover/cover_theElderScrollsV.webp",
+        "cover": "cover_theElderScrollsV.webp",
         "scene": [
-            "./photos/scene/scene_theElderScrollsV1.webp",
-            "./photos/scene/scene_theElderScrollsV2.webp",
-            "./photos/scene/scene_theElderScrollsV3.webp",
-            "./photos/scene/scene_theElderScrollsV4.webp"
+            "scene_theElderScrollsV1.webp",
+            "scene_theElderScrollsV2.webp",
+            "scene_theElderScrollsV3.webp",
+            "scene_theElderScrollsV4.webp"
         ]
     },
     {
@@ -1402,12 +1402,12 @@
             "XBOX"
         ],
         "link": "https://store.steampowered.com/app/1328670/Mass_Effect_Legendary_Edition/",
-        "cover": "./photos/cover/cover_massEffectLegendaryEdition.webp",
+        "cover": "cover_massEffectLegendaryEdition.webp",
         "scene": [
-            "./photos/scene/scene_massEffectLegendaryEdition1.webp",
-            "./photos/scene/scene_massEffectLegendaryEdition2.webp",
-            "./photos/scene/scene_massEffectLegendaryEdition3.webp",
-            "./photos/scene/scene_massEffectLegendaryEdition4.webp"
+            "scene_massEffectLegendaryEdition1.webp",
+            "scene_massEffectLegendaryEdition2.webp",
+            "scene_massEffectLegendaryEdition3.webp",
+            "scene_massEffectLegendaryEdition4.webp"
         ]
     },
     {
@@ -1425,12 +1425,12 @@
             "PS5"
         ],
         "link": "https://store.steampowered.com/app/2561580/Horizon_Zero_Dawn_remasterizado/",
-        "cover": "./photos/cover/cover_horizonZeroDawn.webp",
+        "cover": "cover_horizonZeroDawn.webp",
         "scene": [
-            "./photos/scene/scene_horizonZeroDawn1.webp",
-            "./photos/scene/scene_horizonZeroDawn2.webp",
-            "./photos/scene/scene_horizonZeroDawn3.webp",
-            "./photos/scene/scene_horizonZeroDawn4.webp"
+            "scene_horizonZeroDawn1.webp",
+            "scene_horizonZeroDawn2.webp",
+            "scene_horizonZeroDawn3.webp",
+            "scene_horizonZeroDawn4.webp"
         ]
     },
     {
@@ -1450,12 +1450,12 @@
             "Nintendo Switch"
         ],
         "link": "https://store.steampowered.com/app/1091500/Cyberpunk_2077/",
-        "cover": "./photos/cover/cover_cyberpunk2077.webp",
+        "cover": "cover_cyberpunk2077.webp",
         "scene": [
-            "./photos/scene/scene_cyberpunk20771.webp",
-            "./photos/scene/scene_cyberpunk20772.webp",
-            "./photos/scene/scene_cyberpunk20773.webp",
-            "./photos/scene/scene_cyberpunk20774.webp"
+            "scene_cyberpunk20771.webp",
+            "scene_cyberpunk20772.webp",
+            "scene_cyberpunk20773.webp",
+            "scene_cyberpunk20774.webp"
         ]
     },
     {
@@ -1472,11 +1472,11 @@
             "Nintendo Switch"
         ],
         "link": "",
-        "cover": "./photos/cover/cover_guardianTales.webp",
+        "cover": "cover_guardianTales.webp",
         "scene": [
-            "./photos/scene/scene_guardianTales1.webp",
-            "./photos/scene/scene_guardianTales2.webp",
-            "./photos/scene/scene_guardianTales3.webp"
+            "scene_guardianTales1.webp",
+            "scene_guardianTales2.webp",
+            "scene_guardianTales3.webp"
         ]
     },
     {
@@ -1493,10 +1493,10 @@
             "PC"
         ],
         "link": "https://store.steampowered.com/app/3180070/No_Im_not_a_Human/",
-        "cover": "./photos/cover/cover_imNotAHuman.webp",
+        "cover": "cover_imNotAHuman.webp",
         "scene": [
-            "./photos/scene/scene_imNotAHuman1.webp",
-            "./photos/scene/scene_imNotAHuman2.webp"
+            "scene_imNotAHuman1.webp",
+            "scene_imNotAHuman2.webp"
         ]
     },
     {
@@ -1515,12 +1515,12 @@
             "Nintendo Switch"
         ],
         "link": "https://store.steampowered.com/app/238320/Outlast/",
-        "cover": "./photos/cover/cover_outlast.webp",
+        "cover": "cover_outlast.webp",
         "scene": [
-            "./photos/scene/scene_outlast1.webp",
-            "./photos/scene/scene_outlast2.webp",
-            "./photos/scene/scene_outlast3.webp",
-            "./photos/scene/scene_outlast4.webp"
+            "scene_outlast1.webp",
+            "scene_outlast2.webp",
+            "scene_outlast3.webp",
+            "scene_outlast4.webp"
         ]
     },
     {
@@ -1537,11 +1537,11 @@
             "PC"
         ],
         "link": "https://store.steampowered.com/app/57300/Amnesia_The_Dark_Descent/",
-        "cover": "./photos/cover/cover_amnesia.webp",
+        "cover": "cover_amnesia.webp",
         "scene": [
-            "./photos/scene/scene_amnesia1.webp",
-            "./photos/scene/scene_amnesia2.webp",
-            "./photos/scene/scene_amnesia3.webp"
+            "scene_amnesia1.webp",
+            "scene_amnesia2.webp",
+            "scene_amnesia3.webp"
         ]
     },
     {
@@ -1562,11 +1562,11 @@
             "Telefono movil"
         ],
         "link": "https://store.steampowered.com/app/381210/Dead_by_Daylight/",
-        "cover": "./photos/cover/cover_dbd.webp",
+        "cover": "cover_dbd.webp",
         "scene": [
-            "./photos/scene/scene_dbd1.webp",
-            "./photos/scene/scene_dbd2.webp",
-            "./photos/scene/scene_dbd3.webp"
+            "scene_dbd1.webp",
+            "scene_dbd2.webp",
+            "scene_dbd3.webp"
         ]
     },
     {
@@ -1586,11 +1586,11 @@
             "XBOX"
         ],
         "link": "https://store.steampowered.com/app/550/Left_4_Dead_2/",
-        "cover": "./photos/cover/cover_L4D2.webp",
+        "cover": "cover_L4D2.webp",
         "scene": [
-            "./photos/scene/scene_L4D21.webp",
-            "./photos/scene/scene_L4D22.webp",
-            "./photos/scene/scene_L4D23.webp"
+            "scene_L4D21.webp",
+            "scene_L4D22.webp",
+            "scene_L4D23.webp"
         ]
     },
     {
@@ -1609,10 +1609,10 @@
             "PS4"
         ],
         "link": "https://store.steampowered.com/app/242760/The_Forest/",
-        "cover": "./photos/cover/cover_theForest.webp",
+        "cover": "cover_theForest.webp",
         "scene": [
-            "./photos/scene/scene_theForest1.webp",
-            "./photos/scene/scene_theForest2.webp"
+            "scene_theForest1.webp",
+            "scene_theForest2.webp"
         ]
     },
     {
@@ -1632,11 +1632,11 @@
             "Telefono movil"
         ],
         "link": "https://store.steampowered.com/app/424840/Little_Nightmares/",
-        "cover": "./photos/cover/cover_littleNightmares.webp",
+        "cover": "cover_littleNightmares.webp",
         "scene": [
-            "./photos/scene/scene_littleNightmares1.webp",
-            "./photos/scene/scene_littleNightmares2.webp",
-            "./photos/scene/scene_littleNightmares3.webp"
+            "scene_littleNightmares1.webp",
+            "scene_littleNightmares2.webp",
+            "scene_littleNightmares3.webp"
         ]
     },
     {
@@ -1657,12 +1657,12 @@
             "XBOX"
         ],
         "link": "https://store.steampowered.com/app/1943950/Escape_the_Backrooms/",
-        "cover": "./photos/cover/cover_escapeTheBackrooms.webp",
+        "cover": "cover_escapeTheBackrooms.webp",
         "scene": [
-            "./photos/scene/scene_escapeTheBackrooms1.webp",
-            "./photos/scene/scene_escapeTheBackrooms2.webp",
-            "./photos/scene/scene_escapeTheBackrooms3.webp",
-            "./photos/scene/scene_escapeTheBackrooms4.webp"
+            "scene_escapeTheBackrooms1.webp",
+            "scene_escapeTheBackrooms2.webp",
+            "scene_escapeTheBackrooms3.webp",
+            "scene_escapeTheBackrooms4.webp"
         ]
     },
     {
@@ -1679,12 +1679,12 @@
             "PC"
         ],
         "link": "https://store.steampowered.com/app/4121170/Fears_to_Fathom__Scratch_Creek/",
-        "cover": "./photos/cover/cover_fearsToFathom.webp",
+        "cover": "cover_fearsToFathom.webp",
         "scene": [
-            "./photos/scene/scene_fearsToFathom1.webp",
-            "./photos/scene/scene_fearsToFathom2.webp",
-            "./photos/scene/scene_fearsToFathom3.webp",
-            "./photos/scene/scene_fearsToFathom4.webp"
+            "scene_fearsToFathom1.webp",
+            "scene_fearsToFathom2.webp",
+            "scene_fearsToFathom3.webp",
+            "scene_fearsToFathom4.webp"
         ]
     },
     {
@@ -1703,11 +1703,11 @@
             "PC"
         ],
         "link": "https://store.steampowered.com/app/3219630/Halloween_The_Game/",
-        "cover": "./photos/cover/cover_halloweenTheGame.webp",
+        "cover": "cover_halloweenTheGame.webp",
         "scene": [
-            "./photos/scene/scene_halloweenTheGame1.webp",
-            "./photos/scene/scene_halloweenTheGame2.webp",
-            "./photos/scene/scene_halloweenTheGame3.webp"
+            "scene_halloweenTheGame1.webp",
+            "scene_halloweenTheGame2.webp",
+            "scene_halloweenTheGame3.webp"
         ]
     },
     {
@@ -1724,12 +1724,12 @@
             "PC"
         ],
         "link": "https://store.steampowered.com/app/977160/HORSE/?l=latam&curator_clanid=30897970",
-        "cover": "./photos/cover/cover_horses.webp",
+        "cover": "cover_horses.webp",
         "scene": [
-            "./photos/scene/scene_horses1.webp",
-            "./photos/scene/scene_horses2.webp",
-            "./photos/scene/scene_horses3.webp",
-            "./photos/scene/scene_horses4.webp"
+            "scene_horses1.webp",
+            "scene_horses2.webp",
+            "scene_horses3.webp",
+            "scene_horses4.webp"
         ]
     },
     {
@@ -1750,12 +1750,12 @@
             "Nintendo Switch"
         ],
         "link": "https://store.steampowered.com/app/245390/I_Have_No_Mouth_and_I_Must_Scream/",
-        "cover": "./photos/cover/cover_iHaveNoMouthAndIMustScream.webp",
+        "cover": "cover_iHaveNoMouthAndIMustScream.webp",
         "scene": [
-            "./photos/scene/scene_iHaveNoMouthAndIMustScream1.webp",
-            "./photos/scene/scene_iHaveNoMouthAndIMustScream2.webp",
-            "./photos/scene/scene_iHaveNoMouthAndIMustScream3.webp",
-            "./photos/scene/scene_iHaveNoMouthAndIMustScream4.webp"
+            "scene_iHaveNoMouthAndIMustScream1.webp",
+            "scene_iHaveNoMouthAndIMustScream2.webp",
+            "scene_iHaveNoMouthAndIMustScream3.webp",
+            "scene_iHaveNoMouthAndIMustScream4.webp"
         ]
     },
     {
@@ -1776,12 +1776,12 @@
             "Nintendo Switch"
         ],
         "link": "https://store.steampowered.com/app/319510/Five_Nights_at_Freddys/",
-        "cover": "./photos/cover/cover_FNAF.webp",
+        "cover": "cover_FNAF.webp",
         "scene": [
-            "./photos/scene/scene_FNAF1.webp",
-            "./photos/scene/scene_FNAF2.webp",
-            "./photos/scene/scene_FNAF3.webp",
-            "./photos/scene/scene_FNAF4.webp"
+            "scene_FNAF1.webp",
+            "scene_FNAF2.webp",
+            "scene_FNAF3.webp",
+            "scene_FNAF4.webp"
         ]
     },
     {
@@ -1800,11 +1800,11 @@
             "XBOX"
         ],
         "link": "https://store.steampowered.com/app/2475490/Mouthwashing/",
-        "cover": "./photos/cover/cover_mouthwashing.webp",
+        "cover": "cover_mouthwashing.webp",
         "scene": [
-            "./photos/scene/scene_mouthwashing1.webp",
-            "./photos/scene/scene_mouthwashing2.webp",
-            "./photos/scene/scene_mouthwashing3.webp"
+            "scene_mouthwashing1.webp",
+            "scene_mouthwashing2.webp",
+            "scene_mouthwashing3.webp"
         ]
     },
     {
@@ -1821,10 +1821,10 @@
             "PC"
         ],
         "link": "https://store.steampowered.com/app/2527500/MiSide/",
-        "cover": "./photos/cover/cover_miSide.webp",
+        "cover": "cover_miSide.webp",
         "scene": [
-            "./photos/scene/scene_miSide1.webp",
-            "./photos/scene/scene_miSide2.webp"
+            "scene_miSide1.webp",
+            "scene_miSide2.webp"
         ]
     },
     {
@@ -1842,12 +1842,12 @@
             "XBOX"
         ],
         "link": "https://store.steampowered.com/app/739630/Phasmophobia/",
-        "cover": "./photos/cover/cover_phasmophobia.webp",
+        "cover": "cover_phasmophobia.webp",
         "scene": [
-            "./photos/scene/scene_phasmophobia1.webp",
-            "./photos/scene/scene_phasmophobia2.webp",
-            "./photos/scene/scene_phasmophobia3.webp",
-            "./photos/scene/scene_phasmophobia4.webp"
+            "scene_phasmophobia1.webp",
+            "scene_phasmophobia2.webp",
+            "scene_phasmophobia3.webp",
+            "scene_phasmophobia4.webp"
         ]
     },
     {
@@ -1866,12 +1866,12 @@
             "XBOX"
         ],
         "link": "https://store.steampowered.com/app/1304930/The_Outlast_Trials/",
-        "cover": "./photos/cover/cover_theOutlastTrials.webp",
+        "cover": "cover_theOutlastTrials.webp",
         "scene": [
-            "./photos/scene/scene_theOutlastTrials1.webp",
-            "./photos/scene/scene_theOutlastTrials2.webp",
-            "./photos/scene/scene_theOutlastTrials3.webp",
-            "./photos/scene/scene_theOutlastTrials4.webp"
+            "scene_theOutlastTrials1.webp",
+            "scene_theOutlastTrials2.webp",
+            "scene_theOutlastTrials3.webp",
+            "scene_theOutlastTrials4.webp"
         ]
     },
     {
@@ -1892,12 +1892,12 @@
             "Nintendo Switch"
         ],
         "link": "https://store.steampowered.com/app/2172010/Until_Dawn/",
-        "cover": "./photos/cover/cover_untilDawn.webp",
+        "cover": "cover_untilDawn.webp",
         "scene": [
-            "./photos/scene/scene_untilDawn1.webp",
-            "./photos/scene/scene_untilDawn2.webp",
-            "./photos/scene/scene_untilDawn3.webp",
-            "./photos/scene/scene_untilDawn4.webp"
+            "scene_untilDawn1.webp",
+            "scene_untilDawn2.webp",
+            "scene_untilDawn3.webp",
+            "scene_untilDawn4.webp"
         ]
     },
     {
@@ -1915,12 +1915,12 @@
             "XBOX"
         ],
         "link": "https://store.steampowered.com/app/750130/The_Sinking_City_Remastered/",
-        "cover": "./photos/cover/cover_theSinkingCityRemastered.webp",
+        "cover": "cover_theSinkingCityRemastered.webp",
         "scene": [
-            "./photos/scene/scene_theSinkingCityRemastered1.webp",
-            "./photos/scene/scene_theSinkingCityRemastered2.webp",
-            "./photos/scene/scene_theSinkingCityRemastered3.webp",
-            "./photos/scene/scene_theSinkingCityRemastered4.webp"
+            "scene_theSinkingCityRemastered1.webp",
+            "scene_theSinkingCityRemastered2.webp",
+            "scene_theSinkingCityRemastered3.webp",
+            "scene_theSinkingCityRemastered4.webp"
         ]
     },
     {
@@ -1939,11 +1939,11 @@
             "PS5"
         ],
         "link": "https://store.steampowered.com/app/2233120/A_Quiet_Place_The_Road_Ahead/",
-        "cover": "./photos/cover/cover_aQuietPlaceTheRoadAhead.webp",
+        "cover": "cover_aQuietPlaceTheRoadAhead.webp",
         "scene": [
-            "./photos/scene/scene_aQuietPlaceTheRoadAhead1.webp",
-            "./photos/scene/scene_aQuietPlaceTheRoadAhead2.webp",
-            "./photos/scene/scene_aQuietPlaceTheRoadAhead3.webp"
+            "scene_aQuietPlaceTheRoadAhead1.webp",
+            "scene_aQuietPlaceTheRoadAhead2.webp",
+            "scene_aQuietPlaceTheRoadAhead3.webp"
         ]
     }
 ]
