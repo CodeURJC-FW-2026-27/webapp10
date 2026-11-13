@@ -121,7 +121,7 @@
                           </label>
 
                           <input type="text" class="form-control" name="developer" id="developer" 
-                            placeholder="Desarrollador del juego">
+                            placeholder="Desarrollador del juego" required>
 
                         </div>
 
@@ -134,7 +134,7 @@
                           </label>
 
                           <textarea class="form-control" rows="5" name="description" id="description"
-                            placeholder="Descripción del juego"></textarea>
+                            placeholder="Descripción del juego" required></textarea>
 
                         </div>
                       </div>
@@ -165,7 +165,7 @@
                               Año de lanzamiento
                             </label>
 
-                            <select id="year" name="year" class="form-select" >
+                            <select id="year" name="year" class="form-select" required >
 
                               <option value="" disabled selected>
                                 Selecciona un año
@@ -261,7 +261,7 @@
                               PEGI
                             </label>
 
-                            <select id="pegi" name="pegi" class="form-select" >
+                            <select id="pegi" name="pegi" class="form-select" required >
 
                               <option value="" disabled selected>
                                 Selecciona un PEGI
@@ -605,7 +605,7 @@
                           </label>
 
                           <input type="url" class="form-control" name="link"  id="link"
-                            placeholder="Enlace de compra del juego">
+                            placeholder="Enlace de compra del juego" required>
 
                         </div>
                       </div>
@@ -634,7 +634,7 @@
                             Carátula del juego
                           </label>
 
-                          <input type="file" class="form-control"  id="cover" name="cover" accept="image/*">
+                          <input type="file" class="form-control" required id="cover" name="cover" accept="image/*">
 
                         </div>
 
@@ -644,7 +644,7 @@
                             Escenas del juego
                           </label>
 
-                          <input type="file" class="form-control" id="scene" name="scene" accept="image/*" multiple>
+                          <input type="file" class="form-control" required id="scene" name="scene" accept="image/*" multiple>
 
                         </div>
                       </div>
@@ -676,7 +676,7 @@
 
                         <div class="form-check mb-4 ">
 
-                          <input class="form-check-input" type="checkbox" id="acept" name="acept" >
+                          <input class="form-check-input" required type="checkbox" id="acept" name="acept" >
 
                           <label class="form-check-label" for="acept">
 
@@ -719,13 +719,7 @@
 
 
   <!-- ***** Footer Start ***** -->
-  <footer>
-    <div class="container">
-      <div class="col-lg-12">
-        <p>Copyright © 2026 GamePortal. Todos los derechos reservados.</p>
-      </div>
-    </div>
-  </footer>
+  {{> footer}}
   <!-- ***** Footer End ***** -->
 
 
