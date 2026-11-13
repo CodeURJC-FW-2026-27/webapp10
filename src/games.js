@@ -41,22 +41,22 @@ export async function addGame(game) {
     return await games.insertOne(game);
 }
 
-export async function deleteGame(id) {
+export async function deleteGame(id){
 
     return await games.findOneAndDelete({ _id: new ObjectId(id) });
 }
 
-export async function deleteGames() {
+export async function deleteGames(){
 
     return await games.deleteMany();
 }
 
-export async function getGames() {
+export async function getGames(){
 
     return await games.find().toArray();
 }
 
-export async function getGame(id) {
+export async function getGame(id){
 
     return await games.findOne({ _id: new ObjectId(id) });
 }
