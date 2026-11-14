@@ -20,7 +20,8 @@
         "scene": [
             "scene_grandTheftAutoV1.webp",
             "scene_grandTheftAutoV2.webp"
-        ]
+        ],
+        "reviews": []
     },
     {
         "title": "Devil May Cry 5",
@@ -42,6 +43,40 @@
         "scene": [
             "scene_devilMayCry51.webp",
             "scene_devilMayCry52.webp"
+        ],
+        "reviews": [
+            {
+                "_id": {
+                    "$oid": "66f5bbe2e4d0944996000002"
+                },
+                "username": "samu_gta",
+                "score": {
+                    "jugability": 5,
+                    "graphics": 5,
+                    "history": 5,
+                    "price": 5
+                },
+                "comment": "Un imprescindible del género, cada pelea se siente distinta y satisfactoria. Los controles son precisos y muy cómodos.",
+                "date_publication": {
+                    "$date": "2024-09-26T21:54:10.000Z"
+                }
+            },
+            {
+                "_id": {
+                    "$oid": "69630385d78c3d5f16000001"
+                },
+                "username": "alexturbo",
+                "score": {
+                    "jugability": 3,
+                    "graphics": 3,
+                    "history": 2,
+                    "price": 2
+                },
+                "comment": "Cumple como juego de acción, sin reinventar nada pero sin aburrir.",
+                "date_publication": {
+                    "$date": "2026-01-11T02:57:25.000Z"
+                }
+            }
         ]
     },
     {
@@ -65,6 +100,24 @@
         "scene": [
             "scene_doomEternal1.webp",
             "scene_doomEternal2.webp"
+        ],
+        "reviews": [
+            {
+                "_id": {
+                    "$oid": "643ec31f1657241955000003"
+                },
+                "username": "noe_nightmare",
+                "score": {
+                    "jugability": 3,
+                    "graphics": 1,
+                    "history": 3,
+                    "price": 2
+                },
+                "comment": "Se me ha hecho cuesta arriba, demasiados problemas de diseño para lo que promete. Técnicamente flojea, hay texturas y animaciones mejorables.",
+                "date_publication": {
+                    "$date": "2023-04-18T18:19:43.000Z"
+                }
+            }
         ]
     },
     {
@@ -88,6 +141,24 @@
         "scene": [
             "scene_godOfWar1.webp",
             "scene_godOfWar2.webp"
+        ],
+        "reviews": [
+            {
+                "_id": {
+                    "$oid": "670afcfc6617371472000004"
+                },
+                "username": "andrea_lap1",
+                "score": {
+                    "jugability": 3,
+                    "graphics": 2,
+                    "history": 3,
+                    "price": 2
+                },
+                "comment": "Cumple como juego de acción, sin reinventar nada pero sin aburrir. Visualmente no está a la altura del resto.",
+                "date_publication": {
+                    "$date": "2024-10-13T00:49:32.000Z"
+                }
+            }
         ]
     },
     {
@@ -110,6 +181,56 @@
         "scene": [
             "scene_sekiroShadowsDieTwice1.webp",
             "scene_sekiroShadowsDieTwice2.webp"
+        ],
+        "reviews": [
+            {
+                "_id": {
+                    "$oid": "63dffbefc4397a7623000005"
+                },
+                "username": "raul_speedrun",
+                "score": {
+                    "jugability": 3,
+                    "graphics": 5,
+                    "history": 4,
+                    "price": 5
+                },
+                "comment": "Acción redonda de principio a fin, los controles responden al milímetro.",
+                "date_publication": {
+                    "$date": "2023-02-05T19:56:47.000Z"
+                }
+            },
+            {
+                "_id": {
+                    "$oid": "64b9cb933ae261e34a000006"
+                },
+                "username": "sergio_coop",
+                "score": {
+                    "jugability": 1,
+                    "graphics": 2,
+                    "history": 2,
+                    "price": 1
+                },
+                "comment": "Me esperaba bastante más, el combate acaba siendo monótono. La jugabilidad tiene aristas sin pulir.",
+                "date_publication": {
+                    "$date": "2023-07-21T02:04:35.000Z"
+                }
+            },
+            {
+                "_id": {
+                    "$oid": "669d2c404eff8b2a6a000007"
+                },
+                "username": "alexturbo",
+                "score": {
+                    "jugability": 3,
+                    "graphics": 1,
+                    "history": 4,
+                    "price": 3
+                },
+                "comment": "Cumple como juego de acción, sin reinventar nada pero sin aburrir. Técnicamente flojea, hay texturas y animaciones mejorables.",
+                "date_publication": {
+                    "$date": "2024-07-21T17:41:52.000Z"
+                }
+            }
         ]
     },
     {
@@ -132,6 +253,56 @@
         "scene": [
             "scene_darkSoulsIII1.webp",
             "scene_darkSoulsIII2.webp"
+        ],
+        "reviews": [
+            {
+                "_id": {
+                    "$oid": "675091593118bee07400000a"
+                },
+                "username": "sara_xbox",
+                "score": {
+                    "jugability": 2,
+                    "graphics": 1,
+                    "history": 2,
+                    "price": 2
+                },
+                "comment": "Se me ha hecho cuesta arriba, demasiados problemas de diseño para lo que promete.",
+                "date_publication": {
+                    "$date": "2024-12-04T18:28:57.000Z"
+                }
+            },
+            {
+                "_id": {
+                    "$oid": "6a5b5b7d70192f09a9000009"
+                },
+                "username": "lucia_gamer",
+                "score": {
+                    "jugability": 2,
+                    "graphics": 2,
+                    "history": 3,
+                    "price": 2
+                },
+                "comment": "Entretenido y con momentos brillantes, aunque con altibajos de ritmo. Los controles se sienten toscos en algunos momentos.",
+                "date_publication": {
+                    "$date": "2026-07-18T12:54:53.000Z"
+                }
+            },
+            {
+                "_id": {
+                    "$oid": "6a641a55b142969a50000008"
+                },
+                "username": "kratos_fan92",
+                "score": {
+                    "jugability": 2,
+                    "graphics": 3,
+                    "history": 2,
+                    "price": 3
+                },
+                "comment": "Cumple como juego de acción, sin reinventar nada pero sin aburrir. La jugabilidad tiene aristas sin pulir.",
+                "date_publication": {
+                    "$date": "2026-07-25T04:07:17.000Z"
+                }
+            }
         ]
     },
     {
@@ -157,7 +328,8 @@
         "scene": [
             "scene_hades1.webp",
             "scene_hades2.webp"
-        ]
+        ],
+        "reviews": []
     },
     {
         "title": "Resident Evil 4",
@@ -181,6 +353,56 @@
         "scene": [
             "scene_residentEvil41.webp",
             "scene_residentEvil42.webp"
+        ],
+        "reviews": [
+            {
+                "_id": {
+                    "$oid": "6834d6018bc07991d400000b"
+                },
+                "username": "pixelPaco",
+                "score": {
+                    "jugability": 5,
+                    "graphics": 4,
+                    "history": 5,
+                    "price": 4
+                },
+                "comment": "Me ha enganchado desde el primer nivel, el sistema de combate es una pasada. Se juega de lujo, todo fluye con naturalidad.",
+                "date_publication": {
+                    "$date": "2025-05-26T22:58:41.000Z"
+                }
+            },
+            {
+                "_id": {
+                    "$oid": "688d38b322ef5fd31c00000d"
+                },
+                "username": "jorge_souls",
+                "score": {
+                    "jugability": 5,
+                    "graphics": 4,
+                    "history": 4,
+                    "price": 4
+                },
+                "comment": "Te mantiene con la adrenalina arriba todo el rato, muy bien diseñado. La jugabilidad es sólida y responde de maravilla.",
+                "date_publication": {
+                    "$date": "2025-08-01T23:59:15.000Z"
+                }
+            },
+            {
+                "_id": {
+                    "$oid": "69f2e7a6b8b093e3b400000c"
+                },
+                "username": "kratos_fan92",
+                "score": {
+                    "jugability": 5,
+                    "graphics": 5,
+                    "history": 3,
+                    "price": 4
+                },
+                "comment": "Acción redonda de principio a fin, los controles responden al milímetro. La jugabilidad es sólida y responde de maravilla.",
+                "date_publication": {
+                    "$date": "2026-04-30T07:24:54.000Z"
+                }
+            }
         ]
     },
     {
@@ -203,6 +425,24 @@
         "scene": [
             "scene_metalGearSolidVThePhantomPain1.webp",
             "scene_metalGearSolidVThePhantomPain2.webp"
+        ],
+        "reviews": [
+            {
+                "_id": {
+                    "$oid": "641061dfa558d6294400000e"
+                },
+                "username": "sara_xbox",
+                "score": {
+                    "jugability": 5,
+                    "graphics": 5,
+                    "history": 5,
+                    "price": 5
+                },
+                "comment": "Me ha enganchado desde el primer nivel, el sistema de combate es una pasada.",
+                "date_publication": {
+                    "$date": "2023-03-14T13:00:31.000Z"
+                }
+            }
         ]
     },
     {
@@ -224,6 +464,56 @@
         "scene": [
             "scene_bayonetta1.webp",
             "scene_bayonetta2.webp"
+        ],
+        "reviews": [
+            {
+                "_id": {
+                    "$oid": "6697bb2da5320be3f8000010"
+                },
+                "username": "alexturbo",
+                "score": {
+                    "jugability": 4,
+                    "graphics": 5,
+                    "history": 4,
+                    "price": 4
+                },
+                "comment": "Acción redonda de principio a fin, los controles responden al milímetro. Los escenarios y la dirección artística están cuidadísimos.",
+                "date_publication": {
+                    "$date": "2024-07-17T14:38:05.000Z"
+                }
+            },
+            {
+                "_id": {
+                    "$oid": "67d8d3992bce10750300000f"
+                },
+                "username": "kratos_fan92",
+                "score": {
+                    "jugability": 4,
+                    "graphics": 5,
+                    "history": 5,
+                    "price": 5
+                },
+                "comment": "Acción redonda de principio a fin, los controles responden al milímetro. Visualmente es una maravilla.",
+                "date_publication": {
+                    "$date": "2025-03-18T02:59:53.000Z"
+                }
+            },
+            {
+                "_id": {
+                    "$oid": "689ffc2e21053d82cb000011"
+                },
+                "username": "irene_cozy",
+                "score": {
+                    "jugability": 3,
+                    "graphics": 2,
+                    "history": 1,
+                    "price": 1
+                },
+                "comment": "Se me ha hecho cuesta arriba, demasiados problemas de diseño para lo que promete. Casi no hay trama que te empuje a seguir.",
+                "date_publication": {
+                    "$date": "2025-08-16T05:34:06.000Z"
+                }
+            }
         ]
     },
     {
@@ -243,6 +533,56 @@
         "scene": [
             "scene_maxPayne31.webp",
             "scene_maxPayne32.webp"
+        ],
+        "reviews": [
+            {
+                "_id": {
+                    "$oid": "65e857722c5814b53f000012"
+                },
+                "username": "sara_xbox",
+                "score": {
+                    "jugability": 2,
+                    "graphics": 3,
+                    "history": 3,
+                    "price": 3
+                },
+                "comment": "Entretenido y con momentos brillantes, aunque con altibajos de ritmo. La jugabilidad tiene aristas sin pulir.",
+                "date_publication": {
+                    "$date": "2024-03-06T12:45:54.000Z"
+                }
+            },
+            {
+                "_id": {
+                    "$oid": "67817c37d04619e5db000013"
+                },
+                "username": "dani_rpg",
+                "score": {
+                    "jugability": 5,
+                    "graphics": 5,
+                    "history": 4,
+                    "price": 5
+                },
+                "comment": "Combate fluido y con mucho ritmo, de esos que te hacen decir 'una partida más' a las tres de la mañana.",
+                "date_publication": {
+                    "$date": "2025-01-10T20:59:51.000Z"
+                }
+            },
+            {
+                "_id": {
+                    "$oid": "6962e725d8d978673a000014"
+                },
+                "username": "marcosRPG",
+                "score": {
+                    "jugability": 5,
+                    "graphics": 4,
+                    "history": 4,
+                    "price": 4
+                },
+                "comment": "Te mantiene con la adrenalina arriba todo el rato, muy bien diseñado. Se juega de lujo, todo fluye con naturalidad.",
+                "date_publication": {
+                    "$date": "2026-01-11T00:56:21.000Z"
+                }
+            }
         ]
     },
     {
@@ -265,6 +605,40 @@
         "scene": [
             "scene_justCause31.webp",
             "scene_justCause32.webp"
+        ],
+        "reviews": [
+            {
+                "_id": {
+                    "$oid": "646d8d9b184382ad47000015"
+                },
+                "username": "bea_horror",
+                "score": {
+                    "jugability": 5,
+                    "graphics": 5,
+                    "history": 4,
+                    "price": 5
+                },
+                "comment": "Un imprescindible del género, cada pelea se siente distinta y satisfactoria. Se juega de lujo, todo fluye con naturalidad.",
+                "date_publication": {
+                    "$date": "2023-05-24T06:07:55.000Z"
+                }
+            },
+            {
+                "_id": {
+                    "$oid": "65f86d9fd6968e485e000016"
+                },
+                "username": "rocio_retro",
+                "score": {
+                    "jugability": 4,
+                    "graphics": 5,
+                    "history": 4,
+                    "price": 4
+                },
+                "comment": "Combate fluido y con mucho ritmo, de esos que te hacen decir 'una partida más' a las tres de la mañana. El apartado gráfico es de los mejores que he visto.",
+                "date_publication": {
+                    "$date": "2024-03-18T17:36:47.000Z"
+                }
+            }
         ]
     },
     {
@@ -287,7 +661,8 @@
         "scene": [
             "scene_batmanArkhamKnight1.webp",
             "scene_batmanArkhamKnight2.webp"
-        ]
+        ],
+        "reviews": []
     },
     {
         "title": "Middle-earth: Shadow of Mordor",
@@ -309,6 +684,24 @@
         "scene": [
             "scene_shadowOfMordor1.webp",
             "scene_shadowOfMordor2.webp"
+        ],
+        "reviews": [
+            {
+                "_id": {
+                    "$oid": "64643c144f05e1ddfb000017"
+                },
+                "username": "kratos_fan92",
+                "score": {
+                    "jugability": 5,
+                    "graphics": 4,
+                    "history": 4,
+                    "price": 5
+                },
+                "comment": "Combate fluido y con mucho ritmo, de esos que te hacen decir 'una partida más' a las tres de la mañana. Se juega de lujo, todo fluye con naturalidad.",
+                "date_publication": {
+                    "$date": "2023-05-17T04:29:40.000Z"
+                }
+            }
         ]
     },
     {
@@ -331,6 +724,40 @@
         "scene": [
             "scene_madMax1.webp",
             "scene_madMax2.webp"
+        ],
+        "reviews": [
+            {
+                "_id": {
+                    "$oid": "68fa4113ccc4e70d70000019"
+                },
+                "username": "hugo_pixel",
+                "score": {
+                    "jugability": 4,
+                    "graphics": 3,
+                    "history": 4,
+                    "price": 5
+                },
+                "comment": "Combate fluido y con mucho ritmo, de esos que te hacen decir 'una partida más' a las tres de la mañana. Calidad-precio excelente, de lo mejor que he comprado.",
+                "date_publication": {
+                    "$date": "2025-10-23T16:52:03.000Z"
+                }
+            },
+            {
+                "_id": {
+                    "$oid": "6a6a1f9c9b50e98d6d000018"
+                },
+                "username": "sergio_coop",
+                "score": {
+                    "jugability": 5,
+                    "graphics": 4,
+                    "history": 4,
+                    "price": 4
+                },
+                "comment": "Me ha enganchado desde el primer nivel, el sistema de combate es una pasada. La jugabilidad es sólida y responde de maravilla.",
+                "date_publication": {
+                    "$date": "2026-07-29T17:43:24.000Z"
+                }
+            }
         ]
     },
     {
@@ -355,6 +782,24 @@
         "scene": [
             "scene_cuphead1.webp",
             "scene_cuphead2.webp"
+        ],
+        "reviews": [
+            {
+                "_id": {
+                    "$oid": "64de7d221e1f684c5000001a"
+                },
+                "username": "andrea_lap1",
+                "score": {
+                    "jugability": 5,
+                    "graphics": 4,
+                    "history": 5,
+                    "price": 5
+                },
+                "comment": "Combate fluido y con mucho ritmo, de esos que te hacen decir 'una partida más' a las tres de la mañana. La jugabilidad es sólida y responde de maravilla.",
+                "date_publication": {
+                    "$date": "2023-08-17T22:03:46.000Z"
+                }
+            }
         ]
     },
     {
@@ -377,6 +822,40 @@
         "scene": [
             "scene_nierAutomata1.webp",
             "scene_nierAutomata2.webp"
+        ],
+        "reviews": [
+            {
+                "_id": {
+                    "$oid": "64c39b630405fb0d5500001c"
+                },
+                "username": "elena_lvl99",
+                "score": {
+                    "jugability": 4,
+                    "graphics": 3,
+                    "history": 3,
+                    "price": 3
+                },
+                "comment": "Entretenido y con momentos brillantes, aunque con altibajos de ritmo. Técnicamente flojea, hay texturas y animaciones mejorables.",
+                "date_publication": {
+                    "$date": "2023-07-28T12:41:39.000Z"
+                }
+            },
+            {
+                "_id": {
+                    "$oid": "66c05d7cc638356e4800001b"
+                },
+                "username": "samu_gta",
+                "score": {
+                    "jugability": 4,
+                    "graphics": 4,
+                    "history": 4,
+                    "price": 5
+                },
+                "comment": "Acción redonda de principio a fin, los controles responden al milímetro. Por lo que cuesta, es una compra muy acertada.",
+                "date_publication": {
+                    "$date": "2024-08-17T10:21:16.000Z"
+                }
+            }
         ]
     },
     {
@@ -400,6 +879,24 @@
         "scene": [
             "scene_ghostrunner1.webp",
             "scene_ghostrunner2.webp"
+        ],
+        "reviews": [
+            {
+                "_id": {
+                    "$oid": "69fd016183d2e3877900001d"
+                },
+                "username": "tonyPC",
+                "score": {
+                    "jugability": 4,
+                    "graphics": 4,
+                    "history": 5,
+                    "price": 5
+                },
+                "comment": "Me ha enganchado desde el primer nivel, el sistema de combate es una pasada. Me ha encantado cómo se cuenta todo.",
+                "date_publication": {
+                    "$date": "2026-05-07T23:17:21.000Z"
+                }
+            }
         ]
     },
     {
@@ -424,6 +921,40 @@
         "scene": [
             "scene_control1.webp",
             "scene_control2.webp"
+        ],
+        "reviews": [
+            {
+                "_id": {
+                    "$oid": "664d2e3775a3132dd600001f"
+                },
+                "username": "lucia_gamer",
+                "score": {
+                    "jugability": 2,
+                    "graphics": 3,
+                    "history": 2,
+                    "price": 2
+                },
+                "comment": "Se me ha hecho cuesta arriba, demasiados problemas de diseño para lo que promete. Los controles se sienten toscos en algunos momentos.",
+                "date_publication": {
+                    "$date": "2024-05-22T01:28:55.000Z"
+                }
+            },
+            {
+                "_id": {
+                    "$oid": "68a0ee9026dcb30d7d00001e"
+                },
+                "username": "tonyPC",
+                "score": {
+                    "jugability": 5,
+                    "graphics": 3,
+                    "history": 1,
+                    "price": 3
+                },
+                "comment": "Cumple como juego de acción, sin reinventar nada pero sin aburrir. La narrativa se queda muy por debajo del resto.",
+                "date_publication": {
+                    "$date": "2025-08-16T22:48:16.000Z"
+                }
+            }
         ]
     },
     {
@@ -445,7 +976,8 @@
         "scene": [
             "scene_titanfall21.webp",
             "scene_titanfall22.webp"
-        ]
+        ],
+        "reviews": []
     },
     {
         "title": "DOOM",
@@ -467,6 +999,24 @@
         "scene": [
             "scene_doom1.webp",
             "scene_doom2.webp"
+        ],
+        "reviews": [
+            {
+                "_id": {
+                    "$oid": "697956c62ca39d2086000020"
+                },
+                "username": "irene_cozy",
+                "score": {
+                    "jugability": 3,
+                    "graphics": 1,
+                    "history": 2,
+                    "price": 1
+                },
+                "comment": "Me esperaba bastante más, el combate acaba siendo monótono. Visualmente no está a la altura del resto.",
+                "date_publication": {
+                    "$date": "2026-01-28T01:22:30.000Z"
+                }
+            }
         ]
     },
     {
@@ -488,6 +1038,40 @@
         "scene": [
             "scene_wolfensteinTheNewOrder1.webp",
             "scene_wolfensteinTheNewOrder2.webp"
+        ],
+        "reviews": [
+            {
+                "_id": {
+                    "$oid": "668537c3428c285417000022"
+                },
+                "username": "ainhoa_plays",
+                "score": {
+                    "jugability": 2,
+                    "graphics": 1,
+                    "history": 3,
+                    "price": 3
+                },
+                "comment": "Entretenido y con momentos brillantes, aunque con altibajos de ritmo. Visualmente no está a la altura del resto.",
+                "date_publication": {
+                    "$date": "2024-07-03T13:36:35.000Z"
+                }
+            },
+            {
+                "_id": {
+                    "$oid": "67ecd2010b9297d61b000021"
+                },
+                "username": "sara_xbox",
+                "score": {
+                    "jugability": 3,
+                    "graphics": 3,
+                    "history": 3,
+                    "price": 4
+                },
+                "comment": "Cumple como juego de acción, sin reinventar nada pero sin aburrir. Cuesta cogerle el truco por culpa de unos controles poco intuitivos.",
+                "date_publication": {
+                    "$date": "2025-04-02T07:58:25.000Z"
+                }
+            }
         ]
     },
     {
@@ -511,6 +1095,40 @@
         "scene": [
             "scene_eldenRing1.webp",
             "scene_eldenRing2.webp"
+        ],
+        "reviews": [
+            {
+                "_id": {
+                    "$oid": "68f0ac882d078e2649000024"
+                },
+                "username": "dani_rpg",
+                "score": {
+                    "jugability": 5,
+                    "graphics": 3,
+                    "history": 5,
+                    "price": 4
+                },
+                "comment": "Me ha enganchado desde el primer nivel, el sistema de combate es una pasada. Los controles son precisos y muy cómodos.",
+                "date_publication": {
+                    "$date": "2025-10-16T10:27:52.000Z"
+                }
+            },
+            {
+                "_id": {
+                    "$oid": "6ac9c22c02a13bb87b000023"
+                },
+                "username": "martaPS5",
+                "score": {
+                    "jugability": 2,
+                    "graphics": 2,
+                    "history": 2,
+                    "price": 2
+                },
+                "comment": "Se me ha hecho cuesta arriba, demasiados problemas de diseño para lo que promete. La jugabilidad tiene aristas sin pulir.",
+                "date_publication": {
+                    "$date": "2026-10-10T06:42:20.000Z"
+                }
+            }
         ]
     },
     {
@@ -530,7 +1148,8 @@
         "scene": [
             "scene_metalGearRisingRevengeance1.webp",
             "scene_metalGearRisingRevengeance2.webp"
-        ]
+        ],
+        "reviews": []
     },
     {
         "title": "Asphalt Legends",
@@ -555,7 +1174,8 @@
             "scene_asphaltLegends1.webp",
             "scene_asphaltLegends2.webp",
             "scene_asphaltLegends3.webp"
-        ]
+        ],
+        "reviews": []
     },
     {
         "title": "Forza Motorsport",
@@ -576,6 +1196,40 @@
             "scene_forzaMotorsport1.webp",
             "scene_forzaMotorsport2.webp",
             "scene_forzaMotorsport3.webp"
+        ],
+        "reviews": [
+            {
+                "_id": {
+                    "$oid": "680caae5203f87175d000025"
+                },
+                "username": "ainhoa_plays",
+                "score": {
+                    "jugability": 3,
+                    "graphics": 3,
+                    "history": 2,
+                    "price": 4
+                },
+                "comment": "Se conduce bien, pero el contenido se queda corto tras unas cuantas horas.",
+                "date_publication": {
+                    "$date": "2025-04-26T11:44:05.000Z"
+                }
+            },
+            {
+                "_id": {
+                    "$oid": "68661cb87959095c12000026"
+                },
+                "username": "samu_gta",
+                "score": {
+                    "jugability": 5,
+                    "graphics": 4,
+                    "history": 3,
+                    "price": 5
+                },
+                "comment": "Un gustazo para los amantes del motor, no puedo dejar de mejorar mis tiempos. Se juega de lujo, todo fluye con naturalidad.",
+                "date_publication": {
+                    "$date": "2025-07-03T08:01:28.000Z"
+                }
+            }
         ]
     },
     {
@@ -598,6 +1252,24 @@
             "scene_forzaHorizon51.webp",
             "scene_forzaHorizon52.webp",
             "scene_forzaHorizon53.webp"
+        ],
+        "reviews": [
+            {
+                "_id": {
+                    "$oid": "645441d7c77eac0d53000027"
+                },
+                "username": "noe_nightmare",
+                "score": {
+                    "jugability": 2,
+                    "graphics": 3,
+                    "history": 3,
+                    "price": 4
+                },
+                "comment": "Tiene una buena base, pero le faltan opciones para mantener el interés a largo plazo. Cuesta cogerle el truco por culpa de unos controles poco intuitivos.",
+                "date_publication": {
+                    "$date": "2023-05-05T01:37:59.000Z"
+                }
+            }
         ]
     },
     {
@@ -619,6 +1291,24 @@
             "scene_forzaHorizon61.webp",
             "scene_forzaHorizon62.webp",
             "scene_forzaHorizon63.webp"
+        ],
+        "reviews": [
+            {
+                "_id": {
+                    "$oid": "6a23140b2d504d7d95000028"
+                },
+                "username": "tonyPC",
+                "score": {
+                    "jugability": 4,
+                    "graphics": 4,
+                    "history": 4,
+                    "price": 4
+                },
+                "comment": "Ideal para echar unas carreras con amigos, cada circuito invita a repetir.",
+                "date_publication": {
+                    "$date": "2026-06-05T20:23:07.000Z"
+                }
+            }
         ]
     },
     {
@@ -642,6 +1332,24 @@
             "scene_NFSHeat1.webp",
             "scene_NFSHeat2.webp",
             "scene_NFSHeat3.webp"
+        ],
+        "reviews": [
+            {
+                "_id": {
+                    "$oid": "653cf6b6be711166cd000029"
+                },
+                "username": "ainhoa_plays",
+                "score": {
+                    "jugability": 2,
+                    "graphics": 1,
+                    "history": 1,
+                    "price": 1
+                },
+                "comment": "Me ha decepcionado, esperaba una experiencia mucho más pulida. Los gráficos se ven algo anticuados.",
+                "date_publication": {
+                    "$date": "2023-10-28T13:55:34.000Z"
+                }
+            }
         ]
     },
     {
@@ -665,6 +1373,24 @@
             "scene_theCrewMotorFest1.webp",
             "scene_theCrewMotorFest2.webp",
             "scene_theCrewMotorFest3.webp"
+        ],
+        "reviews": [
+            {
+                "_id": {
+                    "$oid": "68f32f21543bfa9e9c00002a"
+                },
+                "username": "tonyPC",
+                "score": {
+                    "jugability": 2,
+                    "graphics": 4,
+                    "history": 2,
+                    "price": 3
+                },
+                "comment": "Divertido para partidas sueltas, aunque la IA de los rivales es mejorable. Los controles se sienten toscos en algunos momentos.",
+                "date_publication": {
+                    "$date": "2025-10-18T08:09:37.000Z"
+                }
+            }
         ]
     },
     {
@@ -685,6 +1411,24 @@
             "scene_LMUltimate1.webp",
             "scene_LMUltimate2.webp",
             "scene_LMUltimate3.webp"
+        ],
+        "reviews": [
+            {
+                "_id": {
+                    "$oid": "68a2d32ac4adde68d000002b"
+                },
+                "username": "victor_indie",
+                "score": {
+                    "jugability": 4,
+                    "graphics": 5,
+                    "history": 3,
+                    "price": 3
+                },
+                "comment": "Un gustazo para los amantes del motor, no puedo dejar de mejorar mis tiempos.",
+                "date_publication": {
+                    "$date": "2025-08-18T09:15:54.000Z"
+                }
+            }
         ]
     },
     {
@@ -705,6 +1449,56 @@
             "scene_iRacing1.webp",
             "scene_iRacing2.webp",
             "scene_iRacing3.webp"
+        ],
+        "reviews": [
+            {
+                "_id": {
+                    "$oid": "68f53ee34402b1237400002c"
+                },
+                "username": "olga_fps",
+                "score": {
+                    "jugability": 5,
+                    "graphics": 5,
+                    "history": 3,
+                    "price": 5
+                },
+                "comment": "Muy buena variedad de coches y pruebas, siempre hay algo nuevo que hacer. Los controles son precisos y muy cómodos.",
+                "date_publication": {
+                    "$date": "2025-10-19T21:41:23.000Z"
+                }
+            },
+            {
+                "_id": {
+                    "$oid": "6970bc5b4683d335a600002e"
+                },
+                "username": "rocio_retro",
+                "score": {
+                    "jugability": 2,
+                    "graphics": 2,
+                    "history": 1,
+                    "price": 4
+                },
+                "comment": "Tiene una buena base, pero le faltan opciones para mantener el interés a largo plazo. Apenas tiene historia, el modo carrera se queda corto.",
+                "date_publication": {
+                    "$date": "2026-01-21T12:45:31.000Z"
+                }
+            },
+            {
+                "_id": {
+                    "$oid": "6a27ede00356b817fe00002d"
+                },
+                "username": "marcosRPG",
+                "score": {
+                    "jugability": 4,
+                    "graphics": 4,
+                    "history": 4,
+                    "price": 4
+                },
+                "comment": "La sensación de velocidad es espectacular y el manejo de los coches está muy conseguido.",
+                "date_publication": {
+                    "$date": "2026-06-09T12:41:36.000Z"
+                }
+            }
         ]
     },
     {
@@ -727,6 +1521,40 @@
             "scene_F1251.webp",
             "scene_F1252.webp",
             "scene_F1253.webp"
+        ],
+        "reviews": [
+            {
+                "_id": {
+                    "$oid": "691b1ffb57a9bdbbeb000030"
+                },
+                "username": "nachoplays",
+                "score": {
+                    "jugability": 4,
+                    "graphics": 4,
+                    "history": 4,
+                    "price": 5
+                },
+                "comment": "Conducción muy bien medida, se nota el mimo en cada coche. Merece cada euro.",
+                "date_publication": {
+                    "$date": "2025-11-17T14:15:39.000Z"
+                }
+            },
+            {
+                "_id": {
+                    "$oid": "69edd361911593845200002f"
+                },
+                "username": "kratos_fan92",
+                "score": {
+                    "jugability": 5,
+                    "graphics": 4,
+                    "history": 4,
+                    "price": 5
+                },
+                "comment": "La sensación de velocidad es espectacular y el manejo de los coches está muy conseguido. La jugabilidad es sólida y responde de maravilla.",
+                "date_publication": {
+                    "$date": "2026-04-26T10:57:05.000Z"
+                }
+            }
         ]
     },
     {
@@ -747,6 +1575,24 @@
             "scene_beamNgDrive1.webp",
             "scene_beamNgDrive2.webp",
             "scene_beamNgDrive3.webp"
+        ],
+        "reviews": [
+            {
+                "_id": {
+                    "$oid": "6992a094d640fc7f1b000031"
+                },
+                "username": "irene_cozy",
+                "score": {
+                    "jugability": 2,
+                    "graphics": 2,
+                    "history": 1,
+                    "price": 2
+                },
+                "comment": "Demasiado repetitivo y con una curva de aprendizaje mal planteada. Apenas tiene historia, el modo carrera se queda corto.",
+                "date_publication": {
+                    "$date": "2026-02-16T05:44:04.000Z"
+                }
+            }
         ]
     },
     {
@@ -769,6 +1615,40 @@
             "scene_NFSWunbound1.webp",
             "scene_NFSWunbound2.webp",
             "scene_NFSWunbound3.webp"
+        ],
+        "reviews": [
+            {
+                "_id": {
+                    "$oid": "660dde15a9516438f3000033"
+                },
+                "username": "raul_speedrun",
+                "score": {
+                    "jugability": 4,
+                    "graphics": 5,
+                    "history": 3,
+                    "price": 4
+                },
+                "comment": "Conducción muy bien medida, se nota el mimo en cada coche. Visualmente es una maravilla.",
+                "date_publication": {
+                    "$date": "2024-04-04T00:54:13.000Z"
+                }
+            },
+            {
+                "_id": {
+                    "$oid": "686238c6ae824b46c5000032"
+                },
+                "username": "luisgamerjaen",
+                "score": {
+                    "jugability": 3,
+                    "graphics": 4,
+                    "history": 4,
+                    "price": 4
+                },
+                "comment": "Muy buena variedad de coches y pruebas, siempre hay algo nuevo que hacer.",
+                "date_publication": {
+                    "$date": "2025-06-30T09:12:06.000Z"
+                }
+            }
         ]
     },
     {
@@ -789,6 +1669,56 @@
             "scene_automobilista21.webp",
             "scene_automobilista22.webp",
             "scene_automobilista23.webp"
+        ],
+        "reviews": [
+            {
+                "_id": {
+                    "$oid": "65a8a0dbb7dfb1dd4e000035"
+                },
+                "username": "fer_dev",
+                "score": {
+                    "jugability": 4,
+                    "graphics": 4,
+                    "history": 2,
+                    "price": 4
+                },
+                "comment": "Conducción muy bien medida, se nota el mimo en cada coche. Se juega de lujo, todo fluye con naturalidad.",
+                "date_publication": {
+                    "$date": "2024-01-18T04:54:03.000Z"
+                }
+            },
+            {
+                "_id": {
+                    "$oid": "6846755c9beceddc6f000034"
+                },
+                "username": "hugo_pixel",
+                "score": {
+                    "jugability": 5,
+                    "graphics": 3,
+                    "history": 1,
+                    "price": 3
+                },
+                "comment": "Divertido para partidas sueltas, aunque la IA de los rivales es mejorable. Apenas tiene historia, el modo carrera se queda corto.",
+                "date_publication": {
+                    "$date": "2025-06-09T07:47:08.000Z"
+                }
+            },
+            {
+                "_id": {
+                    "$oid": "6ad084ec24ba8ed768000036"
+                },
+                "username": "dani_rpg",
+                "score": {
+                    "jugability": 4,
+                    "graphics": 4,
+                    "history": 4,
+                    "price": 5
+                },
+                "comment": "Muy buena variedad de coches y pruebas, siempre hay algo nuevo que hacer. Merece cada euro.",
+                "date_publication": {
+                    "$date": "2026-10-15T09:46:52.000Z"
+                }
+            }
         ]
     },
     {
@@ -809,6 +1739,56 @@
             "scene_assettoCorsaRally1.webp",
             "scene_assettoCorsaRally2.webp",
             "scene_assettoCorsaRally3.webp"
+        ],
+        "reviews": [
+            {
+                "_id": {
+                    "$oid": "67a8b0e6965a5fea38000039"
+                },
+                "username": "elena_lvl99",
+                "score": {
+                    "jugability": 5,
+                    "graphics": 4,
+                    "history": 3,
+                    "price": 4
+                },
+                "comment": "Conducción muy bien medida, se nota el mimo en cada coche. Los controles son precisos y muy cómodos.",
+                "date_publication": {
+                    "$date": "2025-02-09T14:43:02.000Z"
+                }
+            },
+            {
+                "_id": {
+                    "$oid": "688255995d83bb5916000038"
+                },
+                "username": "fer_dev",
+                "score": {
+                    "jugability": 2,
+                    "graphics": 4,
+                    "history": 3,
+                    "price": 2
+                },
+                "comment": "Se conduce bien, pero el contenido se queda corto tras unas cuantas horas. Cuesta cogerle el truco por culpa de unos controles poco intuitivos.",
+                "date_publication": {
+                    "$date": "2025-07-24T17:47:37.000Z"
+                }
+            },
+            {
+                "_id": {
+                    "$oid": "690f06cab12fc32fd3000037"
+                },
+                "username": "carlosdrift",
+                "score": {
+                    "jugability": 2,
+                    "graphics": 2,
+                    "history": 1,
+                    "price": 2
+                },
+                "comment": "El modelo de conducción no me ha convencido nada, se siente poco preciso.",
+                "date_publication": {
+                    "$date": "2025-11-08T10:00:58.000Z"
+                }
+            }
         ]
     },
     {
@@ -831,7 +1811,8 @@
             "scene_dirtRally21.webp",
             "scene_dirtRally22.webp",
             "scene_dirtRally23.webp"
-        ]
+        ],
+        "reviews": []
     },
     {
         "title": "JDM: Japanese Drift Master",
@@ -851,7 +1832,8 @@
             "scene_JDM1.webp",
             "scene_JDM2.webp",
             "scene_JDM3.webp"
-        ]
+        ],
+        "reviews": []
     },
     {
         "title": "GRID Legends",
@@ -876,6 +1858,56 @@
             "scene_gridLegends1.webp",
             "scene_gridLegends2.webp",
             "scene_gridLegends3.webp"
+        ],
+        "reviews": [
+            {
+                "_id": {
+                    "$oid": "64d7c448defdeac4b100003a"
+                },
+                "username": "claudia_sevilla",
+                "score": {
+                    "jugability": 3,
+                    "graphics": 3,
+                    "history": 2,
+                    "price": 3
+                },
+                "comment": "Correcto en lo suyo, sin destacar demasiado frente a otros del género. Apenas tiene historia, el modo carrera se queda corto.",
+                "date_publication": {
+                    "$date": "2023-08-12T19:41:28.000Z"
+                }
+            },
+            {
+                "_id": {
+                    "$oid": "652ba31f306eff8cef00003c"
+                },
+                "username": "martaPS5",
+                "score": {
+                    "jugability": 2,
+                    "graphics": 4,
+                    "history": 2,
+                    "price": 3
+                },
+                "comment": "Correcto en lo suyo, sin destacar demasiado frente a otros del género. Los controles se sienten toscos en algunos momentos.",
+                "date_publication": {
+                    "$date": "2023-10-15T10:30:23.000Z"
+                }
+            },
+            {
+                "_id": {
+                    "$oid": "6a95486f7b9b4ab5aa00003b"
+                },
+                "username": "marcosRPG",
+                "score": {
+                    "jugability": 2,
+                    "graphics": 1,
+                    "history": 1,
+                    "price": 2
+                },
+                "comment": "Divertido para partidas sueltas, aunque la IA de los rivales es mejorable. Los gráficos se ven algo anticuados.",
+                "date_publication": {
+                    "$date": "2026-08-31T11:25:03.000Z"
+                }
+            }
         ]
     },
     {
@@ -896,6 +1928,40 @@
             "scene_drivingRogue1.webp",
             "scene_drivingRogue2.webp",
             "scene_drivingRogue3.webp"
+        ],
+        "reviews": [
+            {
+                "_id": {
+                    "$oid": "6a5d56ddee0c59237f00003e"
+                },
+                "username": "samu_gta",
+                "score": {
+                    "jugability": 5,
+                    "graphics": 5,
+                    "history": 3,
+                    "price": 5
+                },
+                "comment": "Muy buena variedad de coches y pruebas, siempre hay algo nuevo que hacer. La jugabilidad es sólida y responde de maravilla.",
+                "date_publication": {
+                    "$date": "2026-07-20T00:59:41.000Z"
+                }
+            },
+            {
+                "_id": {
+                    "$oid": "6ac707595ad728f6f400003d"
+                },
+                "username": "sergio_coop",
+                "score": {
+                    "jugability": 3,
+                    "graphics": 4,
+                    "history": 3,
+                    "price": 3
+                },
+                "comment": "Correcto en lo suyo, sin destacar demasiado frente a otros del género.",
+                "date_publication": {
+                    "$date": "2026-10-08T05:00:41.000Z"
+                }
+            }
         ]
     },
     {
@@ -919,6 +1985,56 @@
             "scene_carXStreet1.webp",
             "scene_carXStreet2.webp",
             "scene_carXStreet3.webp"
+        ],
+        "reviews": [
+            {
+                "_id": {
+                    "$oid": "672b919597149e6f6a00003f"
+                },
+                "username": "pixelPaco",
+                "score": {
+                    "jugability": 5,
+                    "graphics": 3,
+                    "history": 5,
+                    "price": 4
+                },
+                "comment": "Muy buena variedad de coches y pruebas, siempre hay algo nuevo que hacer. Se juega de lujo, todo fluye con naturalidad.",
+                "date_publication": {
+                    "$date": "2024-11-06T16:56:05.000Z"
+                }
+            },
+            {
+                "_id": {
+                    "$oid": "674975a81a06ce2aae000040"
+                },
+                "username": "jorge_souls",
+                "score": {
+                    "jugability": 4,
+                    "graphics": 3,
+                    "history": 2,
+                    "price": 3
+                },
+                "comment": "Se conduce bien, pero el contenido se queda corto tras unas cuantas horas. Apenas tiene historia, el modo carrera se queda corto.",
+                "date_publication": {
+                    "$date": "2024-11-29T09:04:56.000Z"
+                }
+            },
+            {
+                "_id": {
+                    "$oid": "694aff563d6668ed40000041"
+                },
+                "username": "noe_nightmare",
+                "score": {
+                    "jugability": 3,
+                    "graphics": 4,
+                    "history": 1,
+                    "price": 4
+                },
+                "comment": "Divertido para partidas sueltas, aunque la IA de los rivales es mejorable.",
+                "date_publication": {
+                    "$date": "2025-12-23T21:45:10.000Z"
+                }
+            }
         ]
     },
     {
@@ -942,6 +2058,40 @@
             "scene_NFSHotPursuit1.webp",
             "scene_NFSHotPursuit2.webp",
             "scene_NFSHotPursuit3.webp"
+        ],
+        "reviews": [
+            {
+                "_id": {
+                    "$oid": "6713155b4b23e9eb54000042"
+                },
+                "username": "victor_indie",
+                "score": {
+                    "jugability": 5,
+                    "graphics": 5,
+                    "history": 3,
+                    "price": 5
+                },
+                "comment": "Conducción muy bien medida, se nota el mimo en cada coche. La jugabilidad es sólida y responde de maravilla.",
+                "date_publication": {
+                    "$date": "2024-10-19T04:11:39.000Z"
+                }
+            },
+            {
+                "_id": {
+                    "$oid": "678c0d785e90105211000043"
+                },
+                "username": "raul_speedrun",
+                "score": {
+                    "jugability": 2,
+                    "graphics": 3,
+                    "history": 2,
+                    "price": 3
+                },
+                "comment": "Divertido para partidas sueltas, aunque la IA de los rivales es mejorable. Cuesta cogerle el truco por culpa de unos controles poco intuitivos.",
+                "date_publication": {
+                    "$date": "2025-01-18T21:22:16.000Z"
+                }
+            }
         ]
     },
     {
@@ -965,7 +2115,8 @@
             "scene_theCrew21.webp",
             "scene_theCrew22.webp",
             "scene_theCrew23.webp"
-        ]
+        ],
+        "reviews": []
     },
     {
         "title": "Mario & Luigi: Brothership",
@@ -985,6 +2136,24 @@
             "scene_brothership1.webp",
             "scene_brothership2.webp",
             "scene_brothership3.webp"
+        ],
+        "reviews": [
+            {
+                "_id": {
+                    "$oid": "65d87fcfccc07382c3000044"
+                },
+                "username": "nachoplays",
+                "score": {
+                    "jugability": 3,
+                    "graphics": 2,
+                    "history": 4,
+                    "price": 3
+                },
+                "comment": "Buen RPG, aunque se nota algo de relleno en la parte central. Técnicamente flojea, hay texturas y animaciones mejorables.",
+                "date_publication": {
+                    "$date": "2024-02-23T12:21:51.000Z"
+                }
+            }
         ]
     },
     {
@@ -1009,7 +2178,8 @@
             "scene_fF72.webp",
             "scene_fF73.webp",
             "scene_fF74.webp"
-        ]
+        ],
+        "reviews": []
     },
     {
         "title": "The Witcher 3: Wild Hunt",
@@ -1032,7 +2202,8 @@
             "scene_witcher32.webp",
             "scene_witcher33.webp",
             "scene_witcher34.webp"
-        ]
+        ],
+        "reviews": []
     },
     {
         "title": "Persona 5",
@@ -1057,6 +2228,56 @@
             "scene_persona52.webp",
             "scene_persona53.webp",
             "scene_persona54.webp"
+        ],
+        "reviews": [
+            {
+                "_id": {
+                    "$oid": "6646c6e6fae1f721de000045"
+                },
+                "username": "martaPS5",
+                "score": {
+                    "jugability": 3,
+                    "graphics": 3,
+                    "history": 2,
+                    "price": 3
+                },
+                "comment": "Un juego notable al que le sobran algunas horas.",
+                "date_publication": {
+                    "$date": "2024-05-17T04:54:30.000Z"
+                }
+            },
+            {
+                "_id": {
+                    "$oid": "686b7c937bf894ef98000046"
+                },
+                "username": "ainhoa_plays",
+                "score": {
+                    "jugability": 5,
+                    "graphics": 4,
+                    "history": 5,
+                    "price": 3
+                },
+                "comment": "Un RPG enorme y con personajes que se quedan contigo mucho después de acabarlo. Los controles son precisos y muy cómodos.",
+                "date_publication": {
+                    "$date": "2025-07-07T09:51:47.000Z"
+                }
+            },
+            {
+                "_id": {
+                    "$oid": "6a6a36ace21241750c000047"
+                },
+                "username": "olga_fps",
+                "score": {
+                    "jugability": 3,
+                    "graphics": 3,
+                    "history": 3,
+                    "price": 3
+                },
+                "comment": "Buen RPG, aunque se nota algo de relleno en la parte central. Cuesta cogerle el truco por culpa de unos controles poco intuitivos.",
+                "date_publication": {
+                    "$date": "2026-07-29T19:21:48.000Z"
+                }
+            }
         ]
     },
     {
@@ -1081,6 +2302,40 @@
             "scene_dragonQuest112.webp",
             "scene_dragonQuest113.webp",
             "scene_dragonQuest114.webp"
+        ],
+        "reviews": [
+            {
+                "_id": {
+                    "$oid": "63eb476c6269db8679000048"
+                },
+                "username": "ironjuli",
+                "score": {
+                    "jugability": 3,
+                    "graphics": 3,
+                    "history": 3,
+                    "price": 3
+                },
+                "comment": "Tiene un arranque lento, pero cuando coge ritmo se disfruta bastante. Cuesta cogerle el truco por culpa de unos controles poco intuitivos.",
+                "date_publication": {
+                    "$date": "2023-02-14T09:33:48.000Z"
+                }
+            },
+            {
+                "_id": {
+                    "$oid": "65b7fa14a7a5697c07000049"
+                },
+                "username": "irene_cozy",
+                "score": {
+                    "jugability": 5,
+                    "graphics": 5,
+                    "history": 4,
+                    "price": 4
+                },
+                "comment": "Me han encantado las decisiones y el sistema de progresión, engancha muchísimo. Los controles son precisos y muy cómodos.",
+                "date_publication": {
+                    "$date": "2024-01-29T20:18:44.000Z"
+                }
+            }
         ]
     },
     {
@@ -1101,6 +2356,24 @@
             "scene_xenoblade21.webp",
             "scene_xenoblade22.webp",
             "scene_xenoblade23.webp"
+        ],
+        "reviews": [
+            {
+                "_id": {
+                    "$oid": "69a39e05b1deddc34100004a"
+                },
+                "username": "luisgamerjaen",
+                "score": {
+                    "jugability": 4,
+                    "graphics": 3,
+                    "history": 2,
+                    "price": 3
+                },
+                "comment": "Buen RPG, aunque se nota algo de relleno en la parte central. La narrativa se queda muy por debajo del resto.",
+                "date_publication": {
+                    "$date": "2026-03-01T03:01:41.000Z"
+                }
+            }
         ]
     },
     {
@@ -1125,7 +2398,8 @@
             "scene_octopathTraveler2.webp",
             "scene_octopathTraveler3.webp",
             "scene_octopathTraveler4.webp"
-        ]
+        ],
+        "reviews": []
     },
     {
         "title": "Tales of Arise",
@@ -1149,6 +2423,40 @@
             "scene_talesOfArise2.webp",
             "scene_talesOfArise3.webp",
             "scene_talesOfArise4.webp"
+        ],
+        "reviews": [
+            {
+                "_id": {
+                    "$oid": "6627058b5bf14e19e500004b"
+                },
+                "username": "sara_xbox",
+                "score": {
+                    "jugability": 4,
+                    "graphics": 4,
+                    "history": 2,
+                    "price": 2
+                },
+                "comment": "Tiene un arranque lento, pero cuando coge ritmo se disfruta bastante. Casi no hay trama que te empuje a seguir.",
+                "date_publication": {
+                    "$date": "2024-04-23T02:49:15.000Z"
+                }
+            },
+            {
+                "_id": {
+                    "$oid": "6803aa52ae938538fc00004c"
+                },
+                "username": "kratos_fan92",
+                "score": {
+                    "jugability": 4,
+                    "graphics": 5,
+                    "history": 5,
+                    "price": 3
+                },
+                "comment": "De los mejores RPG que he jugado, lo recomiendo sin dudar. Los escenarios y la dirección artística están cuidadísimos.",
+                "date_publication": {
+                    "$date": "2025-04-19T15:51:14.000Z"
+                }
+            }
         ]
     },
     {
@@ -1172,6 +2480,40 @@
             "scene_niNoKuni22.webp",
             "scene_niNoKuni23.webp",
             "scene_niNoKuni24.webp"
+        ],
+        "reviews": [
+            {
+                "_id": {
+                    "$oid": "6925ced49b28bd454e00004d"
+                },
+                "username": "kratos_fan92",
+                "score": {
+                    "jugability": 2,
+                    "graphics": 2,
+                    "history": 3,
+                    "price": 2
+                },
+                "comment": "Lo he dejado a medias, mucha promesa y poca recompensa.",
+                "date_publication": {
+                    "$date": "2025-11-25T16:44:20.000Z"
+                }
+            },
+            {
+                "_id": {
+                    "$oid": "6a870be6710531b3ae00004e"
+                },
+                "username": "tonyPC",
+                "score": {
+                    "jugability": 5,
+                    "graphics": 5,
+                    "history": 4,
+                    "price": 4
+                },
+                "comment": "De los mejores RPG que he jugado, lo recomiendo sin dudar. Los controles son precisos y muy cómodos.",
+                "date_publication": {
+                    "$date": "2026-08-20T16:15:02.000Z"
+                }
+            }
         ]
     },
     {
@@ -1192,6 +2534,24 @@
             "scene_fireEmblem3Houses1.webp",
             "scene_fireEmblem3Houses2.webp",
             "scene_fireEmblem3Houses3.webp"
+        ],
+        "reviews": [
+            {
+                "_id": {
+                    "$oid": "642fc08ff4629cdb8f00004f"
+                },
+                "username": "samu_gta",
+                "score": {
+                    "jugability": 4,
+                    "graphics": 4,
+                    "history": 5,
+                    "price": 4
+                },
+                "comment": "Mundo muy trabajado, con misiones secundarias que valen la pena de verdad. Tiene una narrativa muy cuidada.",
+                "date_publication": {
+                    "$date": "2023-04-07T09:04:47.000Z"
+                }
+            }
         ]
     },
     {
@@ -1216,6 +2576,40 @@
             "scene_theLegendOfHeroes2.webp",
             "scene_theLegendOfHeroes3.webp",
             "scene_theLegendOfHeroes4.webp"
+        ],
+        "reviews": [
+            {
+                "_id": {
+                    "$oid": "64e9b5c38c9cc6fea0000050"
+                },
+                "username": "olga_fps",
+                "score": {
+                    "jugability": 4,
+                    "graphics": 4,
+                    "history": 4,
+                    "price": 5
+                },
+                "comment": "Un RPG enorme y con personajes que se quedan contigo mucho después de acabarlo. Merece cada euro.",
+                "date_publication": {
+                    "$date": "2023-08-26T10:20:19.000Z"
+                }
+            },
+            {
+                "_id": {
+                    "$oid": "660e7d0a19ccd2fa2d000051"
+                },
+                "username": "elena_lvl99",
+                "score": {
+                    "jugability": 5,
+                    "graphics": 4,
+                    "history": 5,
+                    "price": 5
+                },
+                "comment": "Me han encantado las decisiones y el sistema de progresión, engancha muchísimo. Se juega de lujo, todo fluye con naturalidad.",
+                "date_publication": {
+                    "$date": "2024-04-04T12:12:26.000Z"
+                }
+            }
         ]
     },
     {
@@ -1242,6 +2636,24 @@
             "scene_yakuzaLikeADragon2.webp",
             "scene_yakuzaLikeADragon3.webp",
             "scene_yakuzaLikeADragon4.webp"
+        ],
+        "reviews": [
+            {
+                "_id": {
+                    "$oid": "68bbdb36dd58fe9057000052"
+                },
+                "username": "bea_horror",
+                "score": {
+                    "jugability": 4,
+                    "graphics": 4,
+                    "history": 3,
+                    "price": 4
+                },
+                "comment": "El sistema de combate es profundo y muy gratificante cuando lo dominas. Se juega de lujo, todo fluye con naturalidad.",
+                "date_publication": {
+                    "$date": "2025-09-06T08:56:54.000Z"
+                }
+            }
         ]
     },
     {
@@ -1265,6 +2677,24 @@
             "scene_bravelyDefault22.webp",
             "scene_bravelyDefault23.webp",
             "scene_bravelyDefault24.webp"
+        ],
+        "reviews": [
+            {
+                "_id": {
+                    "$oid": "66ecc00ca2600a0dc0000053"
+                },
+                "username": "luisgamerjaen",
+                "score": {
+                    "jugability": 3,
+                    "graphics": 3,
+                    "history": 2,
+                    "price": 3
+                },
+                "comment": "Un juego notable al que le sobran algunas horas. Casi no hay trama que te empuje a seguir.",
+                "date_publication": {
+                    "$date": "2024-09-20T02:21:32.000Z"
+                }
+            }
         ]
     },
     {
@@ -1290,6 +2720,24 @@
             "scene_monsterHunterStories22.webp",
             "scene_monsterHunterStories23.webp",
             "scene_monsterHunterStories24.webp"
+        ],
+        "reviews": [
+            {
+                "_id": {
+                    "$oid": "68b74efc88e1c1dfa6000054"
+                },
+                "username": "lucia_gamer",
+                "score": {
+                    "jugability": 2,
+                    "graphics": 3,
+                    "history": 3,
+                    "price": 3
+                },
+                "comment": "Los combates son entretenidos pero el ritmo general decae en algunos tramos.",
+                "date_publication": {
+                    "$date": "2025-09-02T22:09:32.000Z"
+                }
+            }
         ]
     },
     {
@@ -1314,6 +2762,56 @@
             "scene_dragonAgeInquisition2.webp",
             "scene_dragonAgeInquisition3.webp",
             "scene_dragonAgeInquisition4.webp"
+        ],
+        "reviews": [
+            {
+                "_id": {
+                    "$oid": "66cfc5eae49f70b8ba000055"
+                },
+                "username": "paula_boss",
+                "score": {
+                    "jugability": 3,
+                    "graphics": 4,
+                    "history": 3,
+                    "price": 4
+                },
+                "comment": "Buen RPG, aunque se nota algo de relleno en la parte central. La jugabilidad tiene aristas sin pulir.",
+                "date_publication": {
+                    "$date": "2024-08-29T02:50:50.000Z"
+                }
+            },
+            {
+                "_id": {
+                    "$oid": "67041602a258d5a0f7000057"
+                },
+                "username": "noe_nightmare",
+                "score": {
+                    "jugability": 3,
+                    "graphics": 4,
+                    "history": 5,
+                    "price": 5
+                },
+                "comment": "De los mejores RPG que he jugado, lo recomiendo sin dudar.",
+                "date_publication": {
+                    "$date": "2024-10-07T19:10:26.000Z"
+                }
+            },
+            {
+                "_id": {
+                    "$oid": "6741e0c87964c2ce6b000056"
+                },
+                "username": "alexturbo",
+                "score": {
+                    "jugability": 4,
+                    "graphics": 3,
+                    "history": 5,
+                    "price": 5
+                },
+                "comment": "Me han encantado las decisiones y el sistema de progresión, engancha muchísimo. La historia y la ambientación te atrapan.",
+                "date_publication": {
+                    "$date": "2024-11-23T15:03:52.000Z"
+                }
+            }
         ]
     },
     {
@@ -1337,6 +2835,40 @@
             "scene_divinityOriginalSin22.webp",
             "scene_divinityOriginalSin23.webp",
             "scene_divinityOriginalSin24.webp"
+        ],
+        "reviews": [
+            {
+                "_id": {
+                    "$oid": "64c92fcc69a0995504000058"
+                },
+                "username": "claudia_sevilla",
+                "score": {
+                    "jugability": 5,
+                    "graphics": 4,
+                    "history": 5,
+                    "price": 5
+                },
+                "comment": "Mundo muy trabajado, con misiones secundarias que valen la pena de verdad. Los controles son precisos y muy cómodos.",
+                "date_publication": {
+                    "$date": "2023-08-01T18:16:12.000Z"
+                }
+            },
+            {
+                "_id": {
+                    "$oid": "6a5ddaa4cb8cfde05e000059"
+                },
+                "username": "ironjuli",
+                "score": {
+                    "jugability": 5,
+                    "graphics": 5,
+                    "history": 5,
+                    "price": 4
+                },
+                "comment": "El sistema de combate es profundo y muy gratificante cuando lo dominas.",
+                "date_publication": {
+                    "$date": "2026-07-20T10:21:56.000Z"
+                }
+            }
         ]
     },
     {
@@ -1360,7 +2892,8 @@
             "scene_darkSouls32.webp",
             "scene_darkSouls33.webp",
             "scene_darkSouls34.webp"
-        ]
+        ],
+        "reviews": []
     },
     {
         "title": "The Elder Scrolls V: Skyrim",
@@ -1385,7 +2918,8 @@
             "scene_theElderScrollsV2.webp",
             "scene_theElderScrollsV3.webp",
             "scene_theElderScrollsV4.webp"
-        ]
+        ],
+        "reviews": []
     },
     {
         "title": "Mass Effect Legendary Edition",
@@ -1408,6 +2942,24 @@
             "scene_massEffectLegendaryEdition2.webp",
             "scene_massEffectLegendaryEdition3.webp",
             "scene_massEffectLegendaryEdition4.webp"
+        ],
+        "reviews": [
+            {
+                "_id": {
+                    "$oid": "6af1fe1e2e685be8e800005a"
+                },
+                "username": "andrea_lap1",
+                "score": {
+                    "jugability": 2,
+                    "graphics": 2,
+                    "history": 1,
+                    "price": 2
+                },
+                "comment": "Los personajes no me han convencido y el ritmo se me ha hecho eterno. La narrativa se queda muy por debajo del resto.",
+                "date_publication": {
+                    "$date": "2026-11-09T18:08:46.000Z"
+                }
+            }
         ]
     },
     {
@@ -1431,6 +2983,40 @@
             "scene_horizonZeroDawn2.webp",
             "scene_horizonZeroDawn3.webp",
             "scene_horizonZeroDawn4.webp"
+        ],
+        "reviews": [
+            {
+                "_id": {
+                    "$oid": "69719825c642149a6900005b"
+                },
+                "username": "alexturbo",
+                "score": {
+                    "jugability": 4,
+                    "graphics": 5,
+                    "history": 5,
+                    "price": 4
+                },
+                "comment": "Me han encantado las decisiones y el sistema de progresión, engancha muchísimo. Visualmente es una maravilla.",
+                "date_publication": {
+                    "$date": "2026-01-22T04:23:17.000Z"
+                }
+            },
+            {
+                "_id": {
+                    "$oid": "69ed962c94dde3491300005c"
+                },
+                "username": "ironjuli",
+                "score": {
+                    "jugability": 4,
+                    "graphics": 4,
+                    "history": 4,
+                    "price": 4
+                },
+                "comment": "Mundo muy trabajado, con misiones secundarias que valen la pena de verdad. Se juega de lujo, todo fluye con naturalidad.",
+                "date_publication": {
+                    "$date": "2026-04-26T06:35:56.000Z"
+                }
+            }
         ]
     },
     {
@@ -1456,6 +3042,40 @@
             "scene_cyberpunk20772.webp",
             "scene_cyberpunk20773.webp",
             "scene_cyberpunk20774.webp"
+        ],
+        "reviews": [
+            {
+                "_id": {
+                    "$oid": "63b4596b9932b5e43000005e"
+                },
+                "username": "claudia_sevilla",
+                "score": {
+                    "jugability": 3,
+                    "graphics": 4,
+                    "history": 4,
+                    "price": 4
+                },
+                "comment": "Los combates son entretenidos pero el ritmo general decae en algunos tramos. Cuesta cogerle el truco por culpa de unos controles poco intuitivos.",
+                "date_publication": {
+                    "$date": "2023-01-03T17:35:55.000Z"
+                }
+            },
+            {
+                "_id": {
+                    "$oid": "69e33dda3542b6be3000005d"
+                },
+                "username": "alexturbo",
+                "score": {
+                    "jugability": 4,
+                    "graphics": 4,
+                    "history": 4,
+                    "price": 5
+                },
+                "comment": "De los mejores RPG que he jugado, lo recomiendo sin dudar. Calidad-precio excelente, de lo mejor que he comprado.",
+                "date_publication": {
+                    "$date": "2026-04-18T10:16:26.000Z"
+                }
+            }
         ]
     },
     {
@@ -1477,6 +3097,56 @@
             "scene_guardianTales1.webp",
             "scene_guardianTales2.webp",
             "scene_guardianTales3.webp"
+        ],
+        "reviews": [
+            {
+                "_id": {
+                    "$oid": "67141e47059a6aa668000060"
+                },
+                "username": "nachoplays",
+                "score": {
+                    "jugability": 4,
+                    "graphics": 5,
+                    "history": 4,
+                    "price": 5
+                },
+                "comment": "Mundo muy trabajado, con misiones secundarias que valen la pena de verdad. Los escenarios y la dirección artística están cuidadísimos.",
+                "date_publication": {
+                    "$date": "2024-10-19T23:01:59.000Z"
+                }
+            },
+            {
+                "_id": {
+                    "$oid": "69fa784d41b5ab3e9a000061"
+                },
+                "username": "marcosRPG",
+                "score": {
+                    "jugability": 3,
+                    "graphics": 3,
+                    "history": 3,
+                    "price": 4
+                },
+                "comment": "Tiene un arranque lento, pero cuando coge ritmo se disfruta bastante. Los controles se sienten toscos en algunos momentos.",
+                "date_publication": {
+                    "$date": "2026-05-06T01:07:57.000Z"
+                }
+            },
+            {
+                "_id": {
+                    "$oid": "6ac8f487d2de8f5d0a00005f"
+                },
+                "username": "samu_gta",
+                "score": {
+                    "jugability": 4,
+                    "graphics": 4,
+                    "history": 4,
+                    "price": 4
+                },
+                "comment": "El sistema de combate es profundo y muy gratificante cuando lo dominas. La jugabilidad es sólida y responde de maravilla.",
+                "date_publication": {
+                    "$date": "2026-10-09T16:04:55.000Z"
+                }
+            }
         ]
     },
     {
@@ -1497,7 +3167,8 @@
         "scene": [
             "scene_imNotAHuman1.webp",
             "scene_imNotAHuman2.webp"
-        ]
+        ],
+        "reviews": []
     },
     {
         "title": "Outlast",
@@ -1521,7 +3192,8 @@
             "scene_outlast2.webp",
             "scene_outlast3.webp",
             "scene_outlast4.webp"
-        ]
+        ],
+        "reviews": []
     },
     {
         "title": "Amnesia: The Dark Descent",
@@ -1542,6 +3214,40 @@
             "scene_amnesia1.webp",
             "scene_amnesia2.webp",
             "scene_amnesia3.webp"
+        ],
+        "reviews": [
+            {
+                "_id": {
+                    "$oid": "682e035e204a019b41000062"
+                },
+                "username": "sergio_coop",
+                "score": {
+                    "jugability": 1,
+                    "graphics": 2,
+                    "history": 1,
+                    "price": 1
+                },
+                "comment": "Me ha parecido más frustrante que aterrador.",
+                "date_publication": {
+                    "$date": "2025-05-21T18:46:22.000Z"
+                }
+            },
+            {
+                "_id": {
+                    "$oid": "6af42861bcdfd7dfe8000063"
+                },
+                "username": "hugo_pixel",
+                "score": {
+                    "jugability": 4,
+                    "graphics": 4,
+                    "history": 5,
+                    "price": 5
+                },
+                "comment": "Me ha dejado con el corazón a mil, justo lo que busco en un juego de miedo. Tiene una narrativa muy cuidada.",
+                "date_publication": {
+                    "$date": "2026-11-11T09:33:37.000Z"
+                }
+            }
         ]
     },
     {
@@ -1567,6 +3273,56 @@
             "scene_dbd1.webp",
             "scene_dbd2.webp",
             "scene_dbd3.webp"
+        ],
+        "reviews": [
+            {
+                "_id": {
+                    "$oid": "643039c292f735a91f000065"
+                },
+                "username": "luisgamerjaen",
+                "score": {
+                    "jugability": 5,
+                    "graphics": 4,
+                    "history": 4,
+                    "price": 4
+                },
+                "comment": "Me ha dejado con el corazón a mil, justo lo que busco en un juego de miedo.",
+                "date_publication": {
+                    "$date": "2023-04-07T17:41:54.000Z"
+                }
+            },
+            {
+                "_id": {
+                    "$oid": "6976551cee30aef2b6000064"
+                },
+                "username": "bea_horror",
+                "score": {
+                    "jugability": 3,
+                    "graphics": 2,
+                    "history": 2,
+                    "price": 4
+                },
+                "comment": "Tiene buenos momentos de tensión, pero se hace repetitivo con el tiempo. Los gráficos se ven algo anticuados.",
+                "date_publication": {
+                    "$date": "2026-01-25T18:38:36.000Z"
+                }
+            },
+            {
+                "_id": {
+                    "$oid": "697afff0316e043667000066"
+                },
+                "username": "kratos_fan92",
+                "score": {
+                    "jugability": 4,
+                    "graphics": 4,
+                    "history": 4,
+                    "price": 5
+                },
+                "comment": "Un terror que funciona sin recurrir a sustos baratos, muy atmosférico.",
+                "date_publication": {
+                    "$date": "2026-01-29T07:36:32.000Z"
+                }
+            }
         ]
     },
     {
@@ -1591,6 +3347,24 @@
             "scene_L4D21.webp",
             "scene_L4D22.webp",
             "scene_L4D23.webp"
+        ],
+        "reviews": [
+            {
+                "_id": {
+                    "$oid": "6470886062776045b4000067"
+                },
+                "username": "paula_boss",
+                "score": {
+                    "jugability": 4,
+                    "graphics": 5,
+                    "history": 4,
+                    "price": 4
+                },
+                "comment": "Pasé auténtico miedo, la ambientación está lograda de una manera brutal. Visualmente es una maravilla.",
+                "date_publication": {
+                    "$date": "2023-05-26T12:22:24.000Z"
+                }
+            }
         ]
     },
     {
@@ -1613,6 +3387,56 @@
         "scene": [
             "scene_theForest1.webp",
             "scene_theForest2.webp"
+        ],
+        "reviews": [
+            {
+                "_id": {
+                    "$oid": "6585ec31631ea3fcfb000069"
+                },
+                "username": "noe_nightmare",
+                "score": {
+                    "jugability": 5,
+                    "graphics": 3,
+                    "history": 5,
+                    "price": 5
+                },
+                "comment": "Un terror que funciona sin recurrir a sustos baratos, muy atmosférico. La jugabilidad es sólida y responde de maravilla.",
+                "date_publication": {
+                    "$date": "2023-12-22T21:06:09.000Z"
+                }
+            },
+            {
+                "_id": {
+                    "$oid": "679c375fd21c790d25000068"
+                },
+                "username": "kratos_fan92",
+                "score": {
+                    "jugability": 3,
+                    "graphics": 3,
+                    "history": 3,
+                    "price": 3
+                },
+                "comment": "Tiene buenos momentos de tensión, pero se hace repetitivo con el tiempo. La jugabilidad tiene aristas sin pulir.",
+                "date_publication": {
+                    "$date": "2025-01-31T03:37:19.000Z"
+                }
+            },
+            {
+                "_id": {
+                    "$oid": "685788299f22a2ee3100006a"
+                },
+                "username": "victor_indie",
+                "score": {
+                    "jugability": 5,
+                    "graphics": 5,
+                    "history": 4,
+                    "price": 5
+                },
+                "comment": "Una propuesta original que consigue incomodar en el mejor sentido. Se juega de lujo, todo fluye con naturalidad.",
+                "date_publication": {
+                    "$date": "2025-06-22T06:35:53.000Z"
+                }
+            }
         ]
     },
     {
@@ -1637,6 +3461,24 @@
             "scene_littleNightmares1.webp",
             "scene_littleNightmares2.webp",
             "scene_littleNightmares3.webp"
+        ],
+        "reviews": [
+            {
+                "_id": {
+                    "$oid": "65a4175de364815ea700006b"
+                },
+                "username": "sergio_coop",
+                "score": {
+                    "jugability": 4,
+                    "graphics": 5,
+                    "history": 5,
+                    "price": 5
+                },
+                "comment": "Me ha dejado con el corazón a mil, justo lo que busco en un juego de miedo. El apartado gráfico es de los mejores que he visto.",
+                "date_publication": {
+                    "$date": "2024-01-14T18:18:21.000Z"
+                }
+            }
         ]
     },
     {
@@ -1663,6 +3505,24 @@
             "scene_escapeTheBackrooms2.webp",
             "scene_escapeTheBackrooms3.webp",
             "scene_escapeTheBackrooms4.webp"
+        ],
+        "reviews": [
+            {
+                "_id": {
+                    "$oid": "68faf73333e049bccb00006c"
+                },
+                "username": "sara_xbox",
+                "score": {
+                    "jugability": 1,
+                    "graphics": 1,
+                    "history": 2,
+                    "price": 2
+                },
+                "comment": "No me ha transmitido nada de miedo y se me hizo largo. Cuesta cogerle el truco por culpa de unos controles poco intuitivos.",
+                "date_publication": {
+                    "$date": "2025-10-24T05:49:07.000Z"
+                }
+            }
         ]
     },
     {
@@ -1685,7 +3545,8 @@
             "scene_fearsToFathom2.webp",
             "scene_fearsToFathom3.webp",
             "scene_fearsToFathom4.webp"
-        ]
+        ],
+        "reviews": []
     },
     {
         "title": "Halloween: The Game",
@@ -1708,6 +3569,56 @@
             "scene_halloweenTheGame1.webp",
             "scene_halloweenTheGame2.webp",
             "scene_halloweenTheGame3.webp"
+        ],
+        "reviews": [
+            {
+                "_id": {
+                    "$oid": "69e0e75b9dbef3683800006d"
+                },
+                "username": "martaPS5",
+                "score": {
+                    "jugability": 4,
+                    "graphics": 3,
+                    "history": 2,
+                    "price": 3
+                },
+                "comment": "La premisa es genial, aunque la ejecución no siempre está a la altura. Casi no hay trama que te empuje a seguir.",
+                "date_publication": {
+                    "$date": "2026-04-16T15:42:51.000Z"
+                }
+            },
+            {
+                "_id": {
+                    "$oid": "6a5ec4cac2e30e2b1900006f"
+                },
+                "username": "samu_gta",
+                "score": {
+                    "jugability": 3,
+                    "graphics": 4,
+                    "history": 3,
+                    "price": 4
+                },
+                "comment": "Pasé auténtico miedo, la ambientación está lograda de una manera brutal. Los escenarios y la dirección artística están cuidadísimos.",
+                "date_publication": {
+                    "$date": "2026-07-21T03:00:58.000Z"
+                }
+            },
+            {
+                "_id": {
+                    "$oid": "6a64e1115cdfb239de00006e"
+                },
+                "username": "kratos_fan92",
+                "score": {
+                    "jugability": 3,
+                    "graphics": 5,
+                    "history": 4,
+                    "price": 4
+                },
+                "comment": "Tensión constante de principio a fin, no lo recomiendo para jugar solo de noche. El apartado gráfico es de los mejores que he visto.",
+                "date_publication": {
+                    "$date": "2026-07-25T18:15:13.000Z"
+                }
+            }
         ]
     },
     {
@@ -1730,7 +3641,8 @@
             "scene_horses2.webp",
             "scene_horses3.webp",
             "scene_horses4.webp"
-        ]
+        ],
+        "reviews": []
     },
     {
         "title": "I Have No Mouth, and I Must Scream",
@@ -1756,6 +3668,40 @@
             "scene_iHaveNoMouthAndIMustScream2.webp",
             "scene_iHaveNoMouthAndIMustScream3.webp",
             "scene_iHaveNoMouthAndIMustScream4.webp"
+        ],
+        "reviews": [
+            {
+                "_id": {
+                    "$oid": "6912488679870ba17f000071"
+                },
+                "username": "sara_xbox",
+                "score": {
+                    "jugability": 5,
+                    "graphics": 4,
+                    "history": 4,
+                    "price": 4
+                },
+                "comment": "Un terror que funciona sin recurrir a sustos baratos, muy atmosférico. Se juega de lujo, todo fluye con naturalidad.",
+                "date_publication": {
+                    "$date": "2025-11-10T21:18:14.000Z"
+                }
+            },
+            {
+                "_id": {
+                    "$oid": "6aa6fd511e43a38f89000070"
+                },
+                "username": "irene_cozy",
+                "score": {
+                    "jugability": 3,
+                    "graphics": 3,
+                    "history": 4,
+                    "price": 2
+                },
+                "comment": "La premisa es genial, aunque la ejecución no siempre está a la altura. Cuesta más de lo que vale, siendo sinceros.",
+                "date_publication": {
+                    "$date": "2026-09-13T21:45:21.000Z"
+                }
+            }
         ]
     },
     {
@@ -1782,7 +3728,8 @@
             "scene_FNAF2.webp",
             "scene_FNAF3.webp",
             "scene_FNAF4.webp"
-        ]
+        ],
+        "reviews": []
     },
     {
         "title": "Mouthwashing",
@@ -1805,7 +3752,8 @@
             "scene_mouthwashing1.webp",
             "scene_mouthwashing2.webp",
             "scene_mouthwashing3.webp"
-        ]
+        ],
+        "reviews": []
     },
     {
         "title": "MiSide",
@@ -1825,6 +3773,40 @@
         "scene": [
             "scene_miSide1.webp",
             "scene_miSide2.webp"
+        ],
+        "reviews": [
+            {
+                "_id": {
+                    "$oid": "67b54d5c5ed96e837e000072"
+                },
+                "username": "dani_rpg",
+                "score": {
+                    "jugability": 3,
+                    "graphics": 4,
+                    "history": 3,
+                    "price": 3
+                },
+                "comment": "La premisa es genial, aunque la ejecución no siempre está a la altura. Cuesta cogerle el truco por culpa de unos controles poco intuitivos.",
+                "date_publication": {
+                    "$date": "2025-02-19T04:17:48.000Z"
+                }
+            },
+            {
+                "_id": {
+                    "$oid": "696bc2b5e3bb464d24000073"
+                },
+                "username": "elena_lvl99",
+                "score": {
+                    "jugability": 5,
+                    "graphics": 3,
+                    "history": 4,
+                    "price": 5
+                },
+                "comment": "Un terror que funciona sin recurrir a sustos baratos, muy atmosférico. Los controles son precisos y muy cómodos.",
+                "date_publication": {
+                    "$date": "2026-01-17T18:11:17.000Z"
+                }
+            }
         ]
     },
     {
@@ -1848,6 +3830,40 @@
             "scene_phasmophobia2.webp",
             "scene_phasmophobia3.webp",
             "scene_phasmophobia4.webp"
+        ],
+        "reviews": [
+            {
+                "_id": {
+                    "$oid": "6815d3620a7464fed5000074"
+                },
+                "username": "dani_rpg",
+                "score": {
+                    "jugability": 5,
+                    "graphics": 5,
+                    "history": 5,
+                    "price": 4
+                },
+                "comment": "Pasé auténtico miedo, la ambientación está lograda de una manera brutal. La jugabilidad es sólida y responde de maravilla.",
+                "date_publication": {
+                    "$date": "2025-05-03T10:27:14.000Z"
+                }
+            },
+            {
+                "_id": {
+                    "$oid": "6995edf6176b3e8c80000075"
+                },
+                "username": "pixelPaco",
+                "score": {
+                    "jugability": 5,
+                    "graphics": 3,
+                    "history": 5,
+                    "price": 4
+                },
+                "comment": "Pasé auténtico miedo, la ambientación está lograda de una manera brutal. Se juega de lujo, todo fluye con naturalidad.",
+                "date_publication": {
+                    "$date": "2026-02-18T17:51:02.000Z"
+                }
+            }
         ]
     },
     {
@@ -1872,6 +3888,56 @@
             "scene_theOutlastTrials2.webp",
             "scene_theOutlastTrials3.webp",
             "scene_theOutlastTrials4.webp"
+        ],
+        "reviews": [
+            {
+                "_id": {
+                    "$oid": "65f898d3208cad771e000077"
+                },
+                "username": "tonyPC",
+                "score": {
+                    "jugability": 3,
+                    "graphics": 5,
+                    "history": 3,
+                    "price": 1
+                },
+                "comment": "Da miedo al principio, pero una vez entiendes sus mecánicas pierde fuerza.",
+                "date_publication": {
+                    "$date": "2024-03-18T20:41:07.000Z"
+                }
+            },
+            {
+                "_id": {
+                    "$oid": "6894ef79bd01f3165b000078"
+                },
+                "username": "fer_dev",
+                "score": {
+                    "jugability": 5,
+                    "graphics": 5,
+                    "history": 4,
+                    "price": 4
+                },
+                "comment": "Una propuesta original que consigue incomodar en el mejor sentido. Los controles son precisos y muy cómodos.",
+                "date_publication": {
+                    "$date": "2025-08-07T20:24:57.000Z"
+                }
+            },
+            {
+                "_id": {
+                    "$oid": "693becb42be90e9fcb000076"
+                },
+                "username": "ironjuli",
+                "score": {
+                    "jugability": 4,
+                    "graphics": 5,
+                    "history": 4,
+                    "price": 4
+                },
+                "comment": "Una propuesta original que consigue incomodar en el mejor sentido.",
+                "date_publication": {
+                    "$date": "2025-12-12T11:21:40.000Z"
+                }
+            }
         ]
     },
     {
@@ -1898,6 +3964,56 @@
             "scene_untilDawn2.webp",
             "scene_untilDawn3.webp",
             "scene_untilDawn4.webp"
+        ],
+        "reviews": [
+            {
+                "_id": {
+                    "$oid": "677c9dd9011487020b00007b"
+                },
+                "username": "samu_gta",
+                "score": {
+                    "jugability": 2,
+                    "graphics": 2,
+                    "history": 2,
+                    "price": 2
+                },
+                "comment": "Me ha parecido más frustrante que aterrador. Cuesta cogerle el truco por culpa de unos controles poco intuitivos.",
+                "date_publication": {
+                    "$date": "2025-01-07T04:22:01.000Z"
+                }
+            },
+            {
+                "_id": {
+                    "$oid": "6824edb287b1a1823e00007a"
+                },
+                "username": "lucia_gamer",
+                "score": {
+                    "jugability": 4,
+                    "graphics": 5,
+                    "history": 4,
+                    "price": 5
+                },
+                "comment": "Pasé auténtico miedo, la ambientación está lograda de una manera brutal.",
+                "date_publication": {
+                    "$date": "2025-05-14T21:23:30.000Z"
+                }
+            },
+            {
+                "_id": {
+                    "$oid": "6aa8a28ac471957844000079"
+                },
+                "username": "ainhoa_plays",
+                "score": {
+                    "jugability": 5,
+                    "graphics": 5,
+                    "history": 5,
+                    "price": 5
+                },
+                "comment": "Tensión constante de principio a fin, no lo recomiendo para jugar solo de noche. Los controles son precisos y muy cómodos.",
+                "date_publication": {
+                    "$date": "2026-09-15T03:42:34.000Z"
+                }
+            }
         ]
     },
     {
@@ -1921,6 +4037,24 @@
             "scene_theSinkingCityRemastered2.webp",
             "scene_theSinkingCityRemastered3.webp",
             "scene_theSinkingCityRemastered4.webp"
+        ],
+        "reviews": [
+            {
+                "_id": {
+                    "$oid": "680a0a71c132646b0200007c"
+                },
+                "username": "lucia_gamer",
+                "score": {
+                    "jugability": 4,
+                    "graphics": 5,
+                    "history": 5,
+                    "price": 5
+                },
+                "comment": "Un terror que funciona sin recurrir a sustos baratos, muy atmosférico. Los escenarios y la dirección artística están cuidadísimos.",
+                "date_publication": {
+                    "$date": "2025-04-24T11:54:57.000Z"
+                }
+            }
         ]
     },
     {
@@ -1944,6 +4078,24 @@
             "scene_aQuietPlaceTheRoadAhead1.webp",
             "scene_aQuietPlaceTheRoadAhead2.webp",
             "scene_aQuietPlaceTheRoadAhead3.webp"
+        ],
+        "reviews": [
+            {
+                "_id": {
+                    "$oid": "69c9c96b9ac6ae807d00007d"
+                },
+                "username": "lucia_gamer",
+                "score": {
+                    "jugability": 5,
+                    "graphics": 4,
+                    "history": 5,
+                    "price": 5
+                },
+                "comment": "Me ha dejado con el corazón a mil, justo lo que busco en un juego de miedo. La jugabilidad es sólida y responde de maravilla.",
+                "date_publication": {
+                    "$date": "2026-03-30T02:52:59.000Z"
+                }
+            }
         ]
     }
 ]
