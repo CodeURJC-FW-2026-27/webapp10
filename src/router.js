@@ -344,16 +344,9 @@ router.get('/product-details/:id', async (req, res) => {
     juego.firstEscene = juego.scene[0];
     juego.scene.splice(0, 1)
 
+    juego.review = juego.reviews[0];
+
     res.render('product-details.html', juego);
-})
-
-
-router.get('/product-details/:id/addreview', async (req, res) => {
-    let juego = await games.getGame(req.params.id);
-    res.render('formSecondaryEntity.html', {
-        juego: juego,
-        review: juego.reviews[0]
-    });
 })
 
 
