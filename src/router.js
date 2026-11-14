@@ -324,6 +324,8 @@ router.post('/newElement', upload.fields([
 
 })
 
+// Product Details
+
 router.get('/product-details/:id', async (req, res) => {
 
     let juego = await games.getGame(req.params.id);
@@ -344,6 +346,16 @@ router.get('/product-details/:id', async (req, res) => {
 
     res.render('product-details.html', juego);
 })
+
+
+router.get('/product-details/:id/addreview', async (req, res) => {
+    let juego = await games.getGame(req.params.id);
+    res.render('formSecondaryEntity.html', {
+        juego: juego,
+        review: juego.reviews[0]
+    });
+})
+
 
 router.get('/formPrincipalEntity', (req, res) => {
     res.render('formPrincipalEntity.html');

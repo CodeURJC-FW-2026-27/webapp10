@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+  <title>GamePortal - Añadir Reseña</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Additional CSS Files -->
+  <link rel="stylesheet" href="/css/templatemo-lugx-gaming.css">
+
+</head>
+
+<body>
+
+  <!-- ***** Preloader Start ***** -->
+  <div id="js-preloader" class="js-preloader">
+
+    <div class="preloader-inner">
+
+      <span class="dot"></span>
+
+      <div class="dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+    </div>
+
+  </div>
+  <!-- ***** Preloader End ***** -->
+
+
+  {{>header}}
+  <!-- ***** Header Area End ***** -->
+
+
+  <!-- ***** Page Heading Start ***** -->
+  <div class="page-heading header-text">
+
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-lg-12">
+
+          <h3>Añadir Reseña</h3>
+
+          <span class="breadcrumb">
+            <a href="index.html">Inicio</a> > Añadir Reseña
+          </span>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+  <!-- ***** Page Heading End ***** -->
+
+
+  <!-- ***** Form Page Start ***** -->
+  <div class="contact-page section">
+
+    <div class="container">
+
+      <form action="/product-details/{{juego._id}}/addreview" method="post">
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+            <div class="card-body p-4">
+
+              <!-- Step 1 -->
+              <div class="tab-content">
+                <div class="content">
+                  <div class="row justify-content-center">
+                    <div class="col-md-10">
+                      <div class="card-body p-10">
+                        <div class="mb-3 left-image">
+                          <img src="/image?filename={{juego.cover}}" alt="{{juego.title}} Cover" class="rounded img-fluid">
+                        </div>
+                        <div class="d-flex gap-2 align-items-end">
+                          <h3>{{juego.title}}</h3>
+                          <p>(7 Reseñas)</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Step 2 -->
+
+              <div class="tab-content mt-4">
+                <div class="card content">
+                  <div class="row justify-content-center">
+                    <div class="col-md-12">
+                      <div class="card-body p-10">
+
+                        <h2 class="mb-3">
+                          Comentario
+                        </h2>
+                      
+                        <!-- User -->
+                        <div class="mb-3">
+                          <label class="form-label" for="username">
+                            Usuario
+                          </label>
+                          <input type="text" class="form-control" name="username" id="username" 
+                            placeholder="Usuario" required value="{{review.username}}">
+                        </div>
+
+                        <!-- Description -->
+                        <div class="mb-3">
+                          <label class="form-label" for="comment">
+                            Comentario
+                          </label>
+                          <textarea class="form-control" rows="5" name="comment" id="comment"
+                            placeholder="Comentario" required>{{review.comment}}</textarea>
+                        </div>
+
+                        <!-- Ranges for the review -->
+                        <div class="row">
+                          <div class="col-md-6 mb-3">
+                            <label for="jugability" class="form-label">Jugabilidad</label>
+                            <div style="display: flex; gap: 1rem;">
+                              <output for="jugability" id="rangeValuejugability" aria-hidden="true"></output>
+                              <input type="range" class="form-range" min="0" max="5" value="{{review.score.jugability}}" id="jugability">
+                            </div>
+                          </div>
+                          <div class="col-md-6 mb-3">
+                            <label for="graphics" class="form-label">Gráficos</label>
+                            <div style="display: flex; gap: 1rem;">
+                              <output for="graphics" id="rangeValuegraphics" aria-hidden="true"></output>
+                              <input type="range" class="form-range" min="0" max="5" value="{{review.score.graphics}}" id="graphics">
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="row">
+                          <div class="col-md-6 mb-3">
+                            <label for="history" class="form-label">Historia</label>
+                            <div style="display: flex; gap: 1rem;">
+                              <output for="history" id="rangeValuehistory" aria-hidden="true"></output>
+                              <input type="range" class="form-range" min="0" max="5" value="{{review.score.history}}" id="history">
+                            </div>
+                          </div>
+                          <div class="col-md-6 mb-3">
+                            <label for="price" class="form-label">Precio</label>
+                            <div style="display: flex; gap: 1rem;">
+                              <output for="price" id="rangeValueprice" aria-hidden="true"></output>
+                              <input type="range" class="form-range" min="0" max="5" value="{{review.score.price}}" id="price">
+                            </div>
+                          </div>
+                        </div>
+
+                        <!-- Buttons for save or cancel -->
+                        <div class="form-check mb-4 ">
+                          <div class="d-flex justify-content-end gap-3 mt-4">
+                            <a href="/product-details/{{juego._id}}" class="btn btn-secondary">
+                              Cancelar
+                            </a>
+                            <button type="submit" class="btn btn-success">Guardar</button>
+                          </div>
+                        </div>
+
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+  {{> footer}}
+
+  <script src="/js/custom.js"></script>
+  <script src="/js/formSecondaryEntity.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
