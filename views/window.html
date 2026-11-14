@@ -118,18 +118,18 @@
 
                 <!-- Buttons -->
                 <div class="text-center mt-4">
-
-                    {{#window.isError}}
-                    <a href="{{window.redirect}}" class="btn btn-primary me-2">
-                        {{window.buttonText}}
-                    </a>
-                    {{/window.isError}}
-                    {{^window.isError}}
-                    <a href="{{window.redirect}}" class="btn btn-success me-2">
-                        {{window.buttonText}}
-                    </a>
-                    {{/window.isError}}
-
+                    {{#window.redirect}}
+                        {{#window.isError}}
+                            <a href="{{window.redirect}}" class="btn btn-primary me-2">
+                                {{window.buttonText}}
+                            </a>
+                        {{/window.isError}}
+                        {{^window.isError}}
+                            <a href="{{window.redirect}}" class="btn btn-success me-2">
+                                {{window.buttonText}}
+                            </a>
+                        {{/window.isError}}
+                    {{/window.redirect}}
                     <a href="/" class="btn btn-secondary">
                         Volver al inicio
                     </a>
