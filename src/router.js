@@ -305,7 +305,7 @@ router.post('/newElement', upload.fields([
             scene: scenes
         };
 
-        await games.addGame(game);
+        await games.updateGameById(id ,game);
 
 
         let window = {
@@ -314,76 +314,6 @@ router.post('/newElement', upload.fields([
             title: "Juego guardado",
             message: "Se ha guardado correctamente el juego en el sistema",
             errors: null,
-            redirect: "/product-details/${game._id}",
-            buttonText: "Ver detalles del producto"
-        }
-        res.render('window.html', {
-            window: window
-        })
-    }
-
-})
-
-router.post('/newElement', upload.fields([
-    { name: 'cover', maxCount: 1 },
-    { name: 'scene', maxCount: 10 }
-]), (req, res) => {
-
-    let genre = getGenre(req);
-    let platform = getPlatform(req);
-
-    let cover = null;
-    let scenes = [];
-
-    if (req.files['cover'] && req.files['cover'].length > 0) {
-        cover = req.files['cover'][0].filename;
-    }
-
-    if (req.files['scene'] && req.files['scene'].length > 0) {
-        for (let file of req.files['scene']) {
-            scenes.push(file.filename);
-        }
-    }
-
-    let gErrors = getErrors(req,genre,platform,cover,scenes);
-
-
-    if (gErrors.length > 0) {
-        let window = {
-            isError : true,
-            header: "Error",
-            title : "¡Vaya! Hay algunos errores",
-            message : "No hemos podido registrar tu videojuego. Parece que algunos datos del formulario no se han rellenado correctamente.",
-            errors : gErrors,
-            redirect: "/formPrincipalEntity",
-            buttonText: "Volver al formulario"
-        }
-        return res.render('window.html', {
-            window: window
-        });
-    } else {
-        let game = {
-            title: req.body.title,
-            description: req.body.description,
-            launch_age: req.body.year,
-            PEGI: req.body.pegi,
-            genre: genre,
-            developer: req.body.developer,
-            platform: platform,
-            link: req.body.link,
-            cover: cover,
-            scene: scenes
-        };
-
-        games.addGame(game);
-
-
-        let window = {
-            isError : false,
-            header: "Nuevo juego",
-            title: "Juego guardado",
-            message : "Se ha guardado correctamente el juego en el sistema",
-            errors : null,
             redirect: "/product-details/${game._id}",
             buttonText: "Ver detalles del producto"
         }
@@ -419,11 +349,27 @@ router.get('/formPrincipalEntity', (req, res) => {
     res.render('formPrincipalEntity.html');
 })
 
-router.get('/product-details/:id/cover', async (req, res) => {
+router.get('/product-details/:id/edit', async (req, res) => {
+
     let juego = await games.getGame(req.params.id);
 
-    res.download('./uploads/cover/' + juego.cover);
-});
+    if (juego === null){
+        res.redirect('/');
+        return
+    }
+
+
+
+
+    res.render('formPrincipalEntity.html', juego);
+    
+})
+
+// router.get('/product-details/:id/cover', async (req, res) => {
+//     let juego = await games.getGame(req.params.id);
+
+//     res.download('./uploads/cover/' + juego.cover);
+// });
 
 // router.get('/product-details/:id/scene/:imagenumber', async (req, res) => {
 
@@ -433,13 +379,13 @@ router.get('/product-details/:id/cover', async (req, res) => {
 // }
 
 
-router.get('/scene/:imagenumber', async (req, res) => {
+// router.get('/scene/:imagenumber', async (req, res) => {
 
-    if(/[\\/]/.test(req.params.imagenumber)){ 
-        return res.status(400);
-    }
-    res.download('./uploads/scene/' + req.params.imagenumber)
-})
+//     if(/[\\/]/.test(req.params.imagenumber)){ 
+//         return res.status(400);
+//     }
+//     res.download('./uploads/scene/' + req.params.imagenumber)
+// })
 
 router.post('/product-details/:id/delete', async (req, res) =>{
 

@@ -41,6 +41,13 @@ export async function addGame(game) {
     return await games.insertOne(game);
 }
 
+export async function updateGameById(id, params) {
+   return await games.updateOne(
+    { _id: id },                 // Filtro: busca el documento
+    { $set: params }     // Actualización: modifica el campo
+    )
+}
+
 export async function deleteGame(id){
 
     return await games.findOneAndDelete({ _id: new ObjectId(id) });
