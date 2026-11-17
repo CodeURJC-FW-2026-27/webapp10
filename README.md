@@ -15,10 +15,12 @@ La web va a consistir en un portal de videojuegos para la comunidad donde se mos
 
 ## Requisitos
 Para el correcto funcionamiento de la WEB es necesario instalar una serie de dependencias.
-Primero necesitamos instalar NODE.js, para esta WEB se utiliza la versión 27.0.0-alpha.0.0.0.
-Después necesitamos instalar mongo para almacenar los datos y utilizaremos la versión 9.0.4. 
 
-Además utilizamos una serie de módulos de NODE para ellos utilizaremos el siguiente comando: 
+* Instalar NODE.js, para esta WEB se utiliza la versión 27.0.0-alpha.0.0.0.
+
+* Instalar mongo para almacenar los datos y utilizaremos la versión 9.0.4. 
+
+* Utilizamos una serie de módulos de NODE para ellos utilizaremos el siguiente comando: 
 ```
 npm install
 ```
@@ -29,10 +31,10 @@ La funcionalidad de los diferentes ficheros de la página es la siguiente:
    Este fichero es el encargado de obtener las peticiones que hace el front al back y las procesa. Por ejemplo de encarga de la recogida y validación de datos a la hora de crear un nuevo elemento, carga los datos de las plantillas para mostrar el contenido adecuado a cada juego, carga los datos de prueba en caso de que la BBDD esté vacía.
 2.  [PrincipalEntity.jsons](src/principalEntity.jsons):
    Este fichero contiene datos de prueba para la página.
-3.[Games.js](src/games.js):
+3. [Games.js](src/games.js):
    Este fichero es el encargado de realizar las conexiones con la BBDD, en este fichero se encuentran los diferentes métodos los cuales acceden a la BBDD para cargar juegos o consultarlos. Además es el encargado de subir todos los datos de prueba al a la BBDD.
 4. [App.js](src/app.js):
-   Este fichero se encarga de configurar y arrancar el servidor Express, carga mustache, conecta el router.js y conecta el puerto 3000 para mostrar la página.
+   Este fichero se encarga de configurar y arrancar el servidor Express, carga mustache, conecta el [router.js](src/router.js) y conecta el puerto 3000 para mostrar la página.
 5. [FormPrincipalEntity.html](views/formPrincipalEntity.html):
    Este fichero es el encargado de mostrar un formulario en el cual se mostrarán los diferentes campos para crear o modificar las entidades principales de la página.
 6. [Window.html](views/window.html):
