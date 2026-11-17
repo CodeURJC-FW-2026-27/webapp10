@@ -84,7 +84,6 @@ router.get('/search', async (req, res) => {
 router.get('/category', async (req, res) => {
     let searched = { genre: { $regex: req.query.genre, $options: 'i' } };
     await renderPages(req, res, searched);
-
 })
 
 router.get('/image', (req, res) => {
