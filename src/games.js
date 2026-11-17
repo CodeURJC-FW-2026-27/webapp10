@@ -53,11 +53,6 @@ export async function deleteGame(id){
     return await games.findOneAndDelete({ _id: new ObjectId(id) });
 }
 
-export async function deleteGames(){
-
-    return await games.deleteMany();
-}
-
 export async function getGames(){
 
     return await games.find().toArray();
@@ -92,4 +87,41 @@ export async function countGamesInit() {
 
     return await games.countDocuments();
 
+}
+
+// Reviews
+export async function deleteReview(id){
+
+    return await games.findOneAndUpdate(
+        { "reviews._id": new ObjectId(id) },
+        { $pull: { reviews: { _id: new ObjectId(id) } } }
+    );
+}
+export async function getProductByReview(id){
+
+    return await games.findOne(
+        { "reviews._id": new ObjectId(id) },
+    );
+}
+
+export async function addReview(id, review){
+    review._id = new ObjectId();
+    return await games.findOneAndUpdate(
+        { "_id": new ObjectId(id) },
+        { $push: { reviews: review } }
+    );
+}
+
+export async function updateReview(id, review){
+    return await games.findOneAndUpdate(
+        { "reviews._id": new ObjectId(id) },
+        { 
+            $set: {
+                "reviews.$.username": review.username,
+                "reviews.$.score": review.score,
+                "reviews.$.date_publication": review.date_publication,
+                "reviews.$.comment": review.comment,
+            } 
+        }
+    );
 }

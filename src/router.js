@@ -1,6 +1,5 @@
 import express from 'express';
 import multer from 'multer';
-import { MongoClient } from 'mongodb';
 import * as games from './games.js';
 
 const router = express.Router();
@@ -314,7 +313,7 @@ router.post('/newElement', upload.fields([
             title: "Juego guardado",
             message: "Se ha guardado correctamente el juego en el sistema",
             errors: null,
-            redirect: "/product-details/${game._id}",
+            redirect: "/product-details/" + game._id,
             buttonText: "Ver detalles del producto"
         }
         res.render('window.html', {
@@ -324,7 +323,9 @@ router.post('/newElement', upload.fields([
 
 })
 
-router.get('/product-details/:id', async (req, res) => {
+// Product Details
+
+const getProduct = async function (req, res) {
 
     let juego = await games.getGame(req.params.id);
 
@@ -342,8 +343,164 @@ router.get('/product-details/:id', async (req, res) => {
     juego.firstEscene = juego.scene[0];
     juego.scene.splice(0, 1)
 
+
+    //reviews
+    juego.productId = juego._id;
+    juego.reviews?.map((x) => {
+        const date = new Date(x.date_publication)
+        x.formatted_date = date.toLocaleDateString();
+        x.scoreArray = {
+            jugability: ScoreArray(x.score.jugability),
+            graphics: ScoreArray(x.score.graphics),
+            history: ScoreArray(x.score.history),
+            price: ScoreArray(x.score.price),
+        }
+    })
+
+    if (req.params.review) {
+        let i = 0;
+        while(i<juego.reviews.length){
+            if (juego.reviews[i]._id.toString() === req.params.review){
+                juego.review = juego.reviews[i];
+                console.log('Encontrado')
+                break;
+            }
+            i++
+        }
+    }
+
+
     res.render('product-details.html', juego);
+}
+
+
+router.get('/product-details/:id', getProduct)
+
+router.get('/product-details/:id/review/:review/edit', getProduct)
+
+router.post('/product-details/:id/addreview', async (req, res) => {
+
+    let gErrors = getReviewsErrors(req);
+
+    if (gErrors.length > 0) {
+        let window = {
+            isError: true,
+            header: "Error",
+            title: "¡Vaya! Hay algunos errores",
+            message: "No hemos podido registrar tu reseña. Parece que algunos datos del formulario no se han rellenado correctamente.",
+            errors: gErrors,
+            redirect: "/product-details/" + req.params.id,
+            buttonText: "Volver al formulario"
+        }
+        return res.render('window.html', {
+            window: window
+        });
+    } else {
+        let review = {
+            username: req.body.username,
+            comment: req.body.comment,
+            score:{
+                jugability: req.body.jugability,
+                graphics: req.body.graphics,
+                history: req.body.jugability,
+                price: req.body.price
+            },
+            date_publication: new Date()
+        };
+
+        let juego = await games.addReview(req.params.id, review);
+
+        let window = {
+            isError: false,
+            header: "Reseñas",
+            title: "Reseña Creada",
+            message: "Se ha guardado correctamente la reseña en el sistema",
+            errors: null,
+            redirect: "/product-details/" + juego._id + "/#Comments",
+            buttonText: "Ver mi reseña"
+        }
+        res.render('window.html', {
+            window: window
+        })
+    }
 })
+
+router.post('/review/:review/edit', async (req, res) => {
+
+    let gErrors = getReviewsErrors(req);
+    let product = await games.getProductByReview(req.params.review);
+    let window = {}
+
+
+    if (!product) {
+        window = {
+            isError: true,
+            header: "Error",
+            title: "¡Vaya! No existe la reseña",
+            message: "No hemos podido actualizar tu reseña. Parece que no existe. Inténtalo otra vez.",
+            errors: {
+                field: "review",
+                message: "No existe la reseña"
+            },
+        }
+    } else if (gErrors.length > 0) {
+        window = {
+            isError: true,
+            header: "Error",
+            title: "¡Vaya! Hay algunos errores",
+            message: "No hemos podido actualizar tu reseña. Parece que algunos datos del formulario no se han rellenado correctamente.",
+            errors: gErrors,
+            redirect: "/product-details/" + product._id + "/review/" + req.params.review + "/edit#newComment",
+            buttonText: "Volver al formulario"
+        }
+    } else {
+        let review = {
+            username: req.body.username,
+            comment: req.body.comment,
+            score:{
+                jugability: req.body.jugability,
+                graphics: req.body.graphics,
+                history: req.body.jugability,
+                price: req.body.price
+            },
+            date_publication: new Date()
+        };
+
+        let juego = await games.updateReview(req.params.review, review);
+
+        window = {
+            isError: false,
+            header: "Reseñas",
+            title: "Reseña Actualizada",
+            message: "Se ha actualizado correctamente la reseña en el sistema",
+            errors: null,
+            redirect: "/product-details/" + juego._id + "/#Comments",
+            buttonText: "Ver mi reseña"
+        }
+    }
+
+    return res.render('window.html', {
+        window: window
+    });
+})
+
+router.post('/review/:review/delete', async (req, res) => {
+    let juego = await games.deleteReview(req.params.review);
+    
+    let window = {
+        isError: false,
+        header: "Reseñas",
+        title: "Reseña Borrada",
+        message: "Se ha borrado correctamente la reseña en el sistema",
+        errors: null,
+        redirect: "/product-details/" + juego._id,
+        buttonText: "Volver al producto"
+    }
+    res.render('window.html', {
+        window: window
+    })
+})
+
 
 router.get('/formPrincipalEntity', (req, res) => {
     res.render('formPrincipalEntity.html');
@@ -400,3 +557,72 @@ router.get('/formPrincipalEntity', (req, res) => {
 
 
 export default router;
+
+
+const ScoreArray = function (num){
+    let array = [];
+    for (let i = 0; i < 5; i++){
+        array.push(i < num)
+    }
+    return array;
+}
+
+
+const getReviewsErrors = function (req) {
+    let errors = [];
+    if (!req.body.username || req.body.username?.trim() === "") {
+        errors.push({
+            field: "username",
+            message: "Debes introducir tu nombre de usuario."
+        });
+    } else if (!/^[A-Z]/.test(req.body.username)) {
+        errors.push({
+            field: "format",
+            message: "Tu nombre debe empezar por mayúscula."
+        });
+    }
+
+    if (!req.body.comment || req.body.comment?.trim() === "") {
+        errors.push({
+            field: "description",
+            message: "Debes introducir un comentario."
+        });
+    }
+
+    if (req.body.comment?.length > 500) {
+        errors.push({
+            field: "description",
+            message: "El comentario no puede contener mas de 500 caracteres."
+        });
+    }
+
+    if (!req.body.jugability || isNaN(req.body.jugability) || req.body.jugability < 0 || req.body.jugability > 5) {
+        errors.push({
+            field: "jugability",
+            message: "Debes introducir un puntaje de jugabilidad válido."
+        });
+    }
+
+    if (!req.body.graphics || isNaN(req.body.graphics) || req.body.graphics < 0 || req.body.graphics > 5) {
+        errors.push({
+            field: "graphics",
+            message: "Debes introducir un puntaje de gráficos válido."
+        });
+    }
+
+    if (!req.body.history || isNaN(req.body.history) || req.body.history < 0 || req.body.history > 5) {
+        errors.push({
+            field: "history",
+            message: "Debes introducir un puntaje de historia válido."
+        });
+    }
+
+    if (!req.body.price || isNaN(req.body.price) || req.body.price < 0 || req.body.price > 5) {
+        errors.push({
+            field: "price",
+            message: "Debes introducir un puntaje de precio válido."
+        });
+    }
+
+    return errors;
+}
