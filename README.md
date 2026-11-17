@@ -25,7 +25,19 @@ npm install
 
 ## Funcionalidad
 La funcionalidad de los diferentes ficheros de la página es la siguiente:
-[Router.js](src/router.js)
+1. [Router.js](src/router.js):
+   Este fichero es el encargado de obtener las peticiones que hace el front al back y las procesa. Por ejemplo de encarga de la recogida y validación de datos a la hora de crear un nuevo elemento, carga los datos de las plantillas para mostrar el contenido adecuado a cada juego, carga los datos de prueba en caso de que la BBDD esté vacía.
+2.  [PrincipalEntity.jsons](src/principalEntity.jsons):
+   Este fichero contiene datos de prueba para la página.
+3.[Games.js](src/games.js):
+   Este fichero es el encargado de realizar las conexiones con la BBDD, en este fichero se encuentran los diferentes métodos los cuales acceden a la BBDD para cargar juegos o consultarlos. Además es el encargado de subir todos los datos de prueba al a la BBDD.
+4. [App.js](src/app.js):
+   Este fichero se encarga de configurar y arrancar el servidor Express, carga mustache, conecta el router.js y conecta el puerto 3000 para mostrar la página.
+5. [FormPrincipalEntity.html](views/formPrincipalEntity.html):
+   Este fichero es el encargado de mostrar un formulario en el cual se mostrarán los diferentes campos para crear o modificar las entidades principales de la página.
+6. [Window.html](views/window.html):
+   Este fichero se encarga de mostrar mensajes informativos para el usuario, como diferentes errores al cargar o al realizar acciones, o confirmaciones de creación de elementos.
+   
 
 ### Entidades
 
