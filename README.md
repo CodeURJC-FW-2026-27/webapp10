@@ -13,6 +13,12 @@
 
 La web va a consistir en un portal de videojuegos para la comunidad donde se mostrarán los videojuegos más populares y se podrán realizar reseñas de los mismos.
 
+## Requisitos
+Para el correcto funcionamiento de la WEB es necesario instalar los siguientes modolus.
+```
+npm install body-parser@1.20.3
+```
+
 ## Funcionalidad
 
 ### Entidades
