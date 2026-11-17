@@ -1,6 +1,7 @@
 import express from 'express';
 import multer from 'multer';
 import * as games from './games.js';
+import { unlink } from 'node:fs';
 
 const router = express.Router();
 
@@ -582,28 +583,145 @@ router.post('/review/:review/delete', async (req, res) => {
 })
 
 // Editar Producto
-router.get('/product-details/:id/edit', async (req, res) => {
 
-    let juego = await games.getGame(req.params.id);
+// Borrar Producto
+router.post('/product-details/:id/deletegame', async (req, res) => {
 
-    if (juego === null){
-        res.redirect('/');
-        return
+    await games.deleteGame(req.params.id);
+
+    let window = {
+        isError: false,
+        header: "Juego borrado",
+        title: "Juego eliminado",
+        message: "Se ha eliminado correctamente el juego en el sistema",
+        errors: null,
+    }
+    res.render('window.html', {
+        window: window
+    })
+})
+
+// Editar Producto
+router.get('/product-details/:id/editgame', async (req, res) => {
+
+    let id = req.params.id;
+
+    console.log('ID recibido:', req.params.id);
+
+    let juego = await games.getGame(id);
+
+    if (juego && juego.launch_age) {
+        juego[`eq_${juego.launch_age}`] = true;
+    }
+
+    if (juego && juego.PEGI) {
+        juego[`eq_${juego.PEGI}`] = true;
     }
 
 
+    juego.genre_object = {}
+
+    juego.genre.forEach(element => {
+
+        juego.genre_object[element] = true
+
+    });
+
+    juego.platform_object = {}
+
+    juego.platform.forEach(element => {
+
+        juego.platform_object[element] = true
+
+    });
+
+    console.log(juego)
+
+    res.render('formPrincipalEntity.html', {
+        ...juego,
+        edit: true
+    });
+});
 
 
-    res.render('formPrincipalEntity.html', juego);
-    
+router.post('/product-details/:id/editgame', upload.fields([
+    { name: 'cover', maxCount: 1 },
+    { name: 'scene', maxCount: 10 }
+]), async (req, res) => {
+
+    let genre = getGenre(req);
+    let platform = getPlatform(req);
+
+    let cover = null;
+    let scenes = [];
+
+    if (req.files['cover'] && req.files['cover'].length > 0) {
+        cover = req.files['cover'][0].filename;
+    }
+
+    if (req.files['scene'] && req.files['scene'].length > 0) {
+        for (let file of req.files['scene']) {
+            scenes.push(file.filename);
+        }
+    }
+
+    let gErrors = getErrors(req, genre, platform, cover, scenes);
+    let window;
+
+    if (gErrors.length > 0) {
+        window = {
+            isError: true,
+            header: "Error",
+            title: "¡Vaya! Hay algunos errores",
+            message: "No hemos podido modificar tu videojuego. Parece que algunos datos del formulario no se han rellenado correctamente.",
+            errors: gErrors,
+            redirect: "/product-details/" + req.params.id + "/editgame",
+            buttonText: "Volver al formulario"
+        }
+
+
+    } else {
+        let game = {
+            title: req.body.title,
+            description: req.body.description,
+            launch_age: req.body.year,
+            PEGI: req.body.pegi,
+            genre: genre,
+            developer: req.body.developer,
+            platform: platform,
+            link: req.body.link,
+        }
+
+
+        if (cover != null) {
+            let oldGame = await games.getGame(req.params.id);
+            let oldCover = oldGame.cover;
+
+            game.cover = cover;
+            unlink('./uploads/' + oldCover, (err) => {
+
+            });
+        }
+
+        console.log(await games.updateGameById(req.params.id, game));
+
+        window = {
+            isError: false,
+            header: "Juego editado",
+            title: "Juego guardado",
+            message: "Se ha guardado correctamente el juego en el sistema",
+            errors: null,
+            redirect: `/product-details/${req.params.id}`,
+            buttonText: "Ver detalles del producto"
+        }
+    }
+    res.render('window.html', {
+        window: window
+    })
+
 })
 
-// Borrar Producto
-router.post('/product-details/:id/delete', async (req, res) =>{
 
-    let juego = await games.deleteGame(req.params.id);
 
-    res.redirect('/')
-})
 
 export default router;
