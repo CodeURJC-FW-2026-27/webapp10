@@ -66,37 +66,72 @@ async function renderPages(req, res, filter) {
     }
 }
 
-router.get('/', async (req, res) => {
-
-    let emptyObject = {};
-    await renderPages(req, res, emptyObject);
-
-})
-
-router.get('/search', async (req, res) => {
-
-    let searched = { title: { $regex: req.query.searched, $options: 'i' }};
-    await renderPages(req, res, searched);
-
-})
-
-router.get('/category', async (req, res) => {
-    let searched = { genre: { $regex: req.query.genre, $options: 'i' } };
-    await renderPages(req, res, searched);
-
-})
-
-router.get('/image', (req, res) => {
-
-    let filename = req.query.filename;
-
-    if (/[\\/]/.test(filename)) {
-        return res.status(400);
+const ScoreArray = function (num){
+    let array = [];
+    for (let i = 0; i < 5; i++){
+        array.push(i < num)
     }
-    res.download('uploads/' + filename);
+    return array;
+}
 
-});
+const getReviewsErrors = function (req) {
+    let errors = [];
+    if (!req.body.username || req.body.username?.trim() === "") {
+        errors.push({
+            field: "username",
+            message: "Debes introducir tu nombre de usuario."
+        });
+    } else if (!/^[A-Z]/.test(req.body.username)) {
+        errors.push({
+            field: "format",
+            message: "Tu nombre debe empezar por mayúscula."
+        });
+    }
 
+    if (!req.body.comment || req.body.comment?.trim() === "") {
+        errors.push({
+            field: "description",
+            message: "Debes introducir un comentario."
+        });
+    }
+
+    if (req.body.comment?.length > 500) {
+        errors.push({
+            field: "description",
+            message: "El comentario no puede contener mas de 500 caracteres."
+        });
+    }
+
+    if (!req.body.jugability || isNaN(req.body.jugability) || req.body.jugability < 0 || req.body.jugability > 5) {
+        errors.push({
+            field: "jugability",
+            message: "Debes introducir un puntaje de jugabilidad válido."
+        });
+    }
+
+    if (!req.body.graphics || isNaN(req.body.graphics) || req.body.graphics < 0 || req.body.graphics > 5) {
+        errors.push({
+            field: "graphics",
+            message: "Debes introducir un puntaje de gráficos válido."
+        });
+    }
+
+    if (!req.body.history || isNaN(req.body.history) || req.body.history < 0 || req.body.history > 5) {
+        errors.push({
+            field: "history",
+            message: "Debes introducir un puntaje de historia válido."
+        });
+    }
+
+    if (!req.body.price || isNaN(req.body.price) || req.body.price < 0 || req.body.price > 5) {
+        errors.push({
+            field: "price",
+            message: "Debes introducir un puntaje de precio válido."
+        });
+    }
+
+    return errors;
+}
 
 const upload = multer({ dest: 'uploads/' });
 
@@ -253,6 +288,96 @@ const getErrors = function (req, genre, platform, cover, scenes) {
     return errors;
 }
 
+const getProduct = async function (req, res) {
+
+    let juego = await games.getGame(req.params.id);
+
+    if (juego === null){
+        res.redirect('/');
+        return
+    }
+
+    // juego.numeros = [];
+
+    // for (let i = 0; i < juego.scene.length; i++) {
+    //     juego.numeros.push(i);
+    // }
+
+    juego.firstEscene = juego.scene[0];
+    juego.scene.splice(0, 1)
+
+
+    //reviews
+    juego.productId = juego._id;
+    juego.reviews?.map((x) => {
+        const date = new Date(x.date_publication)
+        x.formatted_date = date.toLocaleDateString();
+        x.scoreArray = {
+            jugability: ScoreArray(x.score.jugability),
+            graphics: ScoreArray(x.score.graphics),
+            history: ScoreArray(x.score.history),
+            price: ScoreArray(x.score.price),
+        }
+    })
+
+    if (req.params.review) {
+        let i = 0;
+        while(i<juego.reviews.length){
+            if (juego.reviews[i]._id.toString() === req.params.review){
+                juego.review = juego.reviews[i];
+                console.log('Encontrado')
+                break;
+            }
+            i++
+        }
+    }
+
+
+    res.render('product-details.html', juego);
+}
+
+
+
+
+
+// Pagina Principal
+router.get('/', async (req, res) => {
+
+    let emptyObject = {};
+    await renderPages(req, res, emptyObject);
+
+})
+
+router.get('/search', async (req, res) => {
+
+    let searched = { title: { $regex: req.query.searched, $options: 'i' }};
+    await renderPages(req, res, searched);
+
+})
+
+router.get('/category', async (req, res) => {
+    let searched = { genre: { $regex: req.query.genre, $options: 'i' } };
+    await renderPages(req, res, searched);
+
+})
+
+router.get('/image', (req, res) => {
+
+    let filename = req.query.filename;
+
+    if (/[\\/]/.test(filename)) {
+        return res.status(400);
+    }
+    res.download('uploads/' + filename);
+
+});
+
+// Formulario Crear Entidad Principal
+router.get('/formPrincipalEntity', (req, res) => {
+    res.render('formPrincipalEntity.html');
+})
+
+// Formulario Crear Entidad Principal
 router.post('/newElement', upload.fields([
     { name: 'cover', maxCount: 1 },
     { name: 'scene', maxCount: 10 }
@@ -324,107 +449,13 @@ router.post('/newElement', upload.fields([
 })
 
 // Product Details
-
-const getProduct = async function (req, res) {
-
-    let juego = await games.getGame(req.params.id);
-
-    if (juego === null){
-        res.redirect('/');
-        return
-    }
-
-    // juego.numeros = [];
-
-    // for (let i = 0; i < juego.scene.length; i++) {
-    //     juego.numeros.push(i);
-    // }
-
-    juego.firstEscene = juego.scene[0];
-    juego.scene.splice(0, 1)
-
-
-    //reviews
-    juego.productId = juego._id;
-    juego.reviews?.map((x) => {
-        const date = new Date(x.date_publication)
-        x.formatted_date = date.toLocaleDateString();
-        x.scoreArray = {
-            jugability: ScoreArray(x.score.jugability),
-            graphics: ScoreArray(x.score.graphics),
-            history: ScoreArray(x.score.history),
-            price: ScoreArray(x.score.price),
-        }
-    })
-
-    if (req.params.review) {
-        let i = 0;
-        while(i<juego.reviews.length){
-            if (juego.reviews[i]._id.toString() === req.params.review){
-                juego.review = juego.reviews[i];
-                console.log('Encontrado')
-                break;
-            }
-            i++
-        }
-    }
-
-
-    res.render('product-details.html', juego);
-}
-
-
+// Get
 router.get('/product-details/:id', getProduct)
 
+// Formulario Editar Reseñas
 router.get('/product-details/:id/review/:review/edit', getProduct)
 
-router.post('/product-details/:id/addreview', async (req, res) => {
-
-    let gErrors = getReviewsErrors(req);
-
-    if (gErrors.length > 0) {
-        let window = {
-            isError: true,
-            header: "Error",
-            title: "¡Vaya! Hay algunos errores",
-            message: "No hemos podido registrar tu reseña. Parece que algunos datos del formulario no se han rellenado correctamente.",
-            errors: gErrors,
-            redirect: "/product-details/" + req.params.id,
-            buttonText: "Volver al formulario"
-        }
-        return res.render('window.html', {
-            window: window
-        });
-    } else {
-        let review = {
-            username: req.body.username,
-            comment: req.body.comment,
-            score:{
-                jugability: req.body.jugability,
-                graphics: req.body.graphics,
-                history: req.body.jugability,
-                price: req.body.price
-            },
-            date_publication: new Date()
-        };
-
-        let juego = await games.addReview(req.params.id, review);
-
-        let window = {
-            isError: false,
-            header: "Reseñas",
-            title: "Reseña Creada",
-            message: "Se ha guardado correctamente la reseña en el sistema",
-            errors: null,
-            redirect: "/product-details/" + juego._id + "/#Comments",
-            buttonText: "Ver mi reseña"
-        }
-        res.render('window.html', {
-            window: window
-        })
-    }
-})
-
+// Post de Editar Reseñas
 router.post('/review/:review/edit', async (req, res) => {
 
     let gErrors = getReviewsErrors(req);
@@ -484,6 +515,55 @@ router.post('/review/:review/edit', async (req, res) => {
     });
 })
 
+// Post Añadir Reseña
+router.post('/product-details/:id/addreview', async (req, res) => {
+
+    let gErrors = getReviewsErrors(req);
+
+    if (gErrors.length > 0) {
+        let window = {
+            isError: true,
+            header: "Error",
+            title: "¡Vaya! Hay algunos errores",
+            message: "No hemos podido registrar tu reseña. Parece que algunos datos del formulario no se han rellenado correctamente.",
+            errors: gErrors,
+            redirect: "/product-details/" + req.params.id,
+            buttonText: "Volver al formulario"
+        }
+        return res.render('window.html', {
+            window: window
+        });
+    } else {
+        let review = {
+            username: req.body.username,
+            comment: req.body.comment,
+            score:{
+                jugability: req.body.jugability,
+                graphics: req.body.graphics,
+                history: req.body.jugability,
+                price: req.body.price
+            },
+            date_publication: new Date()
+        };
+
+        let juego = await games.addReview(req.params.id, review);
+
+        let window = {
+            isError: false,
+            header: "Reseñas",
+            title: "Reseña Creada",
+            message: "Se ha guardado correctamente la reseña en el sistema",
+            errors: null,
+            redirect: "/product-details/" + juego._id + "/#Comments",
+            buttonText: "Ver mi reseña"
+        }
+        res.render('window.html', {
+            window: window
+        })
+    }
+})
+
+// Borrar Reseña
 router.post('/review/:review/delete', async (req, res) => {
     let juego = await games.deleteReview(req.params.review);
     
@@ -501,11 +581,7 @@ router.post('/review/:review/delete', async (req, res) => {
     })
 })
 
-
-router.get('/formPrincipalEntity', (req, res) => {
-    res.render('formPrincipalEntity.html');
-})
-
+// Editar Producto
 router.get('/product-details/:id/edit', async (req, res) => {
 
     let juego = await games.getGame(req.params.id);
@@ -522,28 +598,7 @@ router.get('/product-details/:id/edit', async (req, res) => {
     
 })
 
-// router.get('/product-details/:id/cover', async (req, res) => {
-//     let juego = await games.getGame(req.params.id);
-
-//     res.download('./uploads/cover/' + juego.cover);
-// });
-
-// router.get('/product-details/:id/scene/:imagenumber', async (req, res) => {
-
-//     let juego = await games.getGame(req.params.id);
-
-//     res.download('./uploads/scene/' + juego.scene[req.params.imagenumber])
-// }
-
-
-// router.get('/scene/:imagenumber', async (req, res) => {
-
-//     if(/[\\/]/.test(req.params.imagenumber)){ 
-//         return res.status(400);
-//     }
-//     res.download('./uploads/scene/' + req.params.imagenumber)
-// })
-
+// Borrar Producto
 router.post('/product-details/:id/delete', async (req, res) =>{
 
     let juego = await games.deleteGame(req.params.id);
@@ -551,78 +606,4 @@ router.post('/product-details/:id/delete', async (req, res) =>{
     res.redirect('/')
 })
 
-router.get('/formPrincipalEntity', (req, res) => {
-    res.render('formPrincipalEntity.html');
-})
-
-
 export default router;
-
-
-const ScoreArray = function (num){
-    let array = [];
-    for (let i = 0; i < 5; i++){
-        array.push(i < num)
-    }
-    return array;
-}
-
-
-const getReviewsErrors = function (req) {
-    let errors = [];
-    if (!req.body.username || req.body.username?.trim() === "") {
-        errors.push({
-            field: "username",
-            message: "Debes introducir tu nombre de usuario."
-        });
-    } else if (!/^[A-Z]/.test(req.body.username)) {
-        errors.push({
-            field: "format",
-            message: "Tu nombre debe empezar por mayúscula."
-        });
-    }
-
-    if (!req.body.comment || req.body.comment?.trim() === "") {
-        errors.push({
-            field: "description",
-            message: "Debes introducir un comentario."
-        });
-    }
-
-    if (req.body.comment?.length > 500) {
-        errors.push({
-            field: "description",
-            message: "El comentario no puede contener mas de 500 caracteres."
-        });
-    }
-
-    if (!req.body.jugability || isNaN(req.body.jugability) || req.body.jugability < 0 || req.body.jugability > 5) {
-        errors.push({
-            field: "jugability",
-            message: "Debes introducir un puntaje de jugabilidad válido."
-        });
-    }
-
-    if (!req.body.graphics || isNaN(req.body.graphics) || req.body.graphics < 0 || req.body.graphics > 5) {
-        errors.push({
-            field: "graphics",
-            message: "Debes introducir un puntaje de gráficos válido."
-        });
-    }
-
-    if (!req.body.history || isNaN(req.body.history) || req.body.history < 0 || req.body.history > 5) {
-        errors.push({
-            field: "history",
-            message: "Debes introducir un puntaje de historia válido."
-        });
-    }
-
-    if (!req.body.price || isNaN(req.body.price) || req.body.price < 0 || req.body.price > 5) {
-        errors.push({
-            field: "price",
-            message: "Debes introducir un puntaje de precio válido."
-        });
-    }
-
-    return errors;
-}
