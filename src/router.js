@@ -3,6 +3,9 @@ import multer from 'multer';
 import * as games from './games.js';
 import { unlink } from 'node:fs';
 
+const MAX_COVER = 1;
+const MAX_SCENE = 10;
+
 const router = express.Router();
 
 games.initDatabase();
@@ -195,7 +198,7 @@ const getPlatform = function (req) {
     return platform;
 }
 
-const getErrors = function (req, genre, platform, cover, scenes) {
+const getErrors = function (req, genre, platform, cover, scenes, edit) {
     let errors = [];
     if (!req.body.title || req.body.title.trim() === "") {
         errors.push({
@@ -258,14 +261,14 @@ const getErrors = function (req, genre, platform, cover, scenes) {
         });
     }
 
-    if (cover = null) {
+    if (cover = null && !edit) {
         errors.push({
             field: "cover",
             message: "Debes introducir la foto de portada."
         });
     }
 
-    if (scenes.length === 0) {
+    if (scenes.length === 0 && !edit) {
         errors.push({
             field: "scene",
             message: "Debes introducir al menos una foto de escena."
@@ -380,8 +383,9 @@ router.get('/formPrincipalEntity', (req, res) => {
 
 // Formulario Crear Entidad Principal
 router.post('/newElement', upload.fields([
-    { name: 'cover', maxCount: 1 },
-    { name: 'scene', maxCount: 10 }
+
+    { name: 'cover', maxCount: MAX_COVER },
+    { name: 'cover', maxCount: MAX_SCENE },
 ]), async (req, res) => {
 
     let genre = getGenre(req);
@@ -400,7 +404,7 @@ router.post('/newElement', upload.fields([
         }
     }
 
-    let gErrors = getErrors(req, genre, platform, cover, scenes);
+    let gErrors = getErrors(req, genre, platform, cover, scenes, false);
 
 
     if (gErrors.length > 0) {
@@ -430,7 +434,7 @@ router.post('/newElement', upload.fields([
             scene: scenes
         };
 
-        await games.updateGameById(id ,game);
+        await games.addGame(game);
 
 
         let window = {
@@ -645,15 +649,23 @@ router.get('/product-details/:id/editgame', async (req, res) => {
 
 
 router.post('/product-details/:id/editgame', upload.fields([
-    { name: 'cover', maxCount: 1 },
-    { name: 'scene', maxCount: 10 }
+    { name: 'cover', maxCount: MAX_COVER },
+    { name: 'scene', maxCount: MAX_SCENE },
 ]), async (req, res) => {
-
+    console.log(req.files);
     let genre = getGenre(req);
     let platform = getPlatform(req);
 
     let cover = null;
     let scenes = [];
+
+    let removeScenes = req.body.removeScene || [];
+
+    if (!Array.isArray(removeScenes)) {
+        removeScenes = [removeScenes];
+    }
+
+
 
     if (req.files['cover'] && req.files['cover'].length > 0) {
         cover = req.files['cover'][0].filename;
@@ -665,7 +677,7 @@ router.post('/product-details/:id/editgame', upload.fields([
         }
     }
 
-    let gErrors = getErrors(req, genre, platform, cover, scenes);
+    let gErrors = getErrors(req, genre, platform, cover, scenes, true);
     let window;
 
     if (gErrors.length > 0) {
@@ -673,14 +685,32 @@ router.post('/product-details/:id/editgame', upload.fields([
             isError: true,
             header: "Error",
             title: "¡Vaya! Hay algunos errores",
-            message: "No hemos podido modificar tu videojuego. Parece que algunos datos del formulario no se han rellenado correctamente.",
-            errors: gErrors,
-            redirect: "/product-details/" + req.params.id + "/editgame",
-            buttonText: "Volver al formulario"
-        }
-
+        message: "No hemos podido modificar tu videojuego.",
+        errors: gErrors,
+        redirect: "/product-details/" + req.params.id + "/editgame",
+        buttonText: "Volver al formulario"
+        };
 
     } else {
+        let oldGame = await games.getGame(req.params.id);
+
+
+        let oldScenes = oldGame.scene || [];
+
+        let validRemoveScenes = removeScenes.filter(scene =>
+            oldScenes.includes(scene)
+        );
+
+        let remainingScenes = oldScenes.filter(scene =>
+            !validRemoveScenes.includes(scene)
+        );
+
+        if (remainingScenes.length + scenes.length > MAX_SCENE) {
+            gErrors.push("Has superado el máximo de escenas permitido.");
+    }
+
+
+
         let game = {
             title: req.body.title,
             description: req.body.description,
@@ -690,11 +720,11 @@ router.post('/product-details/:id/editgame', upload.fields([
             developer: req.body.developer,
             platform: platform,
             link: req.body.link,
-        }
+        scene: [...remainingScenes, ...scenes]
+    };
 
 
         if (cover != null) {
-            let oldGame = await games.getGame(req.params.id);
             let oldCover = oldGame.cover;
 
             game.cover = cover;
@@ -703,7 +733,16 @@ router.post('/product-details/:id/editgame', upload.fields([
             });
         }
 
-        console.log(await games.updateGameById(req.params.id, game));
+        if (scenes.length > 0) {
+            let oldScenes = oldGame.scene;
+
+            if (oldScenes.length + scenes.length <= MAX_SCENE) {
+                game.scene = [...oldScenes, ...scenes];
+            }
+        }
+
+        let result = await games.updateGameById(req.params.id, game);
+
 
         window = {
             isError: false,
@@ -713,13 +752,14 @@ router.post('/product-details/:id/editgame', upload.fields([
             errors: null,
             redirect: `/product-details/${req.params.id}`,
             buttonText: "Ver detalles del producto"
-        }
+    };
     }
+
     res.render('window.html', {
         window: window
     })
-
-})
+}
+)
 
 
 

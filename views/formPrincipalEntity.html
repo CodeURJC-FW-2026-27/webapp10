@@ -640,9 +640,36 @@
                             Escenas del juego
                           </label>
 
-                          <input type="file" class="form-control" required value={{scene}} id="scene" name="scene" accept="image/*" multiple>
+                          <input type="file" class="form-control" {{^edit}}required{{/edit}} value={{scene}} id="scene" name="scene" accept="image/*" multiple>
 
                         </div>
+
+                        {{#edit}}
+    <h5 class="mt-4 mb-3">Escenas actuales</h5>
+
+    <div class="d-flex flex-wrap gap-3">
+        {{#scene}}
+            <div class="text-center">
+                <img src="/image?filename={{.}}" class="rounded img-fluid">
+
+                <div class="mt-2">
+                    <label>
+                        <input type="checkbox"
+                              class="form-check-input"
+                               name="removeScene"
+                               value="{{.}}">
+                        Quitar imagen
+                    </label>
+                </div>
+            </div>
+        {{/scene}}
+    </div>
+{{/edit}}
+
+
+
+
+
                       </div>
                     </div>
                   </div>
