@@ -14,12 +14,18 @@
 La web va a consistir en un portal de videojuegos para la comunidad donde se mostrarán los videojuegos más populares y se podrán realizar reseñas de los mismos.
 
 ## Requisitos
-Para el correcto funcionamiento de la WEB es necesario instalar los siguientes modolus.
+Para el correcto funcionamiento de la WEB es necesario instalar una serie de dependencias.
+Primero necesitamos instalar NODE.js, para esta WEB se utiliza la versión 27.0.0-alpha.0.0.0.
+Después necesitamos instalar mongo para almacenar los datos y utilizaremos la versión 9.0.4. 
+
+Además utilizamos una serie de módulos de NODE para ellos utilizaremos el siguiente comando: 
 ```
-npm install body-parser@1.20.3
+npm install
 ```
 
 ## Funcionalidad
+La funcionalidad de los diferentes ficheros de la página es la siguiente:
+[Router.js](src/router.js)
 
 ### Entidades
 
