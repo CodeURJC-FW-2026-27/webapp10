@@ -68,6 +68,11 @@ export async function getGame(id) {
     return await games.findOne({ _id: new ObjectId(id) });
 }
 
+export async function getGameByTitle(title){
+
+    return await games.findOne({ title: title });
+}
+
 export async function countWithFilter(filter) {
 
     return await games.countDocuments(filter) || 1;
