@@ -454,7 +454,7 @@ router.post('/newElement', upload.fields([
             message: "No hemos podido registrar tu videojuego. Parece que algunos datos del formulario no se han rellenado correctamente.",
             errors: [{
                 field: "title",
-                message: "Ya existe un jeugo con ese titulo."
+                message: "Ya existe un juego con ese titulo."
             }],
             redirect: "/formPrincipalEntity",
             buttonText: "Volver al formulario"
