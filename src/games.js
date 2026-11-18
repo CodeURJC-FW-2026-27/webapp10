@@ -1,5 +1,5 @@
 import express from 'express';
-import { MongoClient, ObjectId } from 'mongodb';
+import { MongoClient, ObjectId, BSON } from 'mongodb';
 import { readFile } from 'fs/promises';
 import fs from 'node:fs/promises';
 
@@ -18,7 +18,7 @@ export async function uploadDocuments() {
     let currentSourceFilePath = import.meta.url;
     let absoluteDataFilePath = new URL(dataFileName, currentSourceFilePath);
     const gamesAsString = await readFile(absoluteDataFilePath, 'utf8');
-    const gamesAsObjects = JSON.parse(gamesAsString);
+    const gamesAsObjects = BSON.EJSON.parse(gamesAsString); // $oid -> ObjectId, $date -> Date
     await games.insertMany(gamesAsObjects);
     const originCover = './public/photos/cover';
     const originScene = './public/photos/scene';
