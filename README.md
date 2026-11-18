@@ -131,7 +131,9 @@ Para el correcto funcionamiento de la WEB es necesario instalar una serie de dep
 
 * Instalar NODE.js, para esta WEB se utiliza la versión 27.0.0-alpha.0.0.0.
 
-* Instalar mongo para almacenar los datos y utilizaremos la versión 9.0.4. 
+* Instalar mongo para almacenar los datos y utilizaremos la versión 9.0.4.
+
+* Importar unlink, de las librerías de node.js, para permitir la eliminación de imágenes.
 
 * Utilizamos una serie de módulos de NODE para ellos utilizaremos el siguiente comando: 
 ```
@@ -170,6 +172,18 @@ Ficheros:
  - [Games.js](src/games.js).
  - [Router.js](src/router.js).
 
+#### Guillermo Hervás García
+Me he encargado de modificar el formulario de Marcos para permitir la edición de entidades principales, creando las funciones necesarias en router.js para la eliminación y edición de juegos, con sus respectivas imágenes, para lo que se han añadido dos nuevos mensajes. Asimismo he editado product-details.html para renderizar correctamente las propiedades de cada entidad principal.
 
 
+Commits:
+https://github.com/CodeURJC-FW-2026-27/webapp10/commit/7d14721655c8310ba39610372bad8fcc1885c220
+https://github.com/CodeURJC-FW-2026-27/webapp10/commit/1be0d1b979eb0ca0dca411afbf3854526f9106ab
+https://github.com/CodeURJC-FW-2026-27/webapp10/commit/8ce9f12d03b0bad4f8ba200898737b064de7b8ce
+https://github.com/CodeURJC-FW-2026-27/webapp10/commit/f6a328e21f6783ba60498f0c687ed4e8c6ff27e4
 
+Ficheros:
+ - [Games.js](src/games.js).
+ - [Router.js](src/router.js).
+ - [FormPrincipalEntity.html](views/formPrincipalEntity.html)
+ - [productdetails.html](https://github.com/CodeURJC-FW-2026-27/webapp10/blob/main/product-details.html)
