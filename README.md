@@ -187,3 +187,18 @@ Ficheros:
  - [Router.js](src/router.js).
  - [FormPrincipalEntity.html](views/formPrincipalEntity.html)
  - [productdetails.html](https://github.com/CodeURJC-FW-2026-27/webapp10/blob/main/product-details.html)
+
+#### Alejandro Sanchez Uzquiano
+Me he encargado de la implementación de la carga inicial de datos de ejemplo, es decir cargar el JSON en la BBDD y mover las imagenes de ejemplo a la carpeta /uploads, asi he podido crear una paginacion en la pagina principal para mostrar las entidades principales del proyecto, ademas de la implementacion de las funciones del header y el footer con sus correspondientes partials para la reutilizacion de los mismos, dentro del header la implementacion consta de las opciones de categorizacion y barra de busqueda. (Tambien me ocupe de la estructuracion del template para adaptarlo a node con express)
+
+Commits:
+
+- [22f43bc703398fe9ae09a59877d6baf3165aaf27](https://github.com/CodeURJC-FW-2026-27/webapp10/commit/22f43bc703398fe9ae09a59877d6baf3165aaf27)
+- [66a0fc69df268afb3853c92dda7c3f68d612b3ac](https://github.com/CodeURJC-FW-2026-27/webapp10/commit/66a0fc69df268afb3853c92dda7c3f68d612b3ac)
+- [11d832d7036e67d76cc5f90cc16b270cf11b445e](https://github.com/CodeURJC-FW-2026-27/webapp10/commit/11d832d7036e67d76cc5f90cc16b270cf11b445e)
+
+Ficheros:
+ - [Router.js](src/router.js).
+ - [PrincipalEntity.jsons](src/principalEntity.jsons).
+ - [Games.js](src/games.js).
+ - [Router.js](src/router.js).
