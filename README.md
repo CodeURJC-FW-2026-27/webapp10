@@ -155,6 +155,10 @@ La funcionalidad de los diferentes ficheros de la página es la siguiente:
 6. [Window.html](views/window.html):
    Este fichero se encarga de mostrar mensajes informativos para el usuario, como diferentes errores al cargar o al realizar acciones, o confirmaciones de creación de elementos.
 
+### Video Demostración
+
+[Video de Youtube Demostración Práctica 2](https://youtu.be/oFhFen8kIzk)
+
 ### Participación
 #### Marcos Bermejo Salamanca
 Me he encargado de la implementación del formulario principal el cual será el encargado de dar de alta las nuevas entidades, además he generado una nueva ventana la cual será la encargada de mostrar los diferentes mensajes a mostrar al usuario y por ultimo he creado un fichero que se encargará de realizar la conexión con la BBDD:
