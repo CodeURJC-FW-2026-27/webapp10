@@ -282,7 +282,7 @@ const getErrors = function (req, genre, platform, cover, scenes, edit) {
         });
     }
 
-    if (!req.body.accept) {
+    if (!req.body.acept) {
         errors.push({
             field: "terms",
             message: "Es necesario aceptar los términos y condiciones."
