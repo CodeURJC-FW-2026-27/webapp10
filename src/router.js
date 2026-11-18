@@ -362,7 +362,7 @@ router.get('/image', (req, res) => {
     let filename = req.query.filename;
 
     if (/[\\/]/.test(filename)) {
-        return res.status(400);
+        return res.sendStatus(400);
     }
     res.download('uploads/' + filename);
 
@@ -508,7 +508,7 @@ router.post('/review/:review/edit', async (req, res) => {
             score: {
                 jugability: req.body.jugability,
                 graphics: req.body.graphics,
-                history: req.body.jugability,
+                history: req.body.history,
                 price: req.body.price
             },
             date_publication: new Date()
@@ -557,7 +557,7 @@ router.post('/product-details/:id/addreview', async (req, res) => {
             score: {
                 jugability: req.body.jugability,
                 graphics: req.body.graphics,
-                history: req.body.jugability,
+                history: req.body.history,
                 price: req.body.price
             },
             date_publication: new Date()
