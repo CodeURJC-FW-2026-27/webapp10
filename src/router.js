@@ -70,9 +70,9 @@ async function renderPages(req, res, filter) {
     }
 }
 
-const ScoreArray = function (num){
+const ScoreArray = function (num) {
     let array = [];
-    for (let i = 0; i < 5; i++){
+    for (let i = 0; i < 5; i++) {
         array.push(i < num)
     }
     return array;
@@ -296,7 +296,7 @@ const getProduct = async function (req, res) {
 
     let juego = await games.getGame(req.params.id);
 
-    if (juego === null){
+    if (juego === null) {
         res.redirect('/');
         return
     }
@@ -319,8 +319,8 @@ const getProduct = async function (req, res) {
 
     if (req.params.review) {
         let i = 0;
-        while(i<juego.reviews.length){
-            if (juego.reviews[i]._id.toString() === req.params.review){
+        while (i < juego.reviews.length) {
+            if (juego.reviews[i]._id.toString() === req.params.review) {
                 juego.review = juego.reviews[i];
                 console.log('Encontrado')
                 break;
@@ -347,7 +347,7 @@ router.get('/', async (req, res) => {
 
 router.get('/search', async (req, res) => {
 
-    let searched = { title: { $regex: req.query.searched, $options: 'i' }};
+    let searched = { title: { $regex: req.query.searched, $options: 'i' } };
     await renderPages(req, res, searched);
 
 })
@@ -382,68 +382,86 @@ router.post('/newElement', upload.fields([
     { name: 'cover', maxCount: MAX_COVER },
     { name: 'scene', maxCount: MAX_SCENE },
 ]), async (req, res) => {
+    let exists = await games.getGameByTitle(req.body.title);
+    if (!exists) {
+        let genre = getGenre(req);
+        let platform = getPlatform(req);
 
-    let genre = getGenre(req);
-    let platform = getPlatform(req);
+        let cover = null;
+        let scenes = [];
 
-    let cover = null;
-    let scenes = [];
-
-    if (req.files['cover'] && req.files['cover'].length > 0) {
-        cover = req.files['cover'][0].filename;
-    }
-
-    if (req.files['scene'] && req.files['scene'].length > 0) {
-        for (let file of req.files['scene']) {
-            scenes.push(file.filename);
+        if (req.files['cover'] && req.files['cover'].length > 0) {
+            cover = req.files['cover'][0].filename;
         }
-    }
 
-    let gErrors = getErrors(req, genre, platform, cover, scenes, false);
+        if (req.files['scene'] && req.files['scene'].length > 0) {
+            for (let file of req.files['scene']) {
+                scenes.push(file.filename);
+            }
+        }
+
+        let gErrors = getErrors(req, genre, platform, cover, scenes, false);
 
 
-    if (gErrors.length > 0) {
+        if (gErrors.length > 0) {
+            let window = {
+                isError: true,
+                header: "Error",
+                title: "¡Vaya! Hay algunos errores",
+                message: "No hemos podido registrar tu videojuego. Parece que algunos datos del formulario no se han rellenado correctamente.",
+                errors: gErrors,
+                redirect: "/formPrincipalEntity",
+                buttonText: "Volver al formulario"
+            }
+            return res.render('window.html', {
+                window: window
+            });
+        } else {
+            let game = {
+                title: req.body.title,
+                description: req.body.description,
+                launch_age: req.body.year,
+                PEGI: req.body.pegi,
+                genre: genre,
+                developer: req.body.developer,
+                platform: platform,
+                link: req.body.link,
+                cover: cover,
+                scene: scenes
+            };
+
+            await games.addGame(game);
+
+
+            let window = {
+                isError: false,
+                header: "Nuevo juego",
+                title: "Juego guardado",
+                message: "Se ha guardado correctamente el juego en el sistema",
+                errors: null,
+                redirect: "/product-details/" + game._id,
+                buttonText: "Ver detalles del producto"
+            }
+            res.render('window.html', {
+                window: window
+            })
+        }
+    } else {
         let window = {
             isError: true,
             header: "Error",
             title: "¡Vaya! Hay algunos errores",
             message: "No hemos podido registrar tu videojuego. Parece que algunos datos del formulario no se han rellenado correctamente.",
-            errors: gErrors,
+            errors: [{
+                field: "title",
+                message: "Ya existe un jeugo con ese titulo."
+            }],
             redirect: "/formPrincipalEntity",
             buttonText: "Volver al formulario"
         }
         return res.render('window.html', {
             window: window
         });
-    } else {
-        let game = {
-            title: req.body.title,
-            description: req.body.description,
-            launch_age: req.body.year,
-            PEGI: req.body.pegi,
-            genre: genre,
-            developer: req.body.developer,
-            platform: platform,
-            link: req.body.link,
-            cover: cover,
-            scene: scenes
-        };
-
-        await games.addGame(game);
-
-
-        let window = {
-            isError: false,
-            header: "Nuevo juego",
-            title: "Juego guardado",
-            message: "Se ha guardado correctamente el juego en el sistema",
-            errors: null,
-            redirect: "/product-details/" + game._id,
-            buttonText: "Ver detalles del producto"
-        }
-        res.render('window.html', {
-            window: window
-        })
     }
 
 })
@@ -488,7 +506,7 @@ router.post('/review/:review/edit', async (req, res) => {
         let review = {
             username: req.body.username,
             comment: req.body.comment,
-            score:{
+            score: {
                 jugability: req.body.jugability,
                 graphics: req.body.graphics,
                 history: req.body.jugability,
@@ -537,7 +555,7 @@ router.post('/product-details/:id/addreview', async (req, res) => {
         let review = {
             username: req.body.username,
             comment: req.body.comment,
-            score:{
+            score: {
                 jugability: req.body.jugability,
                 graphics: req.body.graphics,
                 history: req.body.jugability,
@@ -566,7 +584,7 @@ router.post('/product-details/:id/addreview', async (req, res) => {
 // Delete comment
 router.post('/review/:review/delete', async (req, res) => {
     let juego = await games.deleteReview(req.params.review);
-    
+
     let window = {
         isError: false,
         header: "Reseñas",
