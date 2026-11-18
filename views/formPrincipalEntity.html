@@ -104,7 +104,8 @@
                             Título
                           </label>
 
-                          <input type="text" class="form-control" name="title" id="title"  placeholder="Título del juego" required value="{{title}}">
+                          <input type="text" class="form-control" name="title" id="title" placeholder="Título del juego"
+                            required value="{{title}}">
 
                         </div>
 
@@ -116,7 +117,7 @@
                             Desarrollador
                           </label>
 
-                          <input type="text" class="form-control" name="developer" id="developer" 
+                          <input type="text" class="form-control" name="developer" id="developer"
                             placeholder="Desarrollador del juego" required value="{{developer}}">
 
                         </div>
@@ -161,7 +162,7 @@
                               Año de lanzamiento
                             </label>
 
-                            <select id="year" name="year" class="form-select" required value="{{launch_age}}" >
+                            <select id="year" name="year" class="form-select" required value="{{launch_age}}">
 
                               <option value="" disabled selected>
                                 Selecciona un año
@@ -257,21 +258,21 @@
                               PEGI
                             </label>
 
-                            <select id="pegi" name="pegi" class="form-select" required >
+                            <select id="pegi" name="pegi" class="form-select" required>
 
                               <option value="" disabled selected>
                                 Selecciona un PEGI
                               </option>
 
-                              <option value="Sin clasificar" {{#eq_Sin calificar}}selected{{/eq_Sin calificar}}> 
+                              <option value="Sin clasificar" {{#eq_Sin calificar}}selected{{/eq_Sin calificar}}>
                                 Sin clasificar
                               </option>
 
-                              <option value="3" {{#eq_3}}selected{{/eq_3}}> 
+                              <option value="3" {{#eq_3}}selected{{/eq_3}}>
                                 PEGI 3
                               </option>
 
-                              <option value="7" {{#eq_7}}selected{{/eq_7}}> 
+                              <option value="7" {{#eq_7}}selected{{/eq_7}}>
                                 PEGI 7
                               </option>
 
@@ -279,11 +280,11 @@
                                 PEGI 12
                               </option>
 
-                              <option value="16" {{#eq_16}}selected{{/eq_16}}> 
+                              <option value="16" {{#eq_16}}selected{{/eq_16}}>
                                 PEGI 16
                               </option>
 
-                              <option value="18" {{#eq_18}}selected{{/eq_18}}> 
+                              <option value="18" {{#eq_18}}selected{{/eq_18}}>
                                 PEGI 18
                               </option>
 
@@ -329,7 +330,8 @@
 
                                 <div class="form-check">
 
-                                  <input class="form-check-input" type="checkbox" id="rpg" name="rpg" value="rpg" {{#genre_object.RPG}}checked{{/genre_object.RPG}}>
+                                  <input class="form-check-input" type="checkbox" id="rpg" name="rpg" value="rpg"
+                                    {{#genre_object.RPG}}checked{{/genre_object.RPG}}>
 
                                   <label class="form-check-label" for="rpg">
 
@@ -346,7 +348,8 @@
 
                                 <div class="form-check">
 
-                                  <input class="form-check-input" type="checkbox" id="puzzle" name="puzzle" value="puzzle" {{#genre_object.Puzle}}checked{{/genre_object.Puzle}}>
+                                  <input class="form-check-input" type="checkbox" id="puzzle" name="puzzle"
+                                    value="puzzle" {{#genre_object.Puzle}}checked{{/genre_object.Puzle}}>
 
                                   <label class="form-check-label" for="puzzle">
 
@@ -363,7 +366,8 @@
 
                                 <div class="form-check">
 
-                                  <input class="form-check-input" type="checkbox" id="strategy" name="strategy" value="strategy" {{#genre_object.Estrategia}}checked{{/genre_object.Estrategia}}>
+                                  <input class="form-check-input" type="checkbox" id="strategy" name="strategy"
+                                    value="strategy" {{#genre_object.Estrategia}}checked{{/genre_object.Estrategia}}>
 
                                   <label class="form-check-label" for="strategy">
 
@@ -380,7 +384,8 @@
 
                                 <div class="form-check">
 
-                                  <input class="form-check-input" type="checkbox" id="shooters" name="shooters" value="shooters" {{#genre_object.Disparos}}checked{{/genre_object.Disparos}}>
+                                  <input class="form-check-input" type="checkbox" id="shooters" name="shooters"
+                                    value="shooters" {{#genre_object.Disparos}}checked{{/genre_object.Disparos}}>
 
                                   <label class="form-check-label" for="shooters">
 
@@ -397,7 +402,8 @@
 
                                 <div class="form-check">
 
-                                  <input class="form-check-input" type="checkbox" id="adventure" name="adventure" value="adventure" {{#genre_object.Aventura}}checked{{/genre_object.Aventura}}>
+                                  <input class="form-check-input" type="checkbox" id="adventure" name="adventure"
+                                    value="adventure" {{#genre_object.Aventura}}checked{{/genre_object.Aventura}}>
 
                                   <label class="form-check-label" for="adventure">
 
@@ -414,7 +420,9 @@
 
                                 <div class="form-check">
 
-                                  <input class="form-check-input" type="checkbox" id="multiplayer" name="multiplayer" value="multiplayer" {{#genre_object.Multijugador}}checked{{/genre_object.Multijugador}}>
+                                  <input class="form-check-input" type="checkbox" id="multiplayer" name="multiplayer"
+                                    value="multiplayer"
+                                    {{#genre_object.Multijugador}}checked{{/genre_object.Multijugador}}>
 
                                   <label class="form-check-label" for="multiplayer">
 
@@ -426,14 +434,15 @@
 
                               </div>
 
-                              
+
 
                               <!-- Car -->
                               <div class="col-6">
 
                                 <div class="form-check">
 
-                                  <input class="form-check-input" type="checkbox" id="car" name="car" value="car" {{#genre_object.Carreras}}checked{{/genre_object.Carreras}}>
+                                  <input class="form-check-input" type="checkbox" id="car" name="car" value="car"
+                                    {{#genre_object.Carreras}}checked{{/genre_object.Carreras}}>
 
                                   <label class="form-check-label" for="car">
 
@@ -487,7 +496,8 @@
 
                                 <div class="form-check">
 
-                                  <input class="form-check-input" type="checkbox" id="pc" name="pc" value="pc" {{#platform_object.PC}}checked{{/platform_object.PC}}>
+                                  <input class="form-check-input" type="checkbox" id="pc" name="pc" value="pc"
+                                    {{#platform_object.PC}}checked{{/platform_object.PC}}>
                                   <label class="form-check-label" for="pc">
                                     PC
                                   </label>
@@ -502,7 +512,8 @@
 
                                 <div class="form-check">
 
-                                  <input class="form-check-input" type="checkbox" id="PS4" name="PS4" value="PS4" {{#platform_object.PS4}}checked{{/platform_object.PS4}}>
+                                  <input class="form-check-input" type="checkbox" id="PS4" name="PS4" value="PS4"
+                                    {{#platform_object.PS4}}checked{{/platform_object.PS4}}>
 
                                   <label class="form-check-label" for="PS4">
 
@@ -520,7 +531,8 @@
 
                                 <div class="form-check">
 
-                                  <input class="form-check-input" type="checkbox" id="PS5" name="PS5" value="PS5" {{#platform_object.PS5}}checked{{/platform_object.PS5}}>
+                                  <input class="form-check-input" type="checkbox" id="PS5" name="PS5" value="PS5"
+                                    {{#platform_object.PS5}}checked{{/platform_object.PS5}}>
 
                                   <label class="form-check-label" for="PS5">
 
@@ -538,7 +550,8 @@
 
                                 <div class="form-check">
 
-                                  <input class="form-check-input" type="checkbox" id="XBOX" name="XBOX" value="XBOX" {{#platform_object.XBOX}}checked{{/platform_object.XBOX}}>
+                                  <input class="form-check-input" type="checkbox" id="XBOX" name="XBOX" value="XBOX"
+                                    {{#platform_object.XBOX}}checked{{/platform_object.XBOX}}>
 
                                   <label class="form-check-label" for="XBOX">
 
@@ -600,8 +613,8 @@
                             Enlace de compra
                           </label>
 
-                          <input type="url" class="form-control" name="link"  id="link"
-                            placeholder="Enlace de compra del juego" required value = "{{link}}">
+                          <input type="url" class="form-control" name="link" id="link"
+                            placeholder="Enlace de compra del juego" required value="{{link}}">
 
                         </div>
                       </div>
@@ -630,7 +643,8 @@
                             Carátula del juego
                           </label>
 
-                          <input type="file" class="form-control" {{^edit}}required{{/edit}} value={{cover}} id="cover" name="cover" accept="image/*">
+                          <input type="file" class="form-control" {{^edit}}required{{/edit}} value={{cover}} id="cover"
+                            name="cover" accept="image/*">
 
                         </div>
 
@@ -640,37 +654,38 @@
                             Escenas del juego
                           </label>
 
-                          <input type="file" class="form-control" {{^edit}}required{{/edit}} value={{scene}} id="scene" name="scene" accept="image/*" multiple>
+                          <input type="file" class="form-control" {{^edit}}required{{/edit}} value={{scene}} id="scene"
+                            name="scene" accept="image/*" multiple>
 
                         </div>
 
-    {{#edit}}
-    <label class="form-label mb-3 d-block text-center" for="scene">
-        Escenas actuales
-    </label>
-
-    <div class="d-flex flex-wrap gap-3 justify-content-center">
-        {{#scene}}
-            <div class="text-center">
-                <img src="/image?filename={{.}}" 
-                     class="rounded img-fluid"
-                     style="width: 180px; height: 120px; object-fit: cover;">
-
-                <div class="mt-2">
-                    <div class="form-check d-flex justify-content-center align-items-center gap-2">
-                        <input type="checkbox"
-                               class="form-check-input m-0"
-                               name="removeScene"
-                               value="{{.}}">
-                        <label class="form-check-label">
-                            Quitar imagen
+                        {{#edit}}
+                        <label class="form-label mb-3 d-block text-center" for="scene">
+                          Portada y escenas actuales
                         </label>
-                    </div>
-                </div>
-            </div>
-        {{/scene}}
-    </div>
-{{/edit}}
+
+                        <div class="d-flex flex-wrap gap-3 justify-content-center">
+                          <div class="text-center">
+                            <img src="/image?filename={{cover}}" class="rounded img-fluid"
+                              style="width: 180px; height: 120px; object-fit: cover;">
+                          </div>
+                          {{#scene}}
+                          <div class="text-center">
+                            <img src="/image?filename={{.}}" class="rounded img-fluid"
+                              style="width: 180px; height: 120px; object-fit: cover;">
+
+                            <div class="mt-2">
+                              <div class="form-check d-flex justify-content-center align-items-center gap-2">
+                                <input type="checkbox" class="form-check-input m-0" name="removeScene" value="{{.}}">
+                                <label class="form-check-label">
+                                  Quitar imagen
+                                </label>
+                              </div>
+                            </div>
+                          </div>
+                          {{/scene}}
+                        </div>
+                        {{/edit}}
 
 
 
@@ -705,7 +720,7 @@
 
                         <div class="form-check mb-4 ">
 
-                          <input class="form-check-input" required type="checkbox" id="acept" name="acept" >
+                          <input class="form-check-input" required type="checkbox" id="acept" name="acept">
 
                           <label class="form-check-label" for="acept">
 
