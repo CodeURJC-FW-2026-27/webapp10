@@ -1,6 +1,7 @@
 import express from 'express';
 import { MongoClient, ObjectId } from 'mongodb';
 import { readFile } from 'fs/promises';
+import fs from 'node:fs/promises';
 
 const router = express.Router();
 export default router;
@@ -19,13 +20,17 @@ export async function uploadDocuments() {
     const gamesAsString = await readFile(absoluteDataFilePath, 'utf8');
     const gamesAsObjects = JSON.parse(gamesAsString);
     await games.insertMany(gamesAsObjects);
+    const originCover = './public/photos/cover';
+    const originScene = './public/photos/scene';
+    await fs.cp(originCover, UPLOADS_FOLDER, { recursive: true });
+    await fs.cp(originScene, UPLOADS_FOLDER, { recursive: true });
 }
 
 
 export async function initDatabase() {
     try {
         const count = await games.countDocuments();
-        
+
         if (count === 0) {
             await uploadDocuments();
         }
@@ -53,12 +58,12 @@ export async function deleteGame(id){
     return await games.findOneAndDelete({ _id: new ObjectId(id) });
 }
 
-export async function getGames(){
+export async function getGames() {
 
     return await games.find().toArray();
 }
 
-export async function getGame(id){
+export async function getGame(id) {
 
     return await games.findOne({ _id: new ObjectId(id) });
 }
