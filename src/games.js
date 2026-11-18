@@ -36,7 +36,7 @@ export async function initDatabase() {
         }
 
     } catch (error) {
-        console.error('Error durante la inicialización de la base de datos:', error);
+        console.error('Error while initializing the database:', error);
     }
 }
 

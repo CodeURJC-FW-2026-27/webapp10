@@ -282,7 +282,7 @@ const getErrors = function (req, genre, platform, cover, scenes, edit) {
         });
     }
 
-    if (!req.body.acept) {
+    if (!req.body.accept) {
         errors.push({
             field: "terms",
             message: "Es necesario aceptar los términos y condiciones."
@@ -294,19 +294,19 @@ const getErrors = function (req, genre, platform, cover, scenes, edit) {
 
 const getProduct = async function (req, res) {
 
-    let juego = await games.getGame(req.params.id);
+    let game = await games.getGame(req.params.id);
 
-    if (juego === null) {
+    if (game === null) {
         res.redirect('/');
         return
     }
-    juego.firstEscene = juego.scene[0];
-    juego.scene.splice(0, 1)
+    game.firstScene = game.scene[0];
+    game.scene.splice(0, 1)
 
 
     //reviews
-    juego.productId = juego._id;
-    juego.reviews?.map((x) => {
+    game.productId = game._id;
+    game.reviews?.map((x) => {
         const date = new Date(x.date_publication)
         x.formatted_date = date.toLocaleDateString();
         x.scoreArray = {
@@ -319,10 +319,9 @@ const getProduct = async function (req, res) {
 
     if (req.params.review) {
         let i = 0;
-        while (i < juego.reviews.length) {
-            if (juego.reviews[i]._id.toString() === req.params.review) {
-                juego.review = juego.reviews[i];
-                console.log('Encontrado')
+        while (i < game.reviews.length) {
+            if (game.reviews[i]._id.toString() === req.params.review) {
+                game.review = game.reviews[i];
                 break;
             }
             i++
@@ -330,7 +329,7 @@ const getProduct = async function (req, res) {
     }
 
 
-    res.render('product-details.html', juego);
+    res.render('product-details.html', game);
 }
 
 
@@ -515,7 +514,7 @@ router.post('/review/:review/edit', async (req, res) => {
             date_publication: new Date()
         };
 
-        let juego = await games.updateReview(req.params.review, review);
+        let game = await games.updateReview(req.params.review, review);
 
         window = {
             isError: false,
@@ -523,7 +522,7 @@ router.post('/review/:review/edit', async (req, res) => {
             title: "Reseña Actualizada",
             message: "Se ha actualizado correctamente la reseña en el sistema",
             errors: null,
-            redirect: "/product-details/" + juego._id + "/#Comments",
+            redirect: "/product-details/" + game._id + "/#Comments",
             buttonText: "Ver mi reseña"
         }
     }
@@ -564,7 +563,7 @@ router.post('/product-details/:id/addreview', async (req, res) => {
             date_publication: new Date()
         };
 
-        let juego = await games.addReview(req.params.id, review);
+        let game = await games.addReview(req.params.id, review);
 
         let window = {
             isError: false,
@@ -572,7 +571,7 @@ router.post('/product-details/:id/addreview', async (req, res) => {
             title: "Reseña Creada",
             message: "Se ha guardado correctamente la reseña en el sistema",
             errors: null,
-            redirect: "/product-details/" + juego._id + "/#Comments",
+            redirect: "/product-details/" + game._id + "/#Comments",
             buttonText: "Ver mi reseña"
         }
         res.render('window.html', {
@@ -583,7 +582,7 @@ router.post('/product-details/:id/addreview', async (req, res) => {
 
 // Delete comment
 router.post('/review/:review/delete', async (req, res) => {
-    let juego = await games.deleteReview(req.params.review);
+    let game = await games.deleteReview(req.params.review);
 
     let window = {
         isError: false,
@@ -591,7 +590,7 @@ router.post('/review/:review/delete', async (req, res) => {
         title: "Reseña Borrada",
         message: "Se ha borrado correctamente la reseña en el sistema",
         errors: null,
-        redirect: "/product-details/" + juego._id,
+        redirect: "/product-details/" + game._id,
         buttonText: "Volver al producto"
     }
     res.render('window.html', {
@@ -637,39 +636,37 @@ router.get('/product-details/:id/editgame', async (req, res) => {
 
     let id = req.params.id;
 
-    console.log('ID recibido:', req.params.id);
 
-    let juego = await games.getGame(id);
+    let game = await games.getGame(id);
 
-    if (juego && juego.launch_age) {
-        juego[`eq_${juego.launch_age}`] = true;
+    if (game && game.launch_age) {
+        game[`eq_${game.launch_age}`] = true;
     }
 
-    if (juego && juego.PEGI) {
-        juego[`eq_${juego.PEGI}`] = true;
+    if (game && game.PEGI) {
+        game[`eq_${game.PEGI}`] = true;
     }
 
 
-    juego.genre_object = {}
+    game.genre_object = {}
 
-    juego.genre.forEach(element => {
+    game.genre.forEach(element => {
 
-        juego.genre_object[element] = true
+        game.genre_object[element] = true
 
     });
 
-    juego.platform_object = {}
+    game.platform_object = {}
 
-    juego.platform.forEach(element => {
+    game.platform.forEach(element => {
 
-        juego.platform_object[element] = true
+        game.platform_object[element] = true
 
     });
 
-    console.log(juego)
 
     res.render('formPrincipalEntity.html', {
-        ...juego,
+        ...game,
         edit: true
     });
 });
