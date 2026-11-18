@@ -528,7 +528,7 @@ router.post('/product-details/:id/addreview', async (req, res) => {
             message: "No hemos podido registrar tu reseña. Parece que algunos datos del formulario no se han rellenado correctamente.",
             errors: gErrors,
             redirect: "/product-details/" + req.params.id,
-            buttonText: "Volver al formulario"
+            buttonText: "Volver a detalles"
         }
         return res.render('window.html', {
             window: window
