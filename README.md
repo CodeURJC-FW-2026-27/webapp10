@@ -202,4 +202,19 @@ Ficheros:
  - [Router.js](src/router.js).
  - [PrincipalEntity.jsons](src/principalEntity.jsons).
  - [Games.js](src/games.js).
+
+#### Alejandro Izquierdo Rebollo
+Me he encargado de la implementación de toda la gestión de reseñas dentro de /product-details desde mostrarlas correctamente, hasta los formularios de creación edición y la eliminación de reseñas, incluyendo aquí la modificación de ciertos archivos de mis compañeros para la reutilización de código. Además he contribuido en la organización del grupo y en la toma de decisiones clave dentro del código.
+
+Commits:
+
+- [8d0cced1f78af96e9d1172bbb319df30f374f311](https://github.com/CodeURJC-FW-2026-27/webapp10/commit/8d0cced1f78af96e9d1172bbb319df30f374f311)
+- [d39e8f3bf75e91dc62324aaed1cacd4ea753ef31](https://github.com/CodeURJC-FW-2026-27/webapp10/commit/d39e8f3bf75e91dc62324aaed1cacd4ea753ef31)
+- [5a1acf4efe1c4ea7b4fb903c3e35188284695b3a](https://github.com/CodeURJC-FW-2026-27/webapp10/commit/5a1acf4efe1c4ea7b4fb903c3e35188284695b3a)
+- [d7621567b4b6f617792840e4f48ad982f6d5d788](https://github.com/CodeURJC-FW-2026-27/webapp10/commit/d7621567b4b6f617792840e4f48ad982f6d5d788)
+
+Ficheros:
  - [Router.js](src/router.js).
+ - [productdetails.html](https://github.com/CodeURJC-FW-2026-27/webapp10/blob/main/product-details.html)
+ - [Games.js](src/games.js).
+ - [principalEntity.json](src/principalEntity.json)
