@@ -46,14 +46,16 @@ export async function addGame(game) {
     return await games.insertOne(game);
 }
 
-export async function deleteGame(id) {
-
-    return await games.findOneAndDelete({ _id: new ObjectId(id) });
+export async function updateGameById(id, params) {
+   return await games.updateOne(
+    { _id: new ObjectId(id) },                 // searches the element
+    { $set: params }     // modifies it
+    )
 }
 
-export async function deleteGames() {
+export async function deleteGame(id){
 
-    return await games.deleteMany();
+    return await games.findOneAndDelete({ _id: new ObjectId(id) });
 }
 
 export async function getGames() {
@@ -64,6 +66,11 @@ export async function getGames() {
 export async function getGame(id) {
 
     return await games.findOne({ _id: new ObjectId(id) });
+}
+
+export async function getGameByTitle(title){
+
+    return await games.findOne({ title: title });
 }
 
 export async function countWithFilter(filter) {
@@ -90,4 +97,41 @@ export async function countGamesInit() {
 
     return await games.countDocuments();
 
+}
+
+// Reviews
+export async function deleteReview(id){
+
+    return await games.findOneAndUpdate(
+        { "reviews._id": new ObjectId(id) },
+        { $pull: { reviews: { _id: new ObjectId(id) } } }
+    );
+}
+export async function getProductByReview(id){
+
+    return await games.findOne(
+        { "reviews._id": new ObjectId(id) },
+    );
+}
+
+export async function addReview(id, review){
+    review._id = new ObjectId();
+    return await games.findOneAndUpdate(
+        { "_id": new ObjectId(id) },
+        { $push: { reviews: review } }
+    );
+}
+
+export async function updateReview(id, review){
+    return await games.findOneAndUpdate(
+        { "reviews._id": new ObjectId(id) },
+        { 
+            $set: {
+                "reviews.$.username": review.username,
+                "reviews.$.score": review.score,
+                "reviews.$.date_publication": review.date_publication,
+                "reviews.$.comment": review.comment,
+            } 
+        }
+    );
 }
