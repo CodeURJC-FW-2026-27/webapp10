@@ -177,10 +177,11 @@ Me he encargado de modificar el formulario de Marcos para permitir la edición d
 
 
 Commits:
-https://github.com/CodeURJC-FW-2026-27/webapp10/commit/7d14721655c8310ba39610372bad8fcc1885c220
-https://github.com/CodeURJC-FW-2026-27/webapp10/commit/1be0d1b979eb0ca0dca411afbf3854526f9106ab
-https://github.com/CodeURJC-FW-2026-27/webapp10/commit/8ce9f12d03b0bad4f8ba200898737b064de7b8ce
-https://github.com/CodeURJC-FW-2026-27/webapp10/commit/f6a328e21f6783ba60498f0c687ed4e8c6ff27e4
+
+- [7d14721655c8310ba39610372bad8fcc1885c220](https://github.com/CodeURJC-FW-2026-27/webapp10/commit/7d14721655c8310ba39610372bad8fcc1885c220)
+- [1be0d1b979eb0ca0dca411afbf3854526f9106ab](https://github.com/CodeURJC-FW-2026-27/webapp10/commit/1be0d1b979eb0ca0dca411afbf3854526f9106ab)
+- [8ce9f12d03b0bad4f8ba200898737b064de7b8ce](https://github.com/CodeURJC-FW-2026-27/webapp10/commit/8ce9f12d03b0bad4f8ba200898737b064de7b8ce)
+- [f6a328e21f6783ba60498f0c687ed4e8c6ff27e4](https://github.com/CodeURJC-FW-2026-27/webapp10/commit/f6a328e21f6783ba60498f0c687ed4e8c6ff27e4)
 
 Ficheros:
  - [Games.js](src/games.js).
