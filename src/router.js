@@ -261,7 +261,7 @@ const getErrors = function (req, genre, platform, cover, scenes, edit) {
         });
     }
 
-    if (cover = null && !edit) {
+    if (cover === null && !edit) {
         errors.push({
             field: "cover",
             message: "Debes introducir la foto de portada."
@@ -300,13 +300,6 @@ const getProduct = async function (req, res) {
         res.redirect('/');
         return
     }
-
-    // juego.numeros = [];
-
-    // for (let i = 0; i < juego.scene.length; i++) {
-    //     juego.numeros.push(i);
-    // }
-
     juego.firstEscene = juego.scene[0];
     juego.scene.splice(0, 1)
 
@@ -344,7 +337,7 @@ const getProduct = async function (req, res) {
 
 
 
-// Pagina Principal
+// main page
 router.get('/', async (req, res) => {
 
     let emptyObject = {};
@@ -376,16 +369,18 @@ router.get('/image', (req, res) => {
 
 });
 
-// Formulario Crear Entidad Principal
+// create main entity
 router.get('/formPrincipalEntity', (req, res) => {
-    res.render('formPrincipalEntity.html');
-})
+    res.render('formPrincipalEntity.html', {
+        action: '/newElement'
+    });
+});
 
-// Formulario Crear Entidad Principal
+// create main entity
 router.post('/newElement', upload.fields([
 
     { name: 'cover', maxCount: MAX_COVER },
-    { name: 'cover', maxCount: MAX_SCENE },
+    { name: 'scene', maxCount: MAX_SCENE },
 ]), async (req, res) => {
 
     let genre = getGenre(req);
@@ -457,10 +452,10 @@ router.post('/newElement', upload.fields([
 // Get
 router.get('/product-details/:id', getProduct)
 
-// Formulario Editar Reseñas
+// Form edit review
 router.get('/product-details/:id/review/:review/edit', getProduct)
 
-// Post de Editar Reseñas
+// Post add review
 router.post('/review/:review/edit', async (req, res) => {
 
     let gErrors = getReviewsErrors(req);
@@ -520,7 +515,7 @@ router.post('/review/:review/edit', async (req, res) => {
     });
 })
 
-// Post Añadir Reseña
+// Post add review
 router.post('/product-details/:id/addreview', async (req, res) => {
 
     let gErrors = getReviewsErrors(req);
@@ -568,7 +563,7 @@ router.post('/product-details/:id/addreview', async (req, res) => {
     }
 })
 
-// Borrar Reseña
+// Delete comment
 router.post('/review/:review/delete', async (req, res) => {
     let juego = await games.deleteReview(req.params.review);
     
@@ -586,12 +581,26 @@ router.post('/review/:review/delete', async (req, res) => {
     })
 })
 
-// Editar Producto
-
-// Borrar Producto
 router.post('/product-details/:id/deletegame', async (req, res) => {
+    let game = await games.getGame(req.params.id);
+
+    let result = await games.deleteGame(req.params.id);
+
+    if (result != null) {
+
+        unlink('./uploads/' + game.cover, err => {
+            if (err) console.error(err);
+        });
+
+        for (let scene of game.scene) {
+            unlink('./uploads/' + scene, err => {
+                if (err) console.error(err);
+            });
+        }
+    }
 
     await games.deleteGame(req.params.id);
+
 
     let window = {
         isError: false,
@@ -605,7 +614,7 @@ router.post('/product-details/:id/deletegame', async (req, res) => {
     })
 })
 
-// Editar Producto
+// Edit product
 router.get('/product-details/:id/editgame', async (req, res) => {
 
     let id = req.params.id;
@@ -648,11 +657,12 @@ router.get('/product-details/:id/editgame', async (req, res) => {
 });
 
 
+
 router.post('/product-details/:id/editgame', upload.fields([
     { name: 'cover', maxCount: MAX_COVER },
     { name: 'scene', maxCount: MAX_SCENE },
 ]), async (req, res) => {
-    console.log(req.files);
+
     let genre = getGenre(req);
     let platform = getPlatform(req);
 
@@ -664,8 +674,6 @@ router.post('/product-details/:id/editgame', upload.fields([
     if (!Array.isArray(removeScenes)) {
         removeScenes = [removeScenes];
     }
-
-
 
     if (req.files['cover'] && req.files['cover'].length > 0) {
         cover = req.files['cover'][0].filename;
@@ -685,15 +693,15 @@ router.post('/product-details/:id/editgame', upload.fields([
             isError: true,
             header: "Error",
             title: "¡Vaya! Hay algunos errores",
-        message: "No hemos podido modificar tu videojuego.",
-        errors: gErrors,
-        redirect: "/product-details/" + req.params.id + "/editgame",
-        buttonText: "Volver al formulario"
+            message: "No hemos podido modificar tu videojuego.",
+            errors: gErrors,
+            redirect: "/product-details/" + req.params.id + "/editgame",
+            buttonText: "Volver al formulario"
         };
 
     } else {
-        let oldGame = await games.getGame(req.params.id);
 
+        let oldGame = await games.getGame(req.params.id);
 
         let oldScenes = oldGame.scene || [];
 
@@ -706,60 +714,83 @@ router.post('/product-details/:id/editgame', upload.fields([
         );
 
         if (remainingScenes.length + scenes.length > MAX_SCENE) {
-            gErrors.push("Has superado el máximo de escenas permitido.");
-    }
-
-
-
-        let game = {
-            title: req.body.title,
-            description: req.body.description,
-            launch_age: req.body.year,
-            PEGI: req.body.pegi,
-            genre: genre,
-            developer: req.body.developer,
-            platform: platform,
-            link: req.body.link,
-        scene: [...remainingScenes, ...scenes]
-    };
-
-
-        if (cover != null) {
-            let oldCover = oldGame.cover;
-
-            game.cover = cover;
-            unlink('./uploads/' + oldCover, (err) => {
-
+            gErrors.push({
+                field: "scene",
+                message: "Has superado el máximo de escenas permitido."
             });
         }
 
-        if (scenes.length > 0) {
-            let oldScenes = oldGame.scene;
-
-            if (oldScenes.length + scenes.length <= MAX_SCENE) {
-                game.scene = [...oldScenes, ...scenes];
-            }
+        if (remainingScenes.length + scenes.length === 0) {
+            gErrors.push({
+                field: "scene",
+                message: "El videojuego debe tener al menos una imagen de escena."
+            });
         }
 
-        let result = await games.updateGameById(req.params.id, game);
+        if (gErrors.length > 0) {
+            window = {
+                isError: true,
+                header: "Error",
+                title: "¡Vaya! Hay algunos errores",
+                message: "No hemos podido modificar tu videojuego.",
+                errors: gErrors,
+                redirect: "/product-details/" + req.params.id + "/editgame",
+                buttonText: "Volver al formulario"
+            };
 
+        } else {
 
-        window = {
-            isError: false,
-            header: "Juego editado",
-            title: "Juego guardado",
-            message: "Se ha guardado correctamente el juego en el sistema",
-            errors: null,
-            redirect: `/product-details/${req.params.id}`,
-            buttonText: "Ver detalles del producto"
-    };
+            let game = {
+                title: req.body.title,
+                description: req.body.description,
+                launch_age: req.body.year,
+                PEGI: req.body.pegi,
+                genre: genre,
+                developer: req.body.developer,
+                platform: platform,
+                link: req.body.link,
+                scene: [...remainingScenes, ...scenes]
+            };
+
+            if (cover != null) {
+                game.cover = cover;
+            } else {
+                game.cover = oldGame.cover;
+            }
+
+            let result = await games.updateGameById(req.params.id, game);
+
+            if (result.modifiedCount === 1) {
+
+                if (cover != null) {
+                    unlink('./uploads/' + oldGame.cover, err => {
+                        if (err) console.error(err);
+                    });
+                }
+
+                for (let scene of validRemoveScenes) {
+                    unlink('./uploads/' + scene, err => {
+                        if (err) console.error(err);
+                    });
+                }
+            }
+
+            window = {
+                isError: false,
+                header: "Juego editado",
+                title: "Juego guardado",
+                message: "Se ha guardado correctamente el juego en el sistema",
+                errors: null,
+                redirect: `/product-details/${req.params.id}`,
+                buttonText: "Ver detalles del producto"
+            };
+        }
     }
 
-    res.render('window.html', {
+    return res.render('window.html', {
         window: window
-    })
-}
-)
+    });
+});
 
 
 
